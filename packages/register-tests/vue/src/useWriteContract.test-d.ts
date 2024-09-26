@@ -1,6 +1,6 @@
-import { abi, config } from '@uxuyalpha/test'
-import { useWriteContract } from '@uxuyalpha/vue'
-import { celo, mainnet, optimism } from '@uxuyalpha/vue/chains'
+import { abi, config } from '@tg-wagmi/test'
+import { useWriteContract } from '@tg-wagmi/vue'
+import { celo, mainnet, optimism } from '@tg-wagmi/vue/chains'
 import type { Address } from 'viem'
 import { expectTypeOf, test } from 'vitest'
 

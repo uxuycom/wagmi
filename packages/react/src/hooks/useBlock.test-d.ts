@@ -1,5 +1,5 @@
-import { http, createConfig, webSocket } from '@uxuyalpha/core'
-import { mainnet, optimism } from '@uxuyalpha/core/chains'
+import { http, createConfig, webSocket } from '@tg-wagmi/core'
+import { mainnet, optimism } from '@tg-wagmi/core/chains'
 import { expectTypeOf, test } from 'vitest'
 
 import { useBlock } from './useBlock.js'

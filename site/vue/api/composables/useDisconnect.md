@@ -4,7 +4,7 @@ description: Composable for disconnecting connections.
 ---
 
 <script setup>
-const packageName = '@uxuyalpha/vue'
+const packageName = '@tg-wagmi/vue'
 const actionName = 'disconnect'
 const typeName = 'Disconnect'
 const mutate = 'disconnect'
@@ -20,7 +20,7 @@ Composable for disconnecting connections.
 ## Import
 
 ```ts
-import { useDisconnect } from '@uxuyalpha/vue'
+import { useDisconnect } from '@tg-wagmi/vue'
 ```
 
 ## Usage
@@ -28,7 +28,7 @@ import { useDisconnect } from '@uxuyalpha/vue'
 ::: code-group
 ```vue [index.vue]
 <script setup lang="ts">
-import { useDisconnect } from '@uxuyalpha/vue'
+import { useDisconnect } from '@tg-wagmi/vue'
 
 const { disconnect } = useDisconnect()
 </script>
@@ -45,7 +45,7 @@ const { disconnect } = useDisconnect()
 ## Parameters
 
 ```ts
-import { type UseDisconnectParameters } from '@uxuyalpha/vue'
+import { type UseDisconnectParameters } from '@tg-wagmi/vue'
 ```
 
 ### config
@@ -57,7 +57,7 @@ import { type UseDisconnectParameters } from '@uxuyalpha/vue'
 ::: code-group
 ```vue [index.vue]
 <script setup lang="ts">
-import { useDisconnect } from '@uxuyalpha/vue'
+import { useDisconnect } from '@tg-wagmi/vue'
 import { config } from './config' // [!code focus]
 
 const result = useDisconnect({
@@ -73,7 +73,7 @@ const result = useDisconnect({
 ## Return Type
 
 ```ts
-import { type UseDisconnectReturnType } from '@uxuyalpha/vue'
+import { type UseDisconnectReturnType } from '@tg-wagmi/vue'
 ```
 
 ### connectors
@@ -85,7 +85,7 @@ Connectors that are currently connected. Useful for rendering a list of connecto
 ::: code-group
 ```vue [index.vue]
 <script setup lang="ts">
-import { useDisconnect } from '@uxuyalpha/vue'
+import { useDisconnect } from '@tg-wagmi/vue'
 import { mainnet } from 'wagmi/chains'
 
 const { connectors, disconnect } = useDisconnect()

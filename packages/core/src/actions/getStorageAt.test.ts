@@ -1,4 +1,4 @@
-import { address, chain, config } from '@uxuyalpha/test'
+import { address, chain, config } from '@tg-wagmi/test'
 import { expect, test } from 'vitest'
 
 import { getStorageAt } from './getStorageAt.js'

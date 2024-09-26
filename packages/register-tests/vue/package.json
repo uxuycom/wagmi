@@ -7,7 +7,7 @@
   },
   "dependencies": {
     "@tanstack/vue-query": ">=5.45.0",
-    "@uxuyalpha/vue": "workspace:*",
+    "@tg-wagmi/vue": "workspace:*",
     "vue": ">=3.4.21"
   }
 }

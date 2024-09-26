@@ -1,4 +1,4 @@
-import { abi, address, config } from '@uxuyalpha/test'
+import { abi, address, config } from '@tg-wagmi/test'
 import { expect, test } from 'vitest'
 
 import { multicall } from './multicall.js'

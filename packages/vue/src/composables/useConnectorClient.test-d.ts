@@ -1,4 +1,4 @@
-import { config } from '@uxuyalpha/test'
+import { config } from '@tg-wagmi/test'
 import { expectTypeOf, test } from 'vitest'
 
 import { useConnectorClient } from './useConnectorClient.js'

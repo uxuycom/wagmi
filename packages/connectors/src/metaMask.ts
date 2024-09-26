@@ -8,12 +8,12 @@ import {
   type Connector,
   createConnector,
   extractRpcUrls,
-} from '@uxuyalpha/core'
+} from '@tg-wagmi/core'
 import type {
   Compute,
   ExactPartial,
   RemoveUndefined,
-} from '@uxuyalpha/core/internal'
+} from '@tg-wagmi/core/internal'
 import {
   type AddEthereumChainParameter,
   type Address,

@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { useAccount, useSwitchAccount } from '@uxuyalpha/vue'
+import { useAccount, useSwitchAccount } from '@tg-wagmi/vue'
 
 const { connector: currentConnector } = useAccount()
 const { connectors, error, status, switchAccount } = useSwitchAccount()

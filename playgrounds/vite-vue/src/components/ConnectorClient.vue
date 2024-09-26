@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { useConnectorClient } from '@uxuyalpha/vue'
+import { useConnectorClient } from '@tg-wagmi/vue'
 
 const connectorClient = useConnectorClient()
 </script>

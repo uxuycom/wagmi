@@ -5,14 +5,14 @@ Action for getting Viem [`PublicClient`](https://viem.sh/docs/clients/public.htm
 ## Import
 
 ```ts
-import { getPublicClient } from '@uxuyalpha/core'
+import { getPublicClient } from '@tg-wagmi/core'
 ```
 
 ## Usage
 
 ::: code-group
 ```ts [index.ts]
-import { getPublicClient } from '@uxuyalpha/core'
+import { getPublicClient } from '@tg-wagmi/core'
 import { config } from './config'
 
 const client = getPublicClient(config)
@@ -27,7 +27,7 @@ If you want to optimize bundle size, you should use [`getClient`](/core/api/acti
 ## Parameters
 
 ```ts
-import { type GetClientParameters } from '@uxuyalpha/core'
+import { type GetClientParameters } from '@tg-wagmi/core'
 ```
 
 ### chainId
@@ -38,8 +38,8 @@ ID of chain to use when getting Viem Public Client.
 
 ::: code-group
 ```ts [index.ts]
-import { getPublicClient } from '@uxuyalpha/core'
-import { mainnet } from '@uxuyalpha/core/chains'
+import { getPublicClient } from '@tg-wagmi/core'
+import { mainnet } from '@tg-wagmi/core/chains'
 import { config } from './config'
 
 const client = getPublicClient(config, {
@@ -52,7 +52,7 @@ const client = getPublicClient(config, {
 ## Return Type
 
 ```ts
-import { type GetPublicClientReturnType } from '@uxuyalpha/core'
+import { type GetPublicClientReturnType } from '@tg-wagmi/core'
 ```
 
 `PublicClient | undefined`

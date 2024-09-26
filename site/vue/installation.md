@@ -4,7 +4,7 @@ import Browsers from '../components/Browsers.vue'
 
 const docsPath = 'vue'
 const packageDir = 'vue'
-const packageName = '@uxuyalpha/vue'
+const packageName = '@tg-wagmi/vue'
 const viemVersion = packageJson.peerDependencies.viem
 </script>
 
@@ -18,19 +18,19 @@ Install the required packages.
 
 ::: code-group
 ```bash-vue [pnpm]
-pnpm add @uxuyalpha/vue viem@{{viemVersion}} @tanstack/vue-query
+pnpm add @tg-wagmi/vue viem@{{viemVersion}} @tanstack/vue-query
 ```
 
 ```bash-vue [npm]
-npm install @uxuyalpha/vue viem@{{viemVersion}} @tanstack/vue-query
+npm install @tg-wagmi/vue viem@{{viemVersion}} @tanstack/vue-query
 ```
 
 ```bash-vue [yarn]
-yarn add @uxuyalpha/vue viem@{{viemVersion}} @tanstack/vue-query
+yarn add @tg-wagmi/vue viem@{{viemVersion}} @tanstack/vue-query
 ```
 
 ```bash-vue [bun]
-bun add @uxuyalpha/vue viem@{{viemVersion}} @tanstack/vue-query
+bun add @tg-wagmi/vue viem@{{viemVersion}} @tanstack/vue-query
 ```
 :::
 

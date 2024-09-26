@@ -1,4 +1,4 @@
-import { abi, config } from '@uxuyalpha/test'
+import { abi, config } from '@tg-wagmi/test'
 import type { MulticallResponse } from 'viem'
 import { expectTypeOf, test } from 'vitest'
 

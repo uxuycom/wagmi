@@ -9,7 +9,7 @@ When you pass your `config` to an action, you are ready to access chain-specific
 ::: code-group
 ```ts [index.ts]
 import { parseEther } from 'viem'
-import { simulateContract } from '@uxuyalpha/core'
+import { simulateContract } from '@tg-wagmi/core'
 import { config } from './config'
 
 const result = await simulateContract(config, {
@@ -26,7 +26,7 @@ This is great, but if you have multiple chains that support additional propertie
 ::: code-group
 ```ts [index.ts]
 import { parseEther } from 'viem'
-import { simulateContract } from '@uxuyalpha/core'
+import { simulateContract } from '@tg-wagmi/core'
 import { celo } from 'wagmi/chains'
 
 const result = await simulateContract({
@@ -50,8 +50,8 @@ Not only can you use the `chainId` parameter to [narrow parameters](#narrowing-p
 
 ::: code-group
 ```ts [index.tsx]
-import { waitForTransactionReceipt } from '@uxuyalpha/core'
-import { zkSync } from '@uxuyalpha/core/chains'
+import { waitForTransactionReceipt } from '@tg-wagmi/core'
+import { zkSync } from '@tg-wagmi/core/chains'
 
 const result = await waitForTransactionReceipt({
   chainId: zkSync.id,
@@ -70,8 +70,8 @@ Wagmi internally will set a `chainId` property on return types that you can use 
 
 ::: code-group
 ```ts [index.tsx]
-import { waitForTransactionReceipt } from '@uxuyalpha/core'
-import { zkSync } from '@uxuyalpha/core/chains'
+import { waitForTransactionReceipt } from '@tg-wagmi/core'
+import { zkSync } from '@tg-wagmi/core/chains'
 
 const result = await waitForTransactionReceipt({
   hash: '0x16854fcdd0219cacf5aec5e4eb2154dac9e406578a1510a6fc48bd0b67e69ea9',

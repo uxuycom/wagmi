@@ -1,4 +1,4 @@
-import { renderComposable, waitFor } from '@uxuyalpha/test/vue'
+import { renderComposable, waitFor } from '@tg-wagmi/test/vue'
 import { expect, test } from 'vitest'
 
 import { deepUnref } from '../utils/cloneDeep.js'

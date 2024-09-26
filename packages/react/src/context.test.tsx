@@ -1,6 +1,6 @@
 import { QueryClient, QueryClientProvider } from '@tanstack/react-query'
 import { render, screen } from '@testing-library/react'
-import { config } from '@uxuyalpha/test'
+import { config } from '@tg-wagmi/test'
 import React from 'react'
 import { expect, test } from 'vitest'
 

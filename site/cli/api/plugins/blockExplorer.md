@@ -5,14 +5,14 @@ Plugin for fetching ABIs from block explorers that supports the `?module=contrac
 ## Import
 
 ```ts
-import { blockExplorer } from '@uxuyalpha/cli/plugins'
+import { blockExplorer } from '@tg-wagmi/cli/plugins'
 ```
 
 ## Usage
 
 ```ts{2,6-14}
-import { defineConfig } from '@uxuyalpha/cli'
-import { blockExplorer } from '@uxuyalpha/cli/plugins'
+import { defineConfig } from '@tg-wagmi/cli'
+import { blockExplorer } from '@tg-wagmi/cli/plugins'
 
 export default defineConfig({
   plugins: [
@@ -32,7 +32,7 @@ export default defineConfig({
 ## Configuration
 
 ```ts
-import { type BlockExplorerConfig } from '@uxuyalpha/cli/plugins'
+import { type BlockExplorerConfig } from '@tg-wagmi/cli/plugins'
 ```
 
 ### apiKey
@@ -42,8 +42,8 @@ import { type BlockExplorerConfig } from '@uxuyalpha/cli/plugins'
 API key for block explorer. Appended to the request URL as query param `&apikey=${apiKey}`.
 
 ```ts
-import { defineConfig } from '@uxuyalpha/cli'
-import { blockExplorer } from '@uxuyalpha/cli/plugins'
+import { defineConfig } from '@tg-wagmi/cli'
+import { blockExplorer } from '@tg-wagmi/cli/plugins'
 
 export default defineConfig({
   plugins: [
@@ -68,8 +68,8 @@ export default defineConfig({
 Base URL for block explorer.
 
 ```ts
-import { defineConfig } from '@uxuyalpha/cli'
-import { blockExplorer } from '@uxuyalpha/cli/plugins'
+import { defineConfig } from '@tg-wagmi/cli'
+import { blockExplorer } from '@tg-wagmi/cli/plugins'
 
 export default defineConfig({
   plugins: [
@@ -93,8 +93,8 @@ export default defineConfig({
 Duration in milliseconds to cache ABIs. Defaults to `1_800_000` (30 minutes).
 
 ```ts
-import { defineConfig } from '@uxuyalpha/cli'
-import { blockExplorer } from '@uxuyalpha/cli/plugins'
+import { defineConfig } from '@tg-wagmi/cli'
+import { blockExplorer } from '@tg-wagmi/cli/plugins'
 
 export default defineConfig({
   plugins: [
@@ -119,8 +119,8 @@ export default defineConfig({
 Contracts to fetch ABIs for.
 
 ```ts
-import { defineConfig } from '@uxuyalpha/cli'
-import { blockExplorer } from '@uxuyalpha/cli/plugins'
+import { defineConfig } from '@tg-wagmi/cli'
+import { blockExplorer } from '@tg-wagmi/cli/plugins'
 
 export default defineConfig({
   plugins: [
@@ -145,8 +145,8 @@ export default defineConfig({
 - Defaults to `({ address }) => typeof address === 'string' ? address : Object.values(address)[0]`.
 
 ```ts
-import { defineConfig } from '@uxuyalpha/cli'
-import { blockExplorer } from '@uxuyalpha/cli/plugins'
+import { defineConfig } from '@tg-wagmi/cli'
+import { blockExplorer } from '@tg-wagmi/cli/plugins'
 
 export default defineConfig({
   plugins: [
@@ -175,8 +175,8 @@ export default defineConfig({
 - Defaults to `'Block Explorer'`.
 
 ```ts
-import { defineConfig } from '@uxuyalpha/cli'
-import { blockExplorer } from '@uxuyalpha/cli/plugins'
+import { defineConfig } from '@tg-wagmi/cli'
+import { blockExplorer } from '@tg-wagmi/cli/plugins'
 
 export default defineConfig({
   plugins: [

@@ -4,7 +4,7 @@ import {
   type ResolvedRegister,
   getChainId,
   watchChainId,
-} from '@uxuyalpha/core'
+} from '@tg-wagmi/core'
 import { type Ref, onScopeDispose, readonly, ref } from 'vue'
 
 import type { ConfigParameter } from '../types/properties.js'

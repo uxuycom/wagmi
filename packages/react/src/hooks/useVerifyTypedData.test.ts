@@ -1,5 +1,5 @@
-import { typedData, wait } from '@uxuyalpha/test'
-import { renderHook, waitFor } from '@uxuyalpha/test/react'
+import { typedData, wait } from '@tg-wagmi/test'
+import { renderHook, waitFor } from '@tg-wagmi/test/react'
 import type { Hex } from 'viem'
 import { expect, test } from 'vitest'
 

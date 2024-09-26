@@ -1,4 +1,4 @@
-import { abi, config } from '@uxuyalpha/test'
+import { abi, config } from '@tg-wagmi/test'
 import { expectTypeOf, test } from 'vitest'
 
 import { readContractQueryOptions } from './readContract.js'

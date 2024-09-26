@@ -1,5 +1,5 @@
-import { accounts, chain, wait } from '@uxuyalpha/test'
-import { renderHook, waitFor } from '@uxuyalpha/test/react'
+import { accounts, chain, wait } from '@tg-wagmi/test'
+import { renderHook, waitFor } from '@tg-wagmi/test/react'
 import { expect, test } from 'vitest'
 
 import type { Hex } from 'viem'

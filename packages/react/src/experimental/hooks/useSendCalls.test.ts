@@ -1,6 +1,6 @@
-import { connect, disconnect } from '@uxuyalpha/core'
-import { accounts, config } from '@uxuyalpha/test'
-import { renderHook, waitFor } from '@uxuyalpha/test/react'
+import { connect, disconnect } from '@tg-wagmi/core'
+import { accounts, config } from '@tg-wagmi/test'
+import { renderHook, waitFor } from '@tg-wagmi/test/react'
 import { parseEther } from 'viem'
 import { expect, test } from 'vitest'
 

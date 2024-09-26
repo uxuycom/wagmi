@@ -2,12 +2,12 @@ import type {
   Config,
   ResolvedRegister,
   WatchContractEventParameters,
-} from '@uxuyalpha/core'
+} from '@tg-wagmi/core'
 import type {
   UnionCompute,
   UnionExactPartial,
   UnionStrictOmit,
-} from '@uxuyalpha/core/internal'
+} from '@tg-wagmi/core/internal'
 import type { Abi, Address, ContractEventName } from 'viem'
 
 import type {

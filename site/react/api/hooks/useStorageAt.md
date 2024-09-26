@@ -134,7 +134,7 @@ The chain ID to check the storage at.
 ::: code-group
 ```tsx [index.tsx]
 import { useStorageAt } from 'wagmi'
-import { mainnet } from '@uxuyalpha/core/chains'
+import { mainnet } from '@tg-wagmi/core/chains'
 
 function App() {
   const result = useStorageAt({

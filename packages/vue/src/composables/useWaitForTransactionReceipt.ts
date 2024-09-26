@@ -2,15 +2,15 @@ import type {
   Config,
   ResolvedRegister,
   WaitForTransactionReceiptErrorType,
-} from '@uxuyalpha/core'
-import type { Compute } from '@uxuyalpha/core/internal'
+} from '@tg-wagmi/core'
+import type { Compute } from '@tg-wagmi/core/internal'
 import {
   type WaitForTransactionReceiptData,
   type WaitForTransactionReceiptOptions,
   type WaitForTransactionReceiptQueryFnData,
   type WaitForTransactionReceiptQueryKey,
   waitForTransactionReceiptQueryOptions,
-} from '@uxuyalpha/core/query'
+} from '@tg-wagmi/core/query'
 import { computed } from 'vue'
 
 import type { ConfigParameter, QueryParameter } from '../types/properties.js'

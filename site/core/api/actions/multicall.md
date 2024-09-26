@@ -5,14 +5,14 @@ Action for batching up multiple functions on a contract in a single RPC call via
 ## Import
 
 ```ts
-import { multicall } from '@uxuyalpha/core'
+import { multicall } from '@tg-wagmi/core'
 ```
 
 ## Usage
 
 ::: code-group
 ```ts [index.ts]
-import { multicall } from '@uxuyalpha/core'
+import { multicall } from '@tg-wagmi/core'
 import { config } from './config'
 
 const wagmigotchiContract = {
@@ -53,7 +53,7 @@ const result = await multicall(config, {
 ## Parameters
 
 ```ts
-import { type MulticallParameters } from '@uxuyalpha/core'
+import { type MulticallParameters } from '@tg-wagmi/core'
 ```
 
 ### contracts
@@ -70,7 +70,7 @@ The contract's ABI. Check out the [TypeScript docs](/react/typescript#const-asse
 
 ::: code-group
 ```tsx [index.tsx]
-import { multicall } from '@uxuyalpha/core'
+import { multicall } from '@tg-wagmi/core'
 import { config } from './config'
 
 const result = await multicall(config, {
@@ -96,7 +96,7 @@ The contract's address.
 
 ::: code-group
 ```tsx [index.tsx]
-import { multicall } from '@uxuyalpha/core'
+import { multicall } from '@tg-wagmi/core'
 import { config } from './config'
 
 const result = await multicall(config, {
@@ -123,7 +123,7 @@ const result = await multicall(config, {
 
 ::: code-group
 ```tsx [index.tsx]
-import { multicall } from '@uxuyalpha/core'
+import { multicall } from '@tg-wagmi/core'
 import { config } from './config'
 
 const result = await multicall(config, {
@@ -149,7 +149,7 @@ ID of chain to use when fetching data.
 
 ::: code-group
 ```tsx [index.tsx]
-import { multicall } from '@uxuyalpha/core'
+import { multicall } from '@tg-wagmi/core'
 import { config } from './config'
 
 const result = await multicall(config, {
@@ -178,7 +178,7 @@ const result = await multicall(config, {
 
 ::: code-group
 ```tsx [index.tsx]
-import { multicall } from '@uxuyalpha/core'
+import { multicall } from '@tg-wagmi/core'
 import { config } from './config'
 
 const result = await multicall(config, {
@@ -204,7 +204,7 @@ Whether or not the Hook should throw if a call reverts. If set to `true` (defaul
 
 ::: code-group
 ```tsx [index.tsx]
-import { multicall } from '@uxuyalpha/core'
+import { multicall } from '@tg-wagmi/core'
 import { config } from './config'
 
 const result = await multicall(config, {
@@ -233,7 +233,7 @@ The maximum size (in bytes) for each calldata chunk. Set to `0` to disable the s
 
 ::: code-group
 ```tsx [index.tsx]
-import { multicall } from '@uxuyalpha/core'
+import { multicall } from '@tg-wagmi/core'
 import { config } from './config'
 
 const result = await multicall(config, {
@@ -260,7 +260,7 @@ The block number to perform the read against.
 
 ::: code-group
 ```tsx [index.tsx]
-import { multicall } from '@uxuyalpha/core'
+import { multicall } from '@tg-wagmi/core'
 import { config } from './config'
 
 const result = await multicall(config, {
@@ -287,7 +287,7 @@ Block tag to read against.
 
 ::: code-group
 ```tsx [index.tsx]
-import { multicall } from '@uxuyalpha/core'
+import { multicall } from '@tg-wagmi/core'
 import { config } from './config'
 
 const result = await multicall(config, {
@@ -314,7 +314,7 @@ Address of multicall contract.
 
 ::: code-group
 ```tsx [index.tsx]
-import { multicall } from '@uxuyalpha/core'
+import { multicall } from '@tg-wagmi/core'
 import { config } from './config'
 
 const result = await multicall(config, {
@@ -337,7 +337,7 @@ const result = await multicall(config, {
 ## Return Type
 
 ```ts
-import { type MulticallReturnType } from '@uxuyalpha/core'
+import { type MulticallReturnType } from '@tg-wagmi/core'
 ```
 
 ## Type Inference
@@ -347,7 +347,7 @@ With [`contracts[number]['abi']`](#abi) setup correctly, TypeScript will infer t
 ## Error
 
 ```ts
-import { type MulticallErrorType } from '@uxuyalpha/core'
+import { type MulticallErrorType } from '@tg-wagmi/core'
 ```
 
 ## Viem

@@ -98,7 +98,7 @@ Chain ID to target when estimating gas.
 ::: code-group
 ```ts [index.ts]
 import { useEstimateGas } from 'wagmi'
-import { mainnet } from '@uxuyalpha/core/chains'
+import { mainnet } from '@tg-wagmi/core/chains'
 import { parseEther } from 'viem'
 import { config } from './config'
 
@@ -121,7 +121,7 @@ Connector to estimate with. If no [`account`](#account) is provided, will use de
 
 ::: code-group
 ```ts [index.ts]
-import { getConnections, estimateGas } from '@uxuyalpha/core'
+import { getConnections, estimateGas } from '@tg-wagmi/core'
 import { parseEther } from 'viem'
 import { config } from './config'
 

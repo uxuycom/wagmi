@@ -1,6 +1,6 @@
-import { connect, disconnect } from '@uxuyalpha/core'
-import { config, transactionHashRegex } from '@uxuyalpha/test'
-import { renderComposable, waitFor } from '@uxuyalpha/test/vue'
+import { connect, disconnect } from '@tg-wagmi/core'
+import { config, transactionHashRegex } from '@tg-wagmi/test'
+import { renderComposable, waitFor } from '@tg-wagmi/test/vue'
 import { parseEther } from 'viem'
 import { expect, test } from 'vitest'
 

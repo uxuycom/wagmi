@@ -1,11 +1,11 @@
-import { type abi, config as testConfig } from '@uxuyalpha/test'
+import { type abi, config as testConfig } from '@tg-wagmi/test'
 import {
   type UseSimulateContractParameters,
   useSimulateContract,
-} from '@uxuyalpha/vue'
-import type { SimulateContractParameters } from '@uxuyalpha/vue/actions'
-import { celo, mainnet, optimism } from '@uxuyalpha/vue/chains'
-import type { SimulateContractOptions } from '@uxuyalpha/vue/query'
+} from '@tg-wagmi/vue'
+import type { SimulateContractParameters } from '@tg-wagmi/vue/actions'
+import { celo, mainnet, optimism } from '@tg-wagmi/vue/chains'
+import type { SimulateContractOptions } from '@tg-wagmi/vue/query'
 import type { Address } from 'viem'
 import { expectTypeOf, test } from 'vitest'
 

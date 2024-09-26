@@ -1,9 +1,9 @@
 import type {
   SignTypedDataErrorType,
   SignTypedDataReturnType,
-} from '@uxuyalpha/core'
-import type { SignTypedDataVariables } from '@uxuyalpha/core/query'
-import { typedData } from '@uxuyalpha/test'
+} from '@tg-wagmi/core'
+import type { SignTypedDataVariables } from '@tg-wagmi/core/query'
+import { typedData } from '@tg-wagmi/test'
 import { expectTypeOf, test } from 'vitest'
 
 import { useSignTypedData } from './useSignTypedData.js'

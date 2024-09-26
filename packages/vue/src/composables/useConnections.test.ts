@@ -1,6 +1,6 @@
-import { connect } from '@uxuyalpha/core'
-import { config } from '@uxuyalpha/test'
-import { renderComposable } from '@uxuyalpha/test/vue'
+import { connect } from '@tg-wagmi/core'
+import { config } from '@tg-wagmi/test'
+import { renderComposable } from '@tg-wagmi/test/vue'
 import { expect, test } from 'vitest'
 
 import { useConnections } from './useConnections.js'

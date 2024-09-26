@@ -1,9 +1,9 @@
-import { config, wait } from '@uxuyalpha/test'
-import { renderHook, waitFor } from '@uxuyalpha/test/react'
+import { config, wait } from '@tg-wagmi/test'
+import { renderHook, waitFor } from '@tg-wagmi/test/react'
 import type { Hash } from 'viem'
 import { expect, test } from 'vitest'
 
-import { getTransactionReceipt } from '@uxuyalpha/core'
+import { getTransactionReceipt } from '@tg-wagmi/core'
 import { useTransactionConfirmations } from './useTransactionConfirmations.js'
 
 test('default', async () => {

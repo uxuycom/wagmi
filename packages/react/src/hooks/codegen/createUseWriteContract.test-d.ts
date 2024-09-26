@@ -1,4 +1,4 @@
-import { abi } from '@uxuyalpha/test'
+import { abi } from '@tg-wagmi/test'
 import type { Address, Hash } from 'viem'
 import { mainnet, optimism } from 'viem/chains'
 import { expectTypeOf, test } from 'vitest'

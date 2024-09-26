@@ -1,5 +1,5 @@
-import { config as testConfig } from '@uxuyalpha/test'
-import { type Config, useConfig } from '@uxuyalpha/vue'
+import { config as testConfig } from '@tg-wagmi/test'
+import { type Config, useConfig } from '@tg-wagmi/vue'
 import { expectTypeOf, test } from 'vitest'
 
 import type { config } from './config.js'

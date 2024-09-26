@@ -10,7 +10,7 @@ import {
   switchAccount,
   watchAccount,
   watchBlockNumber,
-} from '@uxuyalpha/core'
+} from '@tg-wagmi/core'
 import { useEffect, useReducer, useState } from 'react'
 
 import { formatEther } from 'viem'

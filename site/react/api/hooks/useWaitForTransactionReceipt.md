@@ -45,7 +45,7 @@ import { type UseWaitForTransactionReceiptParameters } from 'wagmi'
 ## Parameters
 
 ```ts
-import { type WaitForTransactionReceiptParameters } from '@uxuyalpha/core'
+import { type WaitForTransactionReceiptParameters } from '@tg-wagmi/core'
 ```
 
 ### chainId

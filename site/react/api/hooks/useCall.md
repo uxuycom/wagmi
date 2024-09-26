@@ -320,7 +320,7 @@ The block tag to perform the call against.
 ::: code-group
 ```tsx [index.tsx]
 import { useCall } from 'wagmi'
-import { mainnet } from '@uxuyalpha/core/chains'
+import { mainnet } from '@tg-wagmi/core/chains'
 
 function App() {
   const result = useCall({

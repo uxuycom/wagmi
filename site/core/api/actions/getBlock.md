@@ -1,5 +1,5 @@
 <script setup>
-const packageName = '@uxuyalpha/core'
+const packageName = '@tg-wagmi/core'
 const actionName = 'getBlock'
 const typeName = 'GetBlock'
 </script>
@@ -11,14 +11,14 @@ Action for fetching information about a block at a block number, hash or tag.
 ## Import
 
 ```ts
-import { getBlock } from '@uxuyalpha/core'
+import { getBlock } from '@tg-wagmi/core'
 ```
 
 ## Usage
 
 ::: code-group
 ```ts [index.ts]
-import { getBlock } from '@uxuyalpha/core'
+import { getBlock } from '@tg-wagmi/core'
 import { config } from './config'
 
 const blockNumber = await getBlock(config)
@@ -29,7 +29,7 @@ const blockNumber = await getBlock(config)
 ## Parameters
 
 ```ts
-import { type GetBlockParameters } from '@uxuyalpha/core'
+import { type GetBlockParameters } from '@tg-wagmi/core'
 ```
 
 ### blockHash
@@ -40,7 +40,7 @@ Information at a given block hash.
 
 ::: code-group
 ```ts [index.ts]
-import { getBlock } from '@uxuyalpha/core'
+import { getBlock } from '@tg-wagmi/core'
 import { config } from './config'
 
 const blockNumber = await getBlock(config, {
@@ -58,7 +58,7 @@ Information at a given block number.
 
 ::: code-group
 ```ts [index.ts]
-import { getBlock } from '@uxuyalpha/core'
+import { getBlock } from '@tg-wagmi/core'
 import { config } from './config'
 
 const blockNumber = await getBlock(config, {
@@ -76,7 +76,7 @@ Information at a given block tag. Defaults to `'latest'`.
 
 ::: code-group
 ```ts [index.ts]
-import { getBlock } from '@uxuyalpha/core'
+import { getBlock } from '@tg-wagmi/core'
 import { config } from './config'
 
 const blockNumber = await getBlock(config, {
@@ -94,8 +94,8 @@ ID of chain to use when fetching data.
 
 ::: code-group
 ```ts [index.ts]
-import { getBlock } from '@uxuyalpha/core'
-import { mainnet } from '@uxuyalpha/core/chains'
+import { getBlock } from '@tg-wagmi/core'
+import { mainnet } from '@tg-wagmi/core/chains'
 import { config } from './config'
 
 const blockNumber = await getBlock(config, {
@@ -113,7 +113,7 @@ Whether or not to include transactions as objects.
 
 ::: code-group
 ```ts [index.ts]
-import { getBlock } from '@uxuyalpha/core'
+import { getBlock } from '@tg-wagmi/core'
 import { config } from './config'
 
 const blockNumber = await getBlock(config, {
@@ -126,7 +126,7 @@ const blockNumber = await getBlock(config, {
 ## Return Type
 
 ```ts
-import { type GetBlockReturnType } from '@uxuyalpha/core'
+import { type GetBlockReturnType } from '@tg-wagmi/core'
 ```
 
 [`Block`](https://viem.sh/docs/glossary/types.html#block)
@@ -136,7 +136,7 @@ Information about the block.
 ## Error
 
 ```ts
-import { type GetBlockErrorType } from '@uxuyalpha/core'
+import { type GetBlockErrorType } from '@tg-wagmi/core'
 ```
 
 <!--@include: @shared/query-imports.md-->

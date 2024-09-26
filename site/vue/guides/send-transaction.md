@@ -247,7 +247,7 @@ Finally, we can wire up our Send Transaction component to our application's entr
 :::code-group
 ```vue [App.vue]
 <script setup lang="ts">
-import { useAccount } from '@uxuyalpha/vue';
+import { useAccount } from '@tg-wagmi/vue';
 import Account from './Account.vue';
 import Connect from './Connect.vue';
 import SendTransaction from './SendTransaction.vue'; // [!code ++]

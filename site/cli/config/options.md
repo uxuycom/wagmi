@@ -107,7 +107,7 @@ Wagmi CLI has multiple [built-in plugins](/cli/api/plugins) that are used to man
 
 ::: code-group
 ```ts {1,5-20} [wagmi.config.ts]
-import { etherscan, react } from '@uxuyalpha/cli/plugins'
+import { etherscan, react } from '@tg-wagmi/cli/plugins'
 
 export default {
   out: 'src/generated.js',

@@ -1,5 +1,5 @@
 <script setup>
-const packageName = '@uxuyalpha/core'
+const packageName = '@tg-wagmi/core'
 const actionName = 'getEnsAvatar'
 const typeName = 'GetEnsAvatar'
 </script>
@@ -11,14 +11,14 @@ Action for fetching ENS address for avatar.
 ## Import
 
 ```ts
-import { getEnsAvatar } from '@uxuyalpha/core'
+import { getEnsAvatar } from '@tg-wagmi/core'
 ```
 
 ## Usage
 
 ::: code-group
 ```ts [index.ts]
-import { getEnsAvatar } from '@uxuyalpha/core'
+import { getEnsAvatar } from '@tg-wagmi/core'
 import { normalize } from 'viem/ens'
 import { config } from './config'
 
@@ -36,7 +36,7 @@ Since ENS names prohibit certain forbidden characters (e.g. underscore) and have
 ## Parameters
 
 ```ts
-import { type GetEnsAvatarParameters } from '@uxuyalpha/core'
+import { type GetEnsAvatarParameters } from '@tg-wagmi/core'
 ```
 
 ---
@@ -49,7 +49,7 @@ Gateway urls to resolve IPFS and/or Arweave assets.
 
 ::: code-group
 ```ts [index.ts]
-import { getEnsAvatar } from '@uxuyalpha/core'
+import { getEnsAvatar } from '@tg-wagmi/core'
 import { normalize } from 'viem/ens'
 import { config } from './config'
 
@@ -72,7 +72,7 @@ Block number to get avatar at.
 
 ::: code-group
 ```ts [index.ts]
-import { getEnsAvatar } from '@uxuyalpha/core'
+import { getEnsAvatar } from '@tg-wagmi/core'
 import { normalize } from 'viem/ens'
 import { config } from './config'
 
@@ -92,7 +92,7 @@ Block tag to get avatar at.
 
 ::: code-group
 ```ts [index.ts]
-import { getEnsAvatar } from '@uxuyalpha/core'
+import { getEnsAvatar } from '@tg-wagmi/core'
 import { normalize } from 'viem/ens'
 import { config } from './config'
 
@@ -114,8 +114,8 @@ ID of chain to use when fetching data.
 
 ::: code-group
 ```ts [index.ts]
-import { getEnsAvatar } from '@uxuyalpha/core'
-import { mainnet } from '@uxuyalpha/core/chains'
+import { getEnsAvatar } from '@tg-wagmi/core'
+import { mainnet } from '@tg-wagmi/core/chains'
 import { normalize } from 'viem/ens'
 import { config } from './config'
 
@@ -135,7 +135,7 @@ A set of Universal Resolver gateways, used for resolving CCIP-Read requests made
 
 ::: code-group
 ```ts [index.ts]
-import { getEnsAvatar } from '@uxuyalpha/core'
+import { getEnsAvatar } from '@tg-wagmi/core'
 import { normalize } from 'viem/ens'
 import { config } from './config'
 
@@ -155,7 +155,7 @@ Name to get the avatar for.
 
 ::: code-group
 ```ts [index.ts]
-import { getEnsAvatar } from '@uxuyalpha/core'
+import { getEnsAvatar } from '@tg-wagmi/core'
 import { normalize } from 'viem/ens'
 import { config } from './config'
 
@@ -175,7 +175,7 @@ const ensAvatar = await getEnsAvatar(config, {
 
 ::: code-group
 ```ts [index.ts]
-import { getEnsAvatar } from '@uxuyalpha/core'
+import { getEnsAvatar } from '@tg-wagmi/core'
 import { normalize } from 'viem/ens'
 import { config } from './config'
 
@@ -190,7 +190,7 @@ const ensAvatar = await getEnsAvatar(config, {
 ## Return Type
 
 ```ts
-import { type GetEnsAvatarReturnType } from '@uxuyalpha/core'
+import { type GetEnsAvatarReturnType } from '@tg-wagmi/core'
 ```
 
 `string | null`
@@ -200,7 +200,7 @@ The avatar URI for ENS name.
 ## Error
 
 ```ts
-import { type getEnsAvatarError } from '@uxuyalpha/core'
+import { type getEnsAvatarError } from '@tg-wagmi/core'
 ```
 
 <!--@include: @shared/query-imports.md-->

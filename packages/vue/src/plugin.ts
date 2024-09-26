@@ -1,4 +1,4 @@
-import { type ResolvedRegister, type State, hydrate } from '@uxuyalpha/core'
+import { type ResolvedRegister, type State, hydrate } from '@tg-wagmi/core'
 import type { Plugin } from 'vue'
 
 export const configKey = Symbol()

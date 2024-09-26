@@ -4,7 +4,7 @@ description: Composable for creating, signing, and sending transactions to netwo
 ---
 
 <script setup>
-const packageName = '@uxuyalpha/vue'
+const packageName = '@tg-wagmi/vue'
 const actionName = 'sendTransaction'
 const typeName = 'SendTransaction'
 const mutate = 'sendTransaction'
@@ -20,7 +20,7 @@ Composable for creating, signing, and sending transactions to networks.
 ## Import
 
 ```ts
-import { useSendTransaction } from '@uxuyalpha/vue'
+import { useSendTransaction } from '@tg-wagmi/vue'
 ```
 
 ## Usage
@@ -28,7 +28,7 @@ import { useSendTransaction } from '@uxuyalpha/vue'
 ::: code-group
 ```vue [index.vue]
 <script setup lang="ts">
-import { useSendTransaction } from '@uxuyalpha/vue'
+import { useSendTransaction } from '@tg-wagmi/vue'
 import { parseEther } from 'viem'
 
 const { sendTransaction } = useSendTransaction()
@@ -51,7 +51,7 @@ const { sendTransaction } = useSendTransaction()
 ## Parameters
 
 ```ts
-import { type UseSendTransactionParameters } from '@uxuyalpha/vue'
+import { type UseSendTransactionParameters } from '@tg-wagmi/vue'
 ```
 
 ### config
@@ -63,7 +63,7 @@ import { type UseSendTransactionParameters } from '@uxuyalpha/vue'
 ::: code-group
 ```vue [index.vue]
 <script setup lang="ts">
-import { useSendTransaction } from '@uxuyalpha/vue'
+import { useSendTransaction } from '@tg-wagmi/vue'
 import { config } from './config' // [!code focus]
 
 const result = useSendTransaction({
@@ -79,7 +79,7 @@ const result = useSendTransaction({
 ## Return Type
 
 ```ts
-import { type UseSendTransactionReturnType } from '@uxuyalpha/vue'
+import { type UseSendTransactionReturnType } from '@tg-wagmi/vue'
 ```
 
 <!--@include: @shared/mutation-result.md-->

@@ -1,5 +1,5 @@
 <script setup>
-const packageName = '@uxuyalpha/core'
+const packageName = '@tg-wagmi/core'
 const actionName = 'getEnsAddress'
 const typeName = 'GetEnsAddress'
 </script>
@@ -11,14 +11,14 @@ Action for fetching ENS address for name.
 ## Import
 
 ```ts
-import { getEnsAddress } from '@uxuyalpha/core'
+import { getEnsAddress } from '@tg-wagmi/core'
 ```
 
 ## Usage
 
 ::: code-group
 ```ts [index.ts]
-import { getEnsAddress } from '@uxuyalpha/core'
+import { getEnsAddress } from '@tg-wagmi/core'
 import { normalize } from 'viem/ens'
 import { config } from './config'
 
@@ -36,7 +36,7 @@ Since ENS names prohibit certain forbidden characters (e.g. underscore) and have
 ## Parameters
 
 ```ts
-import { type GetEnsAddressParameters } from '@uxuyalpha/core'
+import { type GetEnsAddressParameters } from '@tg-wagmi/core'
 ```
 
 ---
@@ -49,7 +49,7 @@ Block number to get ENS address at.
 
 ::: code-group
 ```ts [index.ts]
-import { getEnsAddress } from '@uxuyalpha/core'
+import { getEnsAddress } from '@tg-wagmi/core'
 import { normalize } from 'viem/ens'
 import { config } from './config'
 
@@ -69,7 +69,7 @@ Block tag to get ENS address at.
 
 ::: code-group
 ```ts [index.ts]
-import { getEnsAddress } from '@uxuyalpha/core'
+import { getEnsAddress } from '@tg-wagmi/core'
 import { normalize } from 'viem/ens'
 import { config } from './config'
 
@@ -91,8 +91,8 @@ ID of chain to use when fetching data.
 
 ::: code-group
 ```ts [index.ts]
-import { getEnsAddress } from '@uxuyalpha/core'
-import { mainnet } from '@uxuyalpha/core/chains'
+import { getEnsAddress } from '@tg-wagmi/core'
+import { mainnet } from '@tg-wagmi/core/chains'
 import { normalize } from 'viem/ens'
 import { config } from './config'
 
@@ -112,7 +112,7 @@ The [ENSIP-9](https://docs.ens.domains/ens-improvement-proposals/ensip-9-multich
 
 ::: code-group
 ```ts [index.ts]
-import { getEnsAddress } from '@uxuyalpha/core'
+import { getEnsAddress } from '@tg-wagmi/core'
 import { normalize } from 'viem/ens'
 import { config } from './config'
 
@@ -132,7 +132,7 @@ Name to get the address for.
 
 ::: code-group
 ```ts [index.ts]
-import { getEnsAddress } from '@uxuyalpha/core'
+import { getEnsAddress } from '@tg-wagmi/core'
 import { normalize } from 'viem/ens'
 import { config } from './config'
 
@@ -152,7 +152,7 @@ const ensAddress = await getEnsAddress(config, {
 
 ::: code-group
 ```ts [index.ts]
-import { getEnsAddress } from '@uxuyalpha/core'
+import { getEnsAddress } from '@tg-wagmi/core'
 import { normalize } from 'viem/ens'
 import { config } from './config'
 
@@ -167,7 +167,7 @@ const ensAddress = await getEnsAddress(config, {
 ## Return Type
 
 ```ts
-import { type GetEnsAddressReturnType } from '@uxuyalpha/core'
+import { type GetEnsAddressReturnType } from '@tg-wagmi/core'
 ```
 
 `string`
@@ -177,7 +177,7 @@ ENS address.
 ## Error
 
 ```ts
-import { type GetEnsAddressErrorType } from '@uxuyalpha/core'
+import { type GetEnsAddressErrorType } from '@tg-wagmi/core'
 ```
 
 <!--@include: @shared/query-imports.md-->

@@ -5,14 +5,14 @@ Plugin for generating type-safe [Wagmi Hooks](/react/api/hooks).
 ## Import
 
 ```ts
-import { react } from '@uxuyalpha/cli/plugins'
+import { react } from '@tg-wagmi/cli/plugins'
 ```
 
 ## Usage
 
 ```ts{2,6}
-import { defineConfig } from '@uxuyalpha/cli'
-import { react } from '@uxuyalpha/cli/plugins'
+import { defineConfig } from '@tg-wagmi/cli'
+import { react } from '@tg-wagmi/cli/plugins'
 
 export default defineConfig({
   plugins: [
@@ -24,7 +24,7 @@ export default defineConfig({
 ## Configuration
 
 ```ts
-import { type ReactConfig } from '@uxuyalpha/cli/plugins'
+import { type ReactConfig } from '@tg-wagmi/cli/plugins'
 ```
 
 ### getHookName
@@ -33,11 +33,11 @@ import { type ReactConfig } from '@uxuyalpha/cli/plugins'
 
 - Function for setting custom hook names.
 - Defaults to `` `use${type}${contractName}` ``. For example, `useReadErc20`, `useSimulateErc20`, `useWatchErc20Event`, `useWriteErc20`.
-- When `'legacy'` (deprecated), hook names are set to `@uxuyalpha/cli@1` format.
+- When `'legacy'` (deprecated), hook names are set to `@tg-wagmi/cli@1` format.
 
 ```ts
-import { defineConfig } from '@uxuyalpha/cli'
-import { react } from '@uxuyalpha/cli/plugins'
+import { defineConfig } from '@tg-wagmi/cli'
+import { react } from '@tg-wagmi/cli/plugins'
 
 export default defineConfig({
   plugins: [

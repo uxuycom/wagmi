@@ -1,5 +1,5 @@
 <script setup>
-const packageName = '@uxuyalpha/core'
+const packageName = '@tg-wagmi/core'
 const actionName = 'signMessage'
 const typeName = 'SignMessage'
 </script>
@@ -11,14 +11,14 @@ Action for signing messages.
 ## Import
 
 ```ts
-import { signMessage } from '@uxuyalpha/core'
+import { signMessage } from '@tg-wagmi/core'
 ```
 
 ## Usage
 
 ::: code-group
 ```ts [index.ts]
-import { signMessage } from '@uxuyalpha/core'
+import { signMessage } from '@tg-wagmi/core'
 import { config } from './config'
 
 await signMessage(config, { message: 'hello world' })
@@ -29,7 +29,7 @@ await signMessage(config, { message: 'hello world' })
 ## Parameters
 
 ```ts
-import { type SignMessageParameters } from '@uxuyalpha/core'
+import { type SignMessageParameters } from '@tg-wagmi/core'
 ```
 
 ### account
@@ -40,7 +40,7 @@ Account to use when signing message. Throws if account is not found on [`connect
 
 ::: code-group
 ```ts [index.ts]
-import { signMessage } from '@uxuyalpha/core'
+import { signMessage } from '@tg-wagmi/core'
 import { config } from './config'
 
 const result = await signMessage(config, {
@@ -59,7 +59,7 @@ const result = await signMessage(config, {
 
 ::: code-group
 ```ts [index.ts]
-import { getAccount, signMessage } from '@uxuyalpha/core'
+import { getAccount, signMessage } from '@tg-wagmi/core'
 import { config } from './config'
 
 const { connector } = getAccount(config)
@@ -79,7 +79,7 @@ Message to sign.
 
 ::: code-group
 ```ts [index.ts]
-import { signMessage } from '@uxuyalpha/core'
+import { signMessage } from '@tg-wagmi/core'
 import { config } from './config'
 
 const result = await signMessage(config, {
@@ -93,7 +93,7 @@ const result = await signMessage(config, {
 By default, viem signs the UTF-8 representation of the message. To sign the data representation of the message, you can use the `raw` attribute.
 
 ```ts
-import { signMessage } from '@uxuyalpha/core'
+import { signMessage } from '@tg-wagmi/core'
 import { config } from './config'
 
 const result = await signMessage(config, {
@@ -105,7 +105,7 @@ const result = await signMessage(config, {
 ## Return Type
 
 ```ts
-import { type SignMessageReturnType } from '@uxuyalpha/core'
+import { type SignMessageReturnType } from '@tg-wagmi/core'
 ```
 
 [`Hex`](https://viem.sh/docs/glossary/types.html#hex)
@@ -115,7 +115,7 @@ The signed message.
 ## Error
 
 ```ts
-import { type SignMessageErrorType } from '@uxuyalpha/core'
+import { type SignMessageErrorType } from '@tg-wagmi/core'
 ```
 
 <!--@include: @shared/mutation-imports.md-->

@@ -1,4 +1,4 @@
-import { abi, address, config } from '@uxuyalpha/test'
+import { abi, address, config } from '@tg-wagmi/test'
 import { expect, test } from 'vitest'
 
 import { connect } from '../../actions/connect.js'
@@ -59,7 +59,7 @@ test('behavior: not connected', async () => {
   ).rejects.toThrowErrorMatchingInlineSnapshot(`
     [ConnectorNotConnectedError: Connector not connected.
 
-    Version: @uxuyalpha/core@x.y.z]
+    Version: @tg-wagmi/core@x.y.z]
   `)
 })
 
@@ -89,7 +89,7 @@ test('behavior: account does not exist on connector', async () => {
   ).rejects.toThrowErrorMatchingInlineSnapshot(`
     [ConnectorAccountNotFoundError: Account "0xA0Cf798816D4b9b9866b5330EEa46a18382f251e" not found for connector "Mock Connector".
 
-    Version: @uxuyalpha/core@x.y.z]
+    Version: @tg-wagmi/core@x.y.z]
   `)
   await disconnect(config, { connector })
 })

@@ -4,15 +4,15 @@ import type {
   Connector,
   ResolvedRegister,
   SwitchAccountErrorType,
-} from '@uxuyalpha/core'
-import type { Compute } from '@uxuyalpha/core/internal'
+} from '@tg-wagmi/core'
+import type { Compute } from '@tg-wagmi/core/internal'
 import {
   type SwitchAccountData,
   type SwitchAccountMutate,
   type SwitchAccountMutateAsync,
   type SwitchAccountVariables,
   switchAccountMutationOptions,
-} from '@uxuyalpha/core/query'
+} from '@tg-wagmi/core/query'
 import { type Ref, computed } from 'vue'
 
 import type { ConfigParameter } from '../types/properties.js'

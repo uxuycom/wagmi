@@ -4,7 +4,7 @@ description: Composable for fetching primary ENS name for address.
 ---
 
 <script setup>
-const packageName = '@uxuyalpha/vue'
+const packageName = '@tg-wagmi/vue'
 const actionName = 'getEnsName'
 const typeName = 'GetEnsName'
 const TData = 'string | null'
@@ -18,7 +18,7 @@ Composable for fetching primary ENS name for address.
 ## Import
 
 ```ts
-import { useEnsName } from '@uxuyalpha/vue'
+import { useEnsName } from '@tg-wagmi/vue'
 ```
 
 ## Usage
@@ -26,7 +26,7 @@ import { useEnsName } from '@uxuyalpha/vue'
 ::: code-group
 ```vue [index.vue]
 <script setup lang="ts">
-import { useEnsName } from '@uxuyalpha/vue'
+import { useEnsName } from '@tg-wagmi/vue'
 
 const result = useEnsName({
   address: '0xd2135CfB216b74109775236E36d4b433F1DF507B',
@@ -39,7 +39,7 @@ const result = useEnsName({
 ## Parameters
 
 ```ts
-import { type UseEnsNameParameters } from '@uxuyalpha/vue'
+import { type UseEnsNameParameters } from '@tg-wagmi/vue'
 ```
 
 ### address
@@ -51,7 +51,7 @@ Name to get the resolver for. [`enabled`](#enabled) set to `false` if `address` 
 ::: code-group
 ```vue [index.vue]
 <script setup lang="ts">
-import { useEnsName } from '@uxuyalpha/vue'
+import { useEnsName } from '@tg-wagmi/vue'
 
 const result = useEnsName({
   address: '0xd2135CfB216b74109775236E36d4b433F1DF507B', // [!code focus]
@@ -72,7 +72,7 @@ Block number to get ENS name at.
 ::: code-group
 ```vue [index.vue]
 <script setup lang="ts">
-import { useEnsName } from '@uxuyalpha/vue'
+import { useEnsName } from '@tg-wagmi/vue'
 
 const result = useEnsName({
   address: '0xd2135CfB216b74109775236E36d4b433F1DF507B',
@@ -92,7 +92,7 @@ Block tag to get ENS name at.
 ::: code-group
 ```vue [index.vue]
 <script setup lang="ts">
-import { useEnsName } from '@uxuyalpha/vue'
+import { useEnsName } from '@tg-wagmi/vue'
 
 const result = useEnsName({
   address: '0xd2135CfB216b74109775236E36d4b433F1DF507B',
@@ -114,7 +114,7 @@ ID of chain to use when fetching data.
 ::: code-group
 ```vue [index.vue]
 <script setup lang="ts">
-import { useEnsName } from '@uxuyalpha/vue'
+import { useEnsName } from '@tg-wagmi/vue'
 import { mainnet } from 'wagmi/chains' // [!code focus]
 
 const result = useEnsName({
@@ -135,7 +135,7 @@ const result = useEnsName({
 ::: code-group
 ```vue [index.vue]
 <script setup lang="ts">
-import { useEnsName } from '@uxuyalpha/vue'
+import { useEnsName } from '@tg-wagmi/vue'
 import { normalize } from 'viem/ens'
 import { config } from './config' // [!code focus]
 
@@ -157,7 +157,7 @@ Scopes the cache to a given context. Composables that have identical context wil
 ::: code-group
 ```vue [index.vue]
 <script setup lang="ts">
-import { useEnsName } from '@uxuyalpha/vue'
+import { useEnsName } from '@tg-wagmi/vue'
 
 const result = useEnsName({
   address: '0xd2135CfB216b74109775236E36d4b433F1DF507B',
@@ -178,7 +178,7 @@ const result = useEnsName({
 ::: code-group
 ```vue [index.vue]
 <script setup lang="ts">
-import { useEnsName } from '@uxuyalpha/vue'
+import { useEnsName } from '@tg-wagmi/vue'
 
 const result = useEnsName({
   address: '0xd2135CfB216b74109775236E36d4b433F1DF507B',
@@ -194,7 +194,7 @@ const result = useEnsName({
 ## Return Type
 
 ```ts
-import { type UseEnsNameReturnType } from '@uxuyalpha/vue'
+import { type UseEnsNameReturnType } from '@tg-wagmi/vue'
 ```
 
 <!--@include: @shared/query-result.md-->

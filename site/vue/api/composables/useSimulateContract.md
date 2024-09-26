@@ -4,7 +4,7 @@ description: Composable for simulating/validating a contract interaction.
 ---
 
 <script setup>
-const packageName = '@uxuyalpha/vue'
+const packageName = '@tg-wagmi/vue'
 const actionName = 'simulateContract'
 const typeName = 'SimulateContract'
 const TData = 'SimulateContractReturnType'
@@ -18,7 +18,7 @@ Composable for simulating/validating a contract interaction.
 ## Import
 
 ```ts
-import { useSimulateContract } from '@uxuyalpha/vue'
+import { useSimulateContract } from '@tg-wagmi/vue'
 ```
 
 ## Usage
@@ -26,7 +26,7 @@ import { useSimulateContract } from '@uxuyalpha/vue'
 ::: code-group
 ```vue [index.vue]
 <script setup lang="ts">
-import { useSimulateContract } from '@uxuyalpha/vue'
+import { useSimulateContract } from '@tg-wagmi/vue'
 import { abi } from './abi'
 
 const result = useSimulateContract({
@@ -50,7 +50,7 @@ const result = useSimulateContract({
 ## Parameters
 
 ```ts
-import { type UseSimulateContractParameters } from '@uxuyalpha/vue'
+import { type UseSimulateContractParameters } from '@tg-wagmi/vue'
 ```
 
 ### abi
@@ -62,7 +62,7 @@ The contract's ABI. Check out the [TypeScript docs](/vue/typescript#const-assert
 ::: code-group
 ```vue [index.vue]
 <script setup lang="ts">
-import { useSimulateContract } from '@uxuyalpha/vue'
+import { useSimulateContract } from '@tg-wagmi/vue'
 import { abi } from './abi' // [!code focus]
 
 const result = useSimulateContract({
@@ -90,7 +90,7 @@ The access list.
 ::: code-group
 ```vue [index.ts]
 <script setup lang="ts">
-import { useSimulateContract } from '@uxuyalpha/vue'
+import { useSimulateContract } from '@tg-wagmi/vue'
 import { abi } from './abi'
 import { config } from './config'
 
@@ -123,7 +123,7 @@ Account to use when calling the contract (`msg.sender`). Throws if account is no
 ::: code-group
 ```vue [index.vue]
 <script setup lang="ts">
-import { useSimulateContract } from '@uxuyalpha/vue'
+import { useSimulateContract } from '@tg-wagmi/vue'
 import { abi } from './abi'
 
 const result = useSimulateContract({
@@ -152,7 +152,7 @@ The contract's address.
 ::: code-group
 ```vue [index.vue]
 <script setup lang="ts">
-import { useSimulateContract } from '@uxuyalpha/vue'
+import { useSimulateContract } from '@tg-wagmi/vue'
 import { abi } from './abi'
 
 const result = useSimulateContract({
@@ -181,7 +181,7 @@ const result = useSimulateContract({
 ::: code-group
 ```vue [index.vue]
 <script setup lang="ts">
-import { useSimulateContract } from '@uxuyalpha/vue'
+import { useSimulateContract } from '@tg-wagmi/vue'
 import { abi } from './abi'
 
 const result = useSimulateContract({
@@ -211,7 +211,7 @@ Block number to call contract at.
 ::: code-group
 ```vue [index.vue]
 <script setup lang="ts">
-import { useSimulateContract } from '@uxuyalpha/vue'
+import { useSimulateContract } from '@tg-wagmi/vue'
 import { abi } from './abi'
 
 const result = useSimulateContract({
@@ -240,7 +240,7 @@ Block tag to call contract at.
 ::: code-group
 ```vue [index.vue]
 <script setup lang="ts">
-import { useSimulateContract } from '@uxuyalpha/vue'
+import { useSimulateContract } from '@tg-wagmi/vue'
 import { abi } from './abi'
 
 const result = useSimulateContract({
@@ -271,7 +271,7 @@ ID of chain to use when fetching data.
 ::: code-group
 ```vue [index.vue]
 <script setup lang="ts">
-import { useSimulateContract } from '@uxuyalpha/vue'
+import { useSimulateContract } from '@tg-wagmi/vue'
 import { mainnet } from 'wagmi/chains' // [!code focus]
 import { abi } from './abi'
 
@@ -301,7 +301,7 @@ const result = useSimulateContract({
 ::: code-group
 ```vue [index.vue]
 <script setup lang="ts">
-import { useSimulateContract } from '@uxuyalpha/vue'
+import { useSimulateContract } from '@tg-wagmi/vue'
 import { abi } from './abi'
 import { config } from './config' // [!code focus]
 
@@ -331,7 +331,7 @@ const result = useSimulateContract({
 ::: code-group
 ```vue [index.ts]
 <script setup lang="ts">
-import { useConnectorClient, useSimulateContract } from '@uxuyalpha/vue'
+import { useConnectorClient, useSimulateContract } from '@tg-wagmi/vue'
 import { abi } from './abi'
 import { config } from './config'
 
@@ -362,7 +362,7 @@ Data to append to the end of the calldata. Useful for adding a ["domain" tag](ht
 ::: code-group
 ```vue [index.ts]
 <script setup lang="ts">
-import { useSimulateContract } from '@uxuyalpha/vue'
+import { useSimulateContract } from '@tg-wagmi/vue'
 import { parseGwei } from 'viem'
 import { abi } from './abi'
 import { config } from './config'
@@ -394,7 +394,7 @@ const result = useSimulateContract({
 ::: code-group
 ```vue [index.vue]
 <script setup lang="ts">
-import { useSimulateContract } from '@uxuyalpha/vue'
+import { useSimulateContract } from '@tg-wagmi/vue'
 import { abi } from './abi'
 
 const result = useSimulateContract({
@@ -422,7 +422,7 @@ Gas provided for transaction execution.
 ::: code-group
 ```vue [index.ts]
 <script setup lang="ts">
-import { useSimulateContract } from '@uxuyalpha/vue'
+import { useSimulateContract } from '@tg-wagmi/vue'
 import { parseGwei } from 'viem'
 import { abi } from './abi'
 import { config } from './config'
@@ -455,7 +455,7 @@ The price in wei to pay per gas. Only applies to [Legacy Transactions](https://v
 ::: code-group
 ```vue [index.ts]
 <script setup lang="ts">
-import { useSimulateContract } from '@uxuyalpha/vue'
+import { useSimulateContract } from '@tg-wagmi/vue'
 import { parseGwei } from 'viem'
 import { abi } from './abi'
 import { config } from './config'
@@ -486,7 +486,7 @@ Total fee per gas in wei, inclusive of [`maxPriorityFeePerGas`](#maxPriorityFeeP
 ::: code-group
 ```vue [index.ts]
 <script setup lang="ts">
-import { useSimulateContract } from '@uxuyalpha/vue'
+import { useSimulateContract } from '@tg-wagmi/vue'
 import { parseGwei } from 'viem'
 import { abi } from './abi'
 import { config } from './config'
@@ -517,7 +517,7 @@ Max priority fee per gas in wei. Only applies to [EIP-1559 Transactions](https:/
 ::: code-group
 ```vue [index.ts]
 <script setup lang="ts">
-import { useSimulateContract } from '@uxuyalpha/vue'
+import { useSimulateContract } from '@tg-wagmi/vue'
 import { parseGwei } from 'viem'
 import { abi } from './abi'
 import { config } from './config'
@@ -551,7 +551,7 @@ Unique number identifying this transaction.
 ::: code-group
 ```vue [index.ts]
 <script setup lang="ts">
-import { useSimulateContract } from '@uxuyalpha/vue'
+import { useSimulateContract } from '@tg-wagmi/vue'
 import { abi } from './abi'
 import { config } from './config'
 
@@ -581,7 +581,7 @@ Optional transaction request type to narrow parameters.
 ::: code-group
 ```vue [index.ts]
 <script setup lang="ts">
-import { useSimulateContract } from '@uxuyalpha/vue'
+import { useSimulateContract } from '@tg-wagmi/vue'
 import { abi } from './abi'
 import { config } from './config'
 
@@ -611,7 +611,7 @@ Value in wei sent with this transaction.
 ::: code-group
 ```vue [index.ts]
 <script setup lang="ts">
-import { useSimulateContract } from '@uxuyalpha/vue'
+import { useSimulateContract } from '@tg-wagmi/vue'
 import { parseEther } from 'viem'
 import { abi } from './abi'
 import { config } from './config'
@@ -642,7 +642,7 @@ Scopes the cache to a given context. Composables that have identical context wil
 ::: code-group
 ```vue [index.ts]
 <script setup lang="ts">
-import { useSimulateContract } from '@uxuyalpha/vue'
+import { useSimulateContract } from '@tg-wagmi/vue'
 import { abi } from './abi'
 import { config } from './config'
 
@@ -668,7 +668,7 @@ const result = useSimulateContract({
 ## Return Type
 
 ```ts
-import { type UseSimulateContractReturnType } from '@uxuyalpha/vue'
+import { type UseSimulateContractReturnType } from '@tg-wagmi/vue'
 ```
 
 The return type's [`data`](#data) property is inferrable via the combination of [`abi`](#abi), [`functionName`](#functionname), and [`args`](#args). Check out the [TypeScript docs](/vue/typescript#const-assert-abis-typed-data) for more info.

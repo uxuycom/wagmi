@@ -5,14 +5,14 @@ Action for getting Viem [`Client`](https://viem.sh/docs/clients/custom.html) ins
 ## Import
 
 ```ts
-import { getClient } from '@uxuyalpha/core'
+import { getClient } from '@tg-wagmi/core'
 ```
 
 ## Usage
 
 ::: code-group
 ```ts [index.ts]
-import { getClient } from '@uxuyalpha/core'
+import { getClient } from '@tg-wagmi/core'
 import { config } from './config'
 
 const client = getClient(config)
@@ -23,7 +23,7 @@ const client = getClient(config)
 ## Parameters
 
 ```ts
-import { type GetClientParameters } from '@uxuyalpha/core'
+import { type GetClientParameters } from '@tg-wagmi/core'
 ```
 
 ### chainId
@@ -34,8 +34,8 @@ ID of chain to use when getting Viem Client.
 
 ::: code-group
 ```ts [index.ts]
-import { getClient } from '@uxuyalpha/core'
-import { mainnet } from '@uxuyalpha/core/chains'
+import { getClient } from '@tg-wagmi/core'
+import { mainnet } from '@tg-wagmi/core/chains'
 import { config } from './config'
 
 const client = await getClient(config, {
@@ -48,7 +48,7 @@ const client = await getClient(config, {
 ## Return Type
 
 ```ts
-import { type GetClientReturnType } from '@uxuyalpha/core'
+import { type GetClientReturnType } from '@tg-wagmi/core'
 ```
 
 `Client`

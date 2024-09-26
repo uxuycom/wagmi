@@ -91,16 +91,16 @@ function getTsConfig(baseUrl: string) {
       moduleResolution: 'node',
       noEmit: true,
       paths: {
-        '@uxuyalpha/cli': [path.relative(baseUrl, 'packages/cli/src')],
-        '@uxuyalpha/cli/*': [path.relative(baseUrl, 'packages/cli/src/*')],
-        '@uxuyalpha/connectors': [
+        '@tg-wagmi/cli': [path.relative(baseUrl, 'packages/cli/src')],
+        '@tg-wagmi/cli/*': [path.relative(baseUrl, 'packages/cli/src/*')],
+        '@tg-wagmi/connectors': [
           path.relative(baseUrl, 'packages/connectors/src'),
         ],
-        '@uxuyalpha/connectors/*': [
+        '@tg-wagmi/connectors/*': [
           path.relative(baseUrl, 'packages/connectors/src/*'),
         ],
-        '@uxuyalpha/core': [path.relative(baseUrl, 'packages/core/src')],
-        '@uxuyalpha/core/*': [path.relative(baseUrl, 'packages/core/src/*')],
+        '@tg-wagmi/core': [path.relative(baseUrl, 'packages/core/src')],
+        '@tg-wagmi/core/*': [path.relative(baseUrl, 'packages/core/src/*')],
         wagmi: [path.relative(baseUrl, 'packages/react/src')],
         'wagmi/*': [path.relative(baseUrl, 'packages/react/src/*')],
       },

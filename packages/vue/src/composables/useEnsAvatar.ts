@@ -2,15 +2,15 @@ import type {
   Config,
   GetEnsAvatarErrorType,
   ResolvedRegister,
-} from '@uxuyalpha/core'
-import type { Compute } from '@uxuyalpha/core/internal'
+} from '@tg-wagmi/core'
+import type { Compute } from '@tg-wagmi/core/internal'
 import {
   type GetEnsAvatarData,
   type GetEnsAvatarOptions,
   type GetEnsAvatarQueryFnData,
   type GetEnsAvatarQueryKey,
   getEnsAvatarQueryOptions,
-} from '@uxuyalpha/core/query'
+} from '@tg-wagmi/core/query'
 import { computed } from 'vue'
 
 import type { ConfigParameter, QueryParameter } from '../types/properties.js'

@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { useAccount, useDisconnect } from '@uxuyalpha/vue'
+import { useAccount, useDisconnect } from '@tg-wagmi/vue'
 
 const { address, chainId, status } = useAccount()
 const { disconnect } = useDisconnect()

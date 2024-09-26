@@ -10,7 +10,7 @@ Composable for getting Viem [`Client`](https://viem.sh/docs/clients/custom.html)
 ## Import
 
 ```ts
-import { useClient } from '@uxuyalpha/vue'
+import { useClient } from '@tg-wagmi/vue'
 ```
 
 ## Usage
@@ -18,7 +18,7 @@ import { useClient } from '@uxuyalpha/vue'
 ::: code-group
 ```vue [index.vue]
 <script setup lang="ts">
-import { useClient } from '@uxuyalpha/vue'
+import { useClient } from '@tg-wagmi/vue'
 
 const client = useClient()
 </script>
@@ -29,7 +29,7 @@ const client = useClient()
 ## Parameters
 
 ```ts
-import { type UseClientParameters } from '@uxuyalpha/vue'
+import { type UseClientParameters } from '@tg-wagmi/vue'
 ```
 
 ### chainId
@@ -41,8 +41,8 @@ ID of chain to use when getting Viem Client.
 ::: code-group
 ```vue [index.vue]
 <script setup lang="ts">
-import { useClient } from '@uxuyalpha/vue'
-import { mainnet } from '@uxuyalpha/vue/chains' // [!code focus]
+import { useClient } from '@tg-wagmi/vue'
+import { mainnet } from '@tg-wagmi/vue/chains' // [!code focus]
 import { config } from './config'
 
 const client = useClient({
@@ -62,7 +62,7 @@ const client = useClient({
 ::: code-group
 ```vue [index.vue]
 <script setup lang="ts">
-import { useClient } from '@uxuyalpha/vue'
+import { useClient } from '@tg-wagmi/vue'
 import { config } from './config' // [!code focus]
 
 const client = useClient({
@@ -76,7 +76,7 @@ const client = useClient({
 ## Return Type
 
 ```ts
-import { type UseClientReturnType } from '@uxuyalpha/vue'
+import { type UseClientReturnType } from '@tg-wagmi/vue'
 ```
 
 `Client | undefined`

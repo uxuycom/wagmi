@@ -1,4 +1,4 @@
-import { accounts, config, testClient } from '@uxuyalpha/test'
+import { accounts, config, testClient } from '@tg-wagmi/test'
 import { parseEther } from 'viem'
 import { test } from 'vitest'
 

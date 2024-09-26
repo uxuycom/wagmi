@@ -1,5 +1,5 @@
-import { type GetAccountReturnType, watchAccount } from '@uxuyalpha/core'
-import type { Compute } from '@uxuyalpha/core/internal'
+import { type GetAccountReturnType, watchAccount } from '@tg-wagmi/core'
+import type { Compute } from '@tg-wagmi/core/internal'
 import { watchEffect } from 'vue'
 
 import type { ConfigParameter } from '../types/properties.js'

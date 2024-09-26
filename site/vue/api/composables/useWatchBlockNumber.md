@@ -5,7 +5,7 @@ Composable that watches for block number changes.
 ## Import
 
 ```ts
-import { useWatchBlockNumber } from '@uxuyalpha/vue'
+import { useWatchBlockNumber } from '@tg-wagmi/vue'
 ```
 
 ## Usage
@@ -13,7 +13,7 @@ import { useWatchBlockNumber } from '@uxuyalpha/vue'
 ::: code-group
 ```ts [index.vue]
 <script setup lang="ts">
-import { useWatchBlockNumber } from '@uxuyalpha/vue'
+import { useWatchBlockNumber } from '@tg-wagmi/vue'
 
 useWatchBlockNumber({
   onBlockNumber(blockNumber) {
@@ -28,7 +28,7 @@ useWatchBlockNumber({
 ## Parameters
 
 ```ts
-import { type UseWatchBlockNumberParameters } from '@uxuyalpha/vue'
+import { type UseWatchBlockNumberParameters } from '@tg-wagmi/vue'
 ```
 
 ### chainId
@@ -99,7 +99,7 @@ Error thrown from getting the block.
 ## Return Type
 
 ```ts
-import { type UseWatchBlockNumberReturnType } from '@uxuyalpha/vue'
+import { type UseWatchBlockNumberReturnType } from '@tg-wagmi/vue'
 ```
 
 Function for cleaning up watcher.

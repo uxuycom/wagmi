@@ -1,7 +1,7 @@
 ////////////////////////////////////////////////////////////////////////////////
-// @uxuyalpha/core/actions
+// @tg-wagmi/core/actions
 ////////////////////////////////////////////////////////////////////////////////
 
 // biome-ignore lint/performance/noBarrelFile: entrypoint module
 // biome-ignore lint/performance/noReExportAll: entrypoint module
-export * from '@uxuyalpha/core/actions'
+export * from '@tg-wagmi/core/actions'

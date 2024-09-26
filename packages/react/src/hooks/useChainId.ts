@@ -6,7 +6,7 @@ import {
   type ResolvedRegister,
   getChainId,
   watchChainId,
-} from '@uxuyalpha/core'
+} from '@tg-wagmi/core'
 import { useSyncExternalStore } from 'react'
 
 import type { ConfigParameter } from '../types/properties.js'

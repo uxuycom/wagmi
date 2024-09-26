@@ -1,5 +1,5 @@
 <script setup>
-const packageName = '@uxuyalpha/core'
+const packageName = '@tg-wagmi/core'
 const actionName = 'getProof'
 const typeName = 'getProof'
 </script>
@@ -11,14 +11,14 @@ Action for return the account and storage values of the specified account includ
 ## Import
 
 ```ts
-import { getProof } from '@uxuyalpha/core'
+import { getProof } from '@tg-wagmi/core'
 ```
 
 ## Usage
 
 ::: code-group
 ```ts [index.ts]
-import { getProof } from '@uxuyalpha/core'
+import { getProof } from '@tg-wagmi/core'
 import { config } from './config'
 
 await getProof(config, {
@@ -34,7 +34,7 @@ await getProof(config, {
 ## Parameters
 
 ```ts
-import { type GetProofParameters } from '@uxuyalpha/core'
+import { type GetProofParameters } from '@tg-wagmi/core'
 ```
 
 ### address
@@ -45,7 +45,7 @@ The account address to get the proof for.
 
 ::: code-group
 ```ts [index.ts]
-import { getProof } from '@uxuyalpha/core'
+import { getProof } from '@tg-wagmi/core'
 import { config } from './config'
 
 await getProof(config, {
@@ -66,7 +66,7 @@ Array of storage-keys that should be proofed and included.
 
 ::: code-group
 ```ts [index.ts]
-import { getProof } from '@uxuyalpha/core'
+import { getProof } from '@tg-wagmi/core'
 import { config } from './config'
 
 await getProof(config, {
@@ -87,7 +87,7 @@ Proof at a given block number.
 
 ::: code-group
 ```ts [index.ts]
-import { getProof } from '@uxuyalpha/core'
+import { getProof } from '@tg-wagmi/core'
 import { config } from './config'
 
 await getProof(config, {
@@ -109,7 +109,7 @@ Proof at a given block tag.
 
 ::: code-group
 ```ts [index.ts]
-import { getProof } from '@uxuyalpha/core'
+import { getProof } from '@tg-wagmi/core'
 import { config } from './config'
 
 await getProof(config, {
@@ -131,9 +131,9 @@ The ID of chain to get the proof for.
 
 ::: code-group
 ```ts [index.ts]
-import { getProof } from '@uxuyalpha/core'
+import { getProof } from '@tg-wagmi/core'
 import { config } from './config'
-import { optimism } from '@uxuyalpha/core/chains'
+import { optimism } from '@tg-wagmi/core/chains'
 
 await getProof(config, {
   chainId: optimism.id, // [!code focus]
@@ -149,7 +149,7 @@ await getProof(config, {
 ## Return Type
 
 ```ts
-import { type GetProofReturnType } from '@uxuyalpha/core'
+import { type GetProofReturnType } from '@tg-wagmi/core'
 ```
 
 `Proof`
@@ -159,7 +159,7 @@ Proof data.
 ## Error
 
 ```ts
-import { type GetProofErrorType } from '@uxuyalpha/core'
+import { type GetProofErrorType } from '@tg-wagmi/core'
 ```
 
 <!--@include: @shared/query-imports.md-->

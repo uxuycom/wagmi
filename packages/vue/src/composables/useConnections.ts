@@ -2,7 +2,7 @@ import {
   type GetConnectionsReturnType,
   getConnections,
   watchConnections,
-} from '@uxuyalpha/core'
+} from '@tg-wagmi/core'
 import { type Ref, onScopeDispose, readonly, ref } from 'vue'
 
 import type { ConfigParameter } from '../types/properties.js'

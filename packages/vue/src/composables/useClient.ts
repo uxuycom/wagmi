@@ -5,8 +5,8 @@ import {
   type ResolvedRegister,
   getClient,
   watchClient,
-} from '@uxuyalpha/core'
-import type { Compute } from '@uxuyalpha/core/internal'
+} from '@tg-wagmi/core'
+import type { Compute } from '@tg-wagmi/core/internal'
 import {
   type Ref,
   computed,

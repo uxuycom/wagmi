@@ -1,6 +1,6 @@
-import { connect, disconnect } from '@uxuyalpha/core'
-import { chain, config } from '@uxuyalpha/test'
-import { renderHook, waitFor } from '@uxuyalpha/test/react'
+import { connect, disconnect } from '@tg-wagmi/core'
+import { chain, config } from '@tg-wagmi/test'
+import { renderHook, waitFor } from '@tg-wagmi/test/react'
 import { expect, test } from 'vitest'
 
 import { useAccount } from './useAccount.js'

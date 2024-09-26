@@ -1,5 +1,5 @@
 <script setup>
-const packageName = '@uxuyalpha/core'
+const packageName = '@tg-wagmi/core'
 const actionName = 'connect'
 const typeName = 'Connect'
 </script>
@@ -11,15 +11,15 @@ Action for connecting accounts with [connectors](/core/api/connectors).
 ## Import
 
 ```ts
-import { connect } from '@uxuyalpha/core'
+import { connect } from '@tg-wagmi/core'
 ```
 
 ## Usage
 
 ::: code-group
 ```ts [index.ts]
-import { connect } from '@uxuyalpha/core'
-import { injected } from '@uxuyalpha/connectors'
+import { connect } from '@tg-wagmi/core'
+import { injected } from '@tg-wagmi/connectors'
 import { config } from './config'
 
 const result = await connect(config, { connector: injected() })
@@ -30,7 +30,7 @@ const result = await connect(config, { connector: injected() })
 ## Parameters
 
 ```ts
-import { type ConnectParameters } from '@uxuyalpha/core'
+import { type ConnectParameters } from '@tg-wagmi/core'
 ```
 
 ### chainId
@@ -43,9 +43,9 @@ Not all connectors support connecting directly to a `chainId` (e.g. they don't s
 
 ::: code-group
 ```ts [index.ts]
-import { connect } from '@uxuyalpha/core'
-import { mainnet } from '@uxuyalpha/core/chains'
-import { injected } from '@uxuyalpha/connectors'
+import { connect } from '@tg-wagmi/core'
+import { mainnet } from '@tg-wagmi/core/chains'
+import { injected } from '@tg-wagmi/connectors'
 import { config } from './config'
 
 const result = await connect(config, {
@@ -64,8 +64,8 @@ const result = await connect(config, {
 
 ::: code-group
 ```ts [index.ts]
-import { connect } from '@uxuyalpha/core'
-import { injected } from '@uxuyalpha/connectors' // [!code focus]
+import { connect } from '@tg-wagmi/core'
+import { injected } from '@tg-wagmi/connectors' // [!code focus]
 import { config } from './config'
 
 const result = await connect(config, {
@@ -78,7 +78,7 @@ const result = await connect(config, {
 ## Return Type
 
 ```ts
-import { type ConnectReturnType } from '@uxuyalpha/core'
+import { type ConnectReturnType } from '@tg-wagmi/core'
 ```
 
 ### accounts
@@ -96,7 +96,7 @@ Connected chain ID from connector.
 ## Error
 
 ```ts
-import { type ConnectErrorType } from '@uxuyalpha/core'
+import { type ConnectErrorType } from '@tg-wagmi/core'
 ```
 
 <!--@include: @shared/mutation-imports.md-->

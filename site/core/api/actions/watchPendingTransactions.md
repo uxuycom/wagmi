@@ -1,5 +1,5 @@
 <script setup>
-const packageName = '@uxuyalpha/core'
+const packageName = '@tg-wagmi/core'
 const actionName = 'watchPendingTransactions'
 const typeName = 'WatchPendingTransactions'
 </script>
@@ -11,14 +11,14 @@ Action that watches and returns pending transaction hashes.
 ## Import
 
 ```ts
-import { watchPendingTransactions } from '@uxuyalpha/core'
+import { watchPendingTransactions } from '@tg-wagmi/core'
 ```
 
 ## Usage
 
 ::: code-group
 ```ts [index.ts]
-import { watchPendingTransactions } from '@uxuyalpha/core'
+import { watchPendingTransactions } from '@tg-wagmi/core'
 import { config } from './config'
 
 const unwatch = watchPendingTransactions(config, {
@@ -33,7 +33,7 @@ const unwatch = watchPendingTransactions(config, {
 ## Parameters
 
 ```ts
-import { type WatchPendingTransactionsParameters } from '@uxuyalpha/core'
+import { type WatchPendingTransactionsParameters } from '@tg-wagmi/core'
 ```
 
 ### batch
@@ -45,7 +45,7 @@ import { type WatchPendingTransactionsParameters } from '@uxuyalpha/core'
 
 ::: code-group
 ```ts [index.ts]
-import { watchPendingTransactions } from '@uxuyalpha/core'
+import { watchPendingTransactions } from '@tg-wagmi/core'
 
 const unwatch = watchPendingTransactions(config, {
   batch: false, // [!code focus]
@@ -65,8 +65,8 @@ ID of chain to use when fetching data.
 
 ::: code-group
 ```ts [index.ts]
-import { watchPendingTransactions } from '@uxuyalpha/core'
-import { mainnet } from '@uxuyalpha/core/chains'
+import { watchPendingTransactions } from '@tg-wagmi/core'
+import { mainnet } from '@tg-wagmi/core/chains'
 import { config } from './config'
 
 const unwatch = watchPendingTransactions(config, {
@@ -87,7 +87,7 @@ Error thrown from watching pending transactions.
 
 ::: code-group
 ```ts [index.ts]
-import { watchPendingTransactions } from '@uxuyalpha/core'
+import { watchPendingTransactions } from '@tg-wagmi/core'
 import { config } from './config'
 
 const unwatch = watchPendingTransactions(config, {
@@ -110,7 +110,7 @@ Callback when new incoming pending transactions are detected.
 
 ::: code-group
 ```ts [index.ts]
-import { watchPendingTransactions } from '@uxuyalpha/core'
+import { watchPendingTransactions } from '@tg-wagmi/core'
 import { config } from './config'
 
 const unwatch = watchPendingTransactions(config, {
@@ -131,7 +131,7 @@ const unwatch = watchPendingTransactions(config, {
 
 ::: code-group
 ```ts [index.ts]
-import { watchPendingTransactions } from '@uxuyalpha/core'
+import { watchPendingTransactions } from '@tg-wagmi/core'
 import { config } from './config'
 
 const unwatch = watchPendingTransactions(config, {
@@ -153,7 +153,7 @@ const unwatch = watchPendingTransactions(config, {
 
 ::: code-group
 ```ts [index.ts]
-import { watchPendingTransactions } from '@uxuyalpha/core'
+import { watchPendingTransactions } from '@tg-wagmi/core'
 import { config } from './config'
 
 const unwatch = watchPendingTransactions(config, {
@@ -175,7 +175,7 @@ const unwatch = watchPendingTransactions(config, {
 
 ::: code-group
 ```ts [index.ts]
-import { watchPendingTransactions } from '@uxuyalpha/core'
+import { watchPendingTransactions } from '@tg-wagmi/core'
 import { config } from './config'
 
 const unwatch = watchPendingTransactions(config, {
@@ -191,7 +191,7 @@ const unwatch = watchPendingTransactions(config, {
 ## Return Type
 
 ```ts
-import { type WatchPendingTransactionsReturnType } from '@uxuyalpha/core'
+import { type WatchPendingTransactionsReturnType } from '@tg-wagmi/core'
 ```
 
 Function to unsubscribe from pending transaction listener.
@@ -199,7 +199,7 @@ Function to unsubscribe from pending transaction listener.
 ## Error
 
 ```ts
-import { type WatchPendingTransactionsError } from '@uxuyalpha/core'
+import { type WatchPendingTransactionsError } from '@tg-wagmi/core'
 ```
 
 ## Viem

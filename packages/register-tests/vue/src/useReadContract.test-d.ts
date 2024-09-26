@@ -1,5 +1,5 @@
-import type { abi } from '@uxuyalpha/test'
-import type { useReadContract } from '@uxuyalpha/vue'
+import type { abi } from '@tg-wagmi/test'
+import type { useReadContract } from '@tg-wagmi/vue'
 import type { Address } from 'viem'
 import { expectTypeOf, test } from 'vitest'
 

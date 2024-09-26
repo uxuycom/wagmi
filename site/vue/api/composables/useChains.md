@@ -10,7 +10,7 @@ Composable for getting configured chains
 ## Import
 
 ```ts
-import { useChains } from '@uxuyalpha/vue'
+import { useChains } from '@tg-wagmi/vue'
 ```
 
 ## Usage
@@ -18,7 +18,7 @@ import { useChains } from '@uxuyalpha/vue'
 ::: code-group
 ```vue [index.vue]
 <script setup lang="ts">
-import { useChains } from '@uxuyalpha/vue'
+import { useChains } from '@tg-wagmi/vue'
 
 const chains = useChains()
 </script>
@@ -29,7 +29,7 @@ const chains = useChains()
 ## Parameters
 
 ```ts
-import { type UseChainsParameters } from '@uxuyalpha/vue'
+import { type UseChainsParameters } from '@tg-wagmi/vue'
 ```
 
 ### config
@@ -41,7 +41,7 @@ import { type UseChainsParameters } from '@uxuyalpha/vue'
 ::: code-group
 ```vue [index.vue]
 <script setup lang="ts">
-import { useChains } from '@uxuyalpha/vue'
+import { useChains } from '@tg-wagmi/vue'
 import { config } from './config' // [!code focus]
 
 const chains = useChains({
@@ -55,7 +55,7 @@ const chains = useChains({
 ## Return Type
 
 ```ts
-import { type UseChainsReturnType } from '@uxuyalpha/vue'
+import { type UseChainsReturnType } from '@tg-wagmi/vue'
 ```
 
 `readonly [Chain, ...Chain[]]`

@@ -1,4 +1,4 @@
-import { createWrapper, renderHook } from '@uxuyalpha/test/react'
+import { createWrapper, renderHook } from '@tg-wagmi/test/react'
 import { expect, test, vi } from 'vitest'
 
 import { useConfig } from './useConfig.js'

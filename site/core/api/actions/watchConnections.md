@@ -5,14 +5,14 @@ Subscribe to connections changes.
 ## Import
 
 ```ts
-import { watchConnections } from '@uxuyalpha/core'
+import { watchConnections } from '@tg-wagmi/core'
 ```
 
 ## Usage
 
 ::: code-group
 ```ts [index.ts]
-import { watchConnections } from '@uxuyalpha/core'
+import { watchConnections } from '@tg-wagmi/core'
 import { config } from './config'
 
 const unwatch = watchConnections(config, {
@@ -28,7 +28,7 @@ unwatch()
 ## Parameters
 
 ```ts
-import { type WatchConnectionsParameters } from '@uxuyalpha/core'
+import { type WatchConnectionsParameters } from '@tg-wagmi/core'
 ```
 
 ### onChange
@@ -39,7 +39,7 @@ Callback function called when connections changes.
 
 ::: code-group
 ```ts [index.ts]
-import { watchConnections } from '@uxuyalpha/core'
+import { watchConnections } from '@tg-wagmi/core'
 import { config } from './config'
 
 const unwatch = watchConnections(config, {
@@ -55,7 +55,7 @@ unwatch()
 ## Return Type
 
 ```ts
-import { type WatchConnectionsReturnType } from '@uxuyalpha/core'
+import { type WatchConnectionsReturnType } from '@tg-wagmi/core'
 ```
 
 Function for cleaning up watcher.

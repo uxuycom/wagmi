@@ -1,5 +1,5 @@
-import { chain, wait } from '@uxuyalpha/test'
-import { renderHook, waitFor } from '@uxuyalpha/test/react'
+import { chain, wait } from '@tg-wagmi/test'
+import { renderHook, waitFor } from '@tg-wagmi/test/react'
 import { expect, test } from 'vitest'
 
 import { useFeeHistory } from './useFeeHistory.js'

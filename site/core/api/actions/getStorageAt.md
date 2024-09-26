@@ -1,5 +1,5 @@
 <script setup>
-const packageName = '@uxuyalpha/core'
+const packageName = '@tg-wagmi/core'
 const actionName = 'getStorageAt'
 const typeName = 'getStorageAt'
 </script>
@@ -11,14 +11,14 @@ Action for returning the value from a storage slot at a given address.
 ## Import
 
 ```ts
-import { getStorageAt } from '@uxuyalpha/core'
+import { getStorageAt } from '@tg-wagmi/core'
 ```
 
 ## Usage
 
 ::: code-group
 ```ts [index.ts]
-import { getStorageAt } from '@uxuyalpha/core'
+import { getStorageAt } from '@tg-wagmi/core'
 import { config } from './config'
 
 await getStorageAt(config, {
@@ -32,7 +32,7 @@ await getStorageAt(config, {
 ## Parameters
 
 ```ts
-import { type GetStorageAtParameters } from '@uxuyalpha/core'
+import { type GetStorageAtParameters } from '@tg-wagmi/core'
 ```
 
 ### address
@@ -43,7 +43,7 @@ The contract address.
 
 ::: code-group
 ```ts [index.ts]
-import { getStorageAt } from '@uxuyalpha/core'
+import { getStorageAt } from '@tg-wagmi/core'
 import { config } from './config'
 
 await getStorageAt(config, {
@@ -62,7 +62,7 @@ The storage position (as a hex encoded value).
 
 ::: code-group
 ```ts [index.ts]
-import { getStorageAt } from '@uxuyalpha/core'
+import { getStorageAt } from '@tg-wagmi/core'
 import { config } from './config'
 
 await getStorageAt(config, {
@@ -81,7 +81,7 @@ The block number to check the storage at.
 
 ::: code-group
 ```ts [index.ts]
-import { getStorageAt } from '@uxuyalpha/core'
+import { getStorageAt } from '@tg-wagmi/core'
 import { config } from './config'
 
 await getStorageAt(config, {
@@ -101,7 +101,7 @@ The block tag to check the storage at.
 
 ::: code-group
 ```ts [index.ts]
-import { getStorageAt } from '@uxuyalpha/core'
+import { getStorageAt } from '@tg-wagmi/core'
 import { config } from './config'
 
 await getStorageAt(config, {
@@ -121,8 +121,8 @@ The chain ID to check the storage at.
 
 ::: code-group
 ```ts [index.ts]
-import { getStorageAt } from '@uxuyalpha/core'
-import { mainnet } from '@uxuyalpha/core/chains'
+import { getStorageAt } from '@tg-wagmi/core'
+import { mainnet } from '@tg-wagmi/core/chains'
 import { config } from './config'
 
 await getStorageAt(config, {
@@ -137,7 +137,7 @@ await getStorageAt(config, {
 ## Return Type
 
 ```ts
-import { type GetStorageAtReturnType } from '@uxuyalpha/core'
+import { type GetStorageAtReturnType } from '@tg-wagmi/core'
 ```
 
 `Hex`
@@ -147,7 +147,7 @@ The value of the storage slot.
 ## Error
 
 ```ts
-import { type GetStorageAtErrorType } from '@uxuyalpha/core'
+import { type GetStorageAtErrorType } from '@tg-wagmi/core'
 ```
 
 <!--@include: @shared/query-imports.md-->

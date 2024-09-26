@@ -1,5 +1,5 @@
 import { QueryClient, VueQueryPlugin } from '@tanstack/vue-query'
-import { WagmiPlugin } from '@uxuyalpha/vue'
+import { WagmiPlugin } from '@tg-wagmi/vue'
 import { createApp } from 'vue'
 
 import App from './App.vue'

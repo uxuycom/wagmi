@@ -1,6 +1,6 @@
-import { disconnect } from '@uxuyalpha/core'
-import { config } from '@uxuyalpha/test'
-import { renderHook, waitFor } from '@uxuyalpha/test/react'
+import { disconnect } from '@tg-wagmi/core'
+import { config } from '@tg-wagmi/test'
+import { renderHook, waitFor } from '@tg-wagmi/test/react'
 import { afterEach, expect, test } from 'vitest'
 
 import { useAccount } from './useAccount.js'

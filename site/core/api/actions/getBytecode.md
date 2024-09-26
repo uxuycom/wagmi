@@ -1,5 +1,5 @@
 <script setup>
-const packageName = '@uxuyalpha/core'
+const packageName = '@tg-wagmi/core'
 const actionName = 'getBytecode'
 const typeName = 'getBytecode'
 </script>
@@ -11,14 +11,14 @@ Action for retrieving the bytecode at an address.
 ## Import
 
 ```ts
-import { getBytecode } from '@uxuyalpha/core'
+import { getBytecode } from '@tg-wagmi/core'
 ```
 
 ## Usage
 
 ::: code-group
 ```ts [index.ts]
-import { getBytecode } from '@uxuyalpha/core'
+import { getBytecode } from '@tg-wagmi/core'
 import { config } from './config'
 
 await getBytecode(config, {
@@ -31,7 +31,7 @@ await getBytecode(config, {
 ## Parameters
 
 ```ts
-import { type GetBytecodeParameters } from '@uxuyalpha/core'
+import { type GetBytecodeParameters } from '@tg-wagmi/core'
 ```
 
 ### address
@@ -42,7 +42,7 @@ The contract address.
 
 ::: code-group
 ```ts [index.ts]
-import { getBytecode } from '@uxuyalpha/core'
+import { getBytecode } from '@tg-wagmi/core'
 import { config } from './config'
 
 await getBytecode(config, {
@@ -60,7 +60,7 @@ The block number to check the bytecode at.
 
 ::: code-group
 ```ts [index.ts]
-import { getBytecode } from '@uxuyalpha/core'
+import { getBytecode } from '@tg-wagmi/core'
 import { config } from './config'
 
 await getBytecode(config, {
@@ -79,7 +79,7 @@ The block tag to check the bytecode at.
 
 ::: code-group
 ```ts [index.ts]
-import { getBytecode } from '@uxuyalpha/core'
+import { getBytecode } from '@tg-wagmi/core'
 import { config } from './config'
 
 await getBytecode(config, {
@@ -98,8 +98,8 @@ The chain ID to check the bytecode at.
 
 ::: code-group
 ```ts [index.ts]
-import { getBytecode } from '@uxuyalpha/core'
-import { mainnet } from '@uxuyalpha/core/chains'
+import { getBytecode } from '@tg-wagmi/core'
+import { mainnet } from '@tg-wagmi/core/chains'
 import { config } from './config'
 
 await getBytecode(config, {
@@ -113,7 +113,7 @@ await getBytecode(config, {
 ## Return Type
 
 ```ts
-import { type GetBytecodeReturnType } from '@uxuyalpha/core'
+import { type GetBytecodeReturnType } from '@tg-wagmi/core'
 ```
 
 `Hex`
@@ -123,7 +123,7 @@ The contract's bytecode.
 ## Error
 
 ```ts
-import { type GetBytecodeErrorType } from '@uxuyalpha/core'
+import { type GetBytecodeErrorType } from '@tg-wagmi/core'
 ```
 
 <!--@include: @shared/query-imports.md-->

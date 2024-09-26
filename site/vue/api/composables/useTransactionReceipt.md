@@ -4,7 +4,7 @@ description: Composable for return the Transaction Receipt given a Transaction h
 ---
 
 <script setup>
-const packageName = '@uxuyalpha/vue'
+const packageName = '@tg-wagmi/vue'
 const actionName = 'getTransactionReceipt'
 const typeName = 'GetTransactionReceipt'
 const TData = 'GetTransactionReceiptData'
@@ -18,7 +18,7 @@ Composable for return the [Transaction Receipt](https://viem.sh/docs/glossary/te
 ## Import
 
 ```ts
-import { useTransactionReceipt } from '@uxuyalpha/vue'
+import { useTransactionReceipt } from '@tg-wagmi/vue'
 ```
 
 ## Usage
@@ -26,7 +26,7 @@ import { useTransactionReceipt } from '@uxuyalpha/vue'
 ::: code-group
 ```vue [index.vue]
 <script setup lang="ts">
-import { useTransactionReceipt } from '@uxuyalpha/vue'
+import { useTransactionReceipt } from '@tg-wagmi/vue'
 
 const result = useTransactionReceipt({
   hash: '0x4ca7ee652d57678f26e887c149ab0735f41de37bcad58c9f6d3ed5824f15b74d',
@@ -39,7 +39,7 @@ const result = useTransactionReceipt({
 ## Parameters
 
 ```ts
-import { type UseTransactionReceiptParameters } from '@uxuyalpha/vue'
+import { type UseTransactionReceiptParameters } from '@tg-wagmi/vue'
 ```
 
 ### hash
@@ -51,7 +51,7 @@ A transaction hash.
 ::: code-group
 ```vue [index.vue]
 <script setup lang="ts">
-import { useTransactionReceipt } from '@uxuyalpha/vue'
+import { useTransactionReceipt } from '@tg-wagmi/vue'
 
 const result = useTransactionReceipt({
   hash: '0x4ca7ee652d57678f26e887c149ab0735f41de37bcad58c9f6d3ed5824f15b74d', // [!code focus]
@@ -70,7 +70,7 @@ The ID of chain to return the transaction receipt from.
 ::: code-group
 ```vue [index.vue]
 <script setup lang="ts">
-import { useTransactionReceipt } from '@uxuyalpha/vue'
+import { useTransactionReceipt } from '@tg-wagmi/vue'
 import { mainnet } from 'wagmi/chains'
 
 const result = useTransactionReceipt({
@@ -91,7 +91,7 @@ const result = useTransactionReceipt({
 ::: code-group
 ```vue [index.vue]
 <script setup lang="ts">
-import { useTransactionReceipt } from '@uxuyalpha/vue'
+import { useTransactionReceipt } from '@tg-wagmi/vue'
 import { config } from './config' // [!code focus]
 
 const result = useTransactionReceipt({
@@ -112,7 +112,7 @@ Scopes the cache to a given context. Composables that have identical context wil
 ::: code-group
 ```vue [index.vue]
 <script setup lang="ts">
-import { useTransactionReceipt } from '@uxuyalpha/vue'
+import { useTransactionReceipt } from '@tg-wagmi/vue'
 import { config } from './config'
 
 const result = useTransactionReceipt({
@@ -129,7 +129,7 @@ const result = useTransactionReceipt({
 ## Return Type
 
 ```ts
-import { type UseTransactionReceiptReturnType } from '@uxuyalpha/vue'
+import { type UseTransactionReceiptReturnType } from '@tg-wagmi/vue'
 ```
 
 <!--@include: @shared/query-result.md-->

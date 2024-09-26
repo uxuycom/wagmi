@@ -1,5 +1,5 @@
 <script setup>
-const packageName = '@uxuyalpha/core'
+const packageName = '@tg-wagmi/core'
 const actionName = 'getTransactionReceipt'
 const typeName = 'getTransactionReceipt'
 </script>
@@ -11,14 +11,14 @@ Action for return the [Transaction Receipt](https://viem.sh/docs/glossary/terms.
 ## Import
 
 ```ts
-import { getTransactionReceipt } from '@uxuyalpha/core'
+import { getTransactionReceipt } from '@tg-wagmi/core'
 ```
 
 ## Usage
 
 ::: code-group
 ```ts [index.ts]
-import { getTransactionReceipt } from '@uxuyalpha/core'
+import { getTransactionReceipt } from '@tg-wagmi/core'
 import { config } from './config'
 
 await getTransactionReceipt(config, {
@@ -31,7 +31,7 @@ await getTransactionReceipt(config, {
 ## Parameters
 
 ```ts
-import { type GetTransactionReceiptParameters } from '@uxuyalpha/core'
+import { type GetTransactionReceiptParameters } from '@tg-wagmi/core'
 ```
 
 ### hash
@@ -42,7 +42,7 @@ A transaction hash.
 
 ::: code-group
 ```ts [index.ts]
-import { getTransactionReceipt } from '@uxuyalpha/core'
+import { getTransactionReceipt } from '@tg-wagmi/core'
 import { config } from './config'
 
 await getTransactionReceipt(config, {
@@ -60,8 +60,8 @@ The ID of chain to return the transaction receipt from.
 
 ::: code-group
 ```ts [index.ts]
-import { getTransactionReceipt } from '@uxuyalpha/core'
-import { mainnet } from '@uxuyalpha/core/chains'
+import { getTransactionReceipt } from '@tg-wagmi/core'
+import { mainnet } from '@tg-wagmi/core/chains'
 import { config } from './config'
 
 await getTransactionReceipt(config, {
@@ -75,7 +75,7 @@ await getTransactionReceipt(config, {
 ## Return Type
 
 ```ts
-import { type GetTransactionReceiptReturnType } from '@uxuyalpha/core'
+import { type GetTransactionReceiptReturnType } from '@tg-wagmi/core'
 ```
 
 [`TransactionReceipt`](https://viem.sh/docs/glossary/types.html#transactionreceipt)
@@ -85,7 +85,7 @@ The transaction receipt.
 ## Error
 
 ```ts
-import { type GetTransactionReceiptErrorType } from '@uxuyalpha/core'
+import { type GetTransactionReceiptErrorType } from '@tg-wagmi/core'
 ```
 
 <!--@include: @shared/query-imports.md-->

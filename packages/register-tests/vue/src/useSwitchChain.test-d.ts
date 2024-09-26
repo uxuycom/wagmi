@@ -1,5 +1,5 @@
-import { useSwitchChain } from '@uxuyalpha/vue'
-import { type celo, mainnet, type optimism } from '@uxuyalpha/vue/chains'
+import { useSwitchChain } from '@tg-wagmi/vue'
+import { type celo, mainnet, type optimism } from '@tg-wagmi/vue/chains'
 import { expectTypeOf, test } from 'vitest'
 
 import type { ChainId, config } from './config.js'

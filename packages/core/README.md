@@ -1,11 +1,11 @@
-# @uxuyalpha/core
+# @tg-wagmi/core
 
 VanillaJS library for Ethereum
 
 ## Installation
 
 ```bash
-pnpm add @uxuyalpha/core viem
+pnpm add @tg-wagmi/core viem
 ```
 
 ## Documentation

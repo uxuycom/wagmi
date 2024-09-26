@@ -4,7 +4,7 @@ description: Composable for fetching ENS avatar for name.
 ---
 
 <script setup>
-const packageName = '@uxuyalpha/vue'
+const packageName = '@tg-wagmi/vue'
 const actionName = 'getEnsAvatar'
 const typeName = 'GetEnsAvatar'
 const TData = 'string | null'
@@ -18,7 +18,7 @@ Composable for fetching ENS avatar for name.
 ## Import
 
 ```ts
-import { useEnsAvatar } from '@uxuyalpha/vue'
+import { useEnsAvatar } from '@tg-wagmi/vue'
 ```
 
 ## Usage
@@ -26,7 +26,7 @@ import { useEnsAvatar } from '@uxuyalpha/vue'
 ::: code-group
 ```vue [index.vue]
 <script setup lang="ts">
-import { useEnsAvatar } from '@uxuyalpha/vue'
+import { useEnsAvatar } from '@tg-wagmi/vue'
 import { normalize } from 'viem/ens'
 
 const result = useEnsAvatar({
@@ -44,7 +44,7 @@ Since ENS names prohibit certain forbidden characters (e.g. underscore) and have
 ## Parameters
 
 ```ts
-import { type UseEnsAvatarParameters } from '@uxuyalpha/vue'
+import { type UseEnsAvatarParameters } from '@tg-wagmi/vue'
 ```
 
 ---
@@ -58,7 +58,7 @@ Gateway urls to resolve IPFS and/or Arweave assets.
 ::: code-group
 ```vue [index.vue]
 <script setup lang="ts">
-import { getEnsAvatar } from '@uxuyalpha/core'
+import { getEnsAvatar } from '@tg-wagmi/core'
 import { normalize } from 'viem/ens'
 import { config } from './config'
 
@@ -82,7 +82,7 @@ Block number to get ENS avatar at.
 ::: code-group
 ```vue [index.vue]
 <script setup lang="ts">
-import { useEnsAvatar } from '@uxuyalpha/vue'
+import { useEnsAvatar } from '@tg-wagmi/vue'
 import { normalize } from 'viem/ens'
 
 const result = useEnsAvatar({
@@ -103,7 +103,7 @@ Block tag to get ENS avatar at.
 ::: code-group
 ```vue [index.vue]
 <script setup lang="ts">
-import { useEnsAvatar } from '@uxuyalpha/vue'
+import { useEnsAvatar } from '@tg-wagmi/vue'
 import { normalize } from 'viem/ens'
 
 const result = useEnsAvatar({
@@ -126,7 +126,7 @@ ID of chain to use when fetching data.
 ::: code-group
 ```vue [index.vue]
 <script setup lang="ts">
-import { useEnsAvatar } from '@uxuyalpha/vue'
+import { useEnsAvatar } from '@tg-wagmi/vue'
 import { mainnet } from 'wagmi/chains' // [!code focus]
 import { normalize } from 'viem/ens'
 
@@ -148,7 +148,7 @@ const result = useEnsAvatar({
 ::: code-group
 ```vue [index.vue]
 <script setup lang="ts">
-import { useEnsAvatar } from '@uxuyalpha/vue'
+import { useEnsAvatar } from '@tg-wagmi/vue'
 import { normalize } from 'viem/ens'
 import { config } from './config' // [!code focus]
 
@@ -170,7 +170,7 @@ A set of Universal Resolver gateways, used for resolving CCIP-Read requests made
 ::: code-group
 ```vue [index.vue]
 <script setup lang="ts">
-import { useEnsAvatar } from '@uxuyalpha/vue'
+import { useEnsAvatar } from '@tg-wagmi/vue'
 import { normalize } from 'viem/ens'
 
 const result = useEnsAvatar({
@@ -191,7 +191,7 @@ Name to get the avatar for. [`enabled`](#enabled) set to `false` if `name` is `u
 ::: code-group
 ```vue [index.vue]
 <script setup lang="ts">
-import { useEnsAvatar } from '@uxuyalpha/vue'
+import { useEnsAvatar } from '@tg-wagmi/vue'
 import { normalize } from 'viem/ens'
 
 const result = useEnsAvatar({
@@ -211,7 +211,7 @@ Scopes the cache to a given context. Composables that have identical context wil
 ::: code-group
 ```vue [index.vue]
 <script setup lang="ts">
-import { useEnsAvatar } from '@uxuyalpha/vue'
+import { useEnsAvatar } from '@tg-wagmi/vue'
 import { normalize } from 'viem/ens'
 
 const result = useEnsAvatar({
@@ -233,7 +233,7 @@ const result = useEnsAvatar({
 ::: code-group
 ```vue [index.vue]
 <script setup lang="ts">
-import { useEnsAvatar } from '@uxuyalpha/vue'
+import { useEnsAvatar } from '@tg-wagmi/vue'
 import { normalize } from 'viem/ens'
 
 const result = useEnsAvatar({
@@ -250,7 +250,7 @@ const result = useEnsAvatar({
 ## Return Type
 
 ```ts
-import { type UseEnsAvatarReturnType } from '@uxuyalpha/vue'
+import { type UseEnsAvatarReturnType } from '@tg-wagmi/vue'
 ```
 
 <!--@include: @shared/query-result.md-->

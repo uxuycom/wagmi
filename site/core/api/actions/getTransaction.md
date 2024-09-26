@@ -1,5 +1,5 @@
 <script setup>
-const packageName = '@uxuyalpha/core'
+const packageName = '@tg-wagmi/core'
 const actionName = 'getTransaction'
 const typeName = 'GetTransaction'
 </script>
@@ -11,14 +11,14 @@ Action for fetching transactions given hashes or block identifiers.
 ## Import
 
 ```ts
-import { getTransaction } from '@uxuyalpha/core'
+import { getTransaction } from '@tg-wagmi/core'
 ```
 
 ## Usage
 
 ::: code-group
 ```ts [index.ts]
-import { getTransaction } from '@uxuyalpha/core'
+import { getTransaction } from '@tg-wagmi/core'
 import { config } from './config'
 
 const transaction = getTransaction(config, {
@@ -31,7 +31,7 @@ const transaction = getTransaction(config, {
 ## Parameters
 
 ```ts
-import { type GetTransactionParameters } from '@uxuyalpha/core'
+import { type GetTransactionParameters } from '@tg-wagmi/core'
 ```
 
 ---
@@ -44,7 +44,7 @@ Block hash to get transaction at (with [`index`](#index)).
 
 ::: code-group
 ```ts [index.ts]
-import { getTransaction } from '@uxuyalpha/core'
+import { getTransaction } from '@tg-wagmi/core'
 import { config } from './config'
 
 const transaction = getTransaction(config, {
@@ -63,7 +63,7 @@ Block number to get transaction at (with [`index`](#index)).
 
 ::: code-group
 ```ts [index.ts]
-import { getTransaction } from '@uxuyalpha/core'
+import { getTransaction } from '@tg-wagmi/core'
 import { config } from './config'
 
 const transaction = getTransaction(config, {
@@ -82,7 +82,7 @@ Block tag to get transaction at (with [`index`](#index)).
 
 ::: code-group
 ```ts [index.ts]
-import { getTransaction } from '@uxuyalpha/core'
+import { getTransaction } from '@tg-wagmi/core'
 import { config } from './config'
 
 const transaction = getTransaction(config, {
@@ -103,8 +103,8 @@ ID of chain to use when fetching data.
 
 ::: code-group
 ```ts [index.ts]
-import { getTransaction } from '@uxuyalpha/core'
-import { mainnet } from '@uxuyalpha/core/chains'
+import { getTransaction } from '@tg-wagmi/core'
+import { mainnet } from '@tg-wagmi/core/chains'
 import { config } from './config'
 
 const transaction = await getTransaction(config, {
@@ -123,7 +123,7 @@ Hash to get transaction.
 
 ::: code-group
 ```ts [index.ts]
-import { getTransaction } from '@uxuyalpha/core'
+import { getTransaction } from '@tg-wagmi/core'
 import { config } from './config'
 
 const transaction = getTransaction(config, {
@@ -141,7 +141,7 @@ An index to be used with a block identifier ([hash](#blockhash), [number](#block
 
 ::: code-group
 ```ts [index.ts]
-import { getTransaction } from '@uxuyalpha/core'
+import { getTransaction } from '@tg-wagmi/core'
 import { config } from './config'
 
 const transaction = getTransaction(config, {
@@ -155,7 +155,7 @@ const transaction = getTransaction(config, {
 ## Return Type
 
 ```ts
-import { type GetTransactionReturnType } from '@uxuyalpha/core'
+import { type GetTransactionReturnType } from '@tg-wagmi/core'
 ```
 
 [`Transaction`](https://viem.sh/docs/glossary/types.html#transaction)
@@ -163,7 +163,7 @@ import { type GetTransactionReturnType } from '@uxuyalpha/core'
 ## Error
 
 ```ts
-import { type GetTransactionErrorType } from '@uxuyalpha/core'
+import { type GetTransactionErrorType } from '@tg-wagmi/core'
 ```
 
 <!--@include: @shared/query-imports.md-->

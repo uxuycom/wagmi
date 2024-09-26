@@ -1,7 +1,7 @@
 ////////////////////////////////////////////////////////////////////////////////
-// @uxuyalpha/connectors
+// @tg-wagmi/connectors
 ////////////////////////////////////////////////////////////////////////////////
 
 // biome-ignore lint/performance/noBarrelFile: entrypoint module
 // biome-ignore lint/performance/noReExportAll: entrypoint module
-export * from '@uxuyalpha/connectors'
+export * from '@tg-wagmi/connectors'

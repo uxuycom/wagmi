@@ -4,7 +4,7 @@ description: Composable for fetching transactions given hashes or block identifi
 ---
 
 <script setup>
-const packageName = '@uxuyalpha/vue'
+const packageName = '@tg-wagmi/vue'
 const actionName = 'getTransaction'
 const typeName = 'GetTransaction'
 const TData = 'GetTransactionData'
@@ -18,7 +18,7 @@ Composable for fetching transactions given hashes or block identifiers.
 ## Import
 
 ```ts
-import { useTransaction } from '@uxuyalpha/vue'
+import { useTransaction } from '@tg-wagmi/vue'
 ```
 
 ## Usage
@@ -26,7 +26,7 @@ import { useTransaction } from '@uxuyalpha/vue'
 ::: code-group
 ```vue [index.vue]
 <script setup lang="ts">
-import { useTransaction } from '@uxuyalpha/vue'
+import { useTransaction } from '@tg-wagmi/vue'
 
 const result = useTransaction({
   hash: '0x0fa64daeae54e207aa98613e308c2ba8abfe274f75507e741508cc4db82c8cb5',
@@ -39,7 +39,7 @@ const result = useTransaction({
 ## Parameters
 
 ```ts
-import { type UseTransactionParameters } from '@uxuyalpha/vue'
+import { type UseTransactionParameters } from '@tg-wagmi/vue'
 ```
 
 ---
@@ -52,7 +52,7 @@ Block hash to get transaction at (with [`index`](#index)).
 
 ```vue
 <script setup lang="ts">
-import { useTransaction } from '@uxuyalpha/vue'
+import { useTransaction } from '@tg-wagmi/vue'
 
 const result = useTransaction({
   blockHash: '0x4ca7ee652d57678f26e887c149ab0735f41de37bcad58c9f6d3ed5824f15b74d', // [!code focus]
@@ -69,7 +69,7 @@ Block number to get transaction at (with [`index`](#index)).
 
 ```vue
 <script setup lang="ts">
-import { useTransaction } from '@uxuyalpha/vue'
+import { useTransaction } from '@tg-wagmi/vue'
 
 const result = useTransaction({
   blockNumber: 17829139n, // [!code focus]
@@ -86,7 +86,7 @@ Block tag to get transaction at (with [`index`](#index)).
 
 ```vue
 <script setup lang="ts">
-import { useTransaction } from '@uxuyalpha/vue'
+import { useTransaction } from '@tg-wagmi/vue'
 
 const result = useTransaction({
   blockTag: 'safe', // [!code focus]
@@ -103,7 +103,7 @@ ID of chain to use when fetching data.
 
 ```vue
 <script setup lang="ts">
-import { useTransaction } from '@uxuyalpha/vue'
+import { useTransaction } from '@tg-wagmi/vue'
 import { mainnet } from 'wagmi/chains'
 
 const result = useTransaction({
@@ -122,7 +122,7 @@ const result = useTransaction({
 ::: code-group
 ```vue [index.vue]
 <script setup lang="ts">
-import { useTransaction } from '@uxuyalpha/vue'
+import { useTransaction } from '@tg-wagmi/vue'
 import { config } from './config' // [!code focus]
 
 const result = useTransaction({
@@ -142,7 +142,7 @@ Hash to get transaction. [`enabled`](#enabled) set to `false` if `hash` and [`in
 
 ```vue
 <script setup lang="ts">
-import { useTransaction } from '@uxuyalpha/vue'
+import { useTransaction } from '@tg-wagmi/vue'
 
 const result = useTransaction({
   hash: '0x0fa64daeae54e207aa98613e308c2ba8abfe274f75507e741508cc4db82c8cb5', // [!code focus]
@@ -158,7 +158,7 @@ An index to be used with a block identifier ([hash](#blockhash), [number](#block
 
 ```vue
 <script setup lang="ts">
-import { useTransaction } from '@uxuyalpha/vue'
+import { useTransaction } from '@tg-wagmi/vue'
 
 const result = useTransaction({
   blockTag: 'safe',
@@ -172,7 +172,7 @@ const result = useTransaction({
 ## Return Type
 
 ```ts
-import { type UseTransactionReturnType } from '@uxuyalpha/vue'
+import { type UseTransactionReturnType } from '@tg-wagmi/vue'
 ```
 
 <!--@include: @shared/query-result.md-->

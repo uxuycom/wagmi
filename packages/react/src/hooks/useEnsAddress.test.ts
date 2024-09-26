@@ -1,4 +1,4 @@
-import { renderHook, waitFor } from '@uxuyalpha/test/react'
+import { renderHook, waitFor } from '@tg-wagmi/test/react'
 import { expect, test } from 'vitest'
 
 import { useEnsAddress } from './useEnsAddress.js'

@@ -1,5 +1,5 @@
-import { config } from '@uxuyalpha/test'
-import { useChainId } from '@uxuyalpha/vue'
+import { config } from '@tg-wagmi/test'
+import { useChainId } from '@tg-wagmi/vue'
 import { expectTypeOf, test } from 'vitest'
 
 import type { ChainId } from './config.js'

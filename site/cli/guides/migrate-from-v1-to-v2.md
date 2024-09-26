@@ -10,19 +10,19 @@ To get started, install the latest version of the Wagmi CLI.
 
 ::: code-group
 ```bash-vue [pnpm]
-pnpm add @uxuyalpha/cli
+pnpm add @tg-wagmi/cli
 ```
 
 ```bash-vue [npm]
-npm install @uxuyalpha/cli
+npm install @tg-wagmi/cli
 ```
 
 ```bash-vue [yarn]
-yarn add @uxuyalpha/cli
+yarn add @tg-wagmi/cli
 ```
 
 ```bash-vue [bun]
-bun add @uxuyalpha/cli
+bun add @tg-wagmi/cli
 ```
 :::
 
@@ -35,8 +35,8 @@ The Wagmi CLI v1 docs are still available at [1.x.wagmi.sh/cli](https://1.x.wagm
 Generated action and hook names now align with [Wagmi v2 naming conventions](/react/guides/migrate-from-v1-to-v2#renamed-hooks). If you want hooks to still follow Wagmi v1 naming conventions, set [`getActionName`](/cli/api/plugins/actions#getactionname) and [`getHookName`](/cli/api/plugins/react#gethookname) to `'legacy'`.
 
 ```ts
-import { defineConfig } from '@uxuyalpha/cli'
-import { actions, react } from '@uxuyalpha/cli/plugins'
+import { defineConfig } from '@tg-wagmi/cli'
+import { actions, react } from '@tg-wagmi/cli/plugins'
 
 export default defineConfig({
   plugins: [

@@ -1,7 +1,7 @@
-import type { Connector, SwitchChainErrorType } from '@uxuyalpha/core'
-import type { Chain } from '@uxuyalpha/core/chains'
-import type { Compute, ExactPartial } from '@uxuyalpha/core/internal'
-import { chain } from '@uxuyalpha/test'
+import type { Connector, SwitchChainErrorType } from '@tg-wagmi/core'
+import type { Chain } from '@tg-wagmi/core/chains'
+import type { Compute, ExactPartial } from '@tg-wagmi/core/internal'
+import { chain } from '@tg-wagmi/test'
 import { expectTypeOf, test } from 'vitest'
 
 import type { AddEthereumChainParameter } from 'viem'

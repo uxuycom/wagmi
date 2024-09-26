@@ -1,6 +1,6 @@
-import { connect } from '@uxuyalpha/core'
-import { config } from '@uxuyalpha/test'
-import { renderComposable, waitFor } from '@uxuyalpha/test/vue'
+import { connect } from '@tg-wagmi/core'
+import { config } from '@tg-wagmi/test'
+import { renderComposable, waitFor } from '@tg-wagmi/test/vue'
 import { beforeEach, expect, test } from 'vitest'
 
 import { useAccount } from './useAccount.js'

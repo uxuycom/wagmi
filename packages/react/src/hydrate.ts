@@ -1,6 +1,6 @@
 'use client'
 
-import { type ResolvedRegister, type State, hydrate } from '@uxuyalpha/core'
+import { type ResolvedRegister, type State, hydrate } from '@tg-wagmi/core'
 import { type ReactElement, useEffect, useRef } from 'react'
 
 export type HydrateProps = {

@@ -2,14 +2,14 @@
 
 Sometimes the declarative nature of Vue Composables doesn't work for parts of your app. For those cases, you can use Wagmi Core Actions directly!
 
-All the Wagmi Core Actions are importable using the `@uxuyalpha/vue/actions` entrypoint. For example, you can use the `watchBlockNumber` action to watch for block number changes.
+All the Wagmi Core Actions are importable using the `@tg-wagmi/vue/actions` entrypoint. For example, you can use the `watchBlockNumber` action to watch for block number changes.
 
 ::: code-group
 ```vue [index.vue]
 <script setup lang="ts">
 import { watchEffect } from 'vue'
-import { useConfig } from '@uxuyalpha/vue'
-import { watchBlockNumber } from '@uxuyalpha/vue/actions'
+import { useConfig } from '@tg-wagmi/vue'
+import { watchBlockNumber } from '@tg-wagmi/vue/actions'
 
 const config = useConfig()
 

@@ -1,14 +1,14 @@
 'use client'
 
-import type { CallErrorType, Config, ResolvedRegister } from '@uxuyalpha/core'
-import type { Compute } from '@uxuyalpha/core/internal'
+import type { CallErrorType, Config, ResolvedRegister } from '@tg-wagmi/core'
+import type { Compute } from '@tg-wagmi/core/internal'
 import {
   type CallData,
   type CallOptions,
   type CallQueryKey,
   callQueryOptions,
-} from '@uxuyalpha/core/query'
-import type { CallQueryFnData } from '@uxuyalpha/core/query'
+} from '@tg-wagmi/core/query'
+import type { CallQueryFnData } from '@tg-wagmi/core/query'
 
 import type { ConfigParameter, QueryParameter } from '../types/properties.js'
 import { type UseQueryReturnType, useQuery } from '../utils/query.js'

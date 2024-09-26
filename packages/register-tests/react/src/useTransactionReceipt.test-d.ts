@@ -1,4 +1,4 @@
-import { config } from '@uxuyalpha/test'
+import { config } from '@tg-wagmi/test'
 import type { ZkSyncL2ToL1Log, ZkSyncLog } from 'viem/zksync'
 import { expectTypeOf, test } from 'vitest'
 import { useTransactionReceipt } from 'wagmi'

@@ -1,6 +1,6 @@
 import { QueryClientProvider } from '@tanstack/react-query'
-import { abi, address, bytecode, chain, config, wait } from '@uxuyalpha/test'
-import { queryClient, renderHook, waitFor } from '@uxuyalpha/test/react'
+import { abi, address, bytecode, chain, config, wait } from '@tg-wagmi/test'
+import { queryClient, renderHook, waitFor } from '@tg-wagmi/test/react'
 import { createElement } from 'react'
 import { expect, test } from 'vitest'
 

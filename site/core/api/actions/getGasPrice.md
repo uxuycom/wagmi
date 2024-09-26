@@ -1,5 +1,5 @@
 <script setup>
-const packageName = '@uxuyalpha/core'
+const packageName = '@tg-wagmi/core'
 const actionName = 'getGasPrice'
 const typeName = 'GetGasPrice'
 </script>
@@ -11,14 +11,14 @@ Action for fetching the current price of gas (in wei).
 ## Import
 
 ```ts
-import { getGasPrice } from '@uxuyalpha/core'
+import { getGasPrice } from '@tg-wagmi/core'
 ```
 
 ## Usage
 
 ::: code-group
 ```ts [index.ts]
-import { getGasPrice } from '@uxuyalpha/core'
+import { getGasPrice } from '@tg-wagmi/core'
 import { config } from './config'
 
 const gasPrice = await getGasPrice(config)
@@ -29,7 +29,7 @@ const gasPrice = await getGasPrice(config)
 ## Parameters
 
 ```ts
-import { type GetGasPriceParameters } from '@uxuyalpha/core'
+import { type GetGasPriceParameters } from '@tg-wagmi/core'
 ```
 
 ### chainId
@@ -40,8 +40,8 @@ ID of chain to use when fetching data.
 
 ::: code-group
 ```ts [index.ts]
-import { getGasPrice } from '@uxuyalpha/core'
-import { mainnet } from '@uxuyalpha/core/chains'
+import { getGasPrice } from '@tg-wagmi/core'
+import { mainnet } from '@tg-wagmi/core/chains'
 import { config } from './config'
 
 const gasPrice = await getGasPrice(config, {
@@ -54,7 +54,7 @@ const gasPrice = await getGasPrice(config, {
 ## Return Type
 
 ```ts
-import { type GetGasPriceReturnType } from '@uxuyalpha/core'
+import { type GetGasPriceReturnType } from '@tg-wagmi/core'
 ```
 
 `bigint`
@@ -64,7 +64,7 @@ Current price of gas (in wei).
 ## Error
 
 ```ts
-import { type GetGasPriceErrorType } from '@uxuyalpha/core'
+import { type GetGasPriceErrorType } from '@tg-wagmi/core'
 ```
 
 <!--@include: @shared/query-imports.md-->

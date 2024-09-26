@@ -1,6 +1,6 @@
-import { config } from '@uxuyalpha/test'
-import { useSendTransaction } from '@uxuyalpha/vue'
-import { celo, mainnet, optimism } from '@uxuyalpha/vue/chains'
+import { config } from '@tg-wagmi/test'
+import { useSendTransaction } from '@tg-wagmi/vue'
+import { celo, mainnet, optimism } from '@tg-wagmi/vue/chains'
 import { expectTypeOf, test } from 'vitest'
 import type { ChainId } from './config.js'
 

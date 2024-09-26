@@ -4,15 +4,15 @@ import type {
   Config,
   EstimateFeesPerGasErrorType,
   ResolvedRegister,
-} from '@uxuyalpha/core'
-import type { Compute } from '@uxuyalpha/core/internal'
+} from '@tg-wagmi/core'
+import type { Compute } from '@tg-wagmi/core/internal'
 import {
   type EstimateFeesPerGasData,
   type EstimateFeesPerGasOptions,
   type EstimateFeesPerGasQueryFnData,
   type EstimateFeesPerGasQueryKey,
   estimateFeesPerGasQueryOptions,
-} from '@uxuyalpha/core/query'
+} from '@tg-wagmi/core/query'
 import type { FeeValuesType } from 'viem'
 
 import type { ConfigParameter, QueryParameter } from '../types/properties.js'

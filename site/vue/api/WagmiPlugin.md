@@ -5,7 +5,7 @@
 ## Import
 
 ```ts
-import { WagmiPlugin } from '@uxuyalpha/vue'
+import { WagmiPlugin } from '@tg-wagmi/vue'
 ```
 
 ## Usage
@@ -13,7 +13,7 @@ import { WagmiPlugin } from '@uxuyalpha/vue'
 ::: code-group
 ```ts [main.ts]
 import { createApp } from 'vue'
-import { WagmiPlugin } from '@uxuyalpha/vue'
+import { WagmiPlugin } from '@tg-wagmi/vue'
 
 import App from './App.vue'
 import { config } from './config' 
@@ -28,7 +28,7 @@ createApp(App)
 ## Parameters
 
 ```ts
-import { type WagmiPluginProps } from '@uxuyalpha/vue'
+import { type WagmiPluginProps } from '@tg-wagmi/vue'
 ```
 
 ### config
@@ -38,7 +38,7 @@ import { type WagmiPluginProps } from '@uxuyalpha/vue'
 ::: code-group
 ```ts [main.ts]
 import { createApp } from 'vue'
-import { WagmiPlugin } from '@uxuyalpha/vue'
+import { WagmiPlugin } from '@tg-wagmi/vue'
 
 import App from './App.vue'
 import { config } from './config' 
@@ -61,7 +61,7 @@ createApp(App)
 ::: code-group
 ```ts [main.ts]
 import { createApp } from 'vue'
-import { WagmiPlugin } from '@uxuyalpha/vue'
+import { WagmiPlugin } from '@tg-wagmi/vue'
 
 import App from './App.vue'
 import { config } from './config' 
@@ -86,7 +86,7 @@ createApp(App)
 ::: code-group
 ```ts [main.ts]
 import { createApp } from 'vue'
-import { WagmiPlugin } from '@uxuyalpha/vue'
+import { WagmiPlugin } from '@tg-wagmi/vue'
 
 import App from './App.vue'
 import { config } from './config' 
@@ -106,7 +106,7 @@ createApp(App)
 Key to use to provide/inject `Config` via `WagmiPlugin`.
 
 ```ts
-import { configKey, type Config } from '@uxuyalpha/vue'
+import { configKey, type Config } from '@tg-wagmi/vue'
 import { inject } from 'vue'
 
 inject<Config | undefined>(configKey)

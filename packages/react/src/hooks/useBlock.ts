@@ -5,19 +5,19 @@ import type {
   Config,
   GetBlockErrorType,
   ResolvedRegister,
-} from '@uxuyalpha/core'
+} from '@tg-wagmi/core'
 import type {
   Compute,
   UnionCompute,
   UnionStrictOmit,
-} from '@uxuyalpha/core/internal'
+} from '@tg-wagmi/core/internal'
 import {
   type GetBlockData,
   type GetBlockOptions,
   type GetBlockQueryFnData,
   type GetBlockQueryKey,
   getBlockQueryOptions,
-} from '@uxuyalpha/core/query'
+} from '@tg-wagmi/core/query'
 import type { BlockTag } from 'viem'
 
 import type { ConfigParameter, QueryParameter } from '../types/properties.js'

@@ -1,5 +1,5 @@
 <script setup>
-const packageName = '@uxuyalpha/core'
+const packageName = '@tg-wagmi/core'
 const actionName = 'prepareTransactionRequest'
 const typeName = 'prepareTransactionRequest'
 </script>
@@ -11,14 +11,14 @@ Action for preparing a transaction request for signing by populating a nonce, ga
 ## Import
 
 ```ts
-import { prepareTransactionRequest } from '@uxuyalpha/core'
+import { prepareTransactionRequest } from '@tg-wagmi/core'
 ```
 
 ## Usage
 
 ::: code-group
 ```ts [index.ts]
-import { prepareTransactionRequest } from '@uxuyalpha/core'
+import { prepareTransactionRequest } from '@tg-wagmi/core'
 import { parseEther } from 'viem'
 import { config } from './config'
 
@@ -33,7 +33,7 @@ await prepareTransactionRequest(config, {
 ## Parameters
 
 ```ts
-import { type PrepareTransactionRequestParameters } from '@uxuyalpha/core'
+import { type PrepareTransactionRequestParameters } from '@tg-wagmi/core'
 ```
 
 ### account
@@ -44,7 +44,7 @@ The Account to send the transaction from.
 
 ::: code-group
 ```ts [index.ts]
-import { prepareTransactionRequest } from '@uxuyalpha/core'
+import { prepareTransactionRequest } from '@tg-wagmi/core'
 import { parseEther } from 'viem'
 import { config } from './config'
 
@@ -65,7 +65,7 @@ The transaction recipient or contract address.
 
 ::: code-group
 ```ts [index.ts]
-import { prepareTransactionRequest } from '@uxuyalpha/core'
+import { prepareTransactionRequest } from '@tg-wagmi/core'
 import { parseEther } from 'viem'
 import { config } from './config'
 
@@ -86,7 +86,7 @@ The access list.
 
 ::: code-group
 ```ts [index.ts]
-import { prepareTransactionRequest } from '@uxuyalpha/core'
+import { prepareTransactionRequest } from '@tg-wagmi/core'
 import { parseEther } from 'viem'
 import { config } from './config'
 
@@ -113,8 +113,8 @@ Chain ID to prepare the transaction request for.
 
 ::: code-group
 ```ts [index.ts]
-import { prepareTransactionRequest } from '@uxuyalpha/core'
-import { mainnet } from '@uxuyalpha/core/chains'
+import { prepareTransactionRequest } from '@tg-wagmi/core'
+import { mainnet } from '@tg-wagmi/core/chains'
 import { parseEther } from 'viem'
 import { config } from './config'
 
@@ -136,7 +136,7 @@ A contract hashed method call with encoded args.
 
 ::: code-group
 ```ts [index.ts]
-import { prepareTransactionRequest } from '@uxuyalpha/core'
+import { prepareTransactionRequest } from '@tg-wagmi/core'
 import { parseEther } from 'viem'
 import { config } from './config'
 
@@ -158,7 +158,7 @@ The price (in wei) to pay per gas. Only applies to [Legacy Transactions](https:/
 
 ::: code-group
 ```ts [index.ts]
-import { prepareTransactionRequest } from '@uxuyalpha/core'
+import { prepareTransactionRequest } from '@tg-wagmi/core'
 import { parseEther, parseGwei } from 'viem'
 import { config } from './config'
 
@@ -180,7 +180,7 @@ Total fee per gas (in wei), inclusive of `maxPriorityFeePerGas`. Only applies to
 
 ::: code-group
 ```ts [index.ts]
-import { prepareTransactionRequest } from '@uxuyalpha/core'
+import { prepareTransactionRequest } from '@tg-wagmi/core'
 import { parseEther, parseGwei } from 'viem'
 import { config } from './config'
 
@@ -202,7 +202,7 @@ Max priority fee per gas (in wei). Only applies to [EIP-1559 Transactions](https
 
 ::: code-group
 ```ts [index.ts]
-import { prepareTransactionRequest } from '@uxuyalpha/core'
+import { prepareTransactionRequest } from '@tg-wagmi/core'
 import { parseEther, parseGwei } from 'viem'
 import { config } from './config'
 
@@ -225,7 +225,7 @@ Unique number identifying this transaction.
 
 ::: code-group
 ```ts [index.ts]
-import { prepareTransactionRequest } from '@uxuyalpha/core'
+import { prepareTransactionRequest } from '@tg-wagmi/core'
 import { parseEther } from 'viem'
 import { config } from './config'
 
@@ -249,7 +249,7 @@ For instance, if `["gas", "nonce"]` is provided, then only the `gas` and `nonce`
 
 ::: code-group
 ```ts [index.ts]
-import { prepareTransactionRequest } from '@uxuyalpha/core'
+import { prepareTransactionRequest } from '@tg-wagmi/core'
 import { parseEther } from 'viem'
 import { config } from './config'
 
@@ -271,7 +271,7 @@ The transaction recipient or contract address.
 
 ::: code-group
 ```ts [index.ts]
-import { prepareTransactionRequest } from '@uxuyalpha/core'
+import { prepareTransactionRequest } from '@tg-wagmi/core'
 import { parseEther } from 'viem'
 import { config } from './config'
 
@@ -287,7 +287,7 @@ await prepareTransactionRequest(config, {
 ## Return Type
 
 ```ts
-import { type PrepareTransactionRequestReturnType } from '@uxuyalpha/core'
+import { type PrepareTransactionRequestReturnType } from '@tg-wagmi/core'
 ```
 
 [`TransactionRequest`](https://viem.sh/docs/glossary/types.html#transactionrequest)
@@ -297,7 +297,7 @@ The transaction request.
 ## Error
 
 ```ts
-import { type PrepareTransactionRequestErrorType } from '@uxuyalpha/core'
+import { type PrepareTransactionRequestErrorType } from '@tg-wagmi/core'
 ```
 
 <!--@include: @shared/query-imports.md-->

@@ -1,4 +1,4 @@
-import { accounts, chain, wait } from '@uxuyalpha/test'
+import { accounts, chain, wait } from '@tg-wagmi/test'
 import { http } from 'viem'
 import { expect, test, vi } from 'vitest'
 
@@ -51,7 +51,7 @@ test('getClient', () => {
   ).toThrowErrorMatchingInlineSnapshot(`
     [ChainNotConfiguredError: Chain not configured.
 
-    Version: @uxuyalpha/core@x.y.z]
+    Version: @tg-wagmi/core@x.y.z]
   `)
 
   expect(() => {
@@ -61,7 +61,7 @@ test('getClient', () => {
   }).toThrowErrorMatchingInlineSnapshot(`
     [ChainNotConfiguredError: Chain not configured.
 
-    Version: @uxuyalpha/core@x.y.z]
+    Version: @tg-wagmi/core@x.y.z]
   `)
 })
 

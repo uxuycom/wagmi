@@ -5,15 +5,15 @@ import type {
   Config,
   GetConnectorClientErrorType,
   ResolvedRegister,
-} from '@uxuyalpha/core'
-import type { Compute, Omit } from '@uxuyalpha/core/internal'
+} from '@tg-wagmi/core'
+import type { Compute, Omit } from '@tg-wagmi/core/internal'
 import {
   type GetConnectorClientData,
   type GetConnectorClientOptions,
   type GetConnectorClientQueryFnData,
   type GetConnectorClientQueryKey,
   getConnectorClientQueryOptions,
-} from '@uxuyalpha/core/query'
+} from '@tg-wagmi/core/query'
 import { useEffect, useRef } from 'react'
 
 import type { ConfigParameter } from '../types/properties.js'

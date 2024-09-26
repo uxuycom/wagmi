@@ -1,4 +1,4 @@
-import { chain, config, testClient } from '@uxuyalpha/test'
+import { chain, config, testClient } from '@tg-wagmi/test'
 import { expect, test } from 'vitest'
 
 import { getGasPrice } from './getGasPrice.js'

@@ -1,3 +1,3 @@
 import { version } from '../version.js'
 
-export const getVersion = () => `@uxuyalpha/core@${version}`
+export const getVersion = () => `@tg-wagmi/core@${version}`

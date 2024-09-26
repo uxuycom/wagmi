@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { useBlockNumber } from '@uxuyalpha/vue'
+import { useBlockNumber } from '@tg-wagmi/vue'
 import { ref } from 'vue'
 
 const watchBlockNumber = ref(false)

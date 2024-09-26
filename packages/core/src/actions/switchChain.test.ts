@@ -1,4 +1,4 @@
-import { accounts, chain, config } from '@uxuyalpha/test'
+import { accounts, chain, config } from '@tg-wagmi/test'
 import { expect, test } from 'vitest'
 
 import { mock } from '../connectors/mock.js'
@@ -58,7 +58,7 @@ test('behavior: not supported', async () => {
   ).rejects.toMatchInlineSnapshot(`
     [SwitchChainNotSupportedError: "Mock Connector" does not support programmatic chain switching.
 
-    Version: @uxuyalpha/core@x.y.z]
+    Version: @tg-wagmi/core@x.y.z]
   `)
   await disconnect(config, { connector: connector_ })
 })

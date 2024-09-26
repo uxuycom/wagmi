@@ -1,6 +1,6 @@
 <script setup>
-const packageName = '@uxuyalpha/vue'
-const connectorsPackageName = '@uxuyalpha/vue/connectors'
+const packageName = '@tg-wagmi/vue'
+const connectorsPackageName = '@tg-wagmi/vue/connectors'
 </script>
 
 <!-- @include: @shared/connectors/uxuyWallet.md -->

@@ -2,14 +2,14 @@ import type {
   Config,
   EstimateGasErrorType,
   ResolvedRegister,
-} from '@uxuyalpha/core'
+} from '@tg-wagmi/core'
 import {
   type EstimateGasData,
   type EstimateGasOptions,
   type EstimateGasQueryFnData,
   type EstimateGasQueryKey,
   estimateGasQueryOptions,
-} from '@uxuyalpha/core/query'
+} from '@tg-wagmi/core/query'
 import { computed } from 'vue'
 
 import type { ConfigParameter, QueryParameter } from '../types/properties.js'

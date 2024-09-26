@@ -7,8 +7,8 @@ import {
   type ResolvedRegister,
   getClient,
   watchClient,
-} from '@uxuyalpha/core'
-import type { Compute } from '@uxuyalpha/core/internal'
+} from '@tg-wagmi/core'
+import type { Compute } from '@tg-wagmi/core/internal'
 import { useSyncExternalStoreWithSelector } from 'use-sync-external-store/shim/with-selector.js'
 
 import type { ConfigParameter } from '../types/properties.js'

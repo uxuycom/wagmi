@@ -1,4 +1,4 @@
-import { config, typedData } from '@uxuyalpha/test'
+import { config, typedData } from '@tg-wagmi/test'
 import { test } from 'vitest'
 
 import { signTypedData } from './signTypedData.js'

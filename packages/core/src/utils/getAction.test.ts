@@ -1,4 +1,4 @@
-import { abi, address, config } from '@uxuyalpha/test'
+import { abi, address, config } from '@tg-wagmi/test'
 import * as viem_actions from 'viem/actions'
 import { expect, test, vi } from 'vitest'
 

@@ -2,14 +2,14 @@ import type {
   Config,
   ResolvedRegister,
   SimulateContractErrorType,
-} from '@uxuyalpha/core'
+} from '@tg-wagmi/core'
 import {
   type SimulateContractData,
   type SimulateContractOptions,
   type SimulateContractQueryFnData,
   type SimulateContractQueryKey,
   simulateContractQueryOptions,
-} from '@uxuyalpha/core/query'
+} from '@tg-wagmi/core/query'
 import type { Abi, ContractFunctionArgs, ContractFunctionName } from 'viem'
 import { type MaybeRef, computed } from 'vue'
 

@@ -1,4 +1,4 @@
-import { accounts, config } from '@uxuyalpha/test'
+import { accounts, config } from '@tg-wagmi/test'
 import { expect, test } from 'vitest'
 
 import { connect } from '../../actions/connect.js'
@@ -59,6 +59,6 @@ test('behavior: not connected', async () => {
   await expect(getCapabilities(config)).rejects.toMatchInlineSnapshot(`
     [ConnectorNotConnectedError: Connector not connected.
 
-    Version: @uxuyalpha/core@x.y.z]
+    Version: @tg-wagmi/core@x.y.z]
   `)
 })

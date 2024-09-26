@@ -5,14 +5,14 @@ import type {
   Config,
   ResolvedRegister,
   WriteContractErrorType,
-} from '@uxuyalpha/core'
+} from '@tg-wagmi/core'
 import {
   type WriteContractData,
   type WriteContractMutate,
   type WriteContractMutateAsync,
   type WriteContractVariables,
   writeContractMutationOptions,
-} from '@uxuyalpha/core/query'
+} from '@tg-wagmi/core/query'
 import type { Abi } from 'viem'
 
 import type { ConfigParameter } from '../types/properties.js'

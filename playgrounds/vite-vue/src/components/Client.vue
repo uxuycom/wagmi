@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { useClient } from '@uxuyalpha/vue'
+import { useClient } from '@tg-wagmi/vue'
 
 const client = useClient()
 </script>

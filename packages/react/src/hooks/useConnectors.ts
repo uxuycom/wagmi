@@ -4,7 +4,7 @@ import {
   type GetConnectorsReturnType,
   getConnectors,
   watchConnectors,
-} from '@uxuyalpha/core'
+} from '@tg-wagmi/core'
 import { useSyncExternalStore } from 'react'
 
 import type { ConfigParameter } from '../types/properties.js'

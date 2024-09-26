@@ -1,5 +1,5 @@
-import { chain, testClient } from '@uxuyalpha/test'
-import { renderHook, waitFor } from '@uxuyalpha/test/react'
+import { chain, testClient } from '@tg-wagmi/test'
+import { renderHook, waitFor } from '@tg-wagmi/test/react'
 import { expect, test } from 'vitest'
 
 import { useGasPrice } from './useGasPrice.js'

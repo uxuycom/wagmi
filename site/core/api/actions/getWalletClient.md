@@ -1,5 +1,5 @@
 <script setup>
-const packageName = '@uxuyalpha/core'
+const packageName = '@tg-wagmi/core'
 const actionName = 'getWalletClient'
 const typeName = 'GetWalletClient'
 </script>
@@ -11,14 +11,14 @@ Action for getting a Viem [`WalletClient`](https://viem.sh/docs/clients/wallet.h
 ## Import
 
 ```ts
-import { getWalletClient } from '@uxuyalpha/core'
+import { getWalletClient } from '@tg-wagmi/core'
 ```
 
 ## Usage
 
 ::: code-group
 ```ts [index.ts]
-import { getWalletClient } from '@uxuyalpha/core'
+import { getWalletClient } from '@tg-wagmi/core'
 import { config } from './config'
 
 const client = getWalletClient(config)
@@ -33,7 +33,7 @@ If you want to optimize bundle size, you should use [`getConnectorClient`](/core
 ## Parameters
 
 ```ts
-import { type GetWalletClientParameters } from '@uxuyalpha/core'
+import { type GetWalletClientParameters } from '@tg-wagmi/core'
 ```
 
 ### account
@@ -44,7 +44,7 @@ Account to use with client. Throws if account is not found on [`connector`](#con
 
 ::: code-group
 ```ts [index.ts]
-import { getWalletClient } from '@uxuyalpha/core'
+import { getWalletClient } from '@tg-wagmi/core'
 import { config } from './config'
 
 const client = getWalletClient(config, {
@@ -62,8 +62,8 @@ ID of chain to use with client.
 
 ::: code-group
 ```ts [index.ts]
-import { getWalletClient } from '@uxuyalpha/core'
-import { mainnet } from '@uxuyalpha/core/chains'
+import { getWalletClient } from '@tg-wagmi/core'
+import { mainnet } from '@tg-wagmi/core/chains'
 import { config } from './config'
 
 const client = getWalletClient(config, {
@@ -82,7 +82,7 @@ const client = getWalletClient(config, {
 
 ::: code-group
 ```ts [index.ts]
-import { getConnections, getWalletClient } from '@uxuyalpha/core'
+import { getConnections, getWalletClient } from '@tg-wagmi/core'
 import { config } from './config'
 
 const connections = getConnections(config)
@@ -96,7 +96,7 @@ const client = getWalletClient(config, {
 ## Return Type
 
 ```ts
-import { type GetChainIdReturnType } from '@uxuyalpha/core'
+import { type GetChainIdReturnType } from '@tg-wagmi/core'
 ```
 
 `WalletClient`
@@ -106,7 +106,7 @@ Viem [`WalletClient`](https://viem.sh/docs/clients/wallet.html) object for the c
 ## Error
 
 ```ts
-import { type GetWalletClientErrorType } from '@uxuyalpha/core'
+import { type GetWalletClientErrorType } from '@tg-wagmi/core'
 ```
 
 <!--@include: @shared/query-imports.md-->

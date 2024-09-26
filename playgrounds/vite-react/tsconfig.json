@@ -18,9 +18,9 @@
     "noFallthroughCasesInSwitch": true,
 
     "paths": {
-      "@uxuyalpha/connectors": ["../../packages/connectors/src/exports"],
-      "@uxuyalpha/core": ["../../packages/core/src/exports"],
-      "@uxuyalpha/core/*": ["../../packages/core/src/exports/*"],
+      "@tg-wagmi/connectors": ["../../packages/connectors/src/exports"],
+      "@tg-wagmi/core": ["../../packages/core/src/exports"],
+      "@tg-wagmi/core/*": ["../../packages/core/src/exports/*"],
       "wagmi": ["../../packages/react/src/exports"],
       "wagmi/*": ["../../packages/react/src/exports/*"]
     }

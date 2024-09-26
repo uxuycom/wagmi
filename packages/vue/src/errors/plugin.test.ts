@@ -10,7 +10,7 @@ test('WagmiPluginNotFoundError', () => {
     [WagmiPluginNotFoundError: No \`config\` found in Vue context, use \`WagmiPlugin\` to properly initialize the library.
 
     Docs: https://wagmi.sh/vue/api/TODO.html
-    Version: @uxuyalpha/vue@x.y.z]
+    Version: @tg-wagmi/vue@x.y.z]
   `)
 })
 
@@ -19,6 +19,6 @@ test('WagmiInjectionContextError', () => {
     [WagmiInjectionContextError: Wagmi composables can only be used inside \`setup()\` function or functions that support injection context.
 
     Docs: https://wagmi.sh/vue/api/TODO.html
-    Version: @uxuyalpha/vue@x.y.z]
+    Version: @tg-wagmi/vue@x.y.z]
   `)
 })

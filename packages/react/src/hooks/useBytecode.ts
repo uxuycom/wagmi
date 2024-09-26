@@ -4,15 +4,15 @@ import type {
   Config,
   GetBytecodeErrorType,
   ResolvedRegister,
-} from '@uxuyalpha/core'
-import type { Compute } from '@uxuyalpha/core/internal'
+} from '@tg-wagmi/core'
+import type { Compute } from '@tg-wagmi/core/internal'
 import {
   type GetBytecodeData,
   type GetBytecodeOptions,
   type GetBytecodeQueryKey,
   getBytecodeQueryOptions,
-} from '@uxuyalpha/core/query'
-import type { GetBytecodeQueryFnData } from '@uxuyalpha/core/query'
+} from '@tg-wagmi/core/query'
+import type { GetBytecodeQueryFnData } from '@tg-wagmi/core/query'
 import type { ConfigParameter, QueryParameter } from '../types/properties.js'
 import { type UseQueryReturnType, useQuery } from '../utils/query.js'
 import { useChainId } from './useChainId.js'

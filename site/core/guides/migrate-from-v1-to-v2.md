@@ -18,19 +18,19 @@ To get started, install the latest version of Wagmi and it's required peer depen
 
 ::: code-group
 ```bash-vue [pnpm]
-pnpm add @uxuyalpha/core viem@{{viemVersion}} @uxuyalpha/connectors
+pnpm add @tg-wagmi/core viem@{{viemVersion}} @tg-wagmi/connectors
 ```
 
 ```bash-vue [npm]
-npm install @uxuyalpha/core viem@{{viemVersion}} @uxuyalpha/connectors
+npm install @tg-wagmi/core viem@{{viemVersion}} @tg-wagmi/connectors
 ```
 
 ```bash-vue [yarn]
-yarn add @uxuyalpha/core viem@{{viemVersion}} @uxuyalpha/connectors
+yarn add @tg-wagmi/core viem@{{viemVersion}} @tg-wagmi/connectors
 ```
 
 ```bash-vue [bun]
-bun add @uxuyalpha/core viem@{{viemVersion}} @uxuyalpha/connectors
+bun add @tg-wagmi/core viem@{{viemVersion}} @tg-wagmi/connectors
 ```
 :::
 
@@ -56,7 +56,7 @@ Before v2, when you called [`createConfig`](/core/api/createConfig), it set a gl
 
 ::: code-group
 ```ts [index.ts]
-import { getAccount, readContract } from '@uxuyalpha/core'
+import { getAccount, readContract } from '@tg-wagmi/core'
 import { parseAbi } from 'viem'
 import { config } from './config' // [!code ++]
 
@@ -81,7 +81,7 @@ The previous global `config` singleton made it so you couldn't use multiple `Con
 Removed `getContract` export. Use Viem's [`getContract`](https://viem.sh/docs/contract/getContract.html) instead.
 
 ```ts
-import { getContract } from '@uxuyalpha/core' // [!code --]
+import { getContract } from '@tg-wagmi/core' // [!code --]
 import { getContract } from 'viem' // [!code ++]
 
 const contract = getContract() // [!code --]
@@ -96,7 +96,7 @@ The `getNetwork` and `watchNetwork` actions were removed since the connected cha
 
   ::: code-group
   ```ts [index.ts]
-  import { getNetwork } from '@uxuyalpha/core' // [!code --]
+  import { getNetwork } from '@tg-wagmi/core' // [!code --]
 
   const { chains } = getNetwork() // [!code --]
   const chains = config.chains // [!code ++]
@@ -108,8 +108,8 @@ The `getNetwork` and `watchNetwork` actions were removed since the connected cha
 
   ::: code-group
   ```ts [index.ts]
-  import { getNetwork } from '@uxuyalpha/core' // [!code --]
-  import { getAccount } from '@uxuyalpha/core' // [!code ++]
+  import { getNetwork } from '@tg-wagmi/core' // [!code --]
+  import { getAccount } from '@tg-wagmi/core' // [!code ++]
   import { config } from './config' // [!code ++]
 
   const { chain } = getNetwork() // [!code --]
@@ -125,8 +125,8 @@ The `getNetwork` and `watchNetwork` actions were removed since the connected cha
 
   ::: code-group
   ```ts [index.ts]
-  import { watchNetwork } from '@uxuyalpha/core' // [!code --]
-  import { watchAccount } from '@uxuyalpha/core' // [!code ++]
+  import { watchNetwork } from '@tg-wagmi/core' // [!code --]
+  import { watchAccount } from '@tg-wagmi/core' // [!code ++]
   import { config } from './config' // [!code ++]
 
   const unwatch = watchNetwork((data) => console.log('Changed!', data)) // [!code --]
@@ -152,8 +152,8 @@ Use [`watchBlockNumber`](/core/api/actions/watchBlockNumber) along with [`readCo
 
 ::: code-group
 ```ts [index.ts]
-import { watchReadContract } from '@uxuyalpha/core' // [!code --]
-import { watchBlockNumber, readContract } from '@uxuyalpha/core' // [!code ++]
+import { watchReadContract } from '@tg-wagmi/core' // [!code --]
+import { watchBlockNumber, readContract } from '@tg-wagmi/core' // [!code ++]
 import { config } from './config' // [!code ++]
 
 const unwatch = watchReadContract( // [!code --]
@@ -186,8 +186,8 @@ Removed `fetchFeeData`. Use [`estimateFeesPerGas`](/core/api/actions/estimateFee
 
 ::: code-group
 ```ts [index.ts]
-import { fetchFeeData } from '@uxuyalpha/core' // [!code --]
-import { estimateFeesPerGas } from '@uxuyalpha/core' // [!code ++]
+import { fetchFeeData } from '@tg-wagmi/core' // [!code --]
+import { estimateFeesPerGas } from '@tg-wagmi/core' // [!code ++]
 import { config } from './config' // [!code ++]
 
 const result = await fetchFeeData() // [!code --]
@@ -202,8 +202,8 @@ Removed `prepareWriteContract`. Use [`simulateContract`](/core/api/actions/simul
 
 ::: code-group
 ```ts [index.ts]
-import { prepareWriteContract } from '@uxuyalpha/core' // [!code --]
-import { simulateContract } from '@uxuyalpha/core' // [!code ++]
+import { prepareWriteContract } from '@tg-wagmi/core' // [!code --]
+import { simulateContract } from '@tg-wagmi/core' // [!code ++]
 import { config } from './config' // [!code ++]
 
 const result = await prepareWriteContract({ ... }) // [!code --]
@@ -218,8 +218,8 @@ Removed `prepareSendTransaction`. Use [`estimateGas`](/core/api/actions/estimate
 
 ::: code-group
 ```ts [index.ts]
-import { prepareSendTransaction } from '@uxuyalpha/core' // [!code --]
-import { estimateGas } from '@uxuyalpha/core' // [!code ++]
+import { prepareSendTransaction } from '@tg-wagmi/core' // [!code --]
+import { estimateGas } from '@tg-wagmi/core' // [!code ++]
 import { config } from './config' // [!code ++]
 
 const result = await prepareSendTransaction({ ... }) // [!code --]
@@ -247,38 +247,38 @@ Updated [`connect`](/core/api/actions/connect) return type from `` { account: Ad
 All hook parameters and return types follow the naming pattern of `[PascalCaseActionName]Parameters` and `[PascalCaseActionName]ReturnType`. For example, `GetAccountParameters` and `GetAccountReturnType`.
 
 ```ts
-import { GetAccountConfig, GetAccountResult } from '@uxuyalpha/core' // [!code --]
-import { GetAccountParameters, GetAccountReturnType } from '@uxuyalpha/core' // [!code ++]
+import { GetAccountConfig, GetAccountResult } from '@tg-wagmi/core' // [!code --]
+import { GetAccountParameters, GetAccountReturnType } from '@tg-wagmi/core' // [!code ++]
 ```
 
 ## Connectors
 
 ### Moved Wagmi Connectors to peer dependencies
 
-Wagmi Core v2 no longer exports connectors via the `'@uxuyalpha/core/connectors/*'` entrypoints. Instead, you should install the `@uxuyalpha/connectors` package.
+Wagmi Core v2 no longer exports connectors via the `'@tg-wagmi/core/connectors/*'` entrypoints. Instead, you should install the `@tg-wagmi/connectors` package.
 
 ::: code-group
 ```bash-vue [pnpm]
-pnpm add @uxuyalpha/connectors
+pnpm add @tg-wagmi/connectors
 ```
 
 ```bash-vue [npm]
-npm install @uxuyalpha/connectors
+npm install @tg-wagmi/connectors
 ```
 
 ```bash-vue [yarn]
-yarn add @uxuyalpha/connectors
+yarn add @tg-wagmi/connectors
 ```
 
 ```bash-vue [bun]
-bun add @uxuyalpha/connectors
+bun add @tg-wagmi/connectors
 ```
 :::
 
 And import connectors from there.
 
 ```ts
-import { injected } from '@uxuyalpha/connectors'
+import { injected } from '@tg-wagmi/connectors'
 ```
 
 See the [connectors documentation](/core/api/connectors) for more information.
@@ -289,12 +289,12 @@ In order to maximize type-safety and ease of creating connectors, the connector 
 
 ### Removed individual entrypoints
 
-Previously, each connector had its own entrypoint to optimize tree-shaking. Since all connectors now have [`package.json#sideEffects`](https://webpack.js.org/guides/tree-shaking/#mark-the-file-as-side-effect-free) enabled, this is no longer necessary and the entrypoint is unified. Use the `'@uxuyalpha/connectors'` package instead.
+Previously, each connector had its own entrypoint to optimize tree-shaking. Since all connectors now have [`package.json#sideEffects`](https://webpack.js.org/guides/tree-shaking/#mark-the-file-as-side-effect-free) enabled, this is no longer necessary and the entrypoint is unified. Use the `'@tg-wagmi/connectors'` package instead.
 
 ```ts
-import { InjectedConnector } from '@uxuyalpha/core/connectors/injected' // [!code --]
-import { CoinbaseWalletConnector } from '@uxuyalpha/core/connectors/coinbaseWallet' // [!code --]
-import { coinbaseWallet, injected } from '@uxuyalpha/connectors' // [!code ++]
+import { InjectedConnector } from '@tg-wagmi/core/connectors/injected' // [!code --]
+import { CoinbaseWalletConnector } from '@tg-wagmi/core/connectors/coinbaseWallet' // [!code --]
+import { coinbaseWallet, injected } from '@tg-wagmi/connectors' // [!code ++]
 ```
 
 ### Removed `MetaMaskConnector`
@@ -302,8 +302,8 @@ import { coinbaseWallet, injected } from '@uxuyalpha/connectors' // [!code ++]
 The `MetaMaskConnector` was removed since it was nearly the same thing as the `InjectedConnector`. Use the [`injected`](/core/api/connectors/injected) connector instead, along with the [`target`](/core/api/connectors/injected#target) parameter set to `'metaMask'`, for the same behavior.
 
 ```ts
-import { MetaMaskConnector } from '@uxuyalpha/core/connectors/metaMask' // [!code --]
-import { injected } from '@uxuyalpha/connectors' // [!code ++]
+import { MetaMaskConnector } from '@tg-wagmi/core/connectors/metaMask' // [!code --]
+import { injected } from '@tg-wagmi/connectors' // [!code ++]
 
 const connector = new MetaMaskConnector() // [!code --]
 const connector = injected({ target: 'metaMask' }) // [!code ++]
@@ -321,8 +321,8 @@ In Wagmi v1, connectors were classes you needed to instantiate. In Wagmi v2, con
 To create a connector, you now call the connector function with parameters.
 
 ```ts
-import { WalletConnectConnector } from '@uxuyalpha/core/connectors/walletConnect' // [!code --]
-import { walletConnect } from '@uxuyalpha/connectors' // [!code ++]
+import { WalletConnectConnector } from '@tg-wagmi/core/connectors/walletConnect' // [!code --]
+import { walletConnect } from '@tg-wagmi/connectors' // [!code ++]
 
 const connector = new WalletConnectConnector({ // [!code --]
 const connector = walletConnect({ // [!code ++]
@@ -335,8 +335,8 @@ const connector = walletConnect({ // [!code ++]
 WalletConnect v1 was sunset June 28, 2023. Use the [`walletConnect`](/core/api/connectors/walletConnect) connector instead.
 
 ```ts
-import { WalletConnectLegacyConnector } from '@uxuyalpha/core/connectors/walletConnectLegacy' // [!code --]
-import { walletConnect } from '@uxuyalpha/connectors' // [!code ++]
+import { WalletConnectLegacyConnector } from '@tg-wagmi/core/connectors/walletConnectLegacy' // [!code --]
+import { walletConnect } from '@tg-wagmi/connectors' // [!code ++]
 
 const connector = new WalletConnectLegacyConnector({ // [!code --]
 const connector = walletConnect({ // [!code ++]
@@ -346,17 +346,17 @@ const connector = walletConnect({ // [!code ++]
 
 ## Chains
 
-### Updated `'@uxuyalpha/core/chains'` entrypoint
+### Updated `'@tg-wagmi/core/chains'` entrypoint
 
-Chains now live in the [Viem repository](https://github.com/wevm/viem). As a result, the `'@uxuyalpha/core/chains'` entrypoint now proxies all chains from `'viem/chains'` directly.
+Chains now live in the [Viem repository](https://github.com/wevm/viem). As a result, the `'@tg-wagmi/core/chains'` entrypoint now proxies all chains from `'viem/chains'` directly.
 
 ### Removed `mainnet` and `sepolia` from main entrypoint
 
-Since the `'@uxuyalpha/core/chains'` entrypoint now proxies `'viem/chains'`, `mainnet` and `sepolia` were removed from the main entrypoint. Use the `'@uxuyalpha/core/chains'` entrypoint instead.
+Since the `'@tg-wagmi/core/chains'` entrypoint now proxies `'viem/chains'`, `mainnet` and `sepolia` were removed from the main entrypoint. Use the `'@tg-wagmi/core/chains'` entrypoint instead.
 
 ```ts
-import { mainnet, sepolia } from '@uxuyalpha/core' // [!code --]
-import { mainnet, sepolia } from '@uxuyalpha/core/chains' // [!code ++]
+import { mainnet, sepolia } from '@tg-wagmi/core' // [!code --]
+import { mainnet, sepolia } from '@tg-wagmi/core/chains' // [!code ++]
 ```
 
 ## Errors
@@ -372,7 +372,7 @@ Before v2, Wagmi handled ENS name normalization internally for `getEnsAddress`, 
 
 ::: code-group
 ```ts [index.ts]
-import { getEnsAddress } from '@uxuyalpha/core'
+import { getEnsAddress } from '@tg-wagmi/core'
 import { normalize } from 'viem' // [!code ++]
 import { config } from './config'
 
@@ -391,9 +391,9 @@ By inverting control, Wagmi lets you choose how much normalization to do. For ex
 The Wagmi v2 `Config` now has native multichain support using the [`chains`](/core/api/createConfig) parameter so the `configureChains` function is no longer required.
 
 ```ts
-import { configureChains, createConfig } from '@uxuyalpha/core' // [!code --]
-import { http, createConfig } from '@uxuyalpha/core' // [!code ++]
-import { mainnet, sepolia } from '@uxuyalpha/core/chains'
+import { configureChains, createConfig } from '@tg-wagmi/core' // [!code --]
+import { http, createConfig } from '@tg-wagmi/core' // [!code ++]
+import { mainnet, sepolia } from '@tg-wagmi/core/chains'
 
 const { chains, publicClient } = configureChains( // [!code --]
   [mainnet, sepolia], // [!code --]
@@ -415,16 +415,16 @@ export const config = createConfig({
 Import from Viem instead.
 
 ```ts
-import { erc20ABI } from '@uxuyalpha/core' // [!code --]
+import { erc20ABI } from '@tg-wagmi/core' // [!code --]
 import { erc20Abi } from 'viem' // [!code ++]
 ```
 
-### Removed `'@uxuyalpha/core/providers/*` entrypoints
+### Removed `'@tg-wagmi/core/providers/*` entrypoints
 
 It never made sense that we would have provider URLs hardcoded in the Wagmi codebase. Use [Viem transports](https://viem.sh/docs/clients/intro.html#transports) along with RPC provider URLs instead.
 
 ```ts
-import { alchemyProvider } from '@uxuyalpha/core/providers/alchemy' // [!code --]
+import { alchemyProvider } from '@tg-wagmi/core/providers/alchemy' // [!code --]
 import { http } from 'viem' // [!code ++]
 
 const transport = http('https://mainnet.example.com')
@@ -458,8 +458,8 @@ const transport = http('https://mainnet.example.com')
 Moving forward, `getBalance` will only work for native currencies, thus the `token` parameter is no longer supported. Use [`readContracts`](/core/api/actions/readContracts) instead.
 
 ```ts
-import { getBalance } from '@uxuyalpha/core' // [!code --]
-import { readContracts } from '@uxuyalpha/core' // [!code ++]
+import { getBalance } from '@tg-wagmi/core' // [!code --]
+import { readContracts } from '@tg-wagmi/core' // [!code ++]
 import { erc20Abi } from 'viem' // [!code ++]
 import { config } from './config' // [!code ++]
 
@@ -496,7 +496,7 @@ Moving forward, `getBalance` will not accept the `unit` parameter or return a `f
 
 ```ts
 import { formatUnits } from 'viem' // [!code ++]
-import { getBalance } from '@uxuyalpha/core'
+import { getBalance } from '@tg-wagmi/core'
 
 const result = await getBalance({
   address: '0x4557B18E779944BFE9d78A672452331C186a9f48',
@@ -511,8 +511,8 @@ formatUnits(result.value, result.decimals) // [!code ++]
 Moving forward, `getToken` is no longer supported. Use [`readContracts`](/core/api/actions/readContracts) instead.
 
 ```ts
-import { getToken } from '@uxuyalpha/core' // [!code --]
-import { readContracts } from '@uxuyalpha/core' // [!code ++]
+import { getToken } from '@tg-wagmi/core' // [!code --]
+import { readContracts } from '@tg-wagmi/core' // [!code ++]
 import { erc20Abi } from 'viem' // [!code ++]
 import { config } from './config' // [!code ++]
 
@@ -557,7 +557,7 @@ Instead you can call `formatUnits` from Viem directly or use another number form
 
 ```ts
 import { formatUnits } from 'viem' // [!code ++]
-import { getToken } from '@uxuyalpha/core'
+import { getToken } from '@tg-wagmi/core'
 
 const result = await getToken({
   address: '0x6B175474E89094C44Da98b954EedeAC495271d0F',

@@ -3,8 +3,8 @@ import {
   type ResolvedRegister,
   type WatchBlockNumberParameters,
   watchBlockNumber,
-} from '@uxuyalpha/core'
-import type { UnionCompute, UnionExactPartial } from '@uxuyalpha/core/internal'
+} from '@tg-wagmi/core'
+import type { UnionCompute, UnionExactPartial } from '@tg-wagmi/core/internal'
 import { computed, watchEffect } from 'vue'
 
 import type { ConfigParameter, EnabledParameter } from '../types/properties.js'

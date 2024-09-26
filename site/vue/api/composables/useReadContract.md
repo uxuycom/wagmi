@@ -4,7 +4,7 @@ description: Composable for calling a read-only function on a contract, and retu
 ---
 
 <script setup>
-const packageName = '@uxuyalpha/vue'
+const packageName = '@tg-wagmi/vue'
 const actionName = 'readContract'
 const typeName = 'ReadContract'
 const TData = 'ReadContractReturnType'
@@ -20,7 +20,7 @@ A **read-only** function (constant function) on a Solidity contract is denoted b
 ## Import
 
 ```ts
-import { useReadContract } from '@uxuyalpha/vue'
+import { useReadContract } from '@tg-wagmi/vue'
 ```
 
 ## Usage
@@ -28,7 +28,7 @@ import { useReadContract } from '@uxuyalpha/vue'
 ::: code-group
 ```vue [index.vue]
 <script setup lang="ts">
-import { useReadContract } from '@uxuyalpha/vue'
+import { useReadContract } from '@tg-wagmi/vue'
 import { abi } from './abi'
 
 const result = useReadContract({
@@ -45,7 +45,7 @@ const result = useReadContract({
 ## Parameters
 
 ```ts
-import { type UseReadContractParameters } from '@uxuyalpha/vue'
+import { type UseReadContractParameters } from '@tg-wagmi/vue'
 ```
 
 ### abi
@@ -57,7 +57,7 @@ The contract's ABI. Check out the [TypeScript docs](/vue/typescript#const-assert
 ::: code-group
 ```vue [index.vue]
 <script setup lang="ts">
-import { useReadContract } from '@uxuyalpha/vue'
+import { useReadContract } from '@tg-wagmi/vue'
 import { abi } from './abi' // [!code focus]
 
 const result = useReadContract({
@@ -80,7 +80,7 @@ Account to use when calling the contract (`msg.sender`).
 ::: code-group
 ```vue [index.vue]
 <script setup lang="ts">
-import { useReadContract } from '@uxuyalpha/vue'
+import { useReadContract } from '@tg-wagmi/vue'
 import { abi } from './abi'
 
 const result = useReadContract({
@@ -105,7 +105,7 @@ The contract's address.
 ::: code-group
 ```vue [index.vue]
 <script setup lang="ts">
-import { useReadContract } from '@uxuyalpha/vue'
+import { useReadContract } from '@tg-wagmi/vue'
 import { abi } from './abi'
 
 const result = useReadContract({
@@ -129,7 +129,7 @@ const result = useReadContract({
 ::: code-group
 ```vue [index.vue]
 <script setup lang="ts">
-import { useReadContract } from '@uxuyalpha/vue'
+import { useReadContract } from '@tg-wagmi/vue'
 import { abi } from './abi'
 
 const result = useReadContract({
@@ -155,7 +155,7 @@ Block number to call contract at.
 ::: code-group
 ```vue [index.vue]
 <script setup lang="ts">
-import { useReadContract } from '@uxuyalpha/vue'
+import { useReadContract } from '@tg-wagmi/vue'
 import { abi } from './abi'
 
 const result = useReadContract({
@@ -179,7 +179,7 @@ Block tag to call contract at.
 ::: code-group
 ```vue [index.vue]
 <script setup lang="ts">
-import { useReadContract } from '@uxuyalpha/vue'
+import { useReadContract } from '@tg-wagmi/vue'
 import { abi } from './abi'
 
 const result = useReadContract({
@@ -205,7 +205,7 @@ ID of chain to use when fetching data.
 ::: code-group
 ```vue [index.vue]
 <script setup lang="ts">
-import { useReadContract } from '@uxuyalpha/vue'
+import { useReadContract } from '@tg-wagmi/vue'
 import { mainnet } from 'wagmi/chains' // [!code focus]
 import { abi } from './abi'
 
@@ -230,7 +230,7 @@ const result = useReadContract({
 ::: code-group
 ```vue [index.vue]
 <script setup lang="ts">
-import { useReadContract } from '@uxuyalpha/vue'
+import { useReadContract } from '@tg-wagmi/vue'
 import { abi } from './abi'
 import { config } from './config' // [!code focus]
 
@@ -256,7 +256,7 @@ const result = useReadContract({
 ::: code-group
 ```vue [index.vue]
 <script setup lang="ts">
-import { useReadContract } from '@uxuyalpha/vue'
+import { useReadContract } from '@tg-wagmi/vue'
 import { abi } from './abi'
 
 const result = useReadContract({
@@ -280,7 +280,7 @@ Scopes the cache to a given context. Composables that have identical context wil
 ::: code-group
 ```vue [index.vue]
 <script setup lang="ts">
-import { useReadContract } from '@uxuyalpha/vue'
+import { useReadContract } from '@tg-wagmi/vue'
 import { abi } from './abi'
 
 const result = useReadContract({
@@ -301,7 +301,7 @@ const result = useReadContract({
 ## Return Type
 
 ```ts
-import { type UseReadContractReturnType } from '@uxuyalpha/vue'
+import { type UseReadContractReturnType } from '@tg-wagmi/vue'
 ```
 
 The return type's [`data`](#data) property is inferrable via the combination of [`abi`](#abi), [`functionName`](#functionname), and [`args`](#args). Check out the [TypeScript docs](/vue/typescript#const-assert-abis-typed-data) for more info.
@@ -314,7 +314,7 @@ With [`abi`](#abi) setup correctly, TypeScript will infer the correct types for 
 
 ::: code-group
 ```ts twoslash [Inline]
-import { createConfig, http, useReadContract } from '@uxuyalpha/vue'
+import { createConfig, http, useReadContract } from '@tg-wagmi/vue'
 import { mainnet, sepolia } from 'wagmi/chains'
 
 const config = createConfig({
@@ -359,7 +359,7 @@ result.data
 ```
 
 ```ts twoslash [Const-Asserted]
-import { createConfig, http, useReadContract } from '@uxuyalpha/vue'
+import { createConfig, http, useReadContract } from '@tg-wagmi/vue'
 import { mainnet, sepolia } from 'wagmi/chains'
 
 const config = createConfig({

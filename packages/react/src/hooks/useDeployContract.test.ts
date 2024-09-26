@@ -1,6 +1,6 @@
-import { connect, disconnect } from '@uxuyalpha/core'
-import { abi, bytecode, config, transactionHashRegex } from '@uxuyalpha/test'
-import { renderHook, waitFor } from '@uxuyalpha/test/react'
+import { connect, disconnect } from '@tg-wagmi/core'
+import { abi, bytecode, config, transactionHashRegex } from '@tg-wagmi/test'
+import { renderHook, waitFor } from '@tg-wagmi/test/react'
 import { expect, test } from 'vitest'
 
 import { useDeployContract } from './useDeployContract.js'

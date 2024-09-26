@@ -1,5 +1,5 @@
 <script setup>
-const packageName = '@uxuyalpha/core'
+const packageName = '@tg-wagmi/core'
 const actionName = 'readContracts'
 const typeName = 'ReadContracts'
 </script>
@@ -11,14 +11,14 @@ Action for calling multiple read methods on a contract.
 ## Import
 
 ```ts
-import { readContracts } from '@uxuyalpha/core'
+import { readContracts } from '@tg-wagmi/core'
 ```
 
 ## Usage
 
 ::: code-group
 ```ts [index.ts]
-import { readContracts } from '@uxuyalpha/core'
+import { readContracts } from '@tg-wagmi/core'
 import { config } from './config'
 
 const wagmigotchiContract = {
@@ -59,7 +59,7 @@ const result = await readContracts(config, {
 ## Parameters
 
 ```ts
-import { type ReadContractsParameters } from '@uxuyalpha/core'
+import { type ReadContractsParameters } from '@tg-wagmi/core'
 ```
 
 ### contracts
@@ -76,7 +76,7 @@ The contract's ABI. Check out the [TypeScript docs](/react/typescript#const-asse
 
 ::: code-group
 ```tsx [index.tsx]
-import { readContracts } from '@uxuyalpha/core'
+import { readContracts } from '@tg-wagmi/core'
 import { config } from './config'
 
 const result = await readContracts(config, {
@@ -102,7 +102,7 @@ The contract's address.
 
 ::: code-group
 ```tsx [index.tsx]
-import { readContracts } from '@uxuyalpha/core'
+import { readContracts } from '@tg-wagmi/core'
 import { config } from './config'
 
 const result = await readContracts(config, {
@@ -129,7 +129,7 @@ const result = await readContracts(config, {
 
 ::: code-group
 ```tsx [index.tsx]
-import { readContracts } from '@uxuyalpha/core'
+import { readContracts } from '@tg-wagmi/core'
 import { config } from './config'
 
 const result = await readContracts(config, {
@@ -155,7 +155,7 @@ ID of chain to use when fetching data.
 
 ::: code-group
 ```tsx [index.tsx]
-import { readContracts } from '@uxuyalpha/core'
+import { readContracts } from '@tg-wagmi/core'
 import { config } from './config'
 
 const result = await readContracts(config, {
@@ -184,7 +184,7 @@ const result = await readContracts(config, {
 
 ::: code-group
 ```tsx [index.tsx]
-import { readContracts } from '@uxuyalpha/core'
+import { readContracts } from '@tg-wagmi/core'
 import { config } from './config'
 
 const result = await readContracts(config, {
@@ -210,7 +210,7 @@ Whether or not the Hook should throw if a call reverts. If set to `true` (defaul
 
 ::: code-group
 ```tsx [index.tsx]
-import { readContracts } from '@uxuyalpha/core'
+import { readContracts } from '@tg-wagmi/core'
 import { config } from './config'
 
 const result = await readContracts(config, {
@@ -239,7 +239,7 @@ The maximum size (in bytes) for each calldata chunk. Set to `0` to disable the s
 
 ::: code-group
 ```tsx [index.tsx]
-import { readContracts } from '@uxuyalpha/core'
+import { readContracts } from '@tg-wagmi/core'
 import { config } from './config'
 
 const result = await readContracts(config, {
@@ -266,7 +266,7 @@ The block number to perform the read against.
 
 ::: code-group
 ```tsx [index.tsx]
-import { readContracts } from '@uxuyalpha/core'
+import { readContracts } from '@tg-wagmi/core'
 import { config } from './config'
 
 const result = await readContracts(config, {
@@ -293,7 +293,7 @@ Block tag to read against.
 
 ::: code-group
 ```tsx [index.tsx]
-import { readContracts } from '@uxuyalpha/core'
+import { readContracts } from '@tg-wagmi/core'
 import { config } from './config'
 
 const result = await readContracts(config, {
@@ -320,7 +320,7 @@ Address of multicall contract.
 
 ::: code-group
 ```tsx [index.tsx]
-import { readContracts } from '@uxuyalpha/core'
+import { readContracts } from '@tg-wagmi/core'
 import { config } from './config'
 
 const result = await readContracts(config, {
@@ -342,7 +342,7 @@ const result = await readContracts(config, {
 ## Return Type
 
 ```ts
-import { type ReadContractsReturnType } from '@uxuyalpha/core'
+import { type ReadContractsReturnType } from '@tg-wagmi/core'
 ```
 
 ## Type Inference
@@ -352,7 +352,7 @@ With [`contracts[number]['abi']`](#abi) setup correctly, TypeScript will infer t
 ## Error
 
 ```ts
-import { type ReadContractsErrorType } from '@uxuyalpha/core'
+import { type ReadContractsErrorType } from '@tg-wagmi/core'
 ```
 
 <!--@include: @shared/query-imports.md-->

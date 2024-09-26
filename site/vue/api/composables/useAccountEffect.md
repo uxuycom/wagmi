@@ -10,7 +10,7 @@ Composable for listening to account lifecycle events.
 ## Import
 
 ```ts
-import { useAccountEffect } from '@uxuyalpha/vue'
+import { useAccountEffect } from '@tg-wagmi/vue'
 ```
 
 ## Usage
@@ -18,7 +18,7 @@ import { useAccountEffect } from '@uxuyalpha/vue'
 ::: code-group
 ```vue [index.vue]
 <script setup lang="ts">
-import { useAccountEffect } from '@uxuyalpha/vue'
+import { useAccountEffect } from '@tg-wagmi/vue'
 
 useAccountEffect({
   onConnect(data) {
@@ -36,7 +36,7 @@ useAccountEffect({
 ## Parameters
 
 ```ts
-import { type useAccountEffectParameters } from '@uxuyalpha/vue'
+import { type useAccountEffectParameters } from '@tg-wagmi/vue'
 ```
 
 ### config
@@ -48,7 +48,7 @@ import { type useAccountEffectParameters } from '@uxuyalpha/vue'
 ::: code-group
 ```vue [index.vue]
 <script setup lang="ts">
-import { useAccountEffect } from '@uxuyalpha/vue'
+import { useAccountEffect } from '@tg-wagmi/vue'
 import { config } from './config' // [!code focus]
 
 useAccountEffect({
@@ -73,7 +73,7 @@ Callback that is called when accounts are connected.
 
 ::: code-group
 ```tsx [index.tsx]
-import { useAccountEffect } from '@uxuyalpha/vue'
+import { useAccountEffect } from '@tg-wagmi/vue'
 
 function App() {
   useAccountEffect({
@@ -94,7 +94,7 @@ Callback that is called when no more accounts are connected.
 
 ::: code-group
 ```tsx [index.tsx]
-import { useAccountEffect } from '@uxuyalpha/vue'
+import { useAccountEffect } from '@tg-wagmi/vue'
 
 function App() {
   useAccountEffect({

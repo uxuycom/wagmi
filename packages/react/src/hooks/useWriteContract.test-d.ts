@@ -2,9 +2,9 @@ import {
   http,
   type WriteContractErrorType,
   createConfig,
-} from '@uxuyalpha/core'
-import { base } from '@uxuyalpha/core/chains'
-import { abi } from '@uxuyalpha/test'
+} from '@tg-wagmi/core'
+import { base } from '@tg-wagmi/core/chains'
+import { abi } from '@tg-wagmi/test'
 import type { Abi, Address, Hash } from 'viem'
 import { expectTypeOf, test } from 'vitest'
 

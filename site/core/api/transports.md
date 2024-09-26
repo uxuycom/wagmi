@@ -14,12 +14,12 @@ const transports = getSidebar()['/core']
 ## Import
 
 ```ts
-import { http } from '@uxuyalpha/core'
+import { http } from '@tg-wagmi/core'
 ```
 
 ## Built-In Transports
 
-Available via the `'@uxuyalpha/core'` entrypoint.
+Available via the `'@tg-wagmi/core'` entrypoint.
 
 <ul>
   <li v-for="transport of transports">

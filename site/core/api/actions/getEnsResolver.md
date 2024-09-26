@@ -1,5 +1,5 @@
 <script setup>
-const packageName = '@uxuyalpha/core'
+const packageName = '@tg-wagmi/core'
 const actionName = 'getEnsResolver'
 const typeName = 'GetEnsResolver'
 </script>
@@ -11,14 +11,14 @@ Action for fetching ENS resolver for name.
 ## Import
 
 ```ts
-import { getEnsResolver } from '@uxuyalpha/core'
+import { getEnsResolver } from '@tg-wagmi/core'
 ```
 
 ## Usage
 
 ::: code-group
 ```ts [index.ts]
-import { getEnsResolver } from '@uxuyalpha/core'
+import { getEnsResolver } from '@tg-wagmi/core'
 import { normalize } from 'viem/ens'
 import { config } from './config'
 
@@ -36,7 +36,7 @@ Since ENS names prohibit certain forbidden characters (e.g. underscore) and have
 ## Parameters
 
 ```ts
-import { type GetEnsResolverParameters } from '@uxuyalpha/core'
+import { type GetEnsResolverParameters } from '@tg-wagmi/core'
 ```
 
 ---
@@ -49,7 +49,7 @@ Block number to get resolver at.
 
 ::: code-group
 ```ts [index.ts]
-import { getEnsResolver } from '@uxuyalpha/core'
+import { getEnsResolver } from '@tg-wagmi/core'
 import { normalize } from 'viem/ens'
 import { config } from './config'
 
@@ -69,7 +69,7 @@ Block tag to get resolver at.
 
 ::: code-group
 ```ts [index.ts]
-import { getEnsResolver } from '@uxuyalpha/core'
+import { getEnsResolver } from '@tg-wagmi/core'
 import { normalize } from 'viem/ens'
 import { config } from './config'
 
@@ -91,8 +91,8 @@ ID of chain to use when fetching data.
 
 ::: code-group
 ```ts [index.ts]
-import { getEnsResolver } from '@uxuyalpha/core'
-import { mainnet } from '@uxuyalpha/core/chains'
+import { getEnsResolver } from '@tg-wagmi/core'
+import { mainnet } from '@tg-wagmi/core/chains'
 import { normalize } from 'viem/ens'
 import { config } from './config'
 
@@ -112,7 +112,7 @@ Name to get the resolver for.
 
 ::: code-group
 ```ts [index.ts]
-import { getEnsResolver } from '@uxuyalpha/core'
+import { getEnsResolver } from '@tg-wagmi/core'
 import { normalize } from 'viem/ens'
 import { config } from './config'
 
@@ -132,7 +132,7 @@ const ensResolver = await getEnsResolver(config, {
 
 ::: code-group
 ```ts [index.ts]
-import { getEnsResolver } from '@uxuyalpha/core'
+import { getEnsResolver } from '@tg-wagmi/core'
 import { normalize } from 'viem/ens'
 import { config } from './config'
 
@@ -147,7 +147,7 @@ const ensResolver = await getEnsResolver(config, {
 ## Return Type
 
 ```ts
-import { type GetEnsResolverReturnType } from '@uxuyalpha/core'
+import { type GetEnsResolverReturnType } from '@tg-wagmi/core'
 ```
 
 `Address`
@@ -157,7 +157,7 @@ The address of the resolver.
 ## Error
 
 ```ts
-import { type getEnsResolverError } from '@uxuyalpha/core'
+import { type getEnsResolverError } from '@tg-wagmi/core'
 ```
 
 <!--@include: @shared/query-imports.md-->

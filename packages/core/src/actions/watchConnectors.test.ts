@@ -1,4 +1,4 @@
-import { accounts, config } from '@uxuyalpha/test'
+import { accounts, config } from '@tg-wagmi/test'
 import { expect, test } from 'vitest'
 
 import { mock } from '../connectors/mock.js'

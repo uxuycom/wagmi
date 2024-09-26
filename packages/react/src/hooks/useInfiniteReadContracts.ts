@@ -4,13 +4,13 @@ import type {
   Config,
   ReadContractsErrorType,
   ResolvedRegister,
-} from '@uxuyalpha/core'
+} from '@tg-wagmi/core'
 import {
   type InfiniteReadContractsQueryFnData,
   type InfiniteReadContractsQueryKey,
   infiniteReadContractsQueryOptions,
   structuralSharing,
-} from '@uxuyalpha/core/query'
+} from '@tg-wagmi/core/query'
 import type { ContractFunctionParameters } from 'viem'
 
 import type {

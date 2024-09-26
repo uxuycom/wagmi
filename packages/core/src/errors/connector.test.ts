@@ -1,4 +1,4 @@
-import { config } from '@uxuyalpha/test'
+import { config } from '@tg-wagmi/test'
 import { expect, test } from 'vitest'
 
 import {
@@ -10,7 +10,7 @@ test('constructors', () => {
   expect(new ProviderNotFoundError()).toMatchInlineSnapshot(`
     [ProviderNotFoundError: Provider not found.
 
-    Version: @uxuyalpha/core@x.y.z]
+    Version: @tg-wagmi/core@x.y.z]
   `)
   expect(
     new SwitchChainNotSupportedError({
@@ -19,6 +19,6 @@ test('constructors', () => {
   ).toMatchInlineSnapshot(`
     [SwitchChainNotSupportedError: "Mock Connector" does not support programmatic chain switching.
 
-    Version: @uxuyalpha/core@x.y.z]
+    Version: @tg-wagmi/core@x.y.z]
   `)
 })

@@ -1,4 +1,4 @@
-import type { typedData } from '@uxuyalpha/test'
+import type { typedData } from '@tg-wagmi/test'
 import { expectTypeOf, test } from 'vitest'
 
 import type { Address } from 'viem'

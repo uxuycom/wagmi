@@ -1,5 +1,5 @@
-import { useChains } from '@uxuyalpha/vue'
-import type { Chain, celo, optimism } from '@uxuyalpha/vue/chains'
+import { useChains } from '@tg-wagmi/vue'
+import type { Chain, celo, optimism } from '@tg-wagmi/vue/chains'
 import { expectTypeOf, test } from 'vitest'
 
 test('default', () => {

@@ -1,6 +1,6 @@
 'use client'
 
-import type { Config, ResolvedRegister } from '@uxuyalpha/core'
+import type { Config, ResolvedRegister } from '@tg-wagmi/core'
 import {
   type GetCapabilitiesData,
   type GetCapabilitiesErrorType,
@@ -8,8 +8,8 @@ import {
   type GetCapabilitiesQueryFnData,
   type GetCapabilitiesQueryKey,
   getCapabilitiesQueryOptions,
-} from '@uxuyalpha/core/experimental'
-import type { Compute } from '@uxuyalpha/core/internal'
+} from '@tg-wagmi/core/experimental'
+import type { Compute } from '@tg-wagmi/core/internal'
 
 import { useAccount } from '../../hooks/useAccount.js'
 import { useConfig } from '../../hooks/useConfig.js'

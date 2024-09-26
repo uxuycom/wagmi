@@ -1,7 +1,7 @@
 'use client'
 
 import { useMutation } from '@tanstack/react-query'
-import type { Config, ResolvedRegister } from '@uxuyalpha/core'
+import type { Config, ResolvedRegister } from '@tg-wagmi/core'
 import {
   type SendCallsData,
   type SendCallsErrorType,
@@ -9,8 +9,8 @@ import {
   type SendCallsMutateAsync,
   type SendCallsVariables,
   sendCallsMutationOptions,
-} from '@uxuyalpha/core/experimental'
-import type { Compute } from '@uxuyalpha/core/internal'
+} from '@tg-wagmi/core/experimental'
+import type { Compute } from '@tg-wagmi/core/internal'
 
 import { useConfig } from '../../hooks/useConfig.js'
 import type { ConfigParameter } from '../../types/properties.js'

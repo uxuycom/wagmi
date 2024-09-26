@@ -1,5 +1,5 @@
-import { testClient, wait } from '@uxuyalpha/test'
-import { renderComposable } from '@uxuyalpha/test/vue'
+import { testClient, wait } from '@tg-wagmi/test'
+import { renderComposable } from '@tg-wagmi/test/vue'
 import { expect, test } from 'vitest'
 import { ref } from 'vue'
 import { useWatchBlockNumber } from './useWatchBlockNumber.js'

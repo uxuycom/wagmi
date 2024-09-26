@@ -4,7 +4,7 @@ import Browsers from '../components/Browsers.vue'
 
 const docsPath = 'core'
 const packageDir = 'core'
-const packageName = '@uxuyalpha/core'
+const packageName = '@tg-wagmi/core'
 const viemVersion = packageJson.peerDependencies.viem
 </script>
 
@@ -18,19 +18,19 @@ Install the required packages.
 
 ::: code-group
 ```bash-vue [pnpm]
-pnpm add @uxuyalpha/core viem@{{viemVersion}}
+pnpm add @tg-wagmi/core viem@{{viemVersion}}
 ```
 
 ```bash-vue [npm]
-npm install @uxuyalpha/core viem@{{viemVersion}}
+npm install @tg-wagmi/core viem@{{viemVersion}}
 ```
 
 ```bash-vue [yarn]
-yarn add @uxuyalpha/core viem@{{viemVersion}}
+yarn add @tg-wagmi/core viem@{{viemVersion}}
 ```
 
 ```bash-vue [bun]
-bun add @uxuyalpha/core viem@{{viemVersion}}
+bun add @tg-wagmi/core viem@{{viemVersion}}
 ```
 :::
 
@@ -44,8 +44,8 @@ If you're not using a package manager, you can also use Wagmi Core via an ESM-co
 ```html-vue
 <script type="module">
   import { createClient } from 'https://esm.sh/viem'
-  import { createConfig } from 'https://esm.sh/@uxuyalpha/core@{{viemVersion}}'
-  import { injected } from 'https://esm.sh/@uxuyalpha/connectors'
+  import { createConfig } from 'https://esm.sh/@tg-wagmi/core@{{viemVersion}}'
+  import { injected } from 'https://esm.sh/@tg-wagmi/connectors'
 </script>
 ```
 

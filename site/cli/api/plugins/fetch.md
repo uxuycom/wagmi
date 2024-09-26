@@ -5,14 +5,14 @@ Plugin for fetching and parsing ABIs from network resource with `fetch`.
 ## Import
 
 ```ts
-import { fetch } from '@uxuyalpha/cli/plugins'
+import { fetch } from '@tg-wagmi/cli/plugins'
 ```
 
 ## Usage
 
 ```ts{2,6-23}
-import { defineConfig } from '@uxuyalpha/cli'
-import { fetch } from '@uxuyalpha/cli/plugins'
+import { defineConfig } from '@tg-wagmi/cli'
+import { fetch } from '@tg-wagmi/cli/plugins'
 
 export default defineConfig({
   plugins: [
@@ -42,7 +42,7 @@ export default defineConfig({
 ## Configuration
 
 ```ts
-import { type FetchConfig } from '@uxuyalpha/cli/plugins'
+import { type FetchConfig } from '@tg-wagmi/cli/plugins'
 ```
 
 ### cacheDuration
@@ -53,8 +53,8 @@ import { type FetchConfig } from '@uxuyalpha/cli/plugins'
 - Defaults to `1_800_000` (30 minutes).
 
 ```ts
-import { defineConfig } from '@uxuyalpha/cli'
-import { fetch } from '@uxuyalpha/cli/plugins'
+import { defineConfig } from '@tg-wagmi/cli'
+import { fetch } from '@tg-wagmi/cli/plugins'
 
 export default defineConfig({
   plugins: [
@@ -88,8 +88,8 @@ export default defineConfig({
 Contracts to fetch ABIs for.
 
 ```ts
-import { defineConfig } from '@uxuyalpha/cli'
-import { fetch } from '@uxuyalpha/cli/plugins'
+import { defineConfig } from '@tg-wagmi/cli'
+import { fetch } from '@tg-wagmi/cli/plugins'
 
 export default defineConfig({
   plugins: [
@@ -124,8 +124,8 @@ export default defineConfig({
 - Defaults to `({ contract }) => JSON.stringify(contract)`.
 
 ```ts
-import { defineConfig } from '@uxuyalpha/cli'
-import { fetch } from '@uxuyalpha/cli/plugins'
+import { defineConfig } from '@tg-wagmi/cli'
+import { fetch } from '@tg-wagmi/cli/plugins'
 
 export default defineConfig({
   plugins: [
@@ -165,8 +165,8 @@ export default defineConfig({
 - Defaults to `'Fetch'`.
 
 ```ts
-import { defineConfig } from '@uxuyalpha/cli'
-import { fetch } from '@uxuyalpha/cli/plugins'
+import { defineConfig } from '@tg-wagmi/cli'
+import { fetch } from '@tg-wagmi/cli/plugins'
 
 export default defineConfig({
   plugins: [
@@ -201,8 +201,8 @@ export default defineConfig({
 - Defaults to `({ response }) => response.json()`
 
 ```ts
-import { defineConfig } from '@uxuyalpha/cli'
-import { fetch } from '@uxuyalpha/cli/plugins'
+import { defineConfig } from '@tg-wagmi/cli'
+import { fetch } from '@tg-wagmi/cli/plugins'
  
 export default defineConfig({
   plugins: [
@@ -240,8 +240,8 @@ export default defineConfig({
 Function for returning a request to fetch ABI from.
 
 ```ts
-import { defineConfig } from '@uxuyalpha/cli'
-import { fetch } from '@uxuyalpha/cli/plugins'
+import { defineConfig } from '@tg-wagmi/cli'
+import { fetch } from '@tg-wagmi/cli/plugins'
 
 export default defineConfig({
   plugins: [

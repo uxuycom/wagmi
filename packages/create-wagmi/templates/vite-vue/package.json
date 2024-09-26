@@ -11,7 +11,7 @@
   },
   "dependencies": {
     "@tanstack/vue-query": ">=5.45.0",
-    "@uxuyalpha/vue": "latest",
+    "@tg-wagmi/vue": "latest",
     "viem": "latest",
     "vue": ">=3.4.21"
   },

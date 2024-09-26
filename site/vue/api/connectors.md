@@ -13,10 +13,10 @@ Connectors for popular wallet providers and protocols.
 
 ## Import
 
-Import via the `'@uxuyalpha/vue/connectors'` entrypoint.
+Import via the `'@tg-wagmi/vue/connectors'` entrypoint.
 
 ```ts
-import { injected } from '@uxuyalpha/vue/connectors'
+import { injected } from '@tg-wagmi/vue/connectors'
 ```
 
 ## Available Connectors

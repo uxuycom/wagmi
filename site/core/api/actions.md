@@ -13,7 +13,7 @@ Actions for accounts, wallets, contracts, transactions, signing, ENS, and more.
 ## Import
 
 ```ts
-import { getAccount } from '@uxuyalpha/core'
+import { getAccount } from '@tg-wagmi/core'
 ```
 
 ## Available Actions

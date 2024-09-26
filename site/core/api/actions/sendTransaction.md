@@ -1,5 +1,5 @@
 <script setup>
-const packageName = '@uxuyalpha/core'
+const packageName = '@tg-wagmi/core'
 const actionName = 'sendTransaction'
 const typeName = 'SendTransaction'
 </script>
@@ -11,14 +11,14 @@ Action for creating, signing, and sending transactions to networks.
 ## Import
 
 ```ts
-import { sendTransaction } from '@uxuyalpha/core'
+import { sendTransaction } from '@tg-wagmi/core'
 ```
 
 ## Usage
 
 ::: code-group
 ```ts [index.ts]
-import { sendTransaction } from '@uxuyalpha/core'
+import { sendTransaction } from '@tg-wagmi/core'
 import { parseEther } from 'viem'
 import { config } from './config'
 
@@ -33,7 +33,7 @@ const result = await sendTransaction(config, {
 ## Parameters
 
 ```ts
-import { type SendTransactionParameters } from '@uxuyalpha/core'
+import { type SendTransactionParameters } from '@tg-wagmi/core'
 ```
 
 ### accessList
@@ -44,7 +44,7 @@ The access list.
 
 ::: code-group
 ```ts [index.ts]
-import { sendTransaction } from '@uxuyalpha/core'
+import { sendTransaction } from '@tg-wagmi/core'
 import { parseEther } from 'viem'
 import { config } from './config'
 
@@ -68,7 +68,7 @@ Account to use when sending transaction. Throws if account is not found on [`con
 
 ::: code-group
 ```ts [index.ts]
-import { sendTransaction } from '@uxuyalpha/core'
+import { sendTransaction } from '@tg-wagmi/core'
 import { parseEther } from 'viem'
 import { config } from './config'
 
@@ -89,8 +89,8 @@ Chain ID to validate against before sending transaction.
 
 ::: code-group
 ```ts [index.ts]
-import { sendTransaction } from '@uxuyalpha/core'
-import { mainnet } from '@uxuyalpha/core/chains'
+import { sendTransaction } from '@tg-wagmi/core'
+import { mainnet } from '@tg-wagmi/core/chains'
 import { parseEther } from 'viem'
 import { config } from './config'
 
@@ -112,7 +112,7 @@ const result = await sendTransaction(config, {
 
 ::: code-group
 ```ts [index.ts]
-import { getConnections, sendTransaction } from '@uxuyalpha/core'
+import { getConnections, sendTransaction } from '@tg-wagmi/core'
 import { parseEther } from 'viem'
 import { config } from './config'
 
@@ -134,7 +134,7 @@ A contract hashed method call with encoded args.
 
 ::: code-group
 ```ts [index.ts]
-import { sendTransaction } from '@uxuyalpha/core'
+import { sendTransaction } from '@tg-wagmi/core'
 import { parseEther } from 'viem'
 import { config } from './config'
 
@@ -155,7 +155,7 @@ Gas provided for transaction execution, or `null` to skip the prelude gas estima
 
 ::: code-group
 ```ts [index.ts]
-import { sendTransaction } from '@uxuyalpha/core'
+import { sendTransaction } from '@tg-wagmi/core'
 import { parseEther, parseGwei } from 'viem'
 import { config } from './config'
 
@@ -178,7 +178,7 @@ The price in wei to pay per gas. Only applies to [Legacy Transactions](https://v
 
 ::: code-group
 ```ts [index.ts]
-import { sendTransaction } from '@uxuyalpha/core'
+import { sendTransaction } from '@tg-wagmi/core'
 import { parseEther, parseGwei } from 'viem'
 import { config } from './config'
 
@@ -199,7 +199,7 @@ Total fee per gas in wei, inclusive of [`maxPriorityFeePerGas`](#maxPriorityFeeP
 
 ::: code-group
 ```ts [index.ts]
-import { sendTransaction } from '@uxuyalpha/core'
+import { sendTransaction } from '@tg-wagmi/core'
 import { parseEther, parseGwei } from 'viem'
 import { config } from './config'
 
@@ -220,7 +220,7 @@ Max priority fee per gas in wei. Only applies to [EIP-1559 Transactions](https:/
 
 ::: code-group
 ```ts [index.ts]
-import { sendTransaction } from '@uxuyalpha/core'
+import { sendTransaction } from '@tg-wagmi/core'
 import { parseEther, parseGwei } from 'viem'
 import { config } from './config'
 
@@ -244,7 +244,7 @@ Unique number identifying this transaction.
 
 ::: code-group
 ```ts [index.ts]
-import { sendTransaction } from '@uxuyalpha/core'
+import { sendTransaction } from '@tg-wagmi/core'
 import { parseEther } from 'viem'
 import { config } from './config'
 
@@ -265,7 +265,7 @@ The transaction recipient or contract address.
 
 ::: code-group
 ```ts [index.ts]
-import { sendTransaction } from '@uxuyalpha/core'
+import { sendTransaction } from '@tg-wagmi/core'
 import { parseEther } from 'viem'
 import { config } from './config'
 
@@ -285,7 +285,7 @@ Optional transaction request type to narrow parameters.
 
 ::: code-group
 ```ts [index.ts]
-import { sendTransaction } from '@uxuyalpha/core'
+import { sendTransaction } from '@tg-wagmi/core'
 import { parseEther } from 'viem'
 import { config } from './config'
 
@@ -306,7 +306,7 @@ Value in wei sent with this transaction.
 
 ::: code-group
 ```ts [index.ts]
-import { sendTransaction } from '@uxuyalpha/core'
+import { sendTransaction } from '@tg-wagmi/core'
 import { parseEther } from 'viem'
 import { config } from './config'
 
@@ -321,7 +321,7 @@ const result = await sendTransaction(config, {
 ## Return Type
 
 ```ts
-import { type SendTransactionReturnType } from '@uxuyalpha/core'
+import { type SendTransactionReturnType } from '@tg-wagmi/core'
 ```
 
 [`Hash`](https://viem.sh/docs/glossary/types.html#hash)
@@ -331,7 +331,7 @@ Transaction hash.
 ## Error
 
 ```ts
-import { type SendTransactionErrorType } from '@uxuyalpha/core'
+import { type SendTransactionErrorType } from '@tg-wagmi/core'
 ```
 
 <!--@include: @shared/mutation-imports.md-->

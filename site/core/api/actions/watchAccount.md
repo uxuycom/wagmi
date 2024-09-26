@@ -5,14 +5,14 @@ Subscribe to account changes.
 ## Import
 
 ```ts
-import { watchAccount } from '@uxuyalpha/core'
+import { watchAccount } from '@tg-wagmi/core'
 ```
 
 ## Usage
 
 ::: code-group
 ```ts [index.ts]
-import { watchAccount } from '@uxuyalpha/core'
+import { watchAccount } from '@tg-wagmi/core'
 import { config } from './config'
 
 const unwatch = watchAccount(config, {
@@ -28,7 +28,7 @@ unwatch()
 ## Parameters
 
 ```ts
-import { type WatchAccountParameters } from '@uxuyalpha/core'
+import { type WatchAccountParameters } from '@tg-wagmi/core'
 ```
 
 ### onChange
@@ -39,7 +39,7 @@ Callback function called when account changes.
 
 ::: code-group
 ```ts [index.ts]
-import { watchAccount } from '@uxuyalpha/core'
+import { watchAccount } from '@tg-wagmi/core'
 import { config } from './config'
 
 const unwatch = watchAccount(config, {
@@ -55,7 +55,7 @@ unwatch()
 ## Return Type
 
 ```ts
-import { type WatchAccountReturnType } from '@uxuyalpha/core'
+import { type WatchAccountReturnType } from '@tg-wagmi/core'
 ```
 
 Function for cleaning up watcher.

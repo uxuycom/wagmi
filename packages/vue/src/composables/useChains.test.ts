@@ -1,5 +1,5 @@
-import { config } from '@uxuyalpha/test'
-import { renderComposable } from '@uxuyalpha/test/vue'
+import { config } from '@tg-wagmi/test'
+import { renderComposable } from '@tg-wagmi/test/vue'
 import { celo } from 'viem/chains'
 import { expect, test } from 'vitest'
 

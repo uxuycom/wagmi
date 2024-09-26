@@ -1,5 +1,5 @@
 <script setup>
-const packageName = '@uxuyalpha/core'
+const packageName = '@tg-wagmi/core'
 const actionName = 'getEnsName'
 const typeName = 'GetEnsName'
 </script>
@@ -11,14 +11,14 @@ Action for fetching primary ENS name for address.
 ## Import
 
 ```ts
-import { getEnsName } from '@uxuyalpha/core'
+import { getEnsName } from '@tg-wagmi/core'
 ```
 
 ## Usage
 
 ::: code-group
 ```ts [index.ts]
-import { getEnsName } from '@uxuyalpha/core'
+import { getEnsName } from '@tg-wagmi/core'
 import { config } from './config'
 
 const ensName = getEnsName(config, {
@@ -31,7 +31,7 @@ const ensName = getEnsName(config, {
 ## Parameters
 
 ```ts
-import { type GetEnsNameParameters } from '@uxuyalpha/core'
+import { type GetEnsNameParameters } from '@tg-wagmi/core'
 ```
 
 ### address
@@ -42,7 +42,7 @@ Address to get the name for.
 
 ::: code-group
 ```ts [index.ts]
-import { getEnsName } from '@uxuyalpha/core'
+import { getEnsName } from '@tg-wagmi/core'
 import { config } from './config'
 
 const ensName = await getEnsName(config, {
@@ -62,7 +62,7 @@ Block number to get name at.
 
 ::: code-group
 ```ts [index.ts]
-import { getEnsName } from '@uxuyalpha/core'
+import { getEnsName } from '@tg-wagmi/core'
 import { config } from './config'
 
 const ensName = getEnsName(config, {
@@ -81,7 +81,7 @@ Block tag to get name at.
 
 ::: code-group
 ```ts [index.ts]
-import { getEnsName } from '@uxuyalpha/core'
+import { getEnsName } from '@tg-wagmi/core'
 import { config } from './config'
 
 const ensName = getEnsName(config, {
@@ -102,8 +102,8 @@ ID of chain to use when fetching data.
 
 ::: code-group
 ```ts [index.ts]
-import { getEnsName } from '@uxuyalpha/core'
-import { mainnet } from '@uxuyalpha/core/chains'
+import { getEnsName } from '@tg-wagmi/core'
+import { mainnet } from '@tg-wagmi/core/chains'
 import { config } from './config'
 
 const ensName = await getEnsName(config, {
@@ -123,7 +123,7 @@ const ensName = await getEnsName(config, {
 
 ::: code-group
 ```ts [index.ts]
-import { getEnsName } from '@uxuyalpha/core'
+import { getEnsName } from '@tg-wagmi/core'
 import { config } from './config'
 
 const ensName = await getEnsName(config, {
@@ -137,7 +137,7 @@ const ensName = await getEnsName(config, {
 ## Return Type
 
 ```ts
-import { type GetEnsNameReturnType } from '@uxuyalpha/core'
+import { type GetEnsNameReturnType } from '@tg-wagmi/core'
 ```
 
 `string | null`
@@ -147,7 +147,7 @@ The primary ENS name for the address. Returns `null` if address does not have pr
 ## Error
 
 ```ts
-import { type GetEnsNameErrorType } from '@uxuyalpha/core'
+import { type GetEnsNameErrorType } from '@tg-wagmi/core'
 ```
 
 <!--@include: @shared/query-imports.md-->

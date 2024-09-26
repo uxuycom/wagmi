@@ -1,15 +1,15 @@
 'use client'
 
 import { useMutation } from '@tanstack/react-query'
-import type { Connector, ReconnectErrorType } from '@uxuyalpha/core'
-import type { Compute } from '@uxuyalpha/core/internal'
+import type { Connector, ReconnectErrorType } from '@tg-wagmi/core'
+import type { Compute } from '@tg-wagmi/core/internal'
 import {
   type ReconnectData,
   type ReconnectMutate,
   type ReconnectMutateAsync,
   type ReconnectVariables,
   reconnectMutationOptions,
-} from '@uxuyalpha/core/query'
+} from '@tg-wagmi/core/query'
 
 import type { ConfigParameter } from '../types/properties.js'
 import type {

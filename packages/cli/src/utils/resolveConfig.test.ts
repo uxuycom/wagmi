@@ -9,7 +9,7 @@ test.skip('resolves config', async () => {
   const { paths } = await createFixture({
     files: {
       'wagmi.config.ts': `
-        import { defineConfig } from '@uxuyalpha/cli'
+        import { defineConfig } from '@tg-wagmi/cli'
 
         export default defineConfig(${JSON.stringify(defaultConfig)})
         `,
@@ -34,7 +34,7 @@ test.skip('resolves function config', async () => {
   const { paths } = await createFixture({
     files: {
       'wagmi.config.ts': `
-        import { defineConfig } from '@uxuyalpha/cli'
+        import { defineConfig } from '@tg-wagmi/cli'
 
         export default defineConfig(() => (${JSON.stringify(defaultConfig)}))
         `,
@@ -59,7 +59,7 @@ test.skip('resolves array config', async () => {
   const { paths } = await createFixture({
     files: {
       'wagmi.config.ts': `
-        import { defineConfig } from '@uxuyalpha/cli'
+        import { defineConfig } from '@tg-wagmi/cli'
 
         export default defineConfig([${JSON.stringify(defaultConfig)}])
         `,

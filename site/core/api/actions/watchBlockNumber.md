@@ -5,14 +5,14 @@ Action that watches for block number changes.
 ## Import
 
 ```ts
-import { watchBlockNumber } from '@uxuyalpha/core'
+import { watchBlockNumber } from '@tg-wagmi/core'
 ```
 
 ## Usage
 
 ::: code-group
 ```ts [index.ts]
-import { watchBlockNumber } from '@uxuyalpha/core'
+import { watchBlockNumber } from '@tg-wagmi/core'
 import { config } from './config'
 
 const unwatch = watchBlockNumber(config, {
@@ -28,7 +28,7 @@ unwatch()
 ## Parameters
 
 ```ts
-import { type WatchBlockNumberParameters } from '@uxuyalpha/core'
+import { type WatchBlockNumberParameters } from '@tg-wagmi/core'
 ```
 
 ### chainId
@@ -39,8 +39,8 @@ ID of chain to use when fetching data.
 
 ::: code-group
 ```ts [index.ts]
-import { watchBlockNumber } from '@uxuyalpha/core'
-import { mainnet } from '@uxuyalpha/core/chains'
+import { watchBlockNumber } from '@tg-wagmi/core'
+import { mainnet } from '@tg-wagmi/core/chains'
 import { config } from './config'
 
 const unwatch = watchBlockNumber(config, {
@@ -62,7 +62,7 @@ Whether or not to emit the latest block number to the callback when the subscrip
 
 ::: code-group
 ```ts [index.ts]
-import { watchBlockNumber } from '@uxuyalpha/core'
+import { watchBlockNumber } from '@tg-wagmi/core'
 import { config } from './config'
 
 const unwatch = watchBlockNumber(config, {
@@ -84,7 +84,7 @@ Whether or not to emit the missed block numbers to the callback.
 
 ::: code-group
 ```ts [index.ts]
-import { watchBlockNumber } from '@uxuyalpha/core'
+import { watchBlockNumber } from '@tg-wagmi/core'
 import { config } from './config'
 
 const unwatch = watchBlockNumber(config, {
@@ -107,7 +107,7 @@ Callback for when block number changes.
 
 ::: code-group
 ```ts [index.ts]
-import { watchBlockNumber } from '@uxuyalpha/core'
+import { watchBlockNumber } from '@tg-wagmi/core'
 import { config } from './config'
 
 const unwatch = watchBlockNumber(config, {
@@ -128,7 +128,7 @@ Error thrown from getting the block number.
 
 ::: code-group
 ```ts [index.ts]
-import { watchBlockNumber } from '@uxuyalpha/core'
+import { watchBlockNumber } from '@tg-wagmi/core'
 import { config } from './config'
 
 const unwatch = watchBlockNumber(config, {
@@ -153,7 +153,7 @@ unwatch()
 
 ::: code-group
 ```ts [index.ts]
-import { watchBlockNumber } from '@uxuyalpha/core'
+import { watchBlockNumber } from '@tg-wagmi/core'
 import { config } from './config'
 
 const unwatch = watchBlockNumber(config, {
@@ -176,7 +176,7 @@ unwatch()
 
 ::: code-group
 ```ts [index.ts]
-import { watchBlockNumber } from '@uxuyalpha/core'
+import { watchBlockNumber } from '@tg-wagmi/core'
 import { config } from './config'
 
 const unwatch = watchBlockNumber(config, {
@@ -199,7 +199,7 @@ unwatch()
 
 ::: code-group
 ```ts [index.ts]
-import { watchBlockNumber } from '@uxuyalpha/core'
+import { watchBlockNumber } from '@tg-wagmi/core'
 import { config } from './config'
 
 const unwatch = watchBlockNumber(config, {
@@ -216,7 +216,7 @@ unwatch()
 ## Return Type
 
 ```ts
-import { type WatchBlockNumberReturnType } from '@uxuyalpha/core'
+import { type WatchBlockNumberReturnType } from '@tg-wagmi/core'
 ```
 
 Function for cleaning up watcher.

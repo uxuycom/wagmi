@@ -1,6 +1,6 @@
-import { connect, disconnect } from '@uxuyalpha/core'
-import { config, wait } from '@uxuyalpha/test'
-import { render, renderHook, waitFor } from '@uxuyalpha/test/react'
+import { connect, disconnect } from '@tg-wagmi/core'
+import { config, wait } from '@tg-wagmi/test'
+import { render, renderHook, waitFor } from '@tg-wagmi/test/react'
 import * as React from 'react'
 import { expect, test } from 'vitest'
 

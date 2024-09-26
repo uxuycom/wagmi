@@ -1,4 +1,4 @@
-import type { Connector } from '@uxuyalpha/core'
+import type { Connector } from '@tg-wagmi/core'
 import type { Address, Chain } from 'viem'
 import { expectTypeOf, test } from 'vitest'
 

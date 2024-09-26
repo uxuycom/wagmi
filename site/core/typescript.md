@@ -13,7 +13,7 @@ Wagmi Core is designed to be as type-safe as possible! Things to keep in mind:
 - Types currently require using TypeScript {{typescriptVersion}}.
 - [TypeScript doesn't follow semver](https://www.learningtypescript.com/articles/why-typescript-doesnt-follow-strict-semantic-versioning) and often introduces breaking changes in minor releases.
 - Changes to types in this repository are considered non-breaking and are usually released as patch  changes (otherwise every type enhancement would be a major version!).
-- It is highly recommended that you lock your `@uxuyalpha/core` and `typescript` versions to specific patch releases and upgrade with the expectation that types may be fixed or upgraded between any release.
+- It is highly recommended that you lock your `@tg-wagmi/core` and `typescript` versions to specific patch releases and upgrade with the expectation that types may be fixed or upgraded between any release.
 - The non-type-related public API of Wagmi Core still follows semver very strictly.
 
 To ensure everything works correctly, make sure your `tsconfig.json` has [`strict`](https://www.typescriptlang.org/tsconfig#strict) mode set to `true`.
@@ -57,8 +57,8 @@ Here's what [`readContract`](/core/api/actions/readContract) looks like with and
 
 ::: code-group
 ```ts twoslash [Const-Asserted]
-import { createConfig, http } from '@uxuyalpha/core'
-import { mainnet, sepolia } from '@uxuyalpha/core/chains'
+import { createConfig, http } from '@tg-wagmi/core'
+import { mainnet, sepolia } from '@tg-wagmi/core/chains'
 
 const config = createConfig({
   chains: [mainnet, sepolia],
@@ -109,7 +109,7 @@ const erc721Abi = [
   },
 ] as const
 // ---cut---
-import { readContract } from '@uxuyalpha/core'
+import { readContract } from '@tg-wagmi/core'
 
 const result = await readContract(config, {
   address: '0xFBA3912Ca04dd458c843e2EE08967fC04f3579c2',
@@ -127,8 +127,8 @@ result
 // ^?
 ```
 ```ts twoslash [Not Const-Asserted]
-import { createConfig, http } from '@uxuyalpha/core'
-import { mainnet, sepolia } from '@uxuyalpha/core/chains'
+import { createConfig, http } from '@tg-wagmi/core'
+import { mainnet, sepolia } from '@tg-wagmi/core/chains'
 
 const config = createConfig({
   chains: [mainnet, sepolia],
@@ -151,7 +151,7 @@ declare const erc721Abi: {
   }[];
 }[]
 // ---cut---
-import { readContract } from '@uxuyalpha/core'
+import { readContract } from '@tg-wagmi/core'
 
 const result = await readContract(config, {
   address: '0xFBA3912Ca04dd458c843e2EE08967fC04f3579c2',
@@ -174,8 +174,8 @@ You can prevent runtime errors and be more productive by making sure your ABIs a
 
 ```ts twoslash
 // @errors: 2820
-import { createConfig, http } from '@uxuyalpha/core'
-import { mainnet, sepolia } from '@uxuyalpha/core/chains'
+import { createConfig, http } from '@tg-wagmi/core'
+import { mainnet, sepolia } from '@tg-wagmi/core/chains'
 
 const config = createConfig({
   chains: [mainnet, sepolia],
@@ -226,7 +226,7 @@ const erc721Abi = [
   },
 ] as const
 // ---cut---
-import { readContract } from '@uxuyalpha/core'
+import { readContract } from '@tg-wagmi/core'
 
 readContract(config, {
   address: '0xFBA3912Ca04dd458c843e2EE08967fC04f3579c2',

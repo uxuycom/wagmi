@@ -1,6 +1,6 @@
 import { Buffer } from 'buffer'
 import { VueQueryPlugin } from '@tanstack/vue-query'
-import { WagmiPlugin } from '@uxuyalpha/vue'
+import { WagmiPlugin } from '@tg-wagmi/vue'
 import { createApp } from 'vue'
 
 // `@coinbase-wallet/sdk` uses `Buffer`

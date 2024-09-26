@@ -4,7 +4,7 @@ description: Composable that waits for the transaction to be included on a block
 ---
 
 <script setup>
-const packageName = '@uxuyalpha/vue'
+const packageName = '@tg-wagmi/vue'
 const actionName = 'waitForTransactionReceipt'
 const typeName = 'WaitForTransactionReceipt'
 const TData = 'WaitForTransactionReceiptData'
@@ -18,7 +18,7 @@ Composable that waits for the transaction to be included on a block, and then re
 ## Import
 
 ```ts
-import { useWaitForTransactionReceipt } from '@uxuyalpha/vue'
+import { useWaitForTransactionReceipt } from '@tg-wagmi/vue'
 ```
 
 ## Usage
@@ -26,7 +26,7 @@ import { useWaitForTransactionReceipt } from '@uxuyalpha/vue'
 ::: code-group
 ```vue [index.vue]
 <script setup lang="ts">
-import { useWaitForTransactionReceipt } from '@uxuyalpha/vue'
+import { useWaitForTransactionReceipt } from '@tg-wagmi/vue'
 
 const result = useWaitForTransactionReceipt({
   hash: '0x4ca7ee652d57678f26e887c149ab0735f41de37bcad58c9f6d3ed5824f15b74d',
@@ -39,7 +39,7 @@ const result = useWaitForTransactionReceipt({
 ## Parameters
 
 ```ts
-import { type WaitForTransactionReceiptParameters } from '@uxuyalpha/core'
+import { type WaitForTransactionReceiptParameters } from '@tg-wagmi/core'
 ```
 
 ### chainId
@@ -50,8 +50,8 @@ ID of chain to use when fetching data.
 
 ```vue [index.vue]
 <script setup lang="ts">
-import { useWaitForTransactionReceipt } from '@uxuyalpha/vue'
-import { mainnet } from '@uxuyalpha/vue/chains'
+import { useWaitForTransactionReceipt } from '@tg-wagmi/vue'
+import { mainnet } from '@tg-wagmi/vue/chains'
 
 const result = useWaitForTransactionReceipt({
   chainId: mainnet.id, // [!code focus]
@@ -69,7 +69,7 @@ const result = useWaitForTransactionReceipt({
 ::: code-group
 ```vue [index.vue]
 <script setup lang="ts">
-import { useWaitForTransactionReceipt } from '@uxuyalpha/vue'
+import { useWaitForTransactionReceipt } from '@tg-wagmi/vue'
 import { config } from './config' // [!code focus]
 
 const result = useWaitForTransactionReceipt({
@@ -89,7 +89,7 @@ The number of confirmations (blocks that have passed) to wait before resolving.
 
 ```vue [index.vue]
 <script setup lang="ts">
-import { useWaitForTransactionReceipt } from '@uxuyalpha/vue'
+import { useWaitForTransactionReceipt } from '@tg-wagmi/vue'
 
 const result = useWaitForTransactionReceipt({
   confirmations: 2, // [!code focus]
@@ -108,7 +108,7 @@ Optional callback to emit if the transaction has been replaced.
 
 ```vue [index.vue]
 <script setup lang="ts">
-import { useWaitForTransactionReceipt } from '@uxuyalpha/vue'
+import { useWaitForTransactionReceipt } from '@tg-wagmi/vue'
 
 const result = useWaitForTransactionReceipt({
   hash: '0x4ca7ee652d57678f26e887c149ab0735f41de37bcad58c9f6d3ed5824f15b74d',
@@ -126,7 +126,7 @@ const result = useWaitForTransactionReceipt({
 
 ```vue [index.vue]
 <script setup lang="ts">
-import { useWaitForTransactionReceipt } from '@uxuyalpha/vue'
+import { useWaitForTransactionReceipt } from '@tg-wagmi/vue'
 
 const result = useWaitForTransactionReceipt({
   hash: '0x4ca7ee652d57678f26e887c149ab0735f41de37bcad58c9f6d3ed5824f15b74d',
@@ -143,7 +143,7 @@ The transaction hash to wait for. [`enabled`](#enabled) set to `false` if `hash`
 
 ```vue [index.vue]
 <script setup lang="ts">
-import { useWaitForTransactionReceipt } from '@uxuyalpha/vue'
+import { useWaitForTransactionReceipt } from '@tg-wagmi/vue'
 
 const result = useWaitForTransactionReceipt({
   hash: '0x4ca7ee652d57678f26e887c149ab0735f41de37bcad58c9f6d3ed5824f15b74d', // [!code focus]
@@ -156,7 +156,7 @@ const result = useWaitForTransactionReceipt({
 ## Return Type
 
 ```ts
-import { type UseWaitForTransactionReceiptReturnType } from '@uxuyalpha/vue'
+import { type UseWaitForTransactionReceiptReturnType } from '@tg-wagmi/vue'
 ```
 
 <!--@include: @shared/query-result.md-->

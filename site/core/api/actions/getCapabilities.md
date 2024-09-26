@@ -1,5 +1,5 @@
 <script setup>
-const packageName = '@uxuyalpha/core/experimental'
+const packageName = '@tg-wagmi/core/experimental'
 const actionName = 'getCapabilities'
 const typeName = 'GetCapabilities'
 </script>
@@ -17,14 +17,14 @@ This is an experimental action that is not supported in most wallets. It is reco
 ## Import
 
 ```ts
-import { getCapabilities } from '@uxuyalpha/core/experimental'
+import { getCapabilities } from '@tg-wagmi/core/experimental'
 ```
 
 ## Usage
 
 ::: code-group
 ```ts [index.ts]
-import { getCapabilities } from '@uxuyalpha/core/experimental'
+import { getCapabilities } from '@tg-wagmi/core/experimental'
 import { config } from './config'
 
 const capabilities = await getCapabilities(config)
@@ -35,7 +35,7 @@ const capabilities = await getCapabilities(config)
 ## Parameters
 
 ```ts
-import { type GetCapabilitiesParameters } from '@uxuyalpha/core/experimental'
+import { type GetCapabilitiesParameters } from '@tg-wagmi/core/experimental'
 ```
 
 ### account
@@ -46,7 +46,7 @@ Fetch capabilities for the provided account.
 
 ::: code-group
 ```ts [index.ts]
-import { getCapabilities } from '@uxuyalpha/core/experimental'
+import { getCapabilities } from '@tg-wagmi/core/experimental'
 import { config } from './config'
 
 const capabilities = await getCapabilities(config, {
@@ -64,7 +64,7 @@ Connector to get capabilities from.
 
 ::: code-group
 ```ts [index.ts]
-import { getConnections, getCapabilities } from '@uxuyalpha/core/experimental'
+import { getConnections, getCapabilities } from '@tg-wagmi/core/experimental'
 import { config } from './config'
 
 const connections = getConnections(config)
@@ -78,7 +78,7 @@ const capabilities = await getCapabilities(config, {
 ## Return Type
 
 ```ts
-import { type GetCapabilitiesReturnType } from '@uxuyalpha/core/experimental'
+import { type GetCapabilitiesReturnType } from '@tg-wagmi/core/experimental'
 ```
 
 `bigint`
@@ -88,7 +88,7 @@ Most recent block number seen.
 ## Error
 
 ```ts
-import { type GetCapabilitiesErrorType } from '@uxuyalpha/core/experimental'
+import { type GetCapabilitiesErrorType } from '@tg-wagmi/core/experimental'
 ```
 
 <!--@include: @shared/query-imports.md-->

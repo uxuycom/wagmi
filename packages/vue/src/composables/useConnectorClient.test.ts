@@ -1,6 +1,6 @@
-import { connect, disconnect } from '@uxuyalpha/core'
-import { config, wait } from '@uxuyalpha/test'
-import { renderComposable, waitFor } from '@uxuyalpha/test/vue'
+import { connect, disconnect } from '@tg-wagmi/core'
+import { config, wait } from '@tg-wagmi/test'
+import { renderComposable, waitFor } from '@tg-wagmi/test/vue'
 import { expect, test } from 'vitest'
 
 import { deepUnref } from '../utils/cloneDeep.js'

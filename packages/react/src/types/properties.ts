@@ -1,6 +1,6 @@
 import type { DefaultError, QueryKey } from '@tanstack/react-query'
-import type { Config } from '@uxuyalpha/core'
-import type { Omit } from '@uxuyalpha/core/internal'
+import type { Config } from '@tg-wagmi/core'
+import type { Omit } from '@tg-wagmi/core/internal'
 
 import type {
   UseInfiniteQueryParameters,

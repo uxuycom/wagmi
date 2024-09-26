@@ -13,7 +13,7 @@ export type ActionsConfig = {
         itemName?: string | undefined
         type: 'read' | 'simulate' | 'watch' | 'write'
       }) => string)
-  overridePackageName?: '@uxuyalpha/core' | 'wagmi' | undefined
+  overridePackageName?: '@tg-wagmi/core' | 'wagmi' | undefined
 }
 
 type ActionsResult = Compute<RequiredBy<Plugin, 'run'>>
@@ -241,11 +241,11 @@ export const ${actionName} = ${pure} ${functionName}({ ${innerContent}, eventNam
 
       const importValues = [...imports.values()]
 
-      let packageName = '@uxuyalpha/core/codegen'
+      let packageName = '@tg-wagmi/core/codegen'
       if (config.overridePackageName) {
         switch (config.overridePackageName) {
-          case '@uxuyalpha/core':
-            packageName = '@uxuyalpha/core/codegen'
+          case '@tg-wagmi/core':
+            packageName = '@tg-wagmi/core/codegen'
             break
           case 'wagmi':
             packageName = 'wagmi/codegen'
@@ -253,8 +253,8 @@ export const ${actionName} = ${pure} ${functionName}({ ${innerContent}, eventNam
         }
       } else if (await getIsPackageInstalled({ packageName: 'wagmi' }))
         packageName = 'wagmi/codegen'
-      else if (await getIsPackageInstalled({ packageName: '@uxuyalpha/core' }))
-        packageName = '@uxuyalpha/core/codegen'
+      else if (await getIsPackageInstalled({ packageName: '@tg-wagmi/core' }))
+        packageName = '@tg-wagmi/core/codegen'
 
       return {
         imports: importValues.length

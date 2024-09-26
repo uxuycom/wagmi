@@ -1,5 +1,5 @@
-import type { Config } from '@uxuyalpha/core'
-import { config } from '@uxuyalpha/test'
+import type { Config } from '@tg-wagmi/core'
+import { config } from '@tg-wagmi/test'
 import { expectTypeOf, test } from 'vitest'
 
 import { useConfig } from './useConfig.js'

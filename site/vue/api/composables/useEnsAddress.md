@@ -4,7 +4,7 @@ description: Composable for fetching ENS address for name.
 ---
 
 <script setup>
-const packageName = '@uxuyalpha/vue'
+const packageName = '@tg-wagmi/vue'
 const actionName = 'getEnsAddress'
 const typeName = 'GetEnsAddress'
 const TData = 'string'
@@ -18,7 +18,7 @@ Composable for fetching ENS address for name.
 ## Import
 
 ```ts
-import { useEnsAddress } from '@uxuyalpha/vue'
+import { useEnsAddress } from '@tg-wagmi/vue'
 ```
 
 ## Usage
@@ -26,7 +26,7 @@ import { useEnsAddress } from '@uxuyalpha/vue'
 ::: code-group
 ```vue [index.vue]
 <script setup lang="ts">
-import { useEnsAddress } from '@uxuyalpha/vue'
+import { useEnsAddress } from '@tg-wagmi/vue'
 import { normalize } from 'viem/ens'
 
 const result = useEnsAddress({
@@ -44,7 +44,7 @@ Since ENS names prohibit certain forbidden characters (e.g. underscore) and have
 ## Parameters
 
 ```ts
-import { type UseEnsAddressParameters } from '@uxuyalpha/vue'
+import { type UseEnsAddressParameters } from '@tg-wagmi/vue'
 ```
 
 ---
@@ -58,7 +58,7 @@ Block number to get ENS address at.
 ::: code-group
 ```vue [index.vue]
 <script setup lang="ts">
-import { useEnsAddress } from '@uxuyalpha/vue'
+import { useEnsAddress } from '@tg-wagmi/vue'
 import { normalize } from 'viem/ens'
 
 const result = useEnsAddress({
@@ -79,7 +79,7 @@ Block tag to get ENS address at.
 ::: code-group
 ```vue [index.vue]
 <script setup lang="ts">
-import { useEnsAddress } from '@uxuyalpha/vue'
+import { useEnsAddress } from '@tg-wagmi/vue'
 import { normalize } from 'viem/ens'
 
 const result = useEnsAddress({
@@ -102,8 +102,8 @@ ID of chain to use when fetching data.
 ::: code-group
 ```vue [index.vue]
 <script setup lang="ts">
-import { useEnsAddress } from '@uxuyalpha/vue'
-import { mainnet } from '@uxuyalpha/vue/chains' // [!code focus]
+import { useEnsAddress } from '@tg-wagmi/vue'
+import { mainnet } from '@tg-wagmi/vue/chains' // [!code focus]
 import { normalize } from 'viem/ens'
 
 const result = useEnsAddress({
@@ -124,7 +124,7 @@ The [ENSIP-9](https://docs.ens.domains/ens-improvement-proposals/ensip-9-multich
 ::: code-group
 ```vue [index.vue]
 <script setup lang="ts">
-import { useEnsAddress } from '@uxuyalpha/vue'
+import { useEnsAddress } from '@tg-wagmi/vue'
 import { normalize } from 'viem/ens'
 
 const result = useEnsAddress({
@@ -145,7 +145,7 @@ const result = useEnsAddress({
 ::: code-group
 ```vue [index.vue]
 <script setup lang="ts">
-import { useEnsAddress } from '@uxuyalpha/vue'
+import { useEnsAddress } from '@tg-wagmi/vue'
 import { normalize } from 'viem/ens'
 import { config } from './config' // [!code focus]
 
@@ -167,7 +167,7 @@ Name to get the address for. [`enabled`](#enabled) set to `false` if `name` is `
 ::: code-group
 ```vue [index.vue]
 <script setup lang="ts">
-import { useEnsAddress } from '@uxuyalpha/vue'
+import { useEnsAddress } from '@tg-wagmi/vue'
 import { normalize } from 'viem/ens'
 
 const result = useEnsAddress({
@@ -187,7 +187,7 @@ Scopes the cache to a given context. Composables that have identical context wil
 ::: code-group
 ```vue [index.vue]
 <script setup lang="ts">
-import { useEnsAddress } from '@uxuyalpha/vue'
+import { useEnsAddress } from '@tg-wagmi/vue'
 import { normalize } from 'viem/ens'
 
 const result = useEnsAddress({
@@ -209,7 +209,7 @@ const result = useEnsAddress({
 ::: code-group
 ```vue [index.vue]
 <script setup lang="ts">
-import { useEnsAddress } from '@uxuyalpha/vue'
+import { useEnsAddress } from '@tg-wagmi/vue'
 import { normalize } from 'viem/ens'
 
 const result = useEnsAddress({
@@ -226,7 +226,7 @@ const result = useEnsAddress({
 ## Return Type
 
 ```ts
-import { type UseEnsAddressReturnType } from '@uxuyalpha/vue'
+import { type UseEnsAddressReturnType } from '@tg-wagmi/vue'
 ```
 
 <!--@include: @shared/query-result.md-->

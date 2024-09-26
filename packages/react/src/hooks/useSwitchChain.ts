@@ -5,15 +5,15 @@ import type {
   Config,
   ResolvedRegister,
   SwitchChainErrorType,
-} from '@uxuyalpha/core'
-import type { Compute } from '@uxuyalpha/core/internal'
+} from '@tg-wagmi/core'
+import type { Compute } from '@tg-wagmi/core/internal'
 import {
   type SwitchChainData,
   type SwitchChainMutate,
   type SwitchChainMutateAsync,
   type SwitchChainVariables,
   switchChainMutationOptions,
-} from '@uxuyalpha/core/query'
+} from '@tg-wagmi/core/query'
 
 import type { ConfigParameter } from '../types/properties.js'
 import type {

@@ -4,14 +4,14 @@ import type {
   Config,
   ResolvedRegister,
   VerifyTypedDataErrorType,
-} from '@uxuyalpha/core'
+} from '@tg-wagmi/core'
 import {
   type VerifyTypedDataData,
   type VerifyTypedDataOptions,
   type VerifyTypedDataQueryKey,
   verifyTypedDataQueryOptions,
-} from '@uxuyalpha/core/query'
-import type { VerifyTypedDataQueryFnData } from '@uxuyalpha/core/query'
+} from '@tg-wagmi/core/query'
+import type { VerifyTypedDataQueryFnData } from '@tg-wagmi/core/query'
 import type { TypedData } from 'viem'
 import type { ConfigParameter, QueryParameter } from '../types/properties.js'
 import { type UseQueryReturnType, useQuery } from '../utils/query.js'

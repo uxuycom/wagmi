@@ -1,5 +1,5 @@
-import type { Connector, DisconnectErrorType } from '@uxuyalpha/core'
-import { config } from '@uxuyalpha/test'
+import type { Connector, DisconnectErrorType } from '@tg-wagmi/core'
+import { config } from '@tg-wagmi/test'
 import { expectTypeOf, test } from 'vitest'
 
 import { useDisconnect } from './useDisconnect.js'

@@ -1,5 +1,5 @@
 <script setup>
-const packageName = '@uxuyalpha/core/experimental'
+const packageName = '@tg-wagmi/core/experimental'
 const actionName = 'sendCalls'
 const typeName = 'SendCalls'
 </script>
@@ -17,7 +17,7 @@ This is an experimental action that is not supported in most wallets. It is reco
 ## Import
 
 ```ts
-import { sendCalls } from '@uxuyalpha/core/experimental'
+import { sendCalls } from '@tg-wagmi/core/experimental'
 ```
 
 ## Usage
@@ -25,7 +25,7 @@ import { sendCalls } from '@uxuyalpha/core/experimental'
 ::: code-group
 ```ts [index.ts]
 import { parseEther } from 'viem'
-import { sendCalls } from '@uxuyalpha/core/experimental'
+import { sendCalls } from '@tg-wagmi/core/experimental'
 import { config } from './config'
 
 const id = await sendCalls(config, {
@@ -47,7 +47,7 @@ const id = await sendCalls(config, {
 ## Parameters
 
 ```ts
-import { type SendCallsParameters } from '@uxuyalpha/core/experimental'
+import { type SendCallsParameters } from '@tg-wagmi/core/experimental'
 ```
 
 ### account
@@ -59,7 +59,7 @@ Account to execute the calls.
 ::: code-group
 ```ts [index.ts]
 import { parseEther } from 'viem'
-import { sendCalls } from '@uxuyalpha/core/experimental'
+import { sendCalls } from '@tg-wagmi/core/experimental'
 import { config } from './config'
 
 const id = await sendCalls(config, {
@@ -88,7 +88,7 @@ Calls to execute.
 ::: code-group
 ```ts [index.ts]
 import { parseEther } from 'viem'
-import { sendCalls } from '@uxuyalpha/core/experimental'
+import { sendCalls } from '@tg-wagmi/core/experimental'
 import { config } from './config'
 
 const id = await sendCalls(config, {
@@ -116,7 +116,7 @@ Capability metadata for the calls (e.g. specifying a paymaster).
 ::: code-group
 ```ts [index.ts]
 import { parseEther } from 'viem'
-import { sendCalls } from '@uxuyalpha/core/experimental'
+import { sendCalls } from '@tg-wagmi/core/experimental'
 import { config } from './config'
 
 const id = await sendCalls(config, {
@@ -149,7 +149,7 @@ The target chain ID to broadcast the calls.
 ::: code-group
 ```ts [index.ts]
 import { parseEther } from 'viem'
-import { sendCalls } from '@uxuyalpha/core/experimental'
+import { sendCalls } from '@tg-wagmi/core/experimental'
 import { config } from './config'
 
 const id = await sendCalls(config, {
@@ -178,8 +178,8 @@ Connector to get send the calls with.
 ::: code-group
 ```ts [index.ts]
 import { parseEther } from 'viem'
-import { getConnections } from '@uxuyalpha/core'
-import { sendCalls } from '@uxuyalpha/core/experimental'
+import { getConnections } from '@tg-wagmi/core'
+import { sendCalls } from '@tg-wagmi/core/experimental'
 import { config } from './config'
 
 const connections = getConnections(config)
@@ -203,7 +203,7 @@ const id = await sendCalls(config, {
 ## Return Type
 
 ```ts
-import { type SendCallsReturnType } from '@uxuyalpha/core/experimental'
+import { type SendCallsReturnType } from '@tg-wagmi/core/experimental'
 ```
 
 `bigint`
@@ -213,7 +213,7 @@ Most recent block number seen.
 ## Error
 
 ```ts
-import { type SendCallsErrorType } from '@uxuyalpha/core/experimental'
+import { type SendCallsErrorType } from '@tg-wagmi/core/experimental'
 ```
 
 <!--@include: @shared/query-imports.md-->

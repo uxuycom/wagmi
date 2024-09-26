@@ -1,4 +1,4 @@
-import { address, config } from '@uxuyalpha/test'
+import { address, config } from '@tg-wagmi/test'
 import { expect, test } from 'vitest'
 
 import type { Connector } from '../createConfig.js'
@@ -42,7 +42,7 @@ test('behavior: not connected', async () => {
   ).rejects.toThrowErrorMatchingInlineSnapshot(`
     [ConnectorNotConnectedError: Connector not connected.
 
-    Version: @uxuyalpha/core@x.y.z]
+    Version: @tg-wagmi/core@x.y.z]
   `)
 })
 
@@ -67,7 +67,7 @@ test('behavior: connector is on different chain', async () => {
     Current Chain ID:  1
     Expected Chain ID: 456
 
-    Version: @uxuyalpha/core@x.y.z]
+    Version: @tg-wagmi/core@x.y.z]
   `)
   await disconnect(config, { connector })
 })
@@ -79,7 +79,7 @@ test('behavior: account does not exist on connector', async () => {
   ).rejects.toThrowErrorMatchingInlineSnapshot(`
     [ConnectorAccountNotFoundError: Account "0x5414d89a8bF7E99d732BC52f3e6A3Ef461c0C078" not found for connector "Mock Connector".
 
-    Version: @uxuyalpha/core@x.y.z]
+    Version: @tg-wagmi/core@x.y.z]
   `)
   await disconnect(config, { connector })
 })
@@ -100,7 +100,7 @@ test('behavior: reconnecting', async () => {
     [ConnectorUnavailableReconnectingError: Connector "Mock Connector" unavailable while reconnecting.
 
     Details: During the reconnection step, the only connector methods guaranteed to be available are: \`id\`, \`name\`, \`type\`, \`uuid\`. All other methods are not guaranteed to be available until reconnection completes and connectors are fully restored. This error commonly occurs for connectors that asynchronously inject after reconnection has already started.
-    Version: @uxuyalpha/core@x.y.z]
+    Version: @tg-wagmi/core@x.y.z]
   `)
   config.setState((state) => ({ ...state, status: 'disconnected' }))
 })

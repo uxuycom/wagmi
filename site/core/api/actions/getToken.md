@@ -1,5 +1,5 @@
 <script setup>
-const packageName = '@uxuyalpha/core'
+const packageName = '@tg-wagmi/core'
 const actionName = 'getToken'
 const typeName = 'GetToken'
 </script>
@@ -11,14 +11,14 @@ Action for fetching token info.
 ## Import
 
 ```ts
-import { getToken } from '@uxuyalpha/core'
+import { getToken } from '@tg-wagmi/core'
 ```
 
 ## Usage
 
 ::: code-group
 ```ts [index.ts]
-import { getToken } from '@uxuyalpha/core'
+import { getToken } from '@tg-wagmi/core'
 import { config } from './config'
 
 const token = getToken(config, {
@@ -31,7 +31,7 @@ const token = getToken(config, {
 ## Parameters
 
 ```ts
-import { type GetTokenParameters } from '@uxuyalpha/core'
+import { type GetTokenParameters } from '@tg-wagmi/core'
 ```
 
 ### address
@@ -42,7 +42,7 @@ Address to get token for.
 
 ::: code-group
 ```ts [index.ts]
-import { getToken } from '@uxuyalpha/core'
+import { getToken } from '@tg-wagmi/core'
 import { config } from './config'
 
 const token = getToken(config, {
@@ -60,8 +60,8 @@ ID of chain to use when fetching data.
 
 ::: code-group
 ```ts [index.ts]
-import { getToken } from '@uxuyalpha/core'
-import { mainnet } from '@uxuyalpha/core/chains'
+import { getToken } from '@tg-wagmi/core'
+import { mainnet } from '@tg-wagmi/core/chains'
 import { config } from './config'
 
 const token = await getToken(config, {
@@ -81,7 +81,7 @@ const token = await getToken(config, {
 
 ::: code-group
 ```ts [index.ts]
-import { getToken } from '@uxuyalpha/core'
+import { getToken } from '@tg-wagmi/core'
 import { config } from './config'
 
 const token = getToken(config, {
@@ -95,7 +95,7 @@ const token = getToken(config, {
 ## Return Type
 
 ```ts
-import { type GetTokenReturnType } from '@uxuyalpha/core'
+import { type GetTokenReturnType } from '@tg-wagmi/core'
 ```
 
 ### address 
@@ -131,7 +131,7 @@ Total supply of token. `formatted` is formatted using [`formatUnits`](#formatuni
 ## Error
 
 ```ts
-import { type GetTokenErrorType } from '@uxuyalpha/core'
+import { type GetTokenErrorType } from '@tg-wagmi/core'
 ```
 
 <!--@include: @shared/query-imports.md-->

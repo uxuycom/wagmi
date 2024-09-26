@@ -1,5 +1,5 @@
-import { abi, address, chain } from '@uxuyalpha/test'
-import { renderHook, waitFor } from '@uxuyalpha/test/react'
+import { abi, address, chain } from '@tg-wagmi/test'
+import { renderHook, waitFor } from '@tg-wagmi/test/react'
 import { expect, test } from 'vitest'
 
 import { useReadContracts } from './useReadContracts.js'

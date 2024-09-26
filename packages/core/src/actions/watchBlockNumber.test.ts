@@ -1,4 +1,4 @@
-import { config, testClient, wait } from '@uxuyalpha/test'
+import { config, testClient, wait } from '@tg-wagmi/test'
 import { expect, test } from 'vitest'
 
 import { watchBlockNumber } from './watchBlockNumber.js'

@@ -4,7 +4,7 @@ import {
   testClient,
   transactionHashRegex,
   wait,
-} from '@uxuyalpha/test'
+} from '@tg-wagmi/test'
 import { parseEther } from 'viem'
 import type { OnTransactionsParameter } from 'viem/actions'
 import { expect, test } from 'vitest'

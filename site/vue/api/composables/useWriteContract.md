@@ -4,7 +4,7 @@ description: Composable for executing a write function on a contract.
 ---
 
 <script setup>
-const packageName = '@uxuyalpha/vue'
+const packageName = '@tg-wagmi/vue'
 const actionName = 'writeContract'
 const typeName = 'WriteContract'
 const mutate = 'writeContract'
@@ -22,7 +22,7 @@ A "write" function on a Solidity contract modifies the state of the blockchain. 
 ## Import
 
 ```ts
-import { useWriteContract } from '@uxuyalpha/vue'
+import { useWriteContract } from '@tg-wagmi/vue'
 ```
 
 ## Usage
@@ -31,7 +31,7 @@ import { useWriteContract } from '@uxuyalpha/vue'
 
 ```vue [index.vue]
 <script setup lang="ts">
-import { useWriteContract } from '@uxuyalpha/vue'
+import { useWriteContract } from '@tg-wagmi/vue'
 import { abi } from './abi'
 
 const { writeContract } = useWriteContract()
@@ -64,7 +64,7 @@ const { writeContract } = useWriteContract()
 ## Parameters
 
 ```ts
-import { type UseWriteContractParameters } from '@uxuyalpha/vue'
+import { type UseWriteContractParameters } from '@tg-wagmi/vue'
 ```
 
 ### config
@@ -77,7 +77,7 @@ import { type UseWriteContractParameters } from '@uxuyalpha/vue'
 
 ```vue [index.vue]
 <script setup lang="ts">
-import { useWriteContract } from '@uxuyalpha/vue'
+import { useWriteContract } from '@tg-wagmi/vue'
 import { config } from './config' // [!code focus]
 
 const result = useWriteContract({
@@ -94,7 +94,7 @@ const result = useWriteContract({
 ## Return Type
 
 ```ts
-import { type UseWriteContractReturnType } from '@uxuyalpha/vue'
+import { type UseWriteContractReturnType } from '@tg-wagmi/vue'
 ```
 
 The return type's [`data`](#data) property is inferrable via the combination of [`abi`](#abi), [`functionName`](#functionname), and [`args`](#args). Check out the [TypeScript docs](/vue/typescript#const-assert-abis-typed-data) for more info.

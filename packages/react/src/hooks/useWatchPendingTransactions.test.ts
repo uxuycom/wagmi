@@ -1,12 +1,12 @@
-import { connect, disconnect, sendTransaction } from '@uxuyalpha/core'
+import { connect, disconnect, sendTransaction } from '@tg-wagmi/core'
 import {
   accounts,
   config,
   testClient,
   transactionHashRegex,
   wait,
-} from '@uxuyalpha/test'
-import { renderHook } from '@uxuyalpha/test/react'
+} from '@tg-wagmi/test'
+import { renderHook } from '@tg-wagmi/test/react'
 import { parseEther } from 'viem'
 import type { OnTransactionsParameter } from 'viem/actions'
 import { expect, test } from 'vitest'

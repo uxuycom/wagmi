@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { useConnections } from '@uxuyalpha/vue'
+import { useConnections } from '@tg-wagmi/vue'
 
 const connections = useConnections()
 </script>

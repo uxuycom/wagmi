@@ -1,11 +1,11 @@
-# @uxuyalpha/connectors
+# @tg-wagmi/connectors
 
 Collection of connectors for Wagmi
 
 ## Installation
 
 ```bash
-pnpm add @uxuyalpha/connectors @uxuyalpha/core viem
+pnpm add @tg-wagmi/connectors @tg-wagmi/core viem
 ```
 
 ## Documentation

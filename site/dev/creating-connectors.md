@@ -24,10 +24,10 @@ For example, if you want to add Foo, you would create a file named `foo.ts`. Fil
 
 ## 3. Create the connector object.
 
-Import `createConnector` from `@uxuyalpha/core` and export a new function that accepts a parameters object and returns the `createConnector` result. This is the base of all connectors. The name of the connector name should be the same as the file name.
+Import `createConnector` from `@tg-wagmi/core` and export a new function that accepts a parameters object and returns the `createConnector` result. This is the base of all connectors. The name of the connector name should be the same as the file name.
 
 ```ts
-import { createConnector } from '@uxuyalpha/core'
+import { createConnector } from '@tg-wagmi/core'
 
 export type FooBarBazParameters = {}
 
@@ -42,7 +42,7 @@ Now that the base of the connector is set up, you should see a type error that l
 
 ```ts twoslash
 // @errors: 2740
-import { createConnector } from '@uxuyalpha/core'
+import { createConnector } from '@tg-wagmi/core'
 // ---cut---
 createConnector((config) => ({}))
 ```
@@ -148,7 +148,7 @@ Now that the connector works and has tests, it's time to create a changeset to p
 pnpm changeset
 ```
 
-The changeset should be a `patch` applied to the `@uxuyalpha/connectors` repository with the description `Added [ConnectorName]`, For example, `Added Foo Bar Baz`.
+The changeset should be a `patch` applied to the `@tg-wagmi/connectors` repository with the description `Added [ConnectorName]`, For example, `Added Foo Bar Baz`.
 
 ## 10. Create a pull request
 

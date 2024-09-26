@@ -1,5 +1,5 @@
 <script setup>
-const packageName = '@uxuyalpha/core'
+const packageName = '@tg-wagmi/core'
 const actionName = 'writeContract'
 const typeName = 'WriteContract'
 </script>
@@ -13,14 +13,14 @@ A "write" function on a Solidity contract modifies the state of the blockchain. 
 ## Import
 
 ```ts
-import { writeContract } from '@uxuyalpha/core'
+import { writeContract } from '@tg-wagmi/core'
 ```
 
 ## Usage
 
 ::: code-group
 ```ts [index.ts]
-import { writeContract } from '@uxuyalpha/core'
+import { writeContract } from '@tg-wagmi/core'
 import { abi } from './abi'
 import { config } from './config'
 
@@ -45,7 +45,7 @@ Pairing [`simulateContract`](/core/api/actions/simulateContract) with `writeCont
 
 ::: code-group
 ```ts [index.ts]
-import { simulateContract, writeContract } from '@uxuyalpha/core'
+import { simulateContract, writeContract } from '@tg-wagmi/core'
 import { abi } from './abi'
 import { config } from './config'
 
@@ -70,7 +70,7 @@ const hash = await writeContract(config, request)
 ## Parameters
 
 ```ts
-import { type WriteContractParameters } from '@uxuyalpha/core'
+import { type WriteContractParameters } from '@tg-wagmi/core'
 ```
 
 ### abi
@@ -81,7 +81,7 @@ The contract's ABI. Check out the [TypeScript docs](/react/typescript#const-asse
 
 ::: code-group
 ```ts [index.ts]
-import { writeContract } from '@uxuyalpha/core'
+import { writeContract } from '@tg-wagmi/core'
 import { abi } from './abi' // [!code focus]
 import { config } from './config'
 
@@ -108,7 +108,7 @@ The access list.
 
 ::: code-group
 ```ts [index.ts]
-import { writeContract } from '@uxuyalpha/core'
+import { writeContract } from '@tg-wagmi/core'
 import { abi } from './abi'
 import { config } from './config'
 
@@ -139,7 +139,7 @@ Account to use when signing data. Throws if account is not found on [`connector`
 
 ::: code-group
 ```ts [index.ts]
-import { writeContract } from '@uxuyalpha/core'
+import { writeContract } from '@tg-wagmi/core'
 import { abi } from './abi'
 import { config } from './config'
 
@@ -167,7 +167,7 @@ The contract's address.
 
 ::: code-group
 ```ts [index.ts]
-import { writeContract } from '@uxuyalpha/core'
+import { writeContract } from '@tg-wagmi/core'
 import { abi } from './abi'
 import { config } from './config'
 
@@ -196,7 +196,7 @@ const result = await writeContract(config, {
 
 ::: code-group
 ```ts [index.ts]
-import { writeContract } from '@uxuyalpha/core'
+import { writeContract } from '@tg-wagmi/core'
 import { abi } from './abi'
 import { config } from './config'
 
@@ -223,7 +223,7 @@ Chain ID to validate against before sending transaction.
 
 ::: code-group
 ```ts [index.ts]
-import { writeContract } from '@uxuyalpha/core'
+import { writeContract } from '@tg-wagmi/core'
 import { mainnet } from 'wagmi/chains' // [!code focus]
 import { abi } from './abi'
 import { config } from './config'
@@ -252,7 +252,7 @@ const result = await writeContract(config, {
 
 ::: code-group
 ```ts [index.ts]
-import { getAccount, writeContract } from '@uxuyalpha/core'
+import { getAccount, writeContract } from '@tg-wagmi/core'
 import { abi } from './abi'
 import { config } from './config'
 
@@ -281,7 +281,7 @@ Data to append to the end of the calldata. Useful for adding a ["domain" tag](ht
 
 ::: code-group
 ```ts [index.ts]
-import { writeContract } from '@uxuyalpha/core'
+import { writeContract } from '@tg-wagmi/core'
 import { parseGwei } from 'viem'
 import { abi } from './abi'
 import { config } from './config'
@@ -311,7 +311,7 @@ const result = await writeContract(config, {
 
 ::: code-group
 ```ts [index.ts]
-import { writeContract } from '@uxuyalpha/core'
+import { writeContract } from '@tg-wagmi/core'
 import { abi } from './abi'
 import { config } from './config'
 
@@ -335,7 +335,7 @@ Gas provided for transaction execution.
 
 ::: code-group
 ```ts [index.ts]
-import { writeContract } from '@uxuyalpha/core'
+import { writeContract } from '@tg-wagmi/core'
 import { parseGwei } from 'viem'
 import { abi } from './abi'
 import { config } from './config'
@@ -366,7 +366,7 @@ The price in wei to pay per gas. Only applies to [Legacy Transactions](https://v
 
 ::: code-group
 ```ts [index.ts]
-import { writeContract } from '@uxuyalpha/core'
+import { writeContract } from '@tg-wagmi/core'
 import { parseGwei } from 'viem'
 import { abi } from './abi'
 import { config } from './config'
@@ -395,7 +395,7 @@ Total fee per gas in wei, inclusive of [`maxPriorityFeePerGas`](#maxPriorityFeeP
 
 ::: code-group
 ```ts [index.ts]
-import { writeContract } from '@uxuyalpha/core'
+import { writeContract } from '@tg-wagmi/core'
 import { parseGwei } from 'viem'
 import { abi } from './abi'
 import { config } from './config'
@@ -424,7 +424,7 @@ Max priority fee per gas in wei. Only applies to [EIP-1559 Transactions](https:/
 
 ::: code-group
 ```ts [index.ts]
-import { writeContract } from '@uxuyalpha/core'
+import { writeContract } from '@tg-wagmi/core'
 import { parseGwei } from 'viem'
 import { abi } from './abi'
 import { config } from './config'
@@ -456,7 +456,7 @@ Unique number identifying this transaction.
 
 ::: code-group
 ```ts [index.ts]
-import { writeContract } from '@uxuyalpha/core'
+import { writeContract } from '@tg-wagmi/core'
 import { abi } from './abi'
 import { config } from './config'
 
@@ -484,7 +484,7 @@ Optional transaction request type to narrow parameters.
 
 ::: code-group
 ```ts [index.ts]
-import { writeContract } from '@uxuyalpha/core'
+import { writeContract } from '@tg-wagmi/core'
 import { abi } from './abi'
 import { config } from './config'
 
@@ -512,7 +512,7 @@ Value in wei sent with this transaction.
 
 ::: code-group
 ```ts [index.ts]
-import { writeContract } from '@uxuyalpha/core'
+import { writeContract } from '@tg-wagmi/core'
 import { parseEther } from 'viem'
 import { abi } from './abi'
 import { config } from './config'
@@ -536,7 +536,7 @@ const result = await writeContract(config, {
 ## Return Type
 
 ```ts
-import { type WriteContractReturnType } from '@uxuyalpha/core'
+import { type WriteContractReturnType } from '@tg-wagmi/core'
 ```
 
 [`Hash`](https://viem.sh/docs/glossary/types.html#hash)
@@ -550,7 +550,7 @@ With [`abi`](#abi) setup correctly, TypeScript will infer the correct types for 
 ## Error
 
 ```ts
-import { type WriteContractErrorType } from '@uxuyalpha/core'
+import { type WriteContractErrorType } from '@tg-wagmi/core'
 ```
 
 <!--@include: @shared/mutation-imports.md-->

@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { useSendTransaction } from '@uxuyalpha/vue'
+import { useSendTransaction } from '@tg-wagmi/vue'
 import { type Hex, parseEther } from 'viem'
 
 const { data: hash, error, isPending, sendTransaction } = useSendTransaction()

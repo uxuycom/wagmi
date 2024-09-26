@@ -1,6 +1,6 @@
 'use client'
 
-import type { Config, ResolvedRegister } from '@uxuyalpha/core'
+import type { Config, ResolvedRegister } from '@tg-wagmi/core'
 import { useContext } from 'react'
 
 import { WagmiContext } from '../context.js'

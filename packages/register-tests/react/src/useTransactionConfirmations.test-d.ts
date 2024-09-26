@@ -1,4 +1,4 @@
-import { config as testConfig } from '@uxuyalpha/test'
+import { config as testConfig } from '@tg-wagmi/test'
 import { test } from 'vitest'
 import { useTransactionConfirmations } from 'wagmi'
 import { mainnet, zkSync } from 'wagmi/chains'

@@ -1,5 +1,5 @@
 <script setup>
-const packageName = '@uxuyalpha/core'
+const packageName = '@tg-wagmi/core'
 const actionName = 'switchAccount'
 const typeName = 'SwitchAccount'
 </script>
@@ -11,14 +11,14 @@ Action for switching the current account.
 ## Import
 
 ```ts
-import { switchAccount } from '@uxuyalpha/core'
+import { switchAccount } from '@tg-wagmi/core'
 ```
 
 ## Usage
 
 ::: code-group
 ```ts [index.ts]
-import { getConnections, switchAccount } from '@uxuyalpha/core'
+import { getConnections, switchAccount } from '@tg-wagmi/core'
 import { config } from './config'
 
 const connections = getConnections(config)
@@ -32,7 +32,7 @@ const result = await switchAccount(config, {
 ## Parameters
 
 ```ts
-import { type SwitchAccountParameters } from '@uxuyalpha/core'
+import { type SwitchAccountParameters } from '@tg-wagmi/core'
 ```
 
 ### connector
@@ -43,7 +43,7 @@ import { type SwitchAccountParameters } from '@uxuyalpha/core'
 
 ::: code-group
 ```ts [index.ts]
-import { getConnections, switchAccount } from '@uxuyalpha/core'
+import { getConnections, switchAccount } from '@tg-wagmi/core'
 import { config } from './config'
 
 const connections = getConnections(config)
@@ -57,7 +57,7 @@ const result = await switchAccount(config, {
 ## Return Type
 
 ```ts
-import { type SwitchAccountReturnType } from '@uxuyalpha/core'
+import { type SwitchAccountReturnType } from '@tg-wagmi/core'
 ```
 
 ### accounts
@@ -75,7 +75,7 @@ Connected chain ID from connector.
 ## Error
 
 ```ts
-import { type SwitchAccountErrorType } from '@uxuyalpha/core'
+import { type SwitchAccountErrorType } from '@tg-wagmi/core'
 ```
 
 <!--@include: @shared/mutation-imports.md-->

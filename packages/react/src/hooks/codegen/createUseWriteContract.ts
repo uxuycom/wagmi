@@ -3,7 +3,7 @@ import type {
   Config,
   ResolvedRegister,
   WriteContractErrorType,
-} from '@uxuyalpha/core'
+} from '@tg-wagmi/core'
 import type {
   ChainIdParameter,
   Compute,
@@ -11,11 +11,11 @@ import type {
   SelectChains,
   UnionCompute,
   UnionStrictOmit,
-} from '@uxuyalpha/core/internal'
+} from '@tg-wagmi/core/internal'
 import type {
   WriteContractData,
   WriteContractVariables,
-} from '@uxuyalpha/core/query'
+} from '@tg-wagmi/core/query'
 import { useCallback } from 'react'
 import type {
   Abi,

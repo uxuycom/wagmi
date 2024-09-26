@@ -1,5 +1,5 @@
 <script setup>
-const packageName = '@uxuyalpha/core/experimental'
+const packageName = '@tg-wagmi/core/experimental'
 const actionName = 'writeContracts'
 const typeName = 'WriteContracts'
 </script>
@@ -17,7 +17,7 @@ This is an experimental action that is not supported in most wallets. It is reco
 ## Import
 
 ```ts
-import { writeContracts } from '@uxuyalpha/core/experimental'
+import { writeContracts } from '@tg-wagmi/core/experimental'
 ```
 
 ## Usage
@@ -25,7 +25,7 @@ import { writeContracts } from '@uxuyalpha/core/experimental'
 ::: code-group
 ```ts [index.ts]
 import { parseAbi } from 'viem'
-import { writeContracts } from '@uxuyalpha/core/experimental'
+import { writeContracts } from '@tg-wagmi/core/experimental'
 import { config } from './config'
 
 const abi = parseAbi([
@@ -63,7 +63,7 @@ const id = await writeContracts(config, {
 ## Parameters
 
 ```ts
-import { type WriteContractsParameters } from '@uxuyalpha/core/experimental'
+import { type WriteContractsParameters } from '@tg-wagmi/core/experimental'
 ```
 
 ### account
@@ -75,7 +75,7 @@ Account to execute the calls.
 ::: code-group
 ```ts [index.ts]
 import { parseAbi } from 'viem'
-import { writeContracts } from '@uxuyalpha/core/experimental'
+import { writeContracts } from '@tg-wagmi/core/experimental'
 import { config } from './config'
 
 const abi = parseAbi([
@@ -120,7 +120,7 @@ Calls to execute.
 ::: code-group
 ```ts [index.ts]
 import { parseAbi } from 'viem'
-import { writeContracts } from '@uxuyalpha/core/experimental'
+import { writeContracts } from '@tg-wagmi/core/experimental'
 import { config } from './config'
 
 const abi = parseAbi([
@@ -164,7 +164,7 @@ Capability metadata for the calls (e.g. specifying a paymaster).
 ::: code-group
 ```ts [index.ts]
 import { parseAbi } from 'viem'
-import { writeContracts } from '@uxuyalpha/core/experimental'
+import { writeContracts } from '@tg-wagmi/core/experimental'
 import { config } from './config'
 
 const abi = parseAbi([
@@ -213,7 +213,7 @@ The target chain ID to broadcast the calls.
 ::: code-group
 ```ts [index.ts]
 import { parseAbi } from 'viem'
-import { writeContracts } from '@uxuyalpha/core/experimental'
+import { writeContracts } from '@tg-wagmi/core/experimental'
 import { config } from './config'
 
 const abi = parseAbi([
@@ -258,8 +258,8 @@ Connector to get send the calls with.
 ::: code-group
 ```ts [index.ts]
 import { parseAbi } from 'viem'
-import { getConnections } from '@uxuyalpha/core'
-import { writeContracts } from '@uxuyalpha/core/experimental'
+import { getConnections } from '@tg-wagmi/core'
+import { writeContracts } from '@tg-wagmi/core/experimental'
 import { config } from './config'
 
 const abi = parseAbi([
@@ -299,7 +299,7 @@ const id = await writeContracts(config, {
 ## Return Type
 
 ```ts
-import { type WriteContractsReturnType } from '@uxuyalpha/core/experimental'
+import { type WriteContractsReturnType } from '@tg-wagmi/core/experimental'
 ```
 
 `bigint`
@@ -309,7 +309,7 @@ Most recent block number seen.
 ## Error
 
 ```ts
-import { type WriteContractsErrorType } from '@uxuyalpha/core/experimental'
+import { type WriteContractsErrorType } from '@tg-wagmi/core/experimental'
 ```
 
 <!--@include: @shared/query-imports.md-->

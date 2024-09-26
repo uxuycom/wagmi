@@ -7,7 +7,7 @@ export type WagmiModuleOptions = {}
 export const wagmiModule: NuxtModule<WagmiModuleOptions> =
   defineNuxtModule<WagmiModuleOptions>({
     meta: {
-      name: '@uxuyalpha/vue',
+      name: '@tg-wagmi/vue',
       configKey: 'wagmi',
       compatibility: {
         nuxt: '^3.0.0',
@@ -18,7 +18,7 @@ export const wagmiModule: NuxtModule<WagmiModuleOptions> =
 
       // Add types
       nuxt.hook('prepare:types', ({ references }) => {
-        references.push({ types: '@uxuyalpha/vue/nuxt' })
+        references.push({ types: '@tg-wagmi/vue/nuxt' })
       })
 
       // Add auto imports

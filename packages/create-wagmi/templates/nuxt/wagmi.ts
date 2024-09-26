@@ -3,9 +3,9 @@ import {
   cookieStorage,
   createConfig,
   createStorage,
-} from '@uxuyalpha/vue'
-import { mainnet, optimism, sepolia } from '@uxuyalpha/vue/chains'
-import { injected, metaMask, walletConnect } from '@uxuyalpha/vue/connectors'
+} from '@tg-wagmi/vue'
+import { mainnet, optimism, sepolia } from '@tg-wagmi/vue/chains'
+import { injected, metaMask, walletConnect } from '@tg-wagmi/vue/connectors'
 
 export const config = createConfig({
   chains: [mainnet, sepolia, optimism],
@@ -27,7 +27,7 @@ export const config = createConfig({
   },
 })
 
-declare module '@uxuyalpha/vue' {
+declare module '@tg-wagmi/vue' {
   interface Register {
     config: typeof config
   }

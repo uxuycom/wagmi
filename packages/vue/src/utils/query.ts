@@ -13,8 +13,8 @@ import type {
   ExactPartial,
   Omit,
   UnionStrictOmit,
-} from '@uxuyalpha/core/internal'
-import { hashFn } from '@uxuyalpha/core/query'
+} from '@tg-wagmi/core/internal'
+import { hashFn } from '@tg-wagmi/core/query'
 import { type MaybeRef, computed, unref } from 'vue'
 
 import type { DeepMaybeRef, DeepUnwrapRef } from '../types/ref.js'

@@ -4,14 +4,14 @@ import type {
   Config,
   GetTransactionConfirmationsErrorType,
   ResolvedRegister,
-} from '@uxuyalpha/core'
+} from '@tg-wagmi/core'
 import {
   type GetTransactionConfirmationsData,
   type GetTransactionConfirmationsOptions,
   type GetTransactionConfirmationsQueryFnData,
   type GetTransactionConfirmationsQueryKey,
   getTransactionConfirmationsQueryOptions,
-} from '@uxuyalpha/core/query'
+} from '@tg-wagmi/core/query'
 
 import type { ConfigParameter, QueryParameter } from '../types/properties.js'
 import { type UseQueryReturnType, useQuery } from '../utils/query.js'

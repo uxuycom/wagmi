@@ -1,6 +1,6 @@
-import { http, createConfig, webSocket } from '@uxuyalpha/core'
-import { mainnet, optimism } from '@uxuyalpha/core/chains'
-import { abi } from '@uxuyalpha/test'
+import { http, createConfig, webSocket } from '@tg-wagmi/core'
+import { mainnet, optimism } from '@tg-wagmi/core/chains'
+import { abi } from '@tg-wagmi/test'
 import { expectTypeOf, test } from 'vitest'
 
 import {

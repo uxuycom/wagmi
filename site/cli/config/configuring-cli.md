@@ -1,6 +1,6 @@
 # Configuring CLI
 
-When running `wagmi` from the command line, `@uxuyalpha/cli` will automatically try to resolve a config file named `wagmi.config.js` or `wagmi.config.ts` inside the project root. The most basic config file looks like this:
+When running `wagmi` from the command line, `@tg-wagmi/cli` will automatically try to resolve a config file named `wagmi.config.js` or `wagmi.config.ts` inside the project root. The most basic config file looks like this:
 
 ::: code-group
 ```js [wagmi.config.js]
@@ -10,7 +10,7 @@ export default {
 ```
 :::
 
-Note `@uxuyalpha/cli` supports using ES modules syntax in the config file even if the project is not using native Node ESM, e.g. `"type": "module"` in package.json. In this case, the config file is auto pre-processed before load.
+Note `@tg-wagmi/cli` supports using ES modules syntax in the config file even if the project is not using native Node ESM, e.g. `"type": "module"` in package.json. In this case, the config file is auto pre-processed before load.
 
 You can also explicitly specify a config file to use with the `--config`/`-c` CLI option (resolved relative to the current directory):
 
@@ -26,7 +26,7 @@ Since Wagmi CLI ships with TypeScript typings, you can use your editor's intelli
 
 ::: code-group
 ```js [wagmi.config.js]
-/** @type {import('@uxuyalpha/cli').Config} */
+/** @type {import('@tg-wagmi/cli').Config} */
 export default {
   // ...
 }
@@ -37,7 +37,7 @@ Alternatively, you can use the `defineConfig` utility which should provide intel
 
 ::: code-group
 ```js [wagmi.config.js]
-import { defineConfig } from '@uxuyalpha/cli'
+import { defineConfig } from '@tg-wagmi/cli'
 
 export default defineConfig({
   // ...
@@ -109,7 +109,7 @@ Note that Wagmi CLI doesn't load `.env` files by default as the files to load ca
 
 ::: code-group
 ```js [wagmi.config.js]
-import { defineConfig, loadEnv } from '@uxuyalpha/cli'
+import { defineConfig, loadEnv } from '@tg-wagmi/cli'
 
 export default defineConfig(() => {
   const env = loadEnv({

@@ -1,5 +1,11 @@
 # create-wagmi
 
+## 3.0.1
+
+### Patch Changes
+
+- sync
+
 ## 3.0.0
 
 ### Major Changes
@@ -139,7 +145,7 @@
 
 ### Patch Changes
 
-- 7ad50f1: Upgraded `@uxuyalpha/cli`
+- 7ad50f1: Upgraded `@tg-wagmi/cli`
 
 ## 0.1.15
 
@@ -157,18 +163,18 @@
 
 ### Patch Changes
 
-- c1ab75c: Bump @uxuyalpha/cli
+- c1ab75c: Bump @tg-wagmi/cli
 
 ## 0.1.12
 
 ### Patch Changes
 
-- af6e551: Added templates for `@uxuyalpha/cli`:
+- af6e551: Added templates for `@tg-wagmi/cli`:
 
-  - `@uxuyalpha/cli (Mint NFT Example)`
-  - `@uxuyalpha/cli + ERC20`
-  - `@uxuyalpha/cli + Etherscan (Mint NFT Example)`
-  - `@uxuyalpha/cli + Foundry (Counter.sol Example)`
+  - `@tg-wagmi/cli (Mint NFT Example)`
+  - `@tg-wagmi/cli + ERC20`
+  - `@tg-wagmi/cli + Etherscan (Mint NFT Example)`
+  - `@tg-wagmi/cli + Foundry (Counter.sol Example)`
 
 ## 0.1.11
 

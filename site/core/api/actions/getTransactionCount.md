@@ -1,5 +1,5 @@
 <script setup>
-const packageName = '@uxuyalpha/core'
+const packageName = '@tg-wagmi/core'
 const actionName = 'getTransactionCount'
 const typeName = 'GetTransactionCount'
 </script>
@@ -11,14 +11,14 @@ Action for fetching the number of transactions an Account has sent.
 ## Import
 
 ```ts
-import { getTransactionCount } from '@uxuyalpha/core'
+import { getTransactionCount } from '@tg-wagmi/core'
 ```
 
 ## Usage
 
 ::: code-group
 ```ts [index.ts]
-import { getTransactionCount } from '@uxuyalpha/core'
+import { getTransactionCount } from '@tg-wagmi/core'
 import { config } from './config'
 
 const transactionCount = getTransactionCount(config, {
@@ -31,7 +31,7 @@ const transactionCount = getTransactionCount(config, {
 ## Parameters
 
 ```ts
-import { type GetTransactionCountParameters } from '@uxuyalpha/core'
+import { type GetTransactionCountParameters } from '@tg-wagmi/core'
 ```
 
 ---
@@ -44,7 +44,7 @@ The address of the account.
 
 ::: code-group
 ```ts [index.ts]
-import { getTransactionCount } from '@uxuyalpha/core'
+import { getTransactionCount } from '@tg-wagmi/core'
 import { config } from './config'
 
 const transactionCount = getTransactionCount(config, {
@@ -64,7 +64,7 @@ Get the count at a block number.
 
 ::: code-group
 ```ts [index.ts]
-import { getTransactionCount } from '@uxuyalpha/core'
+import { getTransactionCount } from '@tg-wagmi/core'
 import { config } from './config'
 
 const transactionCount = getTransactionCount(config, {
@@ -83,7 +83,7 @@ Get the count at a block tag.
 
 ::: code-group
 ```ts [index.ts]
-import { getTransactionCount } from '@uxuyalpha/core'
+import { getTransactionCount } from '@tg-wagmi/core'
 import { config } from './config'
 
 const transactionCount = getTransactionCount(config, {
@@ -104,7 +104,7 @@ ID of chain to use when fetching data.
 
 ::: code-group
 ```ts [index.ts]
-import { getTransactionCount } from '@uxuyalpha/core'
+import { getTransactionCount } from '@tg-wagmi/core'
 import { config } from './config'
 
 const transactionCount = getTransactionCount(config, {
@@ -119,7 +119,7 @@ const transactionCount = getTransactionCount(config, {
 ## Return Type
 
 ```ts
-import { type GetTransactionCountReturnType } from '@uxuyalpha/core'
+import { type GetTransactionCountReturnType } from '@tg-wagmi/core'
 ```
 
 `number`
@@ -129,7 +129,7 @@ The number of transactions an account has sent.
 ## Error
 
 ```ts
-import { type GetTransactionCountErrorType } from '@uxuyalpha/core'
+import { type GetTransactionCountErrorType } from '@tg-wagmi/core'
 ```
 
 <!--@include: @shared/query-imports.md-->

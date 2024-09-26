@@ -1,4 +1,4 @@
-import { config } from '@uxuyalpha/test'
+import { config } from '@tg-wagmi/test'
 import { http } from 'viem'
 import { mainnet } from 'viem/chains'
 import { expect, test } from 'vitest'

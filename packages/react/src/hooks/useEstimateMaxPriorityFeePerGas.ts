@@ -4,15 +4,15 @@ import type {
   Config,
   EstimateMaxPriorityFeePerGasErrorType,
   ResolvedRegister,
-} from '@uxuyalpha/core'
-import type { Compute } from '@uxuyalpha/core/internal'
+} from '@tg-wagmi/core'
+import type { Compute } from '@tg-wagmi/core/internal'
 import {
   type EstimateMaxPriorityFeePerGasData,
   type EstimateMaxPriorityFeePerGasOptions,
   type EstimateMaxPriorityFeePerGasQueryFnData,
   type EstimateMaxPriorityFeePerGasQueryKey,
   estimateMaxPriorityFeePerGasQueryOptions,
-} from '@uxuyalpha/core/query'
+} from '@tg-wagmi/core/query'
 
 import type { ConfigParameter, QueryParameter } from '../types/properties.js'
 import { type UseQueryReturnType, useQuery } from '../utils/query.js'

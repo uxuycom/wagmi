@@ -2,15 +2,15 @@ import type {
   Config,
   GetEnsNameErrorType,
   ResolvedRegister,
-} from '@uxuyalpha/core'
-import type { Compute } from '@uxuyalpha/core/internal'
+} from '@tg-wagmi/core'
+import type { Compute } from '@tg-wagmi/core/internal'
 import {
   type GetEnsNameData,
   type GetEnsNameOptions,
   type GetEnsNameQueryFnData,
   type GetEnsNameQueryKey,
   getEnsNameQueryOptions,
-} from '@uxuyalpha/core/query'
+} from '@tg-wagmi/core/query'
 
 import { computed } from 'vue'
 import type { ConfigParameter, QueryParameter } from '../types/properties.js'

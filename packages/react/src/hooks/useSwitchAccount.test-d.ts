@@ -1,5 +1,5 @@
-import type { Connector, SwitchAccountErrorType } from '@uxuyalpha/core'
-import { config } from '@uxuyalpha/test'
+import type { Connector, SwitchAccountErrorType } from '@tg-wagmi/core'
+import { config } from '@tg-wagmi/test'
 import { expectTypeOf, test } from 'vitest'
 
 import type { Address } from 'viem'

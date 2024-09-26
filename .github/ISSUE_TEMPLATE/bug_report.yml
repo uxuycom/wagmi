@@ -46,10 +46,10 @@ body:
       multiple: true
       options:
         - 'wagmi'
-        - '@uxuyalpha/cli'
-        - '@uxuyalpha/connectors'
-        - '@uxuyalpha/core'
-        - '@uxuyalpha/vue'
+        - '@tg-wagmi/cli'
+        - '@tg-wagmi/connectors'
+        - '@tg-wagmi/core'
+        - '@tg-wagmi/vue'
         - 'create-wagmi'
     validations:
       required: true
@@ -57,7 +57,7 @@ body:
   - type: input
     attributes:
       label: Wagmi Package(s) Version(s)
-      description: What version of the Wagmi packages you selected above are you using? If using multiple, separate with comma (e.g. `wagmi@x.y.z, @uxuyalpha/cli@x.y.z`).
+      description: What version of the Wagmi packages you selected above are you using? If using multiple, separate with comma (e.g. `wagmi@x.y.z, @tg-wagmi/cli@x.y.z`).
       placeholder: x.y.z (do not write `latest`)
     validations:
       required: true

@@ -4,7 +4,7 @@ description: Composable for retrieving the bytecode at an address.
 ---
 
 <script setup>
-const packageName = '@uxuyalpha/vue'
+const packageName = '@tg-wagmi/vue'
 const actionName = 'getBytecode'
 const typeName = 'GetBytecode'
 const TData = 'GetBytecodeData'
@@ -18,7 +18,7 @@ Composable for retrieving the bytecode at an address.
 ## Import
 
 ```ts
-import { useBytecode } from '@uxuyalpha/vue'
+import { useBytecode } from '@tg-wagmi/vue'
 ```
 
 ## Usage
@@ -26,7 +26,7 @@ import { useBytecode } from '@uxuyalpha/vue'
 ::: code-group
 ```vue [index.vue]
 <script setup lang="ts">
-import { useBytecode } from '@uxuyalpha/vue'
+import { useBytecode } from '@tg-wagmi/vue'
 
 const { data: byteCode } = useBytecode({
   address: '0xFBA3912Ca04dd458c843e2EE08967fC04f3579c2',
@@ -43,7 +43,7 @@ const { data: byteCode } = useBytecode({
 ## Parameters
 
 ```ts
-import { type UseBytecodeParameters } from '@uxuyalpha/vue'
+import { type UseBytecodeParameters } from '@tg-wagmi/vue'
 ```
 
 ### address
@@ -55,7 +55,7 @@ The contract address.
 ::: code-group
 ```vue [index.vue]
 <script setup lang="ts">
-import { useBytecode } from '@uxuyalpha/vue'
+import { useBytecode } from '@tg-wagmi/vue'
 
 const { data: byteCode } = useBytecode({
   address: '0xFBA3912Ca04dd458c843e2EE08967fC04f3579c2', // [!code focus]
@@ -78,7 +78,7 @@ The block number to check the bytecode at.
 ::: code-group
 ```vue [index.vue]
 <script setup lang="ts">
-import { useBytecode } from '@uxuyalpha/vue'
+import { useBytecode } from '@tg-wagmi/vue'
 
 const { data: byteCode } = useBytecode({
   address: '0xFBA3912Ca04dd458c843e2EE08967fC04f3579c2',
@@ -102,7 +102,7 @@ The block tag to check the bytecode at.
 ::: code-group
 ```vue [index.vue]
 <script setup lang="ts">
-import { useBytecode } from '@uxuyalpha/vue'
+import { useBytecode } from '@tg-wagmi/vue'
 
 const { data: byteCode } = useBytecode({
   address: '0xFBA3912Ca04dd458c843e2EE08967fC04f3579c2',
@@ -126,8 +126,8 @@ The chain ID to check the bytecode at.
 ::: code-group
 ```vue [index.vue]
 <script setup lang="ts">
-import { useBytecode } from '@uxuyalpha/vue'
-import { mainnet } from '@uxuyalpha/vue/chains'
+import { useBytecode } from '@tg-wagmi/vue'
+import { mainnet } from '@tg-wagmi/vue/chains'
 
 const { data: byteCode } = useBytecode({
   address: '0xFBA3912Ca04dd458c843e2EE08967fC04f3579c2',
@@ -151,7 +151,7 @@ const { data: byteCode } = useBytecode({
 ::: code-group
 ```vue [index.vue]
 <script setup lang="ts">
-import { useBytecode } from '@uxuyalpha/vue'
+import { useBytecode } from '@tg-wagmi/vue'
 import { config } from './config' // [!code focus]
 
 const { data: byteCode } = useBytecode({
@@ -176,7 +176,7 @@ Scopes the cache to a given context. Hooks that have identical context will shar
 ::: code-group
 ```vue [index.vue]
 <script setup lang="ts">
-import { useBytecode } from '@uxuyalpha/vue'
+import { useBytecode } from '@tg-wagmi/vue'
 import { config } from './config' // [!code focus]
 
 const { data: byteCode } = useBytecode({
@@ -197,7 +197,7 @@ const { data: byteCode } = useBytecode({
 ## Return Type
 
 ```ts
-import { type UseBytecodeReturnType } from '@uxuyalpha/vue'
+import { type UseBytecodeReturnType } from '@tg-wagmi/vue'
 ```
 
 <!--@include: @shared/query-result.md-->

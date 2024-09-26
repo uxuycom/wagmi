@@ -1,6 +1,6 @@
 <script setup>
-const packageName = '@uxuyalpha/core'
-const connectorsPackageName = '@uxuyalpha/connectors'
+const packageName = '@tg-wagmi/core'
+const connectorsPackageName = '@tg-wagmi/connectors'
 </script>
 
 <!-- @include: @shared/connectors/mock.md -->

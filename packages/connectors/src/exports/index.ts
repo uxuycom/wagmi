@@ -4,7 +4,7 @@ export {
   injected,
   type MockParameters,
   mock,
-} from '@uxuyalpha/core'
+} from '@tg-wagmi/core'
 
 export {
   type CoinbaseWalletParameters,

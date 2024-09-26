@@ -9,7 +9,7 @@
 import { defineNuxtConfig } from 'nuxt/config'
 
 export default defineNuxtConfig({
-  modules: ['@uxuyalpha/vue/nuxt'],
+  modules: ['@tg-wagmi/vue/nuxt'],
 })
 ```
 ```vue [index.vue]

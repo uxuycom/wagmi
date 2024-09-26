@@ -1,5 +1,5 @@
 <script setup>
-const packageName = '@uxuyalpha/core'
+const packageName = '@tg-wagmi/core'
 const actionName = 'reconnect'
 const typeName = 'Reconnect'
 </script>
@@ -11,15 +11,15 @@ Action for reconnecting [connectors](/core/api/connectors).
 ## Import
 
 ```ts
-import { reconnect } from '@uxuyalpha/core'
+import { reconnect } from '@tg-wagmi/core'
 ```
 
 ## Usage
 
 ::: code-group
 ```ts [index.ts]
-import { reconnect } from '@uxuyalpha/core'
-import { injected } from '@uxuyalpha/connectors'
+import { reconnect } from '@tg-wagmi/core'
+import { injected } from '@tg-wagmi/connectors'
 import { config } from './config'
 
 const result = await reconnect(config, { connectors: [injected()] })
@@ -30,7 +30,7 @@ const result = await reconnect(config, { connectors: [injected()] })
 ## Parameters
 
 ```ts
-import { type ReconnectParameters } from '@uxuyalpha/core'
+import { type ReconnectParameters } from '@tg-wagmi/core'
 ```
 
 ### connectors
@@ -42,8 +42,8 @@ import { type ReconnectParameters } from '@uxuyalpha/core'
 
 ::: code-group
 ```ts [index.ts]
-import { reconnect } from '@uxuyalpha/core'
-import { injected } from '@uxuyalpha/connectors'
+import { reconnect } from '@tg-wagmi/core'
+import { injected } from '@tg-wagmi/connectors'
 import { config } from './config'
 
 const result = await reconnect(config, {
@@ -56,7 +56,7 @@ const result = await reconnect(config, {
 ## Return Type
 
 ```ts
-import { type ReconnectReturnType } from '@uxuyalpha/core'
+import { type ReconnectReturnType } from '@tg-wagmi/core'
 ```
 
 `Connection[]`
@@ -66,7 +66,7 @@ import { type ReconnectReturnType } from '@uxuyalpha/core'
 ## Error
 
 ```ts
-import { type ReconnectErrorType } from '@uxuyalpha/core'
+import { type ReconnectErrorType } from '@tg-wagmi/core'
 ```
 
 <!--@include: @shared/mutation-imports.md-->

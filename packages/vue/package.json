@@ -1,7 +1,7 @@
 {
-  "name": "@uxuyalpha/vue",
+  "name": "@tg-wagmi/vue",
   "description": "Vue Composables for Ethereum",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "license": "MIT",
   "repository": {
     "type": "git",
@@ -98,8 +98,8 @@
     }
   },
   "dependencies": {
-    "@uxuyalpha/connectors": "workspace:*",
-    "@uxuyalpha/core": "workspace:*"
+    "@tg-wagmi/connectors": "workspace:*",
+    "@tg-wagmi/core": "workspace:*"
   },
   "devDependencies": {
     "@nuxt/schema": "^3.11.2",

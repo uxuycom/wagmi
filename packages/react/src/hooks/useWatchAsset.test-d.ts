@@ -1,5 +1,5 @@
-import type { WatchAssetErrorType } from '@uxuyalpha/core'
-import type { WatchAssetVariables } from '@uxuyalpha/core/query'
+import type { WatchAssetErrorType } from '@tg-wagmi/core'
+import type { WatchAssetVariables } from '@tg-wagmi/core/query'
 import { expectTypeOf, test } from 'vitest'
 
 import { useWatchAsset } from './useWatchAsset.js'

@@ -1,7 +1,7 @@
 <script setup>
 const docsPath = 'vue'
-const packageName = '@uxuyalpha/vue'
-const connectorsPackageName = '@uxuyalpha/vue/connectors'
+const packageName = '@tg-wagmi/vue'
+const connectorsPackageName = '@tg-wagmi/vue/connectors'
 </script>
 
 <!--@include: @shared/createConfig.md-->

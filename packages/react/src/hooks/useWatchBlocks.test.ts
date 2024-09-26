@@ -1,5 +1,5 @@
-import { testClient, wait } from '@uxuyalpha/test'
-import { renderHook } from '@uxuyalpha/test/react'
+import { testClient, wait } from '@tg-wagmi/test'
+import { renderHook } from '@tg-wagmi/test/react'
 import type { Block } from 'viem'
 import { expect, test } from 'vitest'
 

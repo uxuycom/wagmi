@@ -1,5 +1,5 @@
-import { wait } from '@uxuyalpha/test'
-import { renderHook, waitFor } from '@uxuyalpha/test/react'
+import { wait } from '@tg-wagmi/test'
+import { renderHook, waitFor } from '@tg-wagmi/test/react'
 import { expect, test } from 'vitest'
 import { useWaitForTransactionReceipt } from './useWaitForTransactionReceipt.js'
 

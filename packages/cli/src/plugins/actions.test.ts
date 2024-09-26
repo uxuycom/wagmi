@@ -20,7 +20,7 @@ test('default', async () => {
   })
 
   expect(result?.imports).toMatchInlineSnapshot(`
-    "import { createReadContract, createWriteContract, createSimulateContract, createWatchContractEvent } from '@uxuyalpha/core/codegen'
+    "import { createReadContract, createWriteContract, createSimulateContract, createWatchContractEvent } from '@tg-wagmi/core/codegen'
     "
   `)
   expect(result?.content).toMatchInlineSnapshot(`

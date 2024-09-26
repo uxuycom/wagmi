@@ -1,5 +1,5 @@
 <script setup>
-const packageName = '@uxuyalpha/core'
+const packageName = '@tg-wagmi/core'
 const actionName = 'readContract'
 const typeName = 'ReadContract'
 </script>
@@ -13,14 +13,14 @@ A **read-only** function (constant function) on a Solidity contract is denoted b
 ## Import
 
 ```ts
-import { readContract } from '@uxuyalpha/core'
+import { readContract } from '@tg-wagmi/core'
 ```
 
 ## Usage
 
 ::: code-group
 ```ts [index.ts]
-import { readContract } from '@uxuyalpha/core'
+import { readContract } from '@tg-wagmi/core'
 import { abi } from './abi'
 import { config } from './config'
 
@@ -37,7 +37,7 @@ const result = await readContract(config, {
 ## Parameters
 
 ```ts
-import { type ReadContractParameters } from '@uxuyalpha/core'
+import { type ReadContractParameters } from '@tg-wagmi/core'
 ```
 
 ### abi
@@ -48,7 +48,7 @@ The contract's ABI. Check out the [TypeScript docs](/react/typescript#const-asse
 
 ::: code-group
 ```ts [index.ts]
-import { readContract } from '@uxuyalpha/core'
+import { readContract } from '@tg-wagmi/core'
 import { abi } from './abi' // [!code focus]
 import { config } from './config'
 
@@ -70,7 +70,7 @@ Account to use when calling the contract (`msg.sender`).
 
 ::: code-group
 ```ts [index.ts]
-import { readContract } from '@uxuyalpha/core'
+import { readContract } from '@tg-wagmi/core'
 import { abi } from './abi'
 import { config } from './config'
 
@@ -94,7 +94,7 @@ The contract's address.
 
 ::: code-group
 ```ts [index.ts]
-import { readContract } from '@uxuyalpha/core'
+import { readContract } from '@tg-wagmi/core'
 import { abi } from './abi'
 import { config } from './config'
 
@@ -117,7 +117,7 @@ const result = await readContract(config, {
 
 ::: code-group
 ```ts [index.ts]
-import { readContract } from '@uxuyalpha/core'
+import { readContract } from '@tg-wagmi/core'
 import { abi } from './abi'
 import { config } from './config'
 
@@ -142,7 +142,7 @@ Block number to call contract at.
 
 ::: code-group
 ```ts [index.ts]
-import { readContract } from '@uxuyalpha/core'
+import { readContract } from '@tg-wagmi/core'
 import { abi } from './abi'
 import { config } from './config'
 
@@ -165,7 +165,7 @@ Block tag to call contract at.
 
 ::: code-group
 ```ts [index.ts]
-import { readContract } from '@uxuyalpha/core'
+import { readContract } from '@tg-wagmi/core'
 import { abi } from './abi'
 import { config } from './config'
 
@@ -190,7 +190,7 @@ ID of chain to use when fetching data.
 
 ::: code-group
 ```ts [index.ts]
-import { readContract } from '@uxuyalpha/core'
+import { readContract } from '@tg-wagmi/core'
 import { mainnet } from 'wagmi/chains' // [!code focus]
 import { abi } from './abi'
 import { config } from './config'
@@ -215,7 +215,7 @@ const result = await readContract(config, {
 
 ::: code-group
 ```ts [index.ts]
-import { readContract } from '@uxuyalpha/core'
+import { readContract } from '@tg-wagmi/core'
 import { abi } from './abi'
 import { config } from './config'
 
@@ -233,7 +233,7 @@ const result = await readContract(config, {
 ## Return Type
 
 ```ts
-import { type ReadContractReturnType } from '@uxuyalpha/core'
+import { type ReadContractReturnType } from '@tg-wagmi/core'
 ```
 
 `unknown`
@@ -248,7 +248,7 @@ With [`abi`](#abi) setup correctly, TypeScript will infer the correct types for 
 ## Error
 
 ```ts
-import { type ReadContractErrorType } from '@uxuyalpha/core'
+import { type ReadContractErrorType } from '@tg-wagmi/core'
 ```
 
 <!--@include: @shared/query-imports.md-->

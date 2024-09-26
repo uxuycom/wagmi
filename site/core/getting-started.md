@@ -16,19 +16,19 @@ To manually add Wagmi to your project, install the required packages.
 
 ::: code-group
 ```bash-vue [pnpm]
-pnpm add @uxuyalpha/core @uxuyalpha/connectors viem@{{viemVersion}}
+pnpm add @tg-wagmi/core @tg-wagmi/connectors viem@{{viemVersion}}
 ```
 
 ```bash-vue [npm]
-npm install @uxuyalpha/core @uxuyalpha/connectors viem@{{viemVersion}}
+npm install @tg-wagmi/core @tg-wagmi/connectors viem@{{viemVersion}}
 ```
 
 ```bash-vue [yarn]
-yarn add @uxuyalpha/core @uxuyalpha/connectors viem@{{viemVersion}}
+yarn add @tg-wagmi/core @tg-wagmi/connectors viem@{{viemVersion}}
 ```
 
 ```bash-vue [bun]
-bun add @uxuyalpha/core @uxuyalpha/connectors viem@{{viemVersion}}
+bun add @tg-wagmi/core @tg-wagmi/connectors viem@{{viemVersion}}
 ```
 :::
 
@@ -52,7 +52,7 @@ Now that everything is set up, you can pass the `config` to use actions.
 
 ::: code-group
 ```tsx [index.ts]
-import { getAccount, getEnsName } from '@uxuyalpha/core'
+import { getAccount, getEnsName } from '@tg-wagmi/core'
 import { config } from './config'
 
 const { address } = getAccount(config)

@@ -5,14 +5,14 @@ Action for getting configured chains.
 ## Import
 
 ```ts
-import { getChains } from '@uxuyalpha/core'
+import { getChains } from '@tg-wagmi/core'
 ```
 
 ## Usage
 
 ::: code-group
 ```ts [index.ts]
-import { getChains } from '@uxuyalpha/core'
+import { getChains } from '@tg-wagmi/core'
 import { config } from './config'
 
 const chains = getChains(config)
@@ -23,7 +23,7 @@ const chains = getChains(config)
 ## Return Type
 
 ```ts
-import { type GetChainsReturnType } from '@uxuyalpha/core'
+import { type GetChainsReturnType } from '@tg-wagmi/core'
 ```
 
 `readonly [Chain, ...Chain[]]`

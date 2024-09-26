@@ -4,15 +4,15 @@ import type {
   Config,
   GetTransactionCountErrorType,
   ResolvedRegister,
-} from '@uxuyalpha/core'
-import type { Compute } from '@uxuyalpha/core/internal'
-import type { GetTransactionCountQueryFnData } from '@uxuyalpha/core/query'
+} from '@tg-wagmi/core'
+import type { Compute } from '@tg-wagmi/core/internal'
+import type { GetTransactionCountQueryFnData } from '@tg-wagmi/core/query'
 import {
   type GetTransactionCountData,
   type GetTransactionCountOptions,
   type GetTransactionCountQueryKey,
   getTransactionCountQueryOptions,
-} from '@uxuyalpha/core/query'
+} from '@tg-wagmi/core/query'
 
 import type { ConfigParameter, QueryParameter } from '../types/properties.js'
 import { type UseQueryReturnType, useQuery } from '../utils/query.js'

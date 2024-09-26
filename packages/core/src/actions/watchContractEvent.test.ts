@@ -6,7 +6,7 @@ import {
   testClient,
   transactionHashRegex,
   wait,
-} from '@uxuyalpha/test'
+} from '@tg-wagmi/test'
 import { http, createWalletClient, parseEther } from 'viem'
 import type { WatchEventOnLogsParameter } from 'viem/actions'
 import { beforeEach, expect, test } from 'vitest'

@@ -4,8 +4,8 @@ import {
   type Connector,
   ProviderNotFoundError,
   createConnector,
-} from '@uxuyalpha/core'
-import type { Compute } from '@uxuyalpha/core/internal'
+} from '@tg-wagmi/core'
+import type { Compute } from '@tg-wagmi/core/internal'
 import { getAddress, withTimeout } from 'viem'
 
 export type SafeParameters = Compute<

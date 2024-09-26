@@ -4,8 +4,8 @@ import type {
   Config,
   ReadContractErrorType,
   ResolvedRegister,
-} from '@uxuyalpha/core'
-import type { UnionCompute } from '@uxuyalpha/core/internal'
+} from '@tg-wagmi/core'
+import type { UnionCompute } from '@tg-wagmi/core/internal'
 import {
   type ReadContractData,
   type ReadContractOptions,
@@ -13,7 +13,7 @@ import {
   type ReadContractQueryKey,
   readContractQueryOptions,
   structuralSharing,
-} from '@uxuyalpha/core/query'
+} from '@tg-wagmi/core/query'
 import type { Abi, ContractFunctionArgs, ContractFunctionName, Hex } from 'viem'
 
 import type { ConfigParameter, QueryParameter } from '../types/properties.js'

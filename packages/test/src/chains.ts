@@ -1,4 +1,4 @@
-import type { Compute } from '@uxuyalpha/core/internal'
+import type { Compute } from '@tg-wagmi/core/internal'
 import {
   type Chain as viem_Chain,
   mainnet as viem_mainnet,

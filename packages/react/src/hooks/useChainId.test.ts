@@ -1,5 +1,5 @@
-import { config } from '@uxuyalpha/test'
-import { renderHook } from '@uxuyalpha/test/react'
+import { config } from '@tg-wagmi/test'
+import { renderHook } from '@tg-wagmi/test/react'
 import { Fragment, createElement } from 'react'
 import { expect, test } from 'vitest'
 

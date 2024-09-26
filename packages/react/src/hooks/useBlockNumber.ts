@@ -5,19 +5,19 @@ import type {
   Config,
   GetBlockNumberErrorType,
   ResolvedRegister,
-} from '@uxuyalpha/core'
+} from '@tg-wagmi/core'
 import type {
   Compute,
   UnionCompute,
   UnionStrictOmit,
-} from '@uxuyalpha/core/internal'
+} from '@tg-wagmi/core/internal'
 import {
   type GetBlockNumberData,
   type GetBlockNumberOptions,
   type GetBlockNumberQueryFnData,
   type GetBlockNumberQueryKey,
   getBlockNumberQueryOptions,
-} from '@uxuyalpha/core/query'
+} from '@tg-wagmi/core/query'
 
 import type { ConfigParameter, QueryParameter } from '../types/properties.js'
 import { type UseQueryReturnType, useQuery } from '../utils/query.js'

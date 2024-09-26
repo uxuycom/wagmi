@@ -1,5 +1,5 @@
 <script setup>
-const packageName = '@uxuyalpha/core'
+const packageName = '@tg-wagmi/core'
 const actionName = 'getBlockTransactionCount'
 const typeName = 'GetBlockTransactionCount'
 </script>
@@ -11,14 +11,14 @@ Action for fetching the number of Transactions at a block number, hash or tag.
 ## Import
 
 ```ts
-import { getBlockTransactionCount } from '@uxuyalpha/core'
+import { getBlockTransactionCount } from '@tg-wagmi/core'
 ```
 
 ## Usage
 
 ::: code-group
 ```ts [index.ts]
-import { getBlockTransactionCount } from '@uxuyalpha/core'
+import { getBlockTransactionCount } from '@tg-wagmi/core'
 import { config } from './config'
 
 const blockTransactionCount = await getBlockTransactionCount(config)
@@ -29,7 +29,7 @@ const blockTransactionCount = await getBlockTransactionCount(config)
 ## Parameters
 
 ```ts
-import { type GetBlockTransactionCountParameters } from '@uxuyalpha/core'
+import { type GetBlockTransactionCountParameters } from '@tg-wagmi/core'
 ```
 
 ### cacheTime
@@ -40,7 +40,7 @@ Time in milliseconds that cached block transaction count will remain in memory.
 
 ::: code-group
 ```ts [index.ts]
-import { getBlockTransactionCount } from '@uxuyalpha/core'
+import { getBlockTransactionCount } from '@tg-wagmi/core'
 import { config } from './config'
 
 const blockTransactionCount = await getBlockTransactionCount(config, {
@@ -58,8 +58,8 @@ ID of chain to use when fetching data.
 
 ::: code-group
 ```ts [index.ts]
-import { getBlockTransactionCount } from '@uxuyalpha/core'
-import { mainnet } from '@uxuyalpha/core/chains'
+import { getBlockTransactionCount } from '@tg-wagmi/core'
+import { mainnet } from '@tg-wagmi/core/chains'
 import { config } from './config'
 
 const blockTransactionCount = await getBlockTransactionCount(config, {
@@ -72,7 +72,7 @@ const blockTransactionCount = await getBlockTransactionCount(config, {
 ## Return Type
 
 ```ts
-import { type GetBlockTransactionCountReturnType } from '@uxuyalpha/core'
+import { type GetBlockTransactionCountReturnType } from '@tg-wagmi/core'
 ```
 
 `number`
@@ -82,7 +82,7 @@ The number of Transactions at a block number
 ## Error
 
 ```ts
-import { type GetBlockTransactionCountErrorType } from '@uxuyalpha/core'
+import { type GetBlockTransactionCountErrorType } from '@tg-wagmi/core'
 ```
 
 <!--@include: @shared/query-imports.md-->

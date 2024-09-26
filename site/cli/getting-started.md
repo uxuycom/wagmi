@@ -10,19 +10,19 @@ To manually add Wagmi CLI to your project, install the required packages.
 
 ::: code-group
 ```bash [pnpm]
-pnpm add -D @uxuyalpha/cli
+pnpm add -D @tg-wagmi/cli
 ```
 
 ```bash [npm]
-npm install --save-dev @uxuyalpha/cli
+npm install --save-dev @tg-wagmi/cli
 ```
 
 ```bash [yarn]
-yarn add -D @uxuyalpha/cli
+yarn add -D @tg-wagmi/cli
 ```
 
 ```bash [bun]
-bun add -D @uxuyalpha/cli
+bun add -D @tg-wagmi/cli
 ```
 :::
 
@@ -52,7 +52,7 @@ The generated configuration file will look something like this:
 
 ::: code-group
 ```ts [wagmi.config.ts]
-import { defineConfig } from '@uxuyalpha/cli'
+import { defineConfig } from '@tg-wagmi/cli'
 
 export default defineConfig({
   out: 'src/generated.ts',
@@ -70,8 +70,8 @@ For example, we can add the ERC-20 contract from Viem, and the [`etherscan`](/cl
 
 ::: code-group
 ```ts{2,3,9-12,15-27,28} [wagmi.config.ts]
-import { defineConfig } from '@uxuyalpha/cli'
-import { etherscan, react } from '@uxuyalpha/cli/plugins'
+import { defineConfig } from '@tg-wagmi/cli'
+import { etherscan, react } from '@tg-wagmi/cli/plugins'
 import { erc20Abi } from 'viem'
 import { mainnet, sepolia } from 'wagmi/chains'
  

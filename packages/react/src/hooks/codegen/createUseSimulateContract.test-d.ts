@@ -1,4 +1,4 @@
-import { abi, mainnet, optimism } from '@uxuyalpha/test'
+import { abi, mainnet, optimism } from '@tg-wagmi/test'
 import type { Address } from 'viem'
 import { assertType, expectTypeOf, test } from 'vitest'
 

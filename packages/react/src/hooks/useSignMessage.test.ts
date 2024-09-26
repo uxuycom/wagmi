@@ -1,6 +1,6 @@
-import { connect, disconnect, getAccount } from '@uxuyalpha/core'
-import { config, privateKey } from '@uxuyalpha/test'
-import { renderHook, waitFor } from '@uxuyalpha/test/react'
+import { connect, disconnect, getAccount } from '@tg-wagmi/core'
+import { config, privateKey } from '@tg-wagmi/test'
+import { renderHook, waitFor } from '@tg-wagmi/test/react'
 import { recoverMessageAddress } from 'viem'
 import { expect, test } from 'vitest'
 

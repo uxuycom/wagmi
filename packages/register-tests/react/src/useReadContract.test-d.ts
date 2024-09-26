@@ -1,4 +1,4 @@
-import type { abi } from '@uxuyalpha/test'
+import type { abi } from '@tg-wagmi/test'
 import type { Address } from 'viem'
 import { expectTypeOf, test } from 'vitest'
 import type { useReadContract } from 'wagmi'

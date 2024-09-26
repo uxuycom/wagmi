@@ -1,5 +1,5 @@
-import { http, createConfig } from '@uxuyalpha/core'
-import { mainnet, sepolia } from '@uxuyalpha/core/chains'
+import { http, createConfig } from '@tg-wagmi/core'
+import { mainnet, sepolia } from '@tg-wagmi/core/chains'
 
 export const config = createConfig({
   chains: [mainnet, sepolia],

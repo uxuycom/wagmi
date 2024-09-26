@@ -1,11 +1,11 @@
-# @uxuyalpha/vue
+# @tg-wagmi/vue
 
 Vue Composables for Ethereum
 
 ## Installation
 
 ```bash
-pnpm add @uxuyalpha/vue viem @tanstack/vue-query
+pnpm add @tg-wagmi/vue viem @tanstack/vue-query
 ```
 
 ## Documentation

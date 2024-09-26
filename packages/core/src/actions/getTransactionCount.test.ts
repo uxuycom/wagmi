@@ -1,4 +1,4 @@
-import { accounts, chain, config, testClient } from '@uxuyalpha/test'
+import { accounts, chain, config, testClient } from '@tg-wagmi/test'
 import { expect, test } from 'vitest'
 
 import type { BlockTag } from 'viem'

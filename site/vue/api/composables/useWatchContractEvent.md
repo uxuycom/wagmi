@@ -5,7 +5,7 @@ Composable that watches and returns emitted contract event logs.
 ## Import
 
 ```ts
-import { useWatchContractEvent } from '@uxuyalpha/vue'
+import { useWatchContractEvent } from '@tg-wagmi/vue'
 ```
 
 ## Usage
@@ -13,7 +13,7 @@ import { useWatchContractEvent } from '@uxuyalpha/vue'
 ::: code-group
 ```ts [index.vue]
 <script setup lang="ts">
-import { useWatchContractEvent } from '@uxuyalpha/vue'
+import { useWatchContractEvent } from '@tg-wagmi/vue'
 import { abi } from './abi'
 
 useWatchContractEvent({
@@ -33,7 +33,7 @@ useWatchContractEvent({
 ## Parameters
 
 ```ts
-import { type UseWatchContractEventParameters } from '@uxuyalpha/vue'
+import { type UseWatchContractEventParameters } from '@tg-wagmi/vue'
 ```
 
 ### abi
@@ -123,7 +123,7 @@ Callback for when logs changes.
 ## Return Type
 
 ```ts
-import { type UseWatchContractEventReturnType } from '@uxuyalpha/vue'
+import { type UseWatchContractEventReturnType } from '@tg-wagmi/vue'
 ```
 
 Hook returns `void`

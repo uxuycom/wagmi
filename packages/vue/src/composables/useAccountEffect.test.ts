@@ -1,8 +1,8 @@
 import { VueQueryPlugin } from '@tanstack/vue-query'
-import { mock } from '@uxuyalpha/connectors'
-import { http, connect, createConfig, disconnect } from '@uxuyalpha/core'
-import { accounts, chain } from '@uxuyalpha/test'
-import { renderComposable, waitFor } from '@uxuyalpha/test/vue'
+import { mock } from '@tg-wagmi/connectors'
+import { http, connect, createConfig, disconnect } from '@tg-wagmi/core'
+import { accounts, chain } from '@tg-wagmi/test'
+import { renderComposable, waitFor } from '@tg-wagmi/test/vue'
 import { expect, test, vi } from 'vitest'
 import type { App } from 'vue'
 

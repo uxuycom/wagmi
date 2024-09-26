@@ -4,15 +4,15 @@ import type {
   Config,
   GetBlockTransactionCountErrorType,
   ResolvedRegister,
-} from '@uxuyalpha/core'
-import type { UnionCompute } from '@uxuyalpha/core/internal'
+} from '@tg-wagmi/core'
+import type { UnionCompute } from '@tg-wagmi/core/internal'
 import {
   type GetBlockTransactionCountData,
   type GetBlockTransactionCountOptions,
   type GetBlockTransactionCountQueryFnData,
   type GetBlockTransactionCountQueryKey,
   getBlockTransactionCountQueryOptions,
-} from '@uxuyalpha/core/query'
+} from '@tg-wagmi/core/query'
 
 import type { ConfigParameter, QueryParameter } from '../types/properties.js'
 import { type UseQueryReturnType, useQuery } from '../utils/query.js'

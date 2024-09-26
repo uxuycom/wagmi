@@ -3,16 +3,16 @@ import type {
   ResolvedRegister,
   SimulateContractErrorType,
   SimulateContractParameters,
-} from '@uxuyalpha/core'
+} from '@tg-wagmi/core'
 import type {
   ScopeKeyParameter,
   UnionExactPartial,
-} from '@uxuyalpha/core/internal'
+} from '@tg-wagmi/core/internal'
 import type {
   SimulateContractData,
   SimulateContractQueryFnData,
   SimulateContractQueryKey,
-} from '@uxuyalpha/core/query'
+} from '@tg-wagmi/core/query'
 import type {
   Abi,
   Address,
