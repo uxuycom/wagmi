@@ -1,4 +1,4 @@
-import { config } from '@wagmi/test'
+import { config } from '@uxuyalpha/test'
 import { expectTypeOf, test } from 'vitest'
 import { estimateFeesPerGas } from './estimateFeesPerGas.js'
 

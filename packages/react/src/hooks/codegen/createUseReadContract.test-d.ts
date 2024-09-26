@@ -1,4 +1,4 @@
-import { abi, mainnet, optimism } from '@wagmi/test'
+import { abi, mainnet, optimism } from '@uxuyalpha/test'
 import { assertType, expectTypeOf, test } from 'vitest'
 
 import { createUseReadContract } from './createUseReadContract.js'

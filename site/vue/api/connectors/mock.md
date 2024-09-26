@@ -1,6 +1,6 @@
 <script setup>
-const packageName = '@wagmi/vue'
-const connectorsPackageName = '@wagmi/vue/connectors'
+const packageName = '@uxuyalpha/vue'
+const connectorsPackageName = '@uxuyalpha/vue/connectors'
 </script>
 
 <!-- @include: @shared/connectors/mock.md -->

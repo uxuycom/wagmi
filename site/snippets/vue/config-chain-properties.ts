@@ -1,5 +1,5 @@
-import { http, createConfig } from '@wagmi/vue'
-import { base, celo, mainnet } from '@wagmi/vue/chains'
+import { http, createConfig } from '@uxuyalpha/vue'
+import { base, celo, mainnet } from '@uxuyalpha/vue/chains'
 
 export const config = createConfig({
   chains: [base, celo, mainnet],
@@ -10,7 +10,7 @@ export const config = createConfig({
   },
 })
 
-declare module '@wagmi/vue' {
+declare module '@uxuyalpha/vue' {
   interface Register {
     config: typeof config
   }

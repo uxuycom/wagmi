@@ -3,14 +3,14 @@
 Plugin for resolving ABIs from [Hardhat](https://hardhat.org) projects. Supports [`watch`](/cli/api/commands/generate#w-watch) mode.
 
 ```ts
-import { hardhat } from '@wagmi/cli/plugins'
+import { hardhat } from '@uxuyalpha/cli/plugins'
 ```
 
 ## Usage
 
 ```ts{2,6-8}
-import { defineConfig } from '@wagmi/cli'
-import { hardhat } from '@wagmi/cli/plugins'
+import { defineConfig } from '@uxuyalpha/cli'
+import { hardhat } from '@uxuyalpha/cli/plugins'
 
 export default defineConfig({
   plugins: [
@@ -24,7 +24,7 @@ export default defineConfig({
 ## Configuration
 
 ```ts
-import { type HardhatConfig } from '@wagmi/cli/plugins'
+import { type HardhatConfig } from '@uxuyalpha/cli/plugins'
 ```
 
 ### artifacts
@@ -35,8 +35,8 @@ import { type HardhatConfig } from '@wagmi/cli/plugins'
 - Defaults to `'artifacts/'`.
 
 ```ts
-import { defineConfig } from '@wagmi/cli'
-import { hardhat } from '@wagmi/cli/plugins'
+import { defineConfig } from '@uxuyalpha/cli'
+import { hardhat } from '@uxuyalpha/cli/plugins'
 
 export default defineConfig({
   plugins: [
@@ -55,8 +55,8 @@ export default defineConfig({
 Mapping of addresses to attach to artifacts.
 
 ```ts
-import { defineConfig } from '@wagmi/cli'
-import { hardhat } from '@wagmi/cli/plugins'
+import { defineConfig } from '@uxuyalpha/cli'
+import { hardhat } from '@uxuyalpha/cli/plugins'
 
 export default defineConfig({
   plugins: [
@@ -80,8 +80,8 @@ export default defineConfig({
 Artifact files to exclude relative to `artifacts`. Supports glob patterns.
 
 ```ts
-import { defineConfig } from '@wagmi/cli'
-import { hardhat } from '@wagmi/cli/plugins'
+import { defineConfig } from '@uxuyalpha/cli'
+import { hardhat } from '@uxuyalpha/cli/plugins'
 
 export default defineConfig({
   plugins: [
@@ -104,8 +104,8 @@ export default defineConfig({
 Hardhat command options.
 
 ```ts
-import { defineConfig } from '@wagmi/cli'
-import { hardhat } from '@wagmi/cli/plugins'
+import { defineConfig } from '@uxuyalpha/cli'
+import { hardhat } from '@uxuyalpha/cli/plugins'
 
 export default defineConfig({
   plugins: [
@@ -143,8 +143,8 @@ export default defineConfig({
 Artifact files to include relative to `artifacts`. Supports glob patterns.
 
 ```ts
-import { defineConfig } from '@wagmi/cli'
-import { hardhat } from '@wagmi/cli/plugins'
+import { defineConfig } from '@uxuyalpha/cli'
+import { hardhat } from '@uxuyalpha/cli/plugins'
 
 export default defineConfig({
   plugins: [
@@ -166,8 +166,8 @@ export default defineConfig({
 Prefix to prepend to artifact names. Useful for preventing name collisions between contracts from other sources.
 
 ```ts
-import { defineConfig } from '@wagmi/cli'
-import { hardhat } from '@wagmi/cli/plugins'
+import { defineConfig } from '@uxuyalpha/cli'
+import { hardhat } from '@uxuyalpha/cli/plugins'
 
 export default defineConfig({
   plugins: [
@@ -186,8 +186,8 @@ export default defineConfig({
 Path to Hardhat project.
 
 ```ts
-import { defineConfig } from '@wagmi/cli'
-import { hardhat } from '@wagmi/cli/plugins'
+import { defineConfig } from '@uxuyalpha/cli'
+import { hardhat } from '@uxuyalpha/cli/plugins'
 
 export default defineConfig({
   plugins: [

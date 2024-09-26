@@ -1,6 +1,6 @@
-import { connect } from '@wagmi/core'
-import { config } from '@wagmi/test'
-import { renderHook, waitFor } from '@wagmi/test/react'
+import { connect } from '@uxuyalpha/core'
+import { config } from '@uxuyalpha/test'
+import { renderHook, waitFor } from '@uxuyalpha/test/react'
 import { beforeEach, expect, test } from 'vitest'
 
 import { useAccount } from './useAccount.js'

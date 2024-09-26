@@ -54,7 +54,7 @@ Fetch capabilities for the provided account.
 
 ::: code-group
 ```ts [index.ts]
-import { useCapabilities } from '@wagmi/core'
+import { useCapabilities } from '@uxuyalpha/core'
 import { config } from './config'
 
 const status = await useCapabilities({

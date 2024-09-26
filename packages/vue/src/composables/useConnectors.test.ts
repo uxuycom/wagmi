@@ -1,6 +1,6 @@
-import { mock } from '@wagmi/connectors'
-import { accounts, config } from '@wagmi/test'
-import { renderComposable } from '@wagmi/test/vue'
+import { mock } from '@uxuyalpha/connectors'
+import { accounts, config } from '@uxuyalpha/test'
+import { renderComposable } from '@uxuyalpha/test/vue'
 import { expect, test } from 'vitest'
 
 import { useConnectors } from './useConnectors.js'

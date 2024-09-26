@@ -1,4 +1,4 @@
-import type { Config, ResolvedRegister } from '@wagmi/core'
+import type { Config, ResolvedRegister } from '@uxuyalpha/core'
 import { hasInjectionContext, inject, unref } from 'vue'
 
 import {

@@ -5,14 +5,14 @@ Action that watches for block changes.
 ## Import
 
 ```ts
-import { watchBlocks } from '@wagmi/core'
+import { watchBlocks } from '@uxuyalpha/core'
 ```
 
 ## Usage
 
 ::: code-group
 ```ts [index.ts]
-import { watchBlocks } from '@wagmi/core'
+import { watchBlocks } from '@uxuyalpha/core'
 import { config } from './config'
 
 const unwatch = watchBlocks(config, {
@@ -28,7 +28,7 @@ unwatch()
 ## Parameters
 
 ```ts
-import { type WatchBlocksParameters } from '@wagmi/core'
+import { type WatchBlocksParameters } from '@uxuyalpha/core'
 ```
 
 ### blockTag
@@ -39,7 +39,7 @@ Watch for new blocks on a given tag. Defaults to `'latest'`.
 
 ::: code-group
 ```ts [index.ts]
-import { watchBlocks } from '@wagmi/core'
+import { watchBlocks } from '@uxuyalpha/core'
 import { config } from './config'
 
 const unwatch = watchBlocks(config, {
@@ -61,8 +61,8 @@ ID of chain to use when fetching data.
 
 ::: code-group
 ```ts [index.ts]
-import { watchBlocks } from '@wagmi/core'
-import { mainnet } from '@wagmi/core/chains'
+import { watchBlocks } from '@uxuyalpha/core'
+import { mainnet } from '@uxuyalpha/core/chains'
 import { config } from './config'
 
 const unwatch = watchBlocks(config, {
@@ -86,7 +86,7 @@ Missed blocks may occur in instances where internet connection is lost, or the b
 
 ::: code-group
 ```ts [index.ts]
-import { watchBlocks } from '@wagmi/core'
+import { watchBlocks } from '@uxuyalpha/core'
 import { config } from './config'
 
 const unwatch = watchBlocks(config, {
@@ -108,7 +108,7 @@ Whether or not to emit the block to the callback when the subscription opens. De
 
 ::: code-group
 ```ts [index.ts]
-import { watchBlocks } from '@wagmi/core'
+import { watchBlocks } from '@uxuyalpha/core'
 import { config } from './config'
 
 const unwatch = watchBlocks(config, {
@@ -130,7 +130,7 @@ Callback for when block changes.
 
 ::: code-group
 ```ts [index.ts]
-import { watchBlocks } from '@wagmi/core'
+import { watchBlocks } from '@uxuyalpha/core'
 import { config } from './config'
 
 const unwatch = watchBlocks(config, {
@@ -151,7 +151,7 @@ Error thrown from getting the block.
 
 ::: code-group
 ```ts [index.ts]
-import { watchBlocks } from '@wagmi/core'
+import { watchBlocks } from '@uxuyalpha/core'
 import { config } from './config'
 
 const unwatch = watchBlocks(config, {
@@ -176,7 +176,7 @@ unwatch()
 
 ::: code-group
 ```ts [index.ts]
-import { watchBlocks } from '@wagmi/core'
+import { watchBlocks } from '@uxuyalpha/core'
 import { config } from './config'
 
 const unwatch = watchBlocks(config, {
@@ -199,7 +199,7 @@ unwatch()
 
 ::: code-group
 ```ts [index.ts]
-import { watchBlocks } from '@wagmi/core'
+import { watchBlocks } from '@uxuyalpha/core'
 import { config } from './config'
 
 const unwatch = watchBlocks(config, {
@@ -222,7 +222,7 @@ unwatch()
 
 ::: code-group
 ```ts [index.ts]
-import { watchBlocks } from '@wagmi/core'
+import { watchBlocks } from '@uxuyalpha/core'
 import { config } from './config'
 
 const unwatch = watchBlocks(config, {
@@ -239,7 +239,7 @@ unwatch()
 ## Return Type
 
 ```ts
-import { type WatchBlocksReturnType } from '@wagmi/core'
+import { type WatchBlocksReturnType } from '@uxuyalpha/core'
 ```
 
 Function for cleaning up watcher.

@@ -1,5 +1,5 @@
-import { config, testClient } from '@wagmi/test'
-import { renderComposable, waitFor } from '@wagmi/test/vue'
+import { config, testClient } from '@uxuyalpha/test'
+import { renderComposable, waitFor } from '@uxuyalpha/test/vue'
 import { expect, test } from 'vitest'
 import { ref } from 'vue'
 import { useBlockNumber } from './useBlockNumber.js'

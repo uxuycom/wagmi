@@ -1,4 +1,4 @@
-import { config, walletConnectProjectId } from '@wagmi/test'
+import { config, walletConnectProjectId } from '@uxuyalpha/test'
 import { http, HttpResponse } from 'msw'
 import { setupServer } from 'msw/node'
 import { afterAll, afterEach, beforeAll, expect, test, vi } from 'vitest'

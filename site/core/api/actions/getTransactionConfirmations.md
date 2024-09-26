@@ -1,5 +1,5 @@
 <script setup>
-const packageName = '@wagmi/core'
+const packageName = '@uxuyalpha/core'
 const actionName = 'getTransactionConfirmations'
 const typeName = 'GetTransactionConfirmations'
 </script>
@@ -11,14 +11,14 @@ Action for fetching the number of blocks passed (confirmations) since the transa
 ## Import
 
 ```ts
-import { getTransactionConfirmations } from '@wagmi/core'
+import { getTransactionConfirmations } from '@uxuyalpha/core'
 ```
 
 ## Usage
 
 ::: code-group
 ```ts [index.ts]
-import { getTransactionConfirmations } from '@wagmi/core'
+import { getTransactionConfirmations } from '@uxuyalpha/core'
 import { config } from './config'
 
 const transaction = getTransactionConfirmations(config, {
@@ -31,7 +31,7 @@ const transaction = getTransactionConfirmations(config, {
 ## Parameters
 
 ```ts
-import { type GetTransactionConfirmationsParameters } from '@wagmi/core'
+import { type GetTransactionConfirmationsParameters } from '@uxuyalpha/core'
 ```
 
 ---
@@ -44,7 +44,7 @@ The hash of the transaction.
 
 ::: code-group
 ```ts [index.ts]
-import { getTransactionConfirmations } from '@wagmi/core'
+import { getTransactionConfirmations } from '@uxuyalpha/core'
 import { config } from './config'
 
 const transaction = getTransactionConfirmations(config, {
@@ -62,7 +62,7 @@ The transaction receipt.
 
 ::: code-group
 ```ts [index.ts]
-import { getTransactionConfirmations } from '@wagmi/core'
+import { getTransactionConfirmations } from '@uxuyalpha/core'
 import { config } from './config'
 
 const transaction = getTransactionConfirmations(config, {
@@ -82,8 +82,8 @@ ID of chain to use when fetching data.
 
 ::: code-group
 ```ts [index.ts]
-import { getTransactionConfirmations } from '@wagmi/core'
-import { mainnet } from '@wagmi/core/chains'
+import { getTransactionConfirmations } from '@uxuyalpha/core'
+import { mainnet } from '@uxuyalpha/core/chains'
 import { config } from './config'
 
 const transaction = await getTransactionConfirmations(config, {
@@ -97,7 +97,7 @@ const transaction = await getTransactionConfirmations(config, {
 ## Return Type
 
 ```ts
-import { type GetTransactionConfirmationsReturnType } from '@wagmi/core'
+import { type GetTransactionConfirmationsReturnType } from '@uxuyalpha/core'
 ```
 
 `bigint`
@@ -107,7 +107,7 @@ The number of blocks passed since the transaction was processed. If confirmation
 ## Error
 
 ```ts
-import { type GetTransactionConfirmationsErrorType } from '@wagmi/core'
+import { type GetTransactionConfirmationsErrorType } from '@uxuyalpha/core'
 ```
 
 <!--@include: @shared/query-imports.md-->

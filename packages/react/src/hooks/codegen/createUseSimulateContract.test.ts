@@ -1,6 +1,6 @@
-import { connect, disconnect } from '@wagmi/core'
-import { abi, address, chain, config } from '@wagmi/test'
-import { renderHook, waitFor } from '@wagmi/test/react'
+import { connect, disconnect } from '@uxuyalpha/core'
+import { abi, address, chain, config } from '@uxuyalpha/test'
+import { renderHook, waitFor } from '@uxuyalpha/test/react'
 import { expect, test } from 'vitest'
 
 import { createUseSimulateContract } from './createUseSimulateContract.js'

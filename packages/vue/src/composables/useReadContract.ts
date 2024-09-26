@@ -2,8 +2,8 @@ import type {
   Config,
   ReadContractErrorType,
   ResolvedRegister,
-} from '@wagmi/core'
-import type { UnionCompute } from '@wagmi/core/internal'
+} from '@uxuyalpha/core'
+import type { UnionCompute } from '@uxuyalpha/core/internal'
 import {
   type ReadContractData,
   type ReadContractOptions,
@@ -11,7 +11,7 @@ import {
   type ReadContractQueryKey,
   readContractQueryOptions,
   structuralSharing,
-} from '@wagmi/core/query'
+} from '@uxuyalpha/core/query'
 import type { Abi, ContractFunctionArgs, ContractFunctionName } from 'viem'
 import { computed } from 'vue'
 

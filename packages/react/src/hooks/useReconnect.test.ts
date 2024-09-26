@@ -1,7 +1,7 @@
-import { mock } from '@wagmi/connectors'
-import { connect, disconnect } from '@wagmi/core'
-import { accounts, config } from '@wagmi/test'
-import { renderHook, waitFor } from '@wagmi/test/react'
+import { mock } from '@uxuyalpha/connectors'
+import { connect, disconnect } from '@uxuyalpha/core'
+import { accounts, config } from '@uxuyalpha/test'
+import { renderHook, waitFor } from '@uxuyalpha/test/react'
 import { afterEach, expect, test } from 'vitest'
 
 import { useReconnect } from './useReconnect.js'

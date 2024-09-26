@@ -1,5 +1,5 @@
-import type { WriteContractErrorType } from '@wagmi/core'
-import { abi } from '@wagmi/test'
+import type { WriteContractErrorType } from '@uxuyalpha/core'
+import { abi } from '@uxuyalpha/test'
 import type { Abi, Address, Hash } from 'viem'
 import { expectTypeOf, test } from 'vitest'
 

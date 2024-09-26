@@ -1,6 +1,6 @@
-import { type chain, config } from '@wagmi/test'
-import { useClient } from '@wagmi/vue'
-import { mainnet } from '@wagmi/vue/chains'
+import { type chain, config } from '@uxuyalpha/test'
+import { useClient } from '@uxuyalpha/vue'
+import { mainnet } from '@uxuyalpha/vue/chains'
 import { expectTypeOf, test } from 'vitest'
 
 import type { ChainId } from './config.js'

@@ -1,6 +1,6 @@
-import { switchChain } from '@wagmi/core'
-import { config } from '@wagmi/test'
-import { renderHook } from '@wagmi/test/react'
+import { switchChain } from '@uxuyalpha/core'
+import { config } from '@uxuyalpha/test'
+import { renderHook } from '@uxuyalpha/test/react'
 import { Fragment, createElement } from 'react'
 import { expect, test } from 'vitest'
 

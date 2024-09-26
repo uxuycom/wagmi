@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { useChainId, useSwitchChain } from '@wagmi/vue'
+import { useChainId, useSwitchChain } from '@uxuyalpha/vue'
 
 const chainId = useChainId()
 const { chains, error, status, switchChain } = useSwitchChain()

@@ -1,5 +1,5 @@
-import type { SignMessageErrorType } from '@wagmi/core'
-import type { SignMessageVariables } from '@wagmi/core/query'
+import type { SignMessageErrorType } from '@uxuyalpha/core'
+import type { SignMessageVariables } from '@uxuyalpha/core/query'
 import { expectTypeOf, test } from 'vitest'
 
 import { useSignMessage } from './useSignMessage.js'

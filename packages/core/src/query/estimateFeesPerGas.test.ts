@@ -1,4 +1,4 @@
-import { chain, config } from '@wagmi/test'
+import { chain, config } from '@uxuyalpha/test'
 import { expect, test } from 'vitest'
 
 import { estimateFeesPerGasQueryOptions } from './estimateFeesPerGas.js'

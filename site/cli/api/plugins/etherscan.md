@@ -5,14 +5,14 @@ Plugin for fetching ABIs from [Etherscan](https://etherscan.io) and adding into 
 ## Import
 
 ```ts
-import { etherscan } from '@wagmi/cli/plugins'
+import { etherscan } from '@uxuyalpha/cli/plugins'
 ```
 
 ## Usage
 
 ```ts{2,6-14}
-import { defineConfig } from '@wagmi/cli'
-import { etherscan } from '@wagmi/cli/plugins'
+import { defineConfig } from '@uxuyalpha/cli'
+import { etherscan } from '@uxuyalpha/cli/plugins'
 
 export default defineConfig({
   plugins: [
@@ -47,7 +47,7 @@ The following Etherscan block explorers and their testnets are supported (e.g. E
 ## Configuration
 
 ```ts
-import { type EtherscanConfig } from '@wagmi/cli/plugins'
+import { type EtherscanConfig } from '@uxuyalpha/cli/plugins'
 ```
 
 ### apiKey
@@ -57,8 +57,8 @@ import { type EtherscanConfig } from '@wagmi/cli/plugins'
 Etherscan API key. Etherscan API keys are specific per network and include testnets (e.g. Ethereum Mainnet and Sepolia share same API key).
 
 ```ts
-import { defineConfig } from '@wagmi/cli'
-import { etherscan } from '@wagmi/cli/plugins'
+import { defineConfig } from '@uxuyalpha/cli'
+import { etherscan } from '@uxuyalpha/cli/plugins'
 
 export default defineConfig({
   plugins: [
@@ -84,8 +84,8 @@ export default defineConfig({
 - Defaults to `1_800_000` (30 minutes).
 
 ```ts
-import { defineConfig } from '@wagmi/cli'
-import { etherscan } from '@wagmi/cli/plugins'
+import { defineConfig } from '@uxuyalpha/cli'
+import { etherscan } from '@uxuyalpha/cli/plugins'
 
 export default defineConfig({
   plugins: [
@@ -111,8 +111,8 @@ export default defineConfig({
 Chain ID to use for fetching ABI. If [`address`](/cli/config/options#address) is an object, `chainId` is used to select the address.
 
 ```ts
-import { defineConfig } from '@wagmi/cli'
-import { blockExplorer } from '@wagmi/cli/plugins'
+import { defineConfig } from '@uxuyalpha/cli'
+import { blockExplorer } from '@uxuyalpha/cli/plugins'
 
 export default defineConfig({
   plugins: [
@@ -144,8 +144,8 @@ export default defineConfig({
 Contracts to fetch ABIs for.
 
 ```ts
-import { defineConfig } from '@wagmi/cli'
-import { etherscan } from '@wagmi/cli/plugins'
+import { defineConfig } from '@uxuyalpha/cli'
+import { etherscan } from '@uxuyalpha/cli/plugins'
 
 export default defineConfig({
   plugins: [

@@ -1,5 +1,5 @@
-import { abi, address, bytecode, chain, wait } from '@wagmi/test'
-import { renderComposable, waitFor } from '@wagmi/test/vue'
+import { abi, address, bytecode, chain, wait } from '@uxuyalpha/test'
+import { renderComposable, waitFor } from '@uxuyalpha/test/vue'
 import { expect, test } from 'vitest'
 import { ref } from 'vue'
 

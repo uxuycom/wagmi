@@ -1,4 +1,4 @@
-import { config } from '@wagmi/test'
+import { config } from '@uxuyalpha/test'
 import { expectTypeOf, test } from 'vitest'
 import { useTransaction } from 'wagmi'
 import { celo } from 'wagmi/chains'

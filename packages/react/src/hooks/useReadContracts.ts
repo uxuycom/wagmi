@@ -4,8 +4,8 @@ import type {
   Config,
   ReadContractsErrorType,
   ResolvedRegister,
-} from '@wagmi/core'
-import type { Compute } from '@wagmi/core/internal'
+} from '@uxuyalpha/core'
+import type { Compute } from '@uxuyalpha/core/internal'
 import {
   type ReadContractsData,
   type ReadContractsOptions,
@@ -13,7 +13,7 @@ import {
   type ReadContractsQueryKey,
   readContractsQueryOptions,
   structuralSharing,
-} from '@wagmi/core/query'
+} from '@uxuyalpha/core/query'
 import { useMemo } from 'react'
 import type { ContractFunctionParameters } from 'viem'
 

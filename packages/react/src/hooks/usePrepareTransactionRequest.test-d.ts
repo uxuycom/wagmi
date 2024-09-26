@@ -1,4 +1,4 @@
-import { config } from '@wagmi/test'
+import { config } from '@uxuyalpha/test'
 import type { PrepareTransactionRequestReturnType } from 'viem'
 import { expectTypeOf, test } from 'vitest'
 

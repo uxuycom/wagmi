@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { useChainId, useConnect } from '@wagmi/vue'
+import { useChainId, useConnect } from '@uxuyalpha/vue'
 
 const chainId = useChainId()
 const { connect, connectors, error, status } = useConnect()

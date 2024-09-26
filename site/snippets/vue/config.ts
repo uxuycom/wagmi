@@ -1,5 +1,5 @@
-import { http, createConfig } from '@wagmi/vue'
-import { mainnet, sepolia } from '@wagmi/vue/chains'
+import { http, createConfig } from '@uxuyalpha/vue'
+import { mainnet, sepolia } from '@uxuyalpha/vue/chains'
 
 export const config = createConfig({
   chains: [mainnet, sepolia],

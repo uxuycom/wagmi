@@ -1,5 +1,5 @@
-import type { Connector, DisconnectErrorType } from '@wagmi/core'
-import { config } from '@wagmi/test'
+import type { Connector, DisconnectErrorType } from '@uxuyalpha/core'
+import { config } from '@uxuyalpha/test'
 import { expectTypeOf, test } from 'vitest'
 
 import { useDisconnect } from './useDisconnect.js'

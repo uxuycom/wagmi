@@ -18,9 +18,9 @@
     "noFallthroughCasesInSwitch": true,
 
     "paths": {
-      "@wagmi/connectors": ["../../packages/connectors/src/exports"],
-      "@wagmi/core": ["../../packages/core/src/exports"],
-      "@wagmi/core/*": ["../../packages/core/src/exports/*"]
+      "@uxuyalpha/connectors": ["../../packages/connectors/src/exports"],
+      "@uxuyalpha/core": ["../../packages/core/src/exports"],
+      "@uxuyalpha/core/*": ["../../packages/core/src/exports/*"]
     }
   },
   "include": ["src"],

@@ -2,15 +2,15 @@ import type {
   Config,
   GetEnsAddressErrorType,
   ResolvedRegister,
-} from '@wagmi/core'
-import type { Compute } from '@wagmi/core/internal'
+} from '@uxuyalpha/core'
+import type { Compute } from '@uxuyalpha/core/internal'
 import {
   type GetEnsAddressData,
   type GetEnsAddressOptions,
   type GetEnsAddressQueryFnData,
   type GetEnsAddressQueryKey,
   getEnsAddressQueryOptions,
-} from '@wagmi/core/query'
+} from '@uxuyalpha/core/query'
 import { computed } from 'vue'
 
 import type { ConfigParameter, QueryParameter } from '../types/properties.js'

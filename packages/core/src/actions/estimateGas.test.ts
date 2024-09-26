@@ -1,4 +1,4 @@
-import { accounts, config } from '@wagmi/test'
+import { accounts, config } from '@uxuyalpha/test'
 import { parseEther } from 'viem'
 import { expect, test } from 'vitest'
 
@@ -42,6 +42,6 @@ test('behavior: no account and not connected', async () => {
   ).rejects.toThrowErrorMatchingInlineSnapshot(`
     [ConnectorNotConnectedError: Connector not connected.
 
-    Version: @wagmi/core@x.y.z]
+    Version: @uxuyalpha/core@x.y.z]
   `)
 })

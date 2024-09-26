@@ -24,7 +24,7 @@ Performance is critical for applications on all sizes. Slow page load and intera
 
 End users should not be required to download a module of over 100kB in order to interact with Ethereum. Wagmi Core is optimized for tree-shaking and dead-code elimination, allowing apps to minimize bundle size for fast page load times. 
 
-Data layer performance is also critical. Slow, unnecessary, and manual data fetching can make apps unusable and cost thousands in RPC compute units. Wagmi Core supports caching, deduplication, persistence, and much more through [TanStack Query](/react/guides/tanstack-query) via the `'@wagmi/core/query'` entrypoint so you can [plug it into your framework](/core/guides/framework-adapters) of choice, like Vue, Svelte, and more.
+Data layer performance is also critical. Slow, unnecessary, and manual data fetching can make apps unusable and cost thousands in RPC compute units. Wagmi Core supports caching, deduplication, persistence, and much more through [TanStack Query](/react/guides/tanstack-query) via the `'@uxuyalpha/core/query'` entrypoint so you can [plug it into your framework](/core/guides/framework-adapters) of choice, like Vue, Svelte, and more.
 
 ## Feature Coverage
 

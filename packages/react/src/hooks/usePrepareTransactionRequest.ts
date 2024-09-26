@@ -5,14 +5,14 @@ import type {
   PrepareTransactionRequestErrorType,
   ResolvedRegister,
   SelectChains,
-} from '@wagmi/core'
+} from '@uxuyalpha/core'
 import {
   type PrepareTransactionRequestData,
   type PrepareTransactionRequestOptions,
   type PrepareTransactionRequestQueryKey,
   prepareTransactionRequestQueryOptions,
-} from '@wagmi/core/query'
-import type { PrepareTransactionRequestQueryFnData } from '@wagmi/core/query'
+} from '@uxuyalpha/core/query'
+import type { PrepareTransactionRequestQueryFnData } from '@uxuyalpha/core/query'
 import type { PrepareTransactionRequestRequest as viem_PrepareTransactionRequestRequest } from 'viem'
 
 import type { ConfigParameter, QueryParameter } from '../types/properties.js'

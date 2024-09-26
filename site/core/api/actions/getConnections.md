@@ -5,14 +5,14 @@ Action for getting active connections.
 ## Import
 
 ```ts
-import { getConnections } from '@wagmi/core'
+import { getConnections } from '@uxuyalpha/core'
 ```
 
 ## Usage
 
 ::: code-group
 ```ts [index.ts]
-import { getConnections } from '@wagmi/core'
+import { getConnections } from '@uxuyalpha/core'
 import { config } from './config'
 
 const connections = getConnections(config)
@@ -23,7 +23,7 @@ const connections = getConnections(config)
 ## Return Type
 
 ```ts
-import { type GetConnectionsReturnType } from '@wagmi/core'
+import { type GetConnectionsReturnType } from '@uxuyalpha/core'
 ```
 
 [`Connection[]`](/core/api/createConfig#connection)

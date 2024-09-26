@@ -1,13 +1,13 @@
 import { useMutation } from '@tanstack/vue-query'
-import type { Connector, DisconnectErrorType } from '@wagmi/core'
-import type { Compute } from '@wagmi/core/internal'
+import type { Connector, DisconnectErrorType } from '@uxuyalpha/core'
+import type { Compute } from '@uxuyalpha/core/internal'
 import {
   type DisconnectData,
   type DisconnectMutate,
   type DisconnectMutateAsync,
   type DisconnectVariables,
   disconnectMutationOptions,
-} from '@wagmi/core/query'
+} from '@uxuyalpha/core/query'
 import { type Ref, computed } from 'vue'
 
 import type { ConfigParameter } from '../types/properties.js'

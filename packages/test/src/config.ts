@@ -1,4 +1,4 @@
-import { createConfig, mock } from '@wagmi/core'
+import { createConfig, mock } from '@uxuyalpha/core'
 import { http } from 'viem'
 
 import { mainnet, mainnet2, optimism } from './chains.js'

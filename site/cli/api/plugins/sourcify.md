@@ -5,14 +5,14 @@ Plugin for fetching ABIs from [Sourcify](https://sourcify.dev/). Sourcify is a d
 ## Import
 
 ```ts
-import { sourcify } from '@wagmi/cli/plugins'
+import { sourcify } from '@uxuyalpha/cli/plugins'
 ```
 
 ## Usage
 
 ```ts{2,6-13}
-import { defineConfig } from '@wagmi/cli'
-import { sourcify } from '@wagmi/cli/plugins'
+import { defineConfig } from '@uxuyalpha/cli'
+import { sourcify } from '@uxuyalpha/cli/plugins'
 
 export default defineConfig({
   plugins: [
@@ -31,7 +31,7 @@ export default defineConfig({
 ## Configuration
 
 ```ts
-import { type SourcifyConfig } from '@wagmi/cli/plugins'
+import { type SourcifyConfig } from '@uxuyalpha/cli/plugins'
 ```
 
 ### cacheDuration
@@ -42,8 +42,8 @@ import { type SourcifyConfig } from '@wagmi/cli/plugins'
 - Defaults to `1_800_000` (30 minutes).
 
 ```ts
-import { defineConfig } from '@wagmi/cli'
-import { sourcify } from '@wagmi/cli/plugins'
+import { defineConfig } from '@uxuyalpha/cli'
+import { sourcify } from '@uxuyalpha/cli/plugins'
 
 export default defineConfig({
   plugins: [
@@ -68,8 +68,8 @@ export default defineConfig({
 Chain ID to use for fetching ABI. If `address` is an object, `chainId` is used to select the address. See [Sourcify docs](https://docs.sourcify.dev/docs/chains) for supported chains.
 
 ```ts
-import { defineConfig } from '@wagmi/cli'
-import { sourcify } from '@wagmi/cli/plugins'
+import { defineConfig } from '@uxuyalpha/cli'
+import { sourcify } from '@uxuyalpha/cli/plugins'
 
 export default defineConfig({
   plugins: [
@@ -96,8 +96,8 @@ export default defineConfig({
 Contracts to fetch ABIs for.
 
 ```ts
-import { defineConfig } from '@wagmi/cli'
-import { sourcify } from '@wagmi/cli/plugins'
+import { defineConfig } from '@uxuyalpha/cli'
+import { sourcify } from '@uxuyalpha/cli/plugins'
 
 export default defineConfig({
   plugins: [

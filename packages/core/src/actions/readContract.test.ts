@@ -1,4 +1,4 @@
-import { abi, address, bytecode, chain, config } from '@wagmi/test'
+import { abi, address, bytecode, chain, config } from '@uxuyalpha/test'
 import { expect, test } from 'vitest'
 
 import { readContract } from './readContract.js'

@@ -1,4 +1,4 @@
-import { abi, config, mainnet, optimism } from '@wagmi/test'
+import { abi, config, mainnet, optimism } from '@uxuyalpha/test'
 import { http, webSocket } from 'viem'
 import { expectTypeOf, test } from 'vitest'
 

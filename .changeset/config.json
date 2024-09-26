@@ -6,7 +6,7 @@
   "commit": false,
   "ignore": [
     "*-register",
-    "@wagmi/test",
+    "@uxuyalpha/test",
     "site",
     "next-app",
     "nuxt-app",

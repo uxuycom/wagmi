@@ -1,4 +1,4 @@
-import { renderComposable } from '@wagmi/test/vue'
+import { renderComposable } from '@uxuyalpha/test/vue'
 import { expect, test, vi } from 'vitest'
 
 import { useConfig } from './useConfig.js'
@@ -18,7 +18,7 @@ test('behavior: throws when not provided via WagmiPlugin', () => {
       [WagmiPluginNotFoundError: No \`config\` found in Vue context, use \`WagmiPlugin\` to properly initialize the library.
 
       Docs: https://wagmi.sh/vue/api/TODO.html
-      Version: @wagmi/vue@x.y.z]
+      Version: @uxuyalpha/vue@x.y.z]
     `)
   }
 })

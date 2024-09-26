@@ -1,4 +1,4 @@
-import { config, mainnet } from '@wagmi/test'
+import { config, mainnet } from '@uxuyalpha/test'
 import { expect, test } from 'vitest'
 
 import { getBlock } from './getBlock.js'

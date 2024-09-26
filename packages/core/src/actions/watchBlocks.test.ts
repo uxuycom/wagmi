@@ -1,4 +1,4 @@
-import { config, testClient, wait } from '@wagmi/test'
+import { config, testClient, wait } from '@uxuyalpha/test'
 import { expect, test } from 'vitest'
 
 import type { Block } from 'viem'

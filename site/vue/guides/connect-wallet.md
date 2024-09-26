@@ -27,9 +27,9 @@ Let's create a `config.ts` file and export a `config` object.
 ::: code-group
 
 ```tsx [config.ts]
-import { http, createConfig } from '@wagmi/vue'
-import { base, mainnet, optimism } from '@wagmi/vue/chains'
-import { injected, metaMask, safe, walletConnect } from '@wagmi/vue/connectors'
+import { http, createConfig } from '@uxuyalpha/vue'
+import { base, mainnet, optimism } from '@uxuyalpha/vue/chains'
+import { injected, metaMask, safe, walletConnect } from '@uxuyalpha/vue/connectors'
 
 const projectId = '<WALLETCONNECT_PROJECT_ID>'
 
@@ -69,7 +69,7 @@ Next, we will need to inject our App with plugins so that our application is awa
 ```ts [main.ts]
 // 1. Import modules.
 import { VueQueryPlugin } from '@tanstack/vue-query';
-import { WagmiPlugin } from '@wagmi/vue';
+import { WagmiPlugin } from '@uxuyalpha/vue';
 import { createApp } from 'vue';
 
 import App from './App.vue';
@@ -92,9 +92,9 @@ createApp(App)
 ```
 
 ```ts [config.ts]
-import { http, createConfig } from '@wagmi/vue'
-import { base, mainnet, optimism } from '@wagmi/vue/chains'
-import { injected, metaMask, safe, walletConnect } from '@wagmi/vue/connectors'
+import { http, createConfig } from '@uxuyalpha/vue'
+import { base, mainnet, optimism } from '@uxuyalpha/vue/chains'
+import { injected, metaMask, safe, walletConnect } from '@uxuyalpha/vue/connectors'
 
 const projectId = '<WALLETCONNECT_PROJECT_ID>'
 
@@ -125,7 +125,7 @@ Below, we are rendering a list of `connectors` retrieved from `useConnect`. When
 
 ```vue [Connect.vue]
 <script setup lang="ts">
-import { useConnect, useChainId } from '@wagmi/vue';
+import { useConnect, useChainId } from '@uxuyalpha/vue';
 
 const chainId = useChainId();
 const { connectors, connect } = useConnect();
@@ -152,7 +152,7 @@ const { connectors, connect } = useConnect();
 ```ts [main.ts]
 // 1. Import modules.
 import { VueQueryPlugin } from '@tanstack/vue-query';
-import { WagmiPlugin } from '@wagmi/vue';
+import { WagmiPlugin } from '@uxuyalpha/vue';
 import { createApp } from 'vue';
 
 import App from './App.vue';
@@ -167,9 +167,9 @@ createApp(App)
 ```
 
 ```ts [config.ts]
-import { http, createConfig } from '@wagmi/vue'
-import { base, mainnet, optimism } from '@wagmi/vue/chains'
-import { injected, metaMask, safe, walletConnect } from '@wagmi/vue/connectors'
+import { http, createConfig } from '@uxuyalpha/vue'
+import { base, mainnet, optimism } from '@uxuyalpha/vue/chains'
+import { injected, metaMask, safe, walletConnect } from '@uxuyalpha/vue/connectors'
 
 const projectId = '<WALLETCONNECT_PROJECT_ID>'
 
@@ -202,7 +202,7 @@ We are also utilizing `useDisconnect` to show a "Disconnect" button so a user ca
 
 ```vue [Account.vue]
 <script setup lang="ts">
-import { useAccount, useDisconnect } from '@wagmi/vue';
+import { useAccount, useDisconnect } from '@uxuyalpha/vue';
 
 const { address, connector } = useAccount();
 const { disconnect } = useDisconnect();
@@ -217,7 +217,7 @@ const { disconnect } = useDisconnect();
 
 ```vue [Connect.vue]
 <script setup lang="ts">
-import { useConnect, useChainId } from '@wagmi/vue';
+import { useConnect, useChainId } from '@uxuyalpha/vue';
 
 const chainId = useChainId();
 const { connectors, connect } = useConnect();
@@ -244,7 +244,7 @@ const { connectors, connect } = useConnect();
 ```ts [main.ts]
 // 1. Import modules.
 import { VueQueryPlugin } from '@tanstack/vue-query';
-import { WagmiPlugin } from '@wagmi/vue';
+import { WagmiPlugin } from '@uxuyalpha/vue';
 import { createApp } from 'vue';
 
 import App from './App.vue';
@@ -259,9 +259,9 @@ createApp(App)
 ```
 
 ```ts [config.ts]
-import { http, createConfig } from '@wagmi/vue'
-import { base, mainnet, optimism } from '@wagmi/vue/chains'
-import { injected, metaMask, safe, walletConnect } from '@wagmi/vue/connectors'
+import { http, createConfig } from '@uxuyalpha/vue'
+import { base, mainnet, optimism } from '@uxuyalpha/vue/chains'
+import { injected, metaMask, safe, walletConnect } from '@uxuyalpha/vue/connectors'
 
 const projectId = '<WALLETCONNECT_PROJECT_ID>'
 
@@ -290,7 +290,7 @@ Finally, we can wire up our Connect and Account components to our application's 
 
 ```vue [App.vue]
 <script setup lang="ts">
-import { useAccount } from '@wagmi/vue';
+import { useAccount } from '@uxuyalpha/vue';
 import Account from './Account.vue'; // [!code ++]
 import Connect from './Connect.vue'; // [!code ++]
 
@@ -306,7 +306,7 @@ const { isConnected } = useAccount();
 
 ```vue [Account.vue]
 <script setup lang="ts">
-import { useAccount, useDisconnect } from '@wagmi/vue';
+import { useAccount, useDisconnect } from '@uxuyalpha/vue';
 
 const { address, connector } = useAccount();
 const { disconnect } = useDisconnect();
@@ -321,7 +321,7 @@ const { disconnect } = useDisconnect();
 
 ```vue [Connect.vue]
 <script setup lang="ts">
-import { useConnect, useChainId } from '@wagmi/vue';
+import { useConnect, useChainId } from '@uxuyalpha/vue';
 
 const chainId = useChainId();
 const { connectors, connect } = useConnect();
@@ -340,7 +340,7 @@ const { connectors, connect } = useConnect();
 ```ts [main.ts]
 // 1. Import modules.
 import { VueQueryPlugin } from '@tanstack/vue-query';
-import { WagmiPlugin } from '@wagmi/vue';
+import { WagmiPlugin } from '@uxuyalpha/vue';
 import { createApp } from 'vue';
 
 import App from './App.vue';
@@ -355,9 +355,9 @@ createApp(App)
 ```
 
 ```ts [config.ts]
-import { http, createConfig } from '@wagmi/vue'
-import { base, mainnet, optimism } from '@wagmi/vue/chains'
-import { injected, metaMask, safe, walletConnect } from '@wagmi/vue/connectors'
+import { http, createConfig } from '@uxuyalpha/vue'
+import { base, mainnet, optimism } from '@uxuyalpha/vue/chains'
+import { injected, metaMask, safe, walletConnect } from '@uxuyalpha/vue/connectors'
 
 const projectId = '<WALLETCONNECT_PROJECT_ID>'
 

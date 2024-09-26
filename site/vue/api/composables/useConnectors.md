@@ -10,7 +10,7 @@ Composable for getting configured connectors.
 ## Import
 
 ```ts
-import { useConnectors } from '@wagmi/vue'
+import { useConnectors } from '@uxuyalpha/vue'
 ```
 
 ## Usage
@@ -18,7 +18,7 @@ import { useConnectors } from '@wagmi/vue'
 ::: code-group
 ```vue [index.vue]
 <script setup lang="ts">
-import { useConnectors } from '@wagmi/vue'
+import { useConnectors } from '@uxuyalpha/vue'
 
 const connectors = useConnectors()
 </script>
@@ -29,7 +29,7 @@ const connectors = useConnectors()
 ## Return Type
 
 ```ts
-import { type UseConnectorsReturnType } from '@wagmi/vue'
+import { type UseConnectorsReturnType } from '@uxuyalpha/vue'
 ```
 
 `readonly Connector[]`

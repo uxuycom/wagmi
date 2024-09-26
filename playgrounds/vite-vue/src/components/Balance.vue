@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { useAccount, useBalance } from '@wagmi/vue'
+import { useAccount, useBalance } from '@uxuyalpha/vue'
 
 const { address } = useAccount()
 const { data: balance } = useBalance({ address })

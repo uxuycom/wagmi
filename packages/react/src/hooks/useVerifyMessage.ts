@@ -4,15 +4,15 @@ import type {
   Config,
   ResolvedRegister,
   VerifyMessageErrorType,
-} from '@wagmi/core'
-import type { Compute } from '@wagmi/core/internal'
+} from '@uxuyalpha/core'
+import type { Compute } from '@uxuyalpha/core/internal'
 import {
   type VerifyMessageData,
   type VerifyMessageOptions,
   type VerifyMessageQueryKey,
   verifyMessageQueryOptions,
-} from '@wagmi/core/query'
-import type { VerifyMessageQueryFnData } from '@wagmi/core/query'
+} from '@uxuyalpha/core/query'
+import type { VerifyMessageQueryFnData } from '@uxuyalpha/core/query'
 import type { ConfigParameter, QueryParameter } from '../types/properties.js'
 import { type UseQueryReturnType, useQuery } from '../utils/query.js'
 import { useChainId } from './useChainId.js'

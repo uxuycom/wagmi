@@ -1,7 +1,7 @@
-import { mock } from '@wagmi/connectors'
-import { http, connect, createConfig, disconnect } from '@wagmi/core'
-import { accounts, chain, config } from '@wagmi/test'
-import { createWrapper, renderHook, waitFor } from '@wagmi/test/react'
+import { mock } from '@uxuyalpha/connectors'
+import { http, connect, createConfig, disconnect } from '@uxuyalpha/core'
+import { accounts, chain, config } from '@uxuyalpha/test'
+import { createWrapper, renderHook, waitFor } from '@uxuyalpha/test/react'
 import { Fragment, createElement } from 'react'
 import { expect, test, vi } from 'vitest'
 

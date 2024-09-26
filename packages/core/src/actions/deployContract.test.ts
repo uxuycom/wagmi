@@ -4,7 +4,7 @@ import {
   config,
   testClient,
   transactionHashRegex,
-} from '@wagmi/test'
+} from '@uxuyalpha/test'
 import { parseEther } from 'viem'
 import { expect, test } from 'vitest'
 

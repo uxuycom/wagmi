@@ -1,5 +1,5 @@
 <script setup>
-const packageName = '@wagmi/core'
+const packageName = '@uxuyalpha/core'
 const actionName = 'getBalance'
 const typeName = 'GetBalance'
 </script>
@@ -11,14 +11,14 @@ Action for fetching native currency or token balance.
 ## Import
 
 ```ts
-import { getBalance } from '@wagmi/core'
+import { getBalance } from '@uxuyalpha/core'
 ```
 
 ## Usage
 
 ::: code-group
 ```ts [index.ts]
-import { getBalance } from '@wagmi/core'
+import { getBalance } from '@uxuyalpha/core'
 import { config } from './config'
 
 const balance = getBalance(config, {
@@ -31,7 +31,7 @@ const balance = getBalance(config, {
 ## Parameters
 
 ```ts
-import { type GetBalanceParameters } from '@wagmi/core'
+import { type GetBalanceParameters } from '@uxuyalpha/core'
 ```
 
 ### address
@@ -42,7 +42,7 @@ Address to get balance for.
 
 ::: code-group
 ```ts [index.ts]
-import { getBalance } from '@wagmi/core'
+import { getBalance } from '@uxuyalpha/core'
 import { config } from './config'
 
 const balance = getBalance(config, {
@@ -62,7 +62,7 @@ Block number to get balance at.
 
 ::: code-group
 ```ts [index.ts]
-import { getBalance } from '@wagmi/core'
+import { getBalance } from '@uxuyalpha/core'
 import { config } from './config'
 
 const balance = getBalance(config, {
@@ -81,7 +81,7 @@ Block tag to get balance at.
 
 ::: code-group
 ```ts [index.ts]
-import { getBalance } from '@wagmi/core'
+import { getBalance } from '@uxuyalpha/core'
 import { config } from './config'
 
 const balance = getBalance(config, {
@@ -102,8 +102,8 @@ ID of chain to use when fetching data.
 
 ::: code-group
 ```ts [index.ts]
-import { getBalance } from '@wagmi/core'
-import { mainnet } from '@wagmi/core/chains'
+import { getBalance } from '@uxuyalpha/core'
+import { mainnet } from '@uxuyalpha/core/chains'
 import { config } from './config'
 
 const balance = await getBalance(config, {
@@ -122,7 +122,7 @@ ERC-20 token address to get balance for.
 
 ::: code-group
 ```ts [index.ts]
-import { getBalance } from '@wagmi/core'
+import { getBalance } from '@uxuyalpha/core'
 import { config } from './config'
 
 const balance = getBalance(config, {
@@ -142,7 +142,7 @@ const balance = getBalance(config, {
 
 ::: code-group
 ```ts [index.ts]
-import { getBalance } from '@wagmi/core'
+import { getBalance } from '@uxuyalpha/core'
 import { config } from './config'
 
 const balance = getBalance(config, {
@@ -156,7 +156,7 @@ const balance = getBalance(config, {
 ## Return Type
 
 ```ts
-import { type GetBalanceReturnType } from '@wagmi/core'
+import { type GetBalanceReturnType } from '@uxuyalpha/core'
 ```
 
 ### decimals
@@ -186,7 +186,7 @@ Raw value of balance.
 ## Error
 
 ```ts
-import { type GetBalanceErrorType } from '@wagmi/core'
+import { type GetBalanceErrorType } from '@uxuyalpha/core'
 ```
 
 <!--@include: @shared/query-imports.md-->

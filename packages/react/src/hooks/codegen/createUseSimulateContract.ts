@@ -3,13 +3,16 @@ import type {
   ResolvedRegister,
   SimulateContractErrorType,
   SimulateContractParameters,
-} from '@wagmi/core'
-import type { ScopeKeyParameter, UnionExactPartial } from '@wagmi/core/internal'
+} from '@uxuyalpha/core'
+import type {
+  ScopeKeyParameter,
+  UnionExactPartial,
+} from '@uxuyalpha/core/internal'
 import type {
   SimulateContractData,
   SimulateContractQueryFnData,
   SimulateContractQueryKey,
-} from '@wagmi/core/query'
+} from '@uxuyalpha/core/query'
 import type {
   Abi,
   Address,

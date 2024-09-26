@@ -1,4 +1,4 @@
-import { abi, config } from '@wagmi/test'
+import { abi, config } from '@uxuyalpha/test'
 import type { Address } from 'viem'
 import { expectTypeOf, test } from 'vitest'
 import { useWriteContract } from 'wagmi'

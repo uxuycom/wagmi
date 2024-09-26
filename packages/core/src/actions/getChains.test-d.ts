@@ -1,4 +1,4 @@
-import { type chain, config } from '@wagmi/test'
+import { type chain, config } from '@uxuyalpha/test'
 import type { Chain } from 'viem'
 import { expectTypeOf, test } from 'vitest'
 

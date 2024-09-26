@@ -1,4 +1,10 @@
-# @wagmi/core
+# @uxuyalpha/core
+
+## 3.0.0
+
+### Major Changes
+
+- uxuy
 
 ## 2.13.5
 
@@ -475,7 +481,7 @@
 ### Patch Changes
 
 - Updated dependencies [[`bbbbf587`](https://github.com/wevm/wagmi/commit/bbbbf587e41bae12b072b7a7c897d580fc07cd2b)]:
-  - @wagmi/connectors@3.1.11
+  - @uxuyalpha/connectors@3.1.11
 
 ## 1.4.12
 
@@ -484,7 +490,7 @@
 - [`53ca1f7e`](https://github.com/wevm/wagmi/commit/53ca1f7eb411d912e11fcce7e03bd61ed067959c) Thanks [@tmm](https://github.com/tmm)! - Removed LedgerConnector due to security vulnerability
 
 - Updated dependencies [[`53ca1f7e`](https://github.com/wevm/wagmi/commit/53ca1f7eb411d912e11fcce7e03bd61ed067959c)]:
-  - @wagmi/connectors@3.1.10
+  - @uxuyalpha/connectors@3.1.10
 
 ## 1.4.11
 
@@ -493,14 +499,14 @@
 - [#3299](https://github.com/wevm/wagmi/pull/3299) [`b02020b3`](https://github.com/wevm/wagmi/commit/b02020b3724e0228198f35817611bb063295906e) Thanks [@dasanra](https://github.com/dasanra)! - Fixed issue with [Safe SDK](https://github.com/wevm/viem/issues/579) by bumping `@safe-global/safe-apps-provider@0.18.1`
 
 - Updated dependencies [[`51eca0fb`](https://github.com/wevm/wagmi/commit/51eca0fbaea6932f31a5b8b4213f0252280053e2), [`b02020b3`](https://github.com/wevm/wagmi/commit/b02020b3724e0228198f35817611bb063295906e)]:
-  - @wagmi/connectors@3.1.9
+  - @uxuyalpha/connectors@3.1.9
 
 ## 1.4.10
 
 ### Patch Changes
 
 - Updated dependencies [[`e8f7bcbc`](https://github.com/wevm/wagmi/commit/e8f7bcbcd9c038a901c29e71769682c088efe2ac)]:
-  - @wagmi/connectors@3.1.8
+  - @uxuyalpha/connectors@3.1.8
 
 ## 1.4.9
 
@@ -509,35 +515,35 @@
 - [#3276](https://github.com/wevm/wagmi/pull/3276) [`83223a06`](https://github.com/wevm/wagmi/commit/83223a0659e2f675d897a1d3374c7af752c16abf) Thanks [@glitch-txs](https://github.com/glitch-txs)! - Removed required namespaces from WalletConnect connector
 
 - Updated dependencies [[`83223a06`](https://github.com/wevm/wagmi/commit/83223a0659e2f675d897a1d3374c7af752c16abf)]:
-  - @wagmi/connectors@3.1.7
+  - @uxuyalpha/connectors@3.1.7
 
 ## 1.4.8
 
 ### Patch Changes
 
 - Updated dependencies [[`cc7e18f2`](https://github.com/wevm/wagmi/commit/cc7e18f2e7f6b8b989f60f0b05aee70e996a9975), [`cc7e18f2`](https://github.com/wevm/wagmi/commit/cc7e18f2e7f6b8b989f60f0b05aee70e996a9975)]:
-  - @wagmi/connectors@3.1.6
+  - @uxuyalpha/connectors@3.1.6
 
 ## 1.4.7
 
 ### Patch Changes
 
 - Updated dependencies [[`a1950449`](https://github.com/wagmi-dev/wagmi/commit/a1950449127ddf72fff8ecd1fc34c3690befbb05)]:
-  - @wagmi/connectors@3.1.5
+  - @uxuyalpha/connectors@3.1.5
 
 ## 1.4.6
 
 ### Patch Changes
 
 - Updated dependencies [[`4e6ec415`](https://github.com/wagmi-dev/wagmi/commit/4e6ec4151baece94e940e227e0e3711c7f8534d9)]:
-  - @wagmi/connectors@3.1.4
+  - @uxuyalpha/connectors@3.1.4
 
 ## 1.4.5
 
 ### Patch Changes
 
 - Updated dependencies [[`e78aa337`](https://github.com/wagmi-dev/wagmi/commit/e78aa337c454f04b41a3cbd381d25270dd4a0afd)]:
-  - @wagmi/connectors@3.1.3
+  - @uxuyalpha/connectors@3.1.3
 
 ## 1.4.4
 
@@ -558,25 +564,25 @@
 ### Patch Changes
 
 - Updated dependencies [[`3aaba328`](https://github.com/wagmi-dev/wagmi/commit/3aaba32808ddb4035ec885f96992c91078056715)]:
-  - @wagmi/connectors@3.1.2
+  - @uxuyalpha/connectors@3.1.2
 
 ## 1.4.1
 
 ### Patch Changes
 
 - Updated dependencies [[`bf831bb3`](https://github.com/wagmi-dev/wagmi/commit/bf831bb30df8037cc4312342d0fe3c045408c2fe)]:
-  - @wagmi/connectors@3.1.1
+  - @uxuyalpha/connectors@3.1.1
 
 ## 1.4.0
 
 ### Minor Changes
 
-- [#2956](https://github.com/wagmi-dev/wagmi/pull/2956) [`2abeb285`](https://github.com/wagmi-dev/wagmi/commit/2abeb285674af3e539cc2550b1f5027b1eb0c895) Thanks [@tmm](https://github.com/tmm)! - Replaced `@wagmi/chains` with `viem/chains`.
+- [#2956](https://github.com/wagmi-dev/wagmi/pull/2956) [`2abeb285`](https://github.com/wagmi-dev/wagmi/commit/2abeb285674af3e539cc2550b1f5027b1eb0c895) Thanks [@tmm](https://github.com/tmm)! - Replaced `@uxuyalpha/chains` with `viem/chains`.
 
 ### Patch Changes
 
 - Updated dependencies [[`2abeb285`](https://github.com/wagmi-dev/wagmi/commit/2abeb285674af3e539cc2550b1f5027b1eb0c895)]:
-  - @wagmi/connectors@3.1.0
+  - @uxuyalpha/connectors@3.1.0
 
 ## 1.3.10
 
@@ -740,7 +746,7 @@
 - [`ea651cd7`](https://github.com/wevm/wagmi/commit/ea651cd7fc75b7866272605467db11fd6e1d81af) Thanks [@jxom](https://github.com/jxom)! - Downgraded abitype.
 
 - Updated dependencies [[`ea651cd7`](https://github.com/wevm/wagmi/commit/ea651cd7fc75b7866272605467db11fd6e1d81af)]:
-  - @wagmi/connectors@1.0.1
+  - @uxuyalpha/connectors@1.0.1
 
 ## 1.0.0
 
@@ -759,7 +765,7 @@
 ### Patch Changes
 
 - Updated dependencies []:
-  - @wagmi/connectors@1.0.0-next.5
+  - @uxuyalpha/connectors@1.0.0-next.5
 
 ## 1.0.0-next.6
 
@@ -772,7 +778,7 @@
 ### Patch Changes
 
 - Updated dependencies []:
-  - @wagmi/connectors@1.0.0-next.6
+  - @uxuyalpha/connectors@1.0.0-next.6
 
 ## 1.0.0-next.5
 
@@ -790,7 +796,7 @@
 ### Patch Changes
 
 - Updated dependencies []:
-  - @wagmi/connectors@1.0.0-next.5
+  - @uxuyalpha/connectors@1.0.0-next.5
 
 ## 1.0.0-next.3
 
@@ -801,7 +807,7 @@
 ### Patch Changes
 
 - Updated dependencies []:
-  - @wagmi/connectors@1.0.0-next.4
+  - @uxuyalpha/connectors@1.0.0-next.4
 
 ## 1.0.0-next.2
 
@@ -814,8 +820,8 @@
 ### Patch Changes
 
 - Updated dependencies []:
-  - @wagmi/chains@1.0.0-next.0
-  - @wagmi/connectors@1.0.0-next.3
+  - @uxuyalpha/chains@1.0.0-next.0
+  - @uxuyalpha/connectors@1.0.0-next.3
 
 ## 1.0.0-next.1
 
@@ -826,7 +832,7 @@
 ### Patch Changes
 
 - Updated dependencies []:
-  - @wagmi/connectors@1.0.0-next.2
+  - @uxuyalpha/connectors@1.0.0-next.2
 
 ## 1.0.0-next.0
 
@@ -837,7 +843,7 @@
 ### Patch Changes
 
 - Updated dependencies [[`a7dda00c`](https://github.com/wevm/wagmi/commit/a7dda00c5b546f8b2c42b527e4d9ac1b9e9ab1fb)]:
-  - @wagmi/connectors@1.0.0-next.1
+  - @uxuyalpha/connectors@1.0.0-next.1
 
 ## 0.10.11
 
@@ -846,7 +852,7 @@
 - [#2270](https://github.com/wevm/wagmi/pull/2270) [`6d1fa9df`](https://github.com/wevm/wagmi/commit/6d1fa9df790287729c3b33d4f01fd23c2f8153f1) Thanks [@jxom](https://github.com/jxom)! - Updated references.
 
 - Updated dependencies []:
-  - @wagmi/connectors@0.3.19
+  - @uxuyalpha/connectors@0.3.19
 
 ## 0.10.10
 
@@ -855,7 +861,7 @@
 - [#2208](https://github.com/wevm/wagmi/pull/2208) [`cfc696d8`](https://github.com/wevm/wagmi/commit/cfc696d83c6f768a2e1a29c5197efeed7f1d40a1) Thanks [@bangtoven](https://github.com/bangtoven)! - Bumped references to apply coinbase wallet sdk updates
 
 - Updated dependencies []:
-  - @wagmi/connectors@0.3.16
+  - @uxuyalpha/connectors@0.3.16
 
 ## 0.10.9
 
@@ -866,7 +872,7 @@
 - [#2146](https://github.com/wevm/wagmi/pull/2146) [`21b6842e`](https://github.com/wevm/wagmi/commit/21b6842e8c296a0bbe71ebe0780d898abc4cf4a8) Thanks [@tmm](https://github.com/tmm)! - Bumped references
 
 - Updated dependencies []:
-  - @wagmi/connectors@0.3.12
+  - @uxuyalpha/connectors@0.3.12
 
 ## 0.10.8
 
@@ -882,7 +888,7 @@
 - [#2085](https://github.com/wevm/wagmi/pull/2085) [`7d64e3f5`](https://github.com/wevm/wagmi/commit/7d64e3f538a6149777bfa84ea9435769b2a7db58) Thanks [@jxom](https://github.com/jxom)! - Fixed an issue where multicall would not throw if the target chain was not configured on the wagmi client.
 
 - Updated dependencies []:
-  - @wagmi/connectors@0.3.10
+  - @uxuyalpha/connectors@0.3.10
 
 ## 0.10.7
 
@@ -891,7 +897,7 @@
 - [#2082](https://github.com/wevm/wagmi/pull/2082) [`2ccc8a25`](https://github.com/wevm/wagmi/commit/2ccc8a255e93f0a2bb7b22101656b3905ec59abd) Thanks [@jxom](https://github.com/jxom)! - Updated references.
 
 - Updated dependencies []:
-  - @wagmi/connectors@0.3.10
+  - @uxuyalpha/connectors@0.3.10
 
 ## 0.10.6
 
@@ -900,7 +906,7 @@
 - [#2056](https://github.com/wevm/wagmi/pull/2056) [`944f6513`](https://github.com/wevm/wagmi/commit/944f6513adf09a6f0b3bd34f591d3bbd1f1ffd2e) Thanks [@tmm](https://github.com/tmm)! - Bumped references.
 
 - Updated dependencies []:
-  - @wagmi/connectors@0.3.8
+  - @uxuyalpha/connectors@0.3.8
 
 ## 0.10.5
 
@@ -909,7 +915,7 @@
 - [#2053](https://github.com/wevm/wagmi/pull/2053) [`665df1bf`](https://github.com/wevm/wagmi/commit/665df1bf2afccb533102069def395e19fb7194dd) Thanks [@tmm](https://github.com/tmm)! - Fixed issue where you add a new chain to MetaMask, but the switch after is rejected.
 
 - Updated dependencies []:
-  - @wagmi/connectors@0.3.7
+  - @uxuyalpha/connectors@0.3.7
 
 ## 0.10.4
 
@@ -918,7 +924,7 @@
 - [#2046](https://github.com/wevm/wagmi/pull/2046) [`90d8e9b8`](https://github.com/wevm/wagmi/commit/90d8e9b87962b72c54311649537e91a953660f9b) Thanks [@tmm](https://github.com/tmm)! - Exported internal type.
 
 - Updated dependencies []:
-  - @wagmi/connectors@0.3.6
+  - @uxuyalpha/connectors@0.3.6
 
 ## 0.10.3
 
@@ -929,7 +935,7 @@
 - [#2043](https://github.com/wevm/wagmi/pull/2043) [`49a58320`](https://github.com/wevm/wagmi/commit/49a58320ab5f1f13bc4de25abcc028c8335e98f0) Thanks [@tmm](https://github.com/tmm)! - Removed `InjectedConnector` `shimChainChangedDisconnect` shim (no longer necessary).
 
 - Updated dependencies []:
-  - @wagmi/connectors@0.3.6
+  - @uxuyalpha/connectors@0.3.6
 
 ## 0.10.2
 
@@ -971,7 +977,7 @@
 - [#2016](https://github.com/wevm/wagmi/pull/2016) [`06bf61de`](https://github.com/wevm/wagmi/commit/06bf61dee6d2920777bd9392491e6b7aedebe7ab) Thanks [@jxom](https://github.com/jxom)! - Updated references/ submodule.
 
 - Updated dependencies []:
-  - @wagmi/connectors@0.3.4
+  - @uxuyalpha/connectors@0.3.4
 
 ## 0.10.0
 
@@ -1011,7 +1017,7 @@
 ### Patch Changes
 
 - Updated dependencies []:
-  - @wagmi/connectors@0.3.2
+  - @uxuyalpha/connectors@0.3.2
 
 ## 0.9.7
 
@@ -1024,7 +1030,7 @@
   - `polygonZkEvmTestnet`
 
 - Updated dependencies []:
-  - @wagmi/connectors@0.2.7
+  - @uxuyalpha/connectors@0.2.7
 
 ## 0.9.6
 
@@ -1033,7 +1039,7 @@
 - [#1882](https://github.com/wevm/wagmi/pull/1882) [`282cc1b0`](https://github.com/wevm/wagmi/commit/282cc1b02003684d582cea411b11792a59c26fd0) Thanks [@tmm](https://github.com/tmm)! - Updated references.
 
 - Updated dependencies []:
-  - @wagmi/connectors@0.2.6
+  - @uxuyalpha/connectors@0.2.6
 
 ## 0.9.5
 
@@ -1047,7 +1053,7 @@
   - `moonriver`
 
 - Updated dependencies []:
-  - @wagmi/connectors@0.2.5
+  - @uxuyalpha/connectors@0.2.5
 
 ## 0.9.4
 
@@ -1058,7 +1064,7 @@
 - [#1787](https://github.com/wevm/wagmi/pull/1787) [`f023fd8f`](https://github.com/wevm/wagmi/commit/f023fd8f66befb78b9a4df5ca971ceaa64e37ab4) Thanks [@tmm](https://github.com/tmm)! - Added `SafeConnector`
 
 - Updated dependencies []:
-  - @wagmi/connectors@0.2.4
+  - @uxuyalpha/connectors@0.2.4
 
 ## 0.9.3
 
@@ -1070,7 +1076,7 @@
 - [#1773](https://github.com/wevm/wagmi/pull/1773) [`9aaf1955`](https://github.com/wevm/wagmi/commit/9aaf195514d3b5f4d085c797fc5021d42a9efb6c) Thanks [@jxom](https://github.com/jxom)! - Added Telos to the `wagmi/chains` entrypoint. Thanks @donnyquixotic!
 
 - Updated dependencies []:
-  - @wagmi/connectors@0.2.3
+  - @uxuyalpha/connectors@0.2.3
 
 ## 0.9.2
 
@@ -1081,7 +1087,7 @@
 - [#1756](https://github.com/wevm/wagmi/pull/1756) [`31d06b8c`](https://github.com/wevm/wagmi/commit/31d06b8ce1e7af5e9d1a7ba57f1743b2dff7a53d) Thanks [@jxom](https://github.com/jxom)! - Fixed race condition between `switchNetwork` and mutation Actions that use `chainId` (e.g. `sendTransaction`). Thanks @DanInTheD4rk!
 
 - Updated dependencies []:
-  - @wagmi/connectors@0.2.2
+  - @uxuyalpha/connectors@0.2.2
 
 ## 0.9.1
 
@@ -1097,7 +1103,7 @@
   - Celo – thanks @aaronmgdr
 
 - Updated dependencies []:
-  - @wagmi/connectors@0.2.1
+  - @uxuyalpha/connectors@0.2.1
 
 ## 0.9.0
 
@@ -1121,7 +1127,7 @@
 
 ### Patch Changes
 
-- [#1705](https://github.com/wevm/wagmi/pull/1705) [`9ff797dc`](https://github.com/wevm/wagmi/commit/9ff797dcb979dc86b798a432b74c98598165430d) Thanks [@jxom](https://github.com/jxom)! - Added the following chains to the `@wagmi/core/chains` entrypoint:
+- [#1705](https://github.com/wevm/wagmi/pull/1705) [`9ff797dc`](https://github.com/wevm/wagmi/commit/9ff797dcb979dc86b798a432b74c98598165430d) Thanks [@jxom](https://github.com/jxom)! - Added the following chains to the `@uxuyalpha/core/chains` entrypoint:
 
   - `crossbell` (thanks @Songkeys)
   - `filecoin` & `filecoinHyperspace` (thanks @neil0x46dc)
@@ -1162,7 +1168,7 @@
 
 ### Patch Changes
 
-- [#1621](https://github.com/wevm/wagmi/pull/1621) [`5812b590`](https://github.com/wevm/wagmi/commit/5812b5909277bf2862cb57a31d52465b47291410) Thanks [@tmm](https://github.com/tmm)! - Bumped @wagmi/connectors
+- [#1621](https://github.com/wevm/wagmi/pull/1621) [`5812b590`](https://github.com/wevm/wagmi/commit/5812b5909277bf2862cb57a31d52465b47291410) Thanks [@tmm](https://github.com/tmm)! - Bumped @uxuyalpha/connectors
 
 ## 0.8.10
 
@@ -1227,7 +1233,7 @@
 
 ### Patch Changes
 
-- [#1508](https://github.com/wevm/wagmi/pull/1508) [`0b50b62f`](https://github.com/wevm/wagmi/commit/0b50b62f7389619e429509a3e337e451e823b059) Thanks [@jxom](https://github.com/jxom)! - Updated `@wagmi/chains` to `0.1.3`.
+- [#1508](https://github.com/wevm/wagmi/pull/1508) [`0b50b62f`](https://github.com/wevm/wagmi/commit/0b50b62f7389619e429509a3e337e451e823b059) Thanks [@jxom](https://github.com/jxom)! - Updated `@uxuyalpha/chains` to `0.1.3`.
 
 - [#1504](https://github.com/wevm/wagmi/pull/1504) [`11b8b794`](https://github.com/wevm/wagmi/commit/11b8b794fbfd4a2b40f39962e2758e9fbf48cb54) Thanks [@tmm](https://github.com/tmm)! - Converted ethers custom "ACTION_REJECTED" error to standard RPC Error.
 
@@ -1235,7 +1241,7 @@
 
 ### Patch Changes
 
-- [#1431](https://github.com/wevm/wagmi/pull/1431) [`af28f8f9`](https://github.com/wevm/wagmi/commit/af28f8f9cfc227e7c391927fdb934183edb5c2dc) Thanks [@jxom](https://github.com/jxom)! - Re-export connectors from `@wagmi/connectors`
+- [#1431](https://github.com/wevm/wagmi/pull/1431) [`af28f8f9`](https://github.com/wevm/wagmi/commit/af28f8f9cfc227e7c391927fdb934183edb5c2dc) Thanks [@jxom](https://github.com/jxom)! - Re-export connectors from `@uxuyalpha/connectors`
 
 - [#1431](https://github.com/wevm/wagmi/pull/1431) [`af28f8f9`](https://github.com/wevm/wagmi/commit/af28f8f9cfc227e7c391927fdb934183edb5c2dc) Thanks [@jxom](https://github.com/jxom)! - Added `LedgerConnector` connector
 
@@ -1332,7 +1338,7 @@
   })
   ```
 
-- [#1344](https://github.com/wevm/wagmi/pull/1344) [`57a19374`](https://github.com/wevm/wagmi/commit/57a1937464a4ccf72719fc86c38d1734f6306652) Thanks [@jxom](https://github.com/jxom)! - **Breaking**: With the introduction of the [`@wagmi/core/chains` entrypoint](/core/chains), `@wagmi/core` no longer exports the following:
+- [#1344](https://github.com/wevm/wagmi/pull/1344) [`57a19374`](https://github.com/wevm/wagmi/commit/57a1937464a4ccf72719fc86c38d1734f6306652) Thanks [@jxom](https://github.com/jxom)! - **Breaking**: With the introduction of the [`@uxuyalpha/core/chains` entrypoint](/core/chains), `@uxuyalpha/core` no longer exports the following:
 
   - `chain`
   - `allChains`
@@ -1346,14 +1352,14 @@
 
   #### Removed `chain`
 
-  The `chain` export has been removed. `@wagmi/core` now only exports the `mainnet` & `goerli` chains. If you need to use an alternative chain (`polygon`, `optimism`, etc), you will need to import it from the [`@wagmi/core/chains` entrypoint](/core/chains).
+  The `chain` export has been removed. `@uxuyalpha/core` now only exports the `mainnet` & `goerli` chains. If you need to use an alternative chain (`polygon`, `optimism`, etc), you will need to import it from the [`@uxuyalpha/core/chains` entrypoint](/core/chains).
 
   ```diff
   import {
   - chain
     configureChains
-  } from '@wagmi/core'
-  + import { mainnet, polygon, optimism } from '@wagmi/core/chains'
+  } from '@uxuyalpha/core'
+  + import { mainnet, polygon, optimism } from '@uxuyalpha/core/chains'
 
   const { ... } = configureChains(
   - [chain.mainnet, chain.polygon, chain.optimism],
@@ -1366,11 +1372,11 @@
 
   #### Removed `allChains`
 
-  The `allChains` export has been removed. If you need a list of all chains, you can utilize [`@wagmi/core/chains` entrypoint](/core/chains).
+  The `allChains` export has been removed. If you need a list of all chains, you can utilize [`@uxuyalpha/core/chains` entrypoint](/core/chains).
 
   ```diff
-  - import { allChains } from '@wagmi/core'
-  + import * as allChains from '@wagmi/core/chains'
+  - import { allChains } from '@uxuyalpha/core'
+  + import * as allChains from '@uxuyalpha/core/chains'
 
   const { ... } = configureChains(allChains, ...)
   ```
@@ -1380,8 +1386,8 @@
   The `defaultChains` & `defaultL2Chains` exports have been removed. If you still need the `defaultChains` or `defaultL2Chains` exports, you can build them yourself:
 
   ```diff
-  - import { defaultChains } from '@wagmi/core'
-  + import { mainnet, goerli } from '@wagmi/core/chains'
+  - import { defaultChains } from '@uxuyalpha/core'
+  + import { mainnet, goerli } from '@uxuyalpha/core/chains'
 
   + const defaultChains = [mainnet, goerli]
   ```
@@ -1389,7 +1395,7 @@
   > The `defaultChains` export was previously populated with `mainnet` & `goerli`.
 
   ```diff
-  - import { defaultL2Chains } from '@wagmi/core'
+  - import { defaultL2Chains } from '@uxuyalpha/core'
   + import {
   +   arbitrum,
   +   arbitrumGoerli,
@@ -1397,7 +1403,7 @@
   +   polygonMumbai,
   +   optimism,
   +   optimismGoerli
-  + } from '@wagmi/core/chains'
+  + } from '@uxuyalpha/core/chains'
 
   + const defaultL2Chains = [
   +  arbitrum,
@@ -1416,8 +1422,8 @@
   The `chainId` export has been removed. You can extract a chain ID from the chain itself.
 
   ```diff
-  - import { chainId } from '@wagmi/core'
-  + import { mainnet, polygon, optimism } from '@wagmi/core/chains'
+  - import { chainId } from '@uxuyalpha/core'
+  + import { mainnet, polygon, optimism } from '@uxuyalpha/core/chains'
 
   -const mainnetChainId = chainId.mainnet
   -const polygonChainId = chainId.polygon
@@ -1432,8 +1438,8 @@
   The `etherscanBlockExplorers` export has been removed. You can extract a block explorer from the chain itself.
 
   ```diff
-  - import { etherscanBlockExplorers } from '@wagmi/core'
-  + import { mainnet, polygon, optimism } from '@wagmi/core/chains'
+  - import { etherscanBlockExplorers } from '@uxuyalpha/core'
+  + import { mainnet, polygon, optimism } from '@uxuyalpha/core/chains'
 
   -const mainnetEtherscanBlockExplorer = etherscanBlockExplorers.mainnet
   -const polygonEtherscanBlockExplorer = etherscanBlockExplorers.polygon
@@ -1448,8 +1454,8 @@
   The `alchemyRpcUrls`, `infuraRpcUrls` & `publicRpcUrls` exports have been removed. You can extract a RPC URL from the chain itself.
 
   ```diff
-  - import { alchemyRpcUrls, infuraRpcUrls, publicRpcUrls } from '@wagmi/core'
-  + import { mainnet } from '@wagmi/core/chains'
+  - import { alchemyRpcUrls, infuraRpcUrls, publicRpcUrls } from '@uxuyalpha/core'
+  + import { mainnet } from '@uxuyalpha/core/chains'
 
   -const mainnetAlchemyRpcUrl = alchemyRpcUrls.mainnet
   -const mainnetInfuraRpcUrl = infuraRpcUrls.mainnet
@@ -1484,7 +1490,7 @@
 - [#1406](https://github.com/wevm/wagmi/pull/1406) [`4f18c450`](https://github.com/wevm/wagmi/commit/4f18c450a4d7952bfcfa6c533348ffbe55893d3c) Thanks [@tmm](https://github.com/tmm)! - Function for selecting the [EIP-1193](https://eips.ethereum.org/EIPS/eip-1193) Ethereum Provider to target. Defaults to `() => typeof window !== 'undefined' ? window.ethereum : undefined`.
 
   ```ts
-  import { InjectedConnector } from "@wagmi/core/connectors/injected";
+  import { InjectedConnector } from "@uxuyalpha/core/connectors/injected";
 
   const connector = new InjectedConnector({
     options: {
@@ -1710,7 +1716,7 @@
 - [#940](https://github.com/wevm/wagmi/pull/940) [`b6cb8f4`](https://github.com/wevm/wagmi/commit/b6cb8f4cd15eb13073bc7e9ecb4bfa2c261c0663) Thanks [@jxom](https://github.com/jxom)! - **Breaking**: `watchSigner` now requires an arguments object (that accepts an optional `chainId`) as it's first parameter.
 
   ```diff
-  import { watchSigner } from `@wagmi/core`
+  import { watchSigner } from `@uxuyalpha/core`
 
   -watchSigner(signer => {
   +watchSigner({}, signer => {
@@ -1723,7 +1729,7 @@
 - [#941](https://github.com/wevm/wagmi/pull/941) [`0c96009`](https://github.com/wevm/wagmi/commit/0c96009398647a515a57f72ef25c32724f7c978c) Thanks [@tmm](https://github.com/tmm)! - **Breaking**: `addressOrName` and `contractInterface` renamed to `address` and `abi` respectively for contract actions: `getContract`, `multicall`, `prepareWriteContract`, `readContract`, `readContracts`, `watchContractEvent`, `watchMulticall`, `watchReadContract`, `watchReadContracts`, `writeContract`.
 
   ```diff
-  import { readContract } from '@wagmi/core'
+  import { readContract } from '@uxuyalpha/core'
 
   const result = await readContract({
   - addressOrName: '0x…',
@@ -1738,8 +1744,8 @@
   If you were using an ENS name instead of an address, you can resolve the name to an address before passing it to the action.
 
   ```diff
-  - import { readContract } from '@wagmi/core'
-  + import { fetchEnsAddress, readContract } from '@wagmi/core'
+  - import { readContract } from '@uxuyalpha/core'
+  + import { fetchEnsAddress, readContract } from '@uxuyalpha/core'
 
   + const address = await fetchEnsAddress('example.eth')
   const result = await readContract({
@@ -1762,7 +1768,7 @@
 - [#941](https://github.com/wevm/wagmi/pull/941) [`0c96009`](https://github.com/wevm/wagmi/commit/0c96009398647a515a57f72ef25c32724f7c978c) Thanks [@tmm](https://github.com/tmm)! - **Breaking**: `args` config option must now be an array for the following actions: `readContract`, `writeContract`, `prepareWriteContract`, `multicall`, `readContracts`, `watchMulticall`, and `watchReadContracts`.
 
   ```diff
-  import { readContract } from '@wagmi/core'
+  import { readContract } from '@uxuyalpha/core'
 
   const result = await readContract({
     address: '0x…',
@@ -1776,7 +1782,7 @@
 - [#941](https://github.com/wevm/wagmi/pull/941) [`0c96009`](https://github.com/wevm/wagmi/commit/0c96009398647a515a57f72ef25c32724f7c978c) Thanks [@tmm](https://github.com/tmm)! - **Breaking**: `watchContractEvent` now accepts a configuration object and callback instead of positional arguments.
 
   ```diff
-  import { watchContractEvent } from '@wagmi/core'
+  import { watchContractEvent } from '@uxuyalpha/core'
 
   - const unsubscribe = watchContractEvent(
   -   {
@@ -1804,7 +1810,7 @@
 
 - [#941](https://github.com/wevm/wagmi/pull/941) [`0c96009`](https://github.com/wevm/wagmi/commit/0c96009398647a515a57f72ef25c32724f7c978c) Thanks [@tmm](https://github.com/tmm)! - **Breaking**: Updated TypeScript version to `typescript@>=4.7.4`.
 
-  `@wagmi/core` can now infer types based on [ABI](https://docs.soliditylang.org/en/v0.8.15/abi-spec.html#json) and [EIP-712](https://eips.ethereum.org/EIPS/eip-712) Typed Data definitions, giving you full end-to-end type-safety from your contracts to your frontend and incredible developer experience (e.g. autocomplete contract function names and catch misspellings, type contract function arguments, etc.).
+  `@uxuyalpha/core` can now infer types based on [ABI](https://docs.soliditylang.org/en/v0.8.15/abi-spec.html#json) and [EIP-712](https://eips.ethereum.org/EIPS/eip-712) Typed Data definitions, giving you full end-to-end type-safety from your contracts to your frontend and incredible developer experience (e.g. autocomplete contract function names and catch misspellings, type contract function arguments, etc.).
 
   For this to work, you must upgrade to `typescript@>=4.7.4`. Why is TypeScript v4.7.4 or greater necessary? TypeScript 4.7.4 introduced the ability to [extend constraints on inferred type variables](https://devblogs.microsoft.com/typescript/announcing-typescript-4-7/#extends-constraints-on-infer-type-variables), which is used extensively to help narrow types for ABIs. Good news! When upgrading TypeScript from 4.6 to 4.7 there are likely no [breaking changes](https://www.typescriptlang.org/docs/handbook/release-notes/typescript-4-7.html#breaking-changes) for your set up.
 
@@ -1813,7 +1819,7 @@
   Adding a [const assertion](https://www.typescriptlang.org/docs/handbook/release-notes/typescript-3-4.html#const-assertions) to `abi` allows TypeScript to infer `functionName`, `args`, `overrides`, and return types for functions, and `eventName` and `listener` types for events.
 
   ```diff
-  import { readContract } from '@wagmi/core'
+  import { readContract } from '@uxuyalpha/core'
 
   const result = await readContract({
     address: '0x…',
@@ -1830,7 +1836,7 @@
   Adding a [const assertion](https://www.typescriptlang.org/docs/handbook/release-notes/typescript-3-4.html#const-assertions) to `signTypedData`'s config option, `types`, allows TypeScript to infer `value`.
 
   ```diff
-  import { signTypedData } from '@wagmi/core'
+  import { signTypedData } from '@uxuyalpha/core'
 
   const result = await signTypedData({
     domain: {
@@ -1872,8 +1878,8 @@
 - [#940](https://github.com/wevm/wagmi/pull/940) [`b6cb8f4`](https://github.com/wevm/wagmi/commit/b6cb8f4cd15eb13073bc7e9ecb4bfa2c261c0663) Thanks [@jxom](https://github.com/jxom)! - The `fetchSigner` action now accepts an optional `chainId` to use for signer initialization as an argument.
 
   ```tsx
-  import { fetchSigner } from "@wagmi/core";
-  import { optimism } from "@wagmi/core/chains";
+  import { fetchSigner } from "@uxuyalpha/core";
+  import { optimism } from "@uxuyalpha/core/chains";
 
   // ...
 
@@ -2018,7 +2024,7 @@
   ### Prepared usage
 
   ```diff
-  import { prepareSendTransaction, sendTransaction } from '@wagmi/core'
+  import { prepareSendTransaction, sendTransaction } from '@uxuyalpha/core'
 
   +const config = await prepareSendTransaction({
   +  request: {
@@ -2041,7 +2047,7 @@
   It is possible to use `sendTransaction` without preparing the configuration first by passing `mode: 'recklesslyUnprepared'`.
 
   ```diff
-  import { sendTransaction } from '@wagmi/core'
+  import { sendTransaction } from '@uxuyalpha/core'
 
   const result = await sendTransaction({
   + mode: 'recklesslyUnprepared',
@@ -2055,8 +2061,8 @@
 * [#760](https://github.com/wevm/wagmi/pull/760) [`d8af6bf`](https://github.com/wevm/wagmi/commit/d8af6bf50885aec110ae4d64716642453aa27896) Thanks [@tmm](https://github.com/tmm)! - **Breaking:** `alchemyProvider` and `infuraProvider` now use a generic `apiKey` configuration option instead of `alchemyId` and `infuraId`.
 
   ```diff
-  import { alchemyProvider } from '@wagmi/core/providers/alchemy'
-  import { infuraProvider } from '@wagmi/core/providers/infura'
+  import { alchemyProvider } from '@uxuyalpha/core/providers/alchemy'
+  import { infuraProvider } from '@uxuyalpha/core/providers/infura'
 
   alchemyProvider({
   -  alchemyId: 'yourAlchemyApiKey',
@@ -2089,7 +2095,7 @@
   If you require the full `TransactionResponse`, you can use `fetchTransaction`:
 
   ```diff
-  import { sendTransaction, fetchTransaction } from '@wagmi/core'
+  import { sendTransaction, fetchTransaction } from '@uxuyalpha/core'
 
   const {
     hash,
@@ -2121,7 +2127,7 @@
   ### Prepared usage
 
   ```diff
-  import { prepareWriteContract, writeContract } from '@wagmi/core'
+  import { prepareWriteContract, writeContract } from '@uxuyalpha/core'
 
   const tokenId = 69
 
@@ -2146,7 +2152,7 @@
   It is possible to use `writeContract` without preparing the configuration first by passing `mode: 'recklesslyUnprepared'`.
 
   ```diff
-  import { writeContract } from '@wagmi/core'
+  import { writeContract } from '@uxuyalpha/core'
 
   const tokenId = 69
 
@@ -2164,7 +2170,7 @@
   It returns config to be passed through to `sendTransaction`.
 
   ```ts
-  import { prepareSendTransaction, sendTransaction } from "@wagmi/core";
+  import { prepareSendTransaction, sendTransaction } from "@uxuyalpha/core";
 
   const config = await prepareSendTransaction({
     request: {
@@ -2182,7 +2188,7 @@
   Example:
 
   ```tsx
-  import { prepareWriteContract, writeContract } from "@wagmi/core";
+  import { prepareWriteContract, writeContract } from "@uxuyalpha/core";
 
   const config = await prepareWriteContract({
     addressOrName: "0x...",
@@ -2197,7 +2203,7 @@
 - [#759](https://github.com/wevm/wagmi/pull/759) [`959953d`](https://github.com/wevm/wagmi/commit/959953d1f5b3e8189bac56de245c62333470d18e) Thanks [@tmm](https://github.com/tmm)! - Added `fetchTransaction` action:
 
   ```ts
-  import { fetchTransaction } from "@wagmi/core";
+  import { fetchTransaction } from "@uxuyalpha/core";
 
   const transaction = await fetchTransaction({
     hash: "0x5c504ed432cb51138bcf09aa5e8a410dd4a1e204ef84bfed1be16dfba1b22060",
@@ -2222,7 +2228,7 @@
 
 ### Patch Changes
 
-- [#677](https://github.com/tmm/wagmi/pull/677) [`35e4219`](https://github.com/tmm/wagmi/commit/35e42199af9dd346549c1718e144728f55b8d7dd) Thanks [@jxom](https://github.com/jxom)! - Move `parseContractResult` to `@wagmi/core`
+- [#677](https://github.com/tmm/wagmi/pull/677) [`35e4219`](https://github.com/tmm/wagmi/commit/35e42199af9dd346549c1718e144728f55b8d7dd) Thanks [@jxom](https://github.com/jxom)! - Move `parseContractResult` to `@uxuyalpha/core`
 
 ## 0.4.6
 
@@ -2490,7 +2496,7 @@
   Example:
 
   ```tsx
-  import { connect } from "@wagmi/core";
+  import { connect } from "@uxuyalpha/core";
 
   await connect({ chainId: 69 });
   ```
@@ -2807,7 +2813,7 @@
 
 - [#311](https://github.com/tmm/wagmi/pull/311) [`24ce011`](https://github.com/tmm/wagmi/commit/24ce0113022b890e9582c6cc24035926e0d2b32d) Thanks [@tmm](https://github.com/tmm)! - don't persist account data when `autoConnect` is falsy
 
-* [#311](https://github.com/tmm/wagmi/pull/311) [`24ce011`](https://github.com/tmm/wagmi/commit/24ce0113022b890e9582c6cc24035926e0d2b32d) Thanks [@tmm](https://github.com/tmm)! - - fix(@wagmi/core): persist connector chains to local storage
+* [#311](https://github.com/tmm/wagmi/pull/311) [`24ce011`](https://github.com/tmm/wagmi/commit/24ce0113022b890e9582c6cc24035926e0d2b32d) Thanks [@tmm](https://github.com/tmm)! - - fix(@uxuyalpha/core): persist connector chains to local storage
 
 - [#311](https://github.com/tmm/wagmi/pull/311) [`24ce011`](https://github.com/tmm/wagmi/commit/24ce0113022b890e9582c6cc24035926e0d2b32d) Thanks [@tmm](https://github.com/tmm)! - - Favour `message` event over `connecting` event to conform to EIP-1193
   - Export `useWaitForTransaction`

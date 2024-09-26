@@ -1,6 +1,6 @@
-import { mock } from '@wagmi/connectors'
-import { accounts, config } from '@wagmi/test'
-import { renderHook } from '@wagmi/test/react'
+import { mock } from '@uxuyalpha/connectors'
+import { accounts, config } from '@uxuyalpha/test'
+import { renderHook } from '@uxuyalpha/test/react'
 import { Fragment, createElement } from 'react'
 import { expect, test } from 'vitest'
 

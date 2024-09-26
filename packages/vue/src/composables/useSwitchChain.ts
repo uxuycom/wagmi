@@ -3,15 +3,15 @@ import type {
   Config,
   ResolvedRegister,
   SwitchChainErrorType,
-} from '@wagmi/core'
-import type { Compute } from '@wagmi/core/internal'
+} from '@uxuyalpha/core'
+import type { Compute } from '@uxuyalpha/core/internal'
 import {
   type SwitchChainData,
   type SwitchChainMutate,
   type SwitchChainMutateAsync,
   type SwitchChainVariables,
   switchChainMutationOptions,
-} from '@wagmi/core/query'
+} from '@uxuyalpha/core/query'
 import type { Ref } from 'vue'
 
 import type { ConfigParameter } from '../types/properties.js'

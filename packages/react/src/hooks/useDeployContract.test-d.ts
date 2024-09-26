@@ -1,5 +1,5 @@
-import type { DeployContractErrorType } from '@wagmi/core'
-import { abi, bytecode } from '@wagmi/test'
+import type { DeployContractErrorType } from '@uxuyalpha/core'
+import { abi, bytecode } from '@uxuyalpha/test'
 import type { Abi, Hash } from 'viem'
 import { expectTypeOf, test } from 'vitest'
 

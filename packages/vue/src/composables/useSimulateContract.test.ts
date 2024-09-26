@@ -1,6 +1,6 @@
-import { connect, disconnect } from '@wagmi/core'
-import { abi, address, config, wait } from '@wagmi/test'
-import { renderComposable, waitFor } from '@wagmi/test/vue'
+import { connect, disconnect } from '@uxuyalpha/core'
+import { abi, address, config, wait } from '@uxuyalpha/test'
+import { renderComposable, waitFor } from '@uxuyalpha/test/vue'
 import { expect, test } from 'vitest'
 
 import { useSimulateContract } from './useSimulateContract.js'

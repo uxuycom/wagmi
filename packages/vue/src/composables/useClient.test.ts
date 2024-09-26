@@ -1,6 +1,6 @@
-import { switchChain } from '@wagmi/core'
-import { config } from '@wagmi/test'
-import { renderComposable, waitFor } from '@wagmi/test/vue'
+import { switchChain } from '@uxuyalpha/core'
+import { config } from '@uxuyalpha/test'
+import { renderComposable, waitFor } from '@uxuyalpha/test/vue'
 import { expect, test } from 'vitest'
 import { ref } from 'vue'
 

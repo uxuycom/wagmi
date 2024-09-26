@@ -2,7 +2,7 @@ import {
   ChainNotConfiguredError,
   type Connector,
   createConnector,
-} from '@wagmi/core'
+} from '@uxuyalpha/core'
 
 import type { WalletTgSdk } from '@uxuycom/web3-tg-sdk'
 

@@ -1,5 +1,5 @@
-import { accounts, chain, testClient, wait } from '@wagmi/test'
-import { renderHook, waitFor } from '@wagmi/test/react'
+import { accounts, chain, testClient, wait } from '@uxuyalpha/test'
+import { renderHook, waitFor } from '@uxuyalpha/test/react'
 import { type Address, parseEther } from 'viem'
 import { beforeEach, expect, test } from 'vitest'
 

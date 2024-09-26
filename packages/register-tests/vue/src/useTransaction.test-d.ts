@@ -1,6 +1,6 @@
-import { config } from '@wagmi/test'
-import { useTransaction } from '@wagmi/vue'
-import { celo } from '@wagmi/vue/chains'
+import { config } from '@uxuyalpha/test'
+import { useTransaction } from '@uxuyalpha/vue'
+import { celo } from '@uxuyalpha/vue/chains'
 import { expectTypeOf, test } from 'vitest'
 
 test('chain formatters', () => {

@@ -1,6 +1,6 @@
 'use client'
 
-import type { Config, ResolvedRegister } from '@wagmi/core'
+import type { Config, ResolvedRegister } from '@uxuyalpha/core'
 import {
   type GetCallsStatusData,
   type GetCallsStatusErrorType,
@@ -8,8 +8,8 @@ import {
   type GetCallsStatusQueryFnData,
   type GetCallsStatusQueryKey,
   getCallsStatusQueryOptions,
-} from '@wagmi/core/experimental'
-import type { Compute } from '@wagmi/core/internal'
+} from '@uxuyalpha/core/experimental'
+import type { Compute } from '@uxuyalpha/core/internal'
 
 import { useConfig } from '../../hooks/useConfig.js'
 import type { ConfigParameter, QueryParameter } from '../../types/properties.js'

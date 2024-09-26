@@ -1,4 +1,4 @@
-import { BaseError as CoreError } from '@wagmi/core'
+import { BaseError as CoreError } from '@uxuyalpha/core'
 
 import { getVersion } from '../utils/getVersion.js'
 

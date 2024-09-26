@@ -42,7 +42,7 @@ import { type WalletConnectParameters } from '{{connectorsPackageName}}'
 
 Check out the [WalletConnect docs](https://github.com/WalletConnect/walletconnect-monorepo/tree/v2.0/providers/ethereum-provider) for more info. A few options are omitted that Wagmi manages internally.
 
-### customStoragePrefix <Badge :text="`${packageName === '@wagmi/core' ? '@wagmi/connectors@>=5.1.8' : `${packageName}@>=${packageName === 'wagmi' ? '2.12.8' : packageName === '@wagmi/vue' ? '0.0.40' : ''}`}`" />
+### customStoragePrefix <Badge :text="`${packageName === '@uxuyalpha/core' ? '@uxuyalpha/connectors@>=5.1.8' : `${packageName}@>=${packageName === 'wagmi' ? '2.12.8' : packageName === '@uxuyalpha/vue' ? '0.0.40' : ''}`}`" />
 
 `string | undefined`
 

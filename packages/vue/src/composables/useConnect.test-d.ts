@@ -2,8 +2,8 @@ import type {
   ConnectErrorType,
   Connector,
   CreateConnectorFn,
-} from '@wagmi/core'
-import { config } from '@wagmi/test'
+} from '@uxuyalpha/core'
+import { config } from '@uxuyalpha/test'
 import type { Address } from 'viem'
 import { expectTypeOf, test } from 'vitest'
 

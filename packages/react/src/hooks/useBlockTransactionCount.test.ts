@@ -1,5 +1,5 @@
-import { chain } from '@wagmi/test'
-import { renderHook, waitFor } from '@wagmi/test/react'
+import { chain } from '@uxuyalpha/test'
+import { renderHook, waitFor } from '@uxuyalpha/test/react'
 import { expect, test } from 'vitest'
 
 import { useBlockTransactionCount } from './useBlockTransactionCount.js'

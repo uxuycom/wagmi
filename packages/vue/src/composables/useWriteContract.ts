@@ -3,14 +3,14 @@ import type {
   Config,
   ResolvedRegister,
   WriteContractErrorType,
-} from '@wagmi/core'
+} from '@uxuyalpha/core'
 import {
   type WriteContractData,
   type WriteContractMutate,
   type WriteContractMutateAsync,
   type WriteContractVariables,
   writeContractMutationOptions,
-} from '@wagmi/core/query'
+} from '@uxuyalpha/core/query'
 import type { Abi } from 'viem'
 
 import type { ConfigParameter } from '../types/properties.js'

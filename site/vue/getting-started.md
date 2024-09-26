@@ -48,19 +48,19 @@ To manually add Wagmi to your project, install the required packages.
 
 ::: code-group
 ```bash-vue [pnpm]
-pnpm add @wagmi/vue viem@{{viemVersion}} @tanstack/vue-query
+pnpm add @uxuyalpha/vue viem@{{viemVersion}} @tanstack/vue-query
 ```
 
 ```bash-vue [npm]
-npm install @wagmi/vue viem@{{viemVersion}} @tanstack/vue-query
+npm install @uxuyalpha/vue viem@{{viemVersion}} @tanstack/vue-query
 ```
 
 ```bash-vue [yarn]
-yarn add @wagmi/vue viem@{{viemVersion}} @tanstack/vue-query
+yarn add @uxuyalpha/vue viem@{{viemVersion}} @tanstack/vue-query
 ```
 
 ```bash-vue [bun]
-bun add @wagmi/vue viem@{{viemVersion}} @tanstack/vue-query
+bun add @uxuyalpha/vue viem@{{viemVersion}} @tanstack/vue-query
 ```
 :::
 
@@ -84,16 +84,16 @@ If you are using TypeScript, you can "register" the Wagmi config or use the hook
 ::: code-group
 ```ts twoslash [register config]
 // @errors: 2322
-import { type Config } from '@wagmi/vue'
-import { mainnet, sepolia } from '@wagmi/vue/chains'
+import { type Config } from '@uxuyalpha/vue'
+import { mainnet, sepolia } from '@uxuyalpha/vue/chains'
 
 declare const config: Config<readonly [typeof mainnet, typeof sepolia]>
 // ---cut---
-import { useBlockNumber } from '@wagmi/vue'
+import { useBlockNumber } from '@uxuyalpha/vue'
 
 useBlockNumber({ chainId: 123 })
 
-declare module '@wagmi/vue' {
+declare module '@uxuyalpha/vue' {
   interface Register {
     config: typeof config
   }
@@ -102,12 +102,12 @@ declare module '@wagmi/vue' {
 
 ```ts twoslash [hook config property]
 // @errors: 2322
-import { type Config } from '@wagmi/vue'
-import { mainnet, sepolia } from '@wagmi/vue/chains'
+import { type Config } from '@uxuyalpha/vue'
+import { mainnet, sepolia } from '@uxuyalpha/vue/chains'
 
 declare const config: Config<readonly [typeof mainnet, typeof sepolia]>
 // ---cut---
-import { useBlockNumber } from '@wagmi/vue'
+import { useBlockNumber } from '@uxuyalpha/vue'
 
 useBlockNumber({ chainId: 123, config })
 ```
@@ -121,7 +121,7 @@ App the `WagmiPlugin` to your app instance and pass the `config` you created ear
 
 ::: code-group
 ```tsx [main.ts]
-import { WagmiPlugin } from '@wagmi/vue' // [!code focus]
+import { WagmiPlugin } from '@uxuyalpha/vue' // [!code focus]
 import { createApp } from 'vue'
 import { config } from './config' // [!code focus]
 import App from './App.vue'
@@ -146,7 +146,7 @@ After the `WagmiPlugin`, attach the `VueQueryPlugin` to your app, and pass a new
 ::: code-group
 ```tsx [main.ts]
 import { QueryClient, VueQueryPlugin } from '@tanstack/vue-query' // [!code focus]
-import { WagmiPlugin } from '@wagmi/vue'
+import { WagmiPlugin } from '@uxuyalpha/vue'
 import { createApp } from 'vue'
 import { config } from './config'
 import App from './App.vue'
@@ -174,7 +174,7 @@ Now that everything is set up, every component inside your app can use Wagmi Vue
 ::: code-group
 ```vue [App.vue]
 <script setup lang="ts">
-import { useAccount, useEnsName } from '@wagmi/vue'
+import { useAccount, useEnsName } from '@uxuyalpha/vue'
 
 const { address } = useAccount()
 const { data, error, status } = useEnsName({ address })
@@ -190,7 +190,7 @@ const { data, error, status } = useEnsName({ address })
 ```
 ```tsx [main.ts]
 import { QueryClient, VueQueryPlugin } from '@tanstack/vue-query'
-import { WagmiPlugin } from '@wagmi/vue'
+import { WagmiPlugin } from '@uxuyalpha/vue'
 import { createApp } from 'vue'
 import { config } from './config'
 import App from './App.vue'

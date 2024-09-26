@@ -1,5 +1,5 @@
-import { accounts, chain, testClient, wait } from '@wagmi/test'
-import { renderComposable, waitFor } from '@wagmi/test/vue'
+import { accounts, chain, testClient, wait } from '@uxuyalpha/test'
+import { renderComposable, waitFor } from '@uxuyalpha/test/vue'
 import { parseEther } from 'viem'
 import { beforeEach, expect, test } from 'vitest'
 

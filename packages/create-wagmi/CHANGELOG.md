@@ -1,5 +1,11 @@
 # create-wagmi
 
+## 3.0.0
+
+### Major Changes
+
+- uxuy
+
 ## 2.0.13
 
 ### Patch Changes
@@ -133,7 +139,7 @@
 
 ### Patch Changes
 
-- 7ad50f1: Upgraded `@wagmi/cli`
+- 7ad50f1: Upgraded `@uxuyalpha/cli`
 
 ## 0.1.15
 
@@ -151,18 +157,18 @@
 
 ### Patch Changes
 
-- c1ab75c: Bump @wagmi/cli
+- c1ab75c: Bump @uxuyalpha/cli
 
 ## 0.1.12
 
 ### Patch Changes
 
-- af6e551: Added templates for `@wagmi/cli`:
+- af6e551: Added templates for `@uxuyalpha/cli`:
 
-  - `@wagmi/cli (Mint NFT Example)`
-  - `@wagmi/cli + ERC20`
-  - `@wagmi/cli + Etherscan (Mint NFT Example)`
-  - `@wagmi/cli + Foundry (Counter.sol Example)`
+  - `@uxuyalpha/cli (Mint NFT Example)`
+  - `@uxuyalpha/cli + ERC20`
+  - `@uxuyalpha/cli + Etherscan (Mint NFT Example)`
+  - `@uxuyalpha/cli + Foundry (Counter.sol Example)`
 
 ## 0.1.11
 

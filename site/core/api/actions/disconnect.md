@@ -1,5 +1,5 @@
 <script setup>
-const packageName = '@wagmi/core'
+const packageName = '@uxuyalpha/core'
 const actionName = 'disconnect'
 const typeName = 'Disconnect'
 </script>
@@ -11,14 +11,14 @@ Action for disconnecting connections.
 ## Import
 
 ```ts
-import { disconnect } from '@wagmi/core'
+import { disconnect } from '@uxuyalpha/core'
 ```
 
 ## Usage
 
 ::: code-group
 ```ts [index.ts]
-import { disconnect } from '@wagmi/core'
+import { disconnect } from '@uxuyalpha/core'
 import { config } from './config'
 
 await disconnect(config)
@@ -29,7 +29,7 @@ await disconnect(config)
 ## Parameters
 
 ```ts
-import { type DisconnectParameters } from '@wagmi/core'
+import { type DisconnectParameters } from '@uxuyalpha/core'
 ```
 
 ### connector
@@ -40,7 +40,7 @@ import { type DisconnectParameters } from '@wagmi/core'
 
 ::: code-group
 ```ts [index.ts]
-import { disconnect, getAccount } from '@wagmi/core'
+import { disconnect, getAccount } from '@uxuyalpha/core'
 import { config } from './config'
 
 const { connector } = getAccount(config)
@@ -54,7 +54,7 @@ const result = await disconnect(config, {
 ## Error
 
 ```ts
-import { type DisconnectErrorType } from '@wagmi/core'
+import { type DisconnectErrorType } from '@uxuyalpha/core'
 ```
 
 <!--@include: @shared/mutation-imports.md-->

@@ -1,5 +1,5 @@
 <script setup>
-const packageName = '@wagmi/core'
+const packageName = '@uxuyalpha/core'
 </script>
 
 <!--@include: @shared/utilities/serialize.md-->

@@ -11,8 +11,8 @@ However, the caveat of using these external client stores is that frameworks whi
 To stop this from happening, you can toggle on the [`ssr`](/vue/api/createConfig#ssr) property in the Wagmi Config.
 
 ```tsx
-import { createConfig, http } from '@wagmi/vue'
-import { mainnet, sepolia } from '@wagmi/vue/chains'
+import { createConfig, http } from '@uxuyalpha/vue'
+import { mainnet, sepolia } from '@uxuyalpha/vue/chains'
 
 const config = createConfig({ // [!code focus:99]
   chains: [mainnet, sepolia],
@@ -44,8 +44,8 @@ import {
   http, 
   cookieStorage, // [!code ++]
   createStorage // [!code ++]
-} from '@wagmi/vue'
-import { mainnet, sepolia } from '@wagmi/vue/chains'
+} from '@uxuyalpha/vue'
+import { mainnet, sepolia } from '@uxuyalpha/vue/chains'
 
 export const config = createConfig({
   chains: [mainnet, sepolia],

@@ -4,14 +4,14 @@ import type {
   Config,
   EstimateGasErrorType,
   ResolvedRegister,
-} from '@wagmi/core'
+} from '@uxuyalpha/core'
 import {
   type EstimateGasData,
   type EstimateGasOptions,
   type EstimateGasQueryFnData,
   type EstimateGasQueryKey,
   estimateGasQueryOptions,
-} from '@wagmi/core/query'
+} from '@uxuyalpha/core/query'
 
 import type { ConfigParameter, QueryParameter } from '../types/properties.js'
 import { type UseQueryReturnType, useQuery } from '../utils/query.js'

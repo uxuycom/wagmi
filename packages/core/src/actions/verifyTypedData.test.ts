@@ -1,4 +1,4 @@
-import { config, typedData } from '@wagmi/test'
+import { config, typedData } from '@uxuyalpha/test'
 import { expect, test } from 'vitest'
 
 import { verifyTypedData } from './verifyTypedData.js'

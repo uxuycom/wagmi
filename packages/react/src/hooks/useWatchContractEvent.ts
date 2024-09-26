@@ -5,8 +5,8 @@ import {
   type ResolvedRegister,
   type WatchContractEventParameters,
   watchContractEvent,
-} from '@wagmi/core'
-import type { UnionCompute, UnionExactPartial } from '@wagmi/core/internal'
+} from '@uxuyalpha/core'
+import type { UnionCompute, UnionExactPartial } from '@uxuyalpha/core/internal'
 import { useEffect } from 'react'
 import type { Abi, ContractEventName } from 'viem'
 

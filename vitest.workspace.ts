@@ -2,20 +2,20 @@ import path from 'node:path'
 import { defineWorkspace } from 'vitest/config'
 
 const alias = {
-  '@wagmi/connectors': path.resolve(
+  '@uxuyalpha/connectors': path.resolve(
     __dirname,
     './packages/connectors/src/exports',
   ),
-  '@wagmi/core': path.resolve(__dirname, './packages/core/src/exports'),
-  '@wagmi/test': path.resolve(__dirname, './packages/test/src/exports'),
-  '@wagmi/vue': path.resolve(__dirname, './packages/vue/src/exports'),
+  '@uxuyalpha/core': path.resolve(__dirname, './packages/core/src/exports'),
+  '@uxuyalpha/test': path.resolve(__dirname, './packages/test/src/exports'),
+  '@uxuyalpha/vue': path.resolve(__dirname, './packages/vue/src/exports'),
   wagmi: path.resolve(__dirname, './packages/react/src/exports'),
 }
 
 export default defineWorkspace([
   {
     test: {
-      name: '@wagmi/cli',
+      name: '@uxuyalpha/cli',
       environment: 'node',
       include: ['./packages/cli/src/**/*.test.ts'],
       testTimeout: 10_000,
@@ -24,7 +24,7 @@ export default defineWorkspace([
   },
   {
     test: {
-      name: '@wagmi/connectors',
+      name: '@uxuyalpha/connectors',
       include: ['./packages/connectors/src/**/*.test.ts'],
       environment: 'happy-dom',
     },
@@ -32,7 +32,7 @@ export default defineWorkspace([
   },
   {
     test: {
-      name: '@wagmi/core',
+      name: '@uxuyalpha/core',
       include: ['./packages/core/src/**/*.test.ts'],
       environment: 'happy-dom',
       testTimeout: 10_000,
@@ -60,7 +60,7 @@ export default defineWorkspace([
   },
   {
     test: {
-      name: '@wagmi/vue',
+      name: '@uxuyalpha/vue',
       include: ['./packages/vue/src/**/*.test.ts?(x)'],
       environment: 'happy-dom',
       testTimeout: 10_000,
@@ -77,7 +77,7 @@ export default defineWorkspace([
   },
   {
     test: {
-      name: '@wagmi/test',
+      name: '@uxuyalpha/test',
       include: ['./packages/test/src/**/*.test.ts'],
     },
     resolve: { alias },

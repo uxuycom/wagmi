@@ -1,7 +1,7 @@
-import { mock } from '@wagmi/connectors'
-import { connect, disconnect } from '@wagmi/core'
-import { accounts, config } from '@wagmi/test'
-import { renderComposable, waitFor } from '@wagmi/test/vue'
+import { mock } from '@uxuyalpha/connectors'
+import { connect, disconnect } from '@uxuyalpha/core'
+import { accounts, config } from '@uxuyalpha/test'
+import { renderComposable, waitFor } from '@uxuyalpha/test/vue'
 import { afterEach, expect, test } from 'vitest'
 
 import { useReconnect } from './useReconnect.js'

@@ -255,7 +255,7 @@ export async function generate(options: Generate = {}) {
 
   if (!watchers.length) return
 
-  // Watch `@wagmi/cli` config file for changes
+  // Watch `@uxuyalpha/cli` config file for changes
   const watcher = watch(configPath).on('change', async (path) => {
     logger.log(
       `> Found a change to config ${pc.gray(

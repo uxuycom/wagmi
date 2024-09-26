@@ -1,4 +1,4 @@
-import { config } from '@wagmi/test'
+import { config } from '@uxuyalpha/test'
 import { parseEther } from 'viem'
 import { expect, test } from 'vitest'
 

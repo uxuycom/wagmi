@@ -4,7 +4,7 @@ description: Composable for signing typed data and calculating an Ethereum-speci
 ---
 
 <script setup>
-const packageName = '@wagmi/vue'
+const packageName = '@uxuyalpha/vue'
 const actionName = 'signTypedData'
 const typeName = 'SignTypedData'
 const mutate = 'signTypedData'
@@ -20,7 +20,7 @@ Composable for signing typed data and calculating an Ethereum-specific [EIP-712]
 ## Import
 
 ```ts
-import { useSignTypedData } from '@wagmi/vue'
+import { useSignTypedData } from '@uxuyalpha/vue'
 ```
 
 ## Usage
@@ -28,7 +28,7 @@ import { useSignTypedData } from '@wagmi/vue'
 ::: code-group
 ```vue [index.vue]
 <script setup lang="ts">
-import { useSignTypedData } from '@wagmi/vue'
+import { useSignTypedData } from '@uxuyalpha/vue'
 
 const { signTypedData } = useSignTypedData()
 </script>
@@ -71,7 +71,7 @@ const { signTypedData } = useSignTypedData()
 ## Parameters
 
 ```ts
-import { type UseSignTypedDataParameters } from '@wagmi/vue'
+import { type UseSignTypedDataParameters } from '@uxuyalpha/vue'
 ```
 
 ### config
@@ -83,7 +83,7 @@ import { type UseSignTypedDataParameters } from '@wagmi/vue'
 ::: code-group
 ```vue [index.vue]
 <script setup lang="ts">
-import { useSignTypedData } from '@wagmi/vue'
+import { useSignTypedData } from '@uxuyalpha/vue'
 import { config } from './config' // [!code focus]
 
 const result = useSignTypedData({
@@ -99,7 +99,7 @@ const result = useSignTypedData({
 ## Return Type
 
 ```ts
-import { type UseSignTypedDataReturnType } from '@wagmi/vue'
+import { type UseSignTypedDataReturnType } from '@uxuyalpha/vue'
 ```
 
 <!--@include: @shared/mutation-result.md-->
@@ -110,7 +110,7 @@ With [`types`](/core/api/actions/signTypedData#types) setup correctly, TypeScrip
 
 ::: code-group
 ```ts twoslash [Inline]
-import { useSignTypedData } from '@wagmi/vue'
+import { useSignTypedData } from '@uxuyalpha/vue'
 // ---cut---
 const { signTypedData } = useSignTypedData()
 
@@ -157,7 +157,7 @@ signTypedData({
 })
 ```
 ```ts twoslash [Const-Asserted]
-import { useSignTypedData } from '@wagmi/vue'
+import { useSignTypedData } from '@uxuyalpha/vue'
 // ---cut---
 const types = {
   Person: [

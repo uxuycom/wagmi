@@ -8,8 +8,8 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "@wagmi/connectors": "workspace:*",
-    "@wagmi/core": "workspace:*",
+    "@uxuyalpha/connectors": "workspace:*",
+    "@uxuyalpha/core": "workspace:*",
     "react": ">=18.3.1",
     "react-dom": ">=18.3.1",
     "viem": "2.*"

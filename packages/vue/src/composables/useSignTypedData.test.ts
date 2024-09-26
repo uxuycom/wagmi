@@ -1,6 +1,6 @@
-import { connect, disconnect, getAccount } from '@wagmi/core'
-import { config, privateKey, typedData } from '@wagmi/test'
-import { renderComposable, waitFor } from '@wagmi/test/vue'
+import { connect, disconnect, getAccount } from '@uxuyalpha/core'
+import { config, privateKey, typedData } from '@uxuyalpha/test'
+import { renderComposable, waitFor } from '@uxuyalpha/test/vue'
 import { recoverTypedDataAddress } from 'viem'
 import { expect, test } from 'vitest'
 

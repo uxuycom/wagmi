@@ -5,14 +5,14 @@ Subscribe to connectors changes.
 ## Import
 
 ```ts
-import { watchConnectors } from '@wagmi/core'
+import { watchConnectors } from '@uxuyalpha/core'
 ```
 
 ## Usage
 
 ::: code-group
 ```ts [index.ts]
-import { watchConnectors } from '@wagmi/core'
+import { watchConnectors } from '@uxuyalpha/core'
 import { config } from './config'
 
 const unwatch = watchConnectors(config, {
@@ -28,7 +28,7 @@ unwatch()
 ## Parameters
 
 ```ts
-import { type WatchConnectorsParameters } from '@wagmi/core'
+import { type WatchConnectorsParameters } from '@uxuyalpha/core'
 ```
 
 ### onChange
@@ -39,7 +39,7 @@ Callback function called when connectors changes.
 
 ::: code-group
 ```ts [index.ts]
-import { watchConnectors } from '@wagmi/core'
+import { watchConnectors } from '@uxuyalpha/core'
 import { config } from './config'
 
 const unwatch = watchConnectors(config, {
@@ -55,7 +55,7 @@ unwatch()
 ## Return Type
 
 ```ts
-import { type WatchConnectorsReturnType } from '@wagmi/core'
+import { type WatchConnectorsReturnType } from '@uxuyalpha/core'
 ```
 
 Function for cleaning up watcher.

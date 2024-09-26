@@ -1,5 +1,5 @@
 {
-  "name": "@wagmi/test",
+  "name": "@uxuyalpha/test",
   "description": "Test utils for wagmi",
   "private": true,
   "license": "MIT",
@@ -46,8 +46,12 @@
   },
   "typesVersions": {
     "*": {
-      "react": ["./dist/types/exports/react.d.ts"],
-      "vue": ["./dist/types/exports/vue.d.ts"]
+      "react": [
+        "./dist/types/exports/react.d.ts"
+      ],
+      "vue": [
+        "./dist/types/exports/vue.d.ts"
+      ]
     }
   },
   "peerDependencies": {
@@ -56,8 +60,8 @@
     "@testing-library/react": ">=14.0.0",
     "@types/react": ">=18",
     "@types/react-dom": ">=18",
-    "@wagmi/core": "workspace:*",
-    "@wagmi/vue": "workspace:*",
+    "@uxuyalpha/core": "workspace:*",
+    "@uxuyalpha/vue": "workspace:*",
     "prool": "^0.0.4",
     "react": ">=18",
     "react-dom": ">=18",
@@ -104,14 +108,23 @@
     "@testing-library/react": ">=15.0.7",
     "@types/react": ">=18.3.1",
     "@types/react-dom": ">=18.3.0",
-    "@wagmi/core": "workspace:*",
-    "@wagmi/vue": "workspace:*",
+    "@uxuyalpha/core": "workspace:*",
+    "@uxuyalpha/vue": "workspace:*",
     "react": ">=18.3.1",
     "react-dom": ">=18.3.1",
     "vue": ">=3.4.21",
     "wagmi": "workspace:*"
   },
-  "contributors": ["awkweb.eth <t@wevm.dev>", "jxom.eth <j@wevm.dev>"],
+  "contributors": [
+    "awkweb.eth <t@wevm.dev>",
+    "jxom.eth <j@wevm.dev>"
+  ],
   "funding": "https://github.com/sponsors/wevm",
-  "keywords": ["eth", "ethereum", "dapps", "wallet", "web3"]
+  "keywords": [
+    "eth",
+    "ethereum",
+    "dapps",
+    "wallet",
+    "web3"
+  ]
 }

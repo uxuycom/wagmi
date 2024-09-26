@@ -1,5 +1,5 @@
 <script setup>
-const packageName = '@wagmi/core'
+const packageName = '@uxuyalpha/core'
 const actionName = 'signTypedData'
 const typeName = 'SignTypedData'
 </script>
@@ -11,14 +11,14 @@ Action for signing typed data and calculating an Ethereum-specific [EIP-712](htt
 ## Import
 
 ```ts
-import { signTypedData } from '@wagmi/core'
+import { signTypedData } from '@uxuyalpha/core'
 ```
 
 ## Usage
 
 ::: code-group
 ```ts [index.ts]
-import { signTypedData } from '@wagmi/core'
+import { signTypedData } from '@uxuyalpha/core'
 import { config } from './config'
 
 const result = await signTypedData(config, {
@@ -53,7 +53,7 @@ const result = await signTypedData(config, {
 ## Parameters
 
 ```ts
-import { type SignTypedDataParameters } from '@wagmi/core'
+import { type SignTypedDataParameters } from '@uxuyalpha/core'
 ```
 
 ### account
@@ -64,7 +64,7 @@ Account to use when signing data. Throws if account is not found on [`connector`
 
 ::: code-group
 ```ts [index.ts]
-import { signTypedData } from '@wagmi/core'
+import { signTypedData } from '@uxuyalpha/core'
 import { config } from './config'
 import { types } from './typedData'
 
@@ -97,7 +97,7 @@ const result = await signTypedData(config, {
 
 ::: code-group
 ```ts [index.ts]
-import { getAccount, signTypedData } from '@wagmi/core'
+import { getAccount, signTypedData } from '@uxuyalpha/core'
 import { config } from './config'
 import { types } from './typedData'
 
@@ -132,7 +132,7 @@ const result = await signTypedData(config, {
 
 ::: code-group
 ```ts [index.ts]
-import { signTypedData } from '@wagmi/core'
+import { signTypedData } from '@uxuyalpha/core'
 import { config } from './config'
 import { types } from './typedData'
 
@@ -171,7 +171,7 @@ const result = await signTypedData(config, {
 
 ::: code-group
 ```ts [index.ts]
-import { signTypedData } from '@wagmi/core'
+import { signTypedData } from '@uxuyalpha/core'
 import { config } from './config'
 import { types } from './typedData'
 
@@ -204,7 +204,7 @@ const result = await signTypedData(config, {
 
 ::: code-group
 ```ts [index.ts]
-import { signTypedData } from '@wagmi/core'
+import { signTypedData } from '@uxuyalpha/core'
 import { config } from './config'
 import { types } from './typedData'
 
@@ -237,7 +237,7 @@ const result = await signTypedData(config, {
 
 ::: code-group
 ```ts [index.ts]
-import { signTypedData } from '@wagmi/core'
+import { signTypedData } from '@uxuyalpha/core'
 import { config } from './config'
 
 const result = await signTypedData(config, {
@@ -272,7 +272,7 @@ const result = await signTypedData(config, {
 ## Return Type
 
 ```ts
-import { type SignTypedDataReturnType } from '@wagmi/core'
+import { type SignTypedDataReturnType } from '@uxuyalpha/core'
 ```
 
 [`Hex`](https://viem.sh/docs/glossary/types.html#hex)
@@ -285,8 +285,8 @@ With [`types`](#types) setup correctly, TypeScript will infer the correct types 
 
 ::: code-group
 ```ts twoslash [Inline]
-import { createConfig, http, signTypedData } from '@wagmi/core'
-import { mainnet, sepolia } from '@wagmi/core/chains'
+import { createConfig, http, signTypedData } from '@uxuyalpha/core'
+import { mainnet, sepolia } from '@uxuyalpha/core/chains'
 
 const config = createConfig({
   chains: [mainnet, sepolia],
@@ -339,8 +339,8 @@ const result = await signTypedData(config, {
 })
 ```
 ```ts twoslash [Const-Asserted]
-import { createConfig, http, signTypedData } from '@wagmi/core'
-import { mainnet, sepolia } from '@wagmi/core/chains'
+import { createConfig, http, signTypedData } from '@uxuyalpha/core'
+import { mainnet, sepolia } from '@uxuyalpha/core/chains'
 
 const config = createConfig({
   chains: [mainnet, sepolia],
@@ -399,7 +399,7 @@ const result = await signTypedData(config, {
 ## Error
 
 ```ts
-import { type SignTypedDataErrorType } from '@wagmi/core'
+import { type SignTypedDataErrorType } from '@uxuyalpha/core'
 ```
 
 <!--@include: @shared/mutation-imports.md-->

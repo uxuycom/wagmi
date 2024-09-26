@@ -1,4 +1,4 @@
-import { accounts } from '@wagmi/test'
+import { accounts } from '@uxuyalpha/test'
 import { http, createClient, webSocket } from 'viem'
 import { mainnet, sepolia } from 'viem/chains'
 import { expectTypeOf, test } from 'vitest'

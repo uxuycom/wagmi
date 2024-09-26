@@ -8,15 +8,15 @@ import type {
   Config,
   GetWalletClientErrorType,
   ResolvedRegister,
-} from '@wagmi/core'
-import type { Compute, Omit } from '@wagmi/core/internal'
+} from '@uxuyalpha/core'
+import type { Compute, Omit } from '@uxuyalpha/core/internal'
 import {
   type GetWalletClientData,
   type GetWalletClientOptions,
   type GetWalletClientQueryFnData,
   type GetWalletClientQueryKey,
   getWalletClientQueryOptions,
-} from '@wagmi/core/query'
+} from '@uxuyalpha/core/query'
 import { useEffect, useRef } from 'react'
 
 import type { ConfigParameter } from '../types/properties.js'

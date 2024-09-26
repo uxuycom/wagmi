@@ -1,6 +1,6 @@
-import { connect, disconnect } from '@wagmi/core'
-import { chain, config } from '@wagmi/test'
-import { renderComposable, waitFor } from '@wagmi/test/vue'
+import { connect, disconnect } from '@uxuyalpha/core'
+import { chain, config } from '@uxuyalpha/test'
+import { renderComposable, waitFor } from '@uxuyalpha/test/vue'
 import { expect, test } from 'vitest'
 
 import { useAccount } from './useAccount.js'

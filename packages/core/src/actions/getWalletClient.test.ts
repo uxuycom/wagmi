@@ -1,4 +1,4 @@
-import { config } from '@wagmi/test'
+import { config } from '@uxuyalpha/test'
 import { expect, test } from 'vitest'
 
 import { connect } from './connect.js'
@@ -19,6 +19,6 @@ test('behavior: not connected', async () => {
   ).rejects.toThrowErrorMatchingInlineSnapshot(`
     [ConnectorNotConnectedError: Connector not connected.
 
-    Version: @wagmi/core@x.y.z]
+    Version: @uxuyalpha/core@x.y.z]
   `)
 })

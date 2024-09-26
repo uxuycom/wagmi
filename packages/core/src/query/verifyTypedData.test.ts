@@ -1,4 +1,4 @@
-import { accounts, chain, config, typedData } from '@wagmi/test'
+import { accounts, chain, config, typedData } from '@uxuyalpha/test'
 import { expect, test } from 'vitest'
 
 import { verifyTypedDataQueryOptions } from './verifyTypedData.js'

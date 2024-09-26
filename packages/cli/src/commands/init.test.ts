@@ -27,7 +27,7 @@ test('creates config file', async () => {
   expect(await fs.readFile(configFile, 'utf-8')).toMatchInlineSnapshot(`
       "// @ts-check
 
-      /** @type {import('@wagmi/cli').Config} */
+      /** @type {import('@uxuyalpha/cli').Config} */
       export default {
         out: 'src/generated.js',
         contracts: [],
@@ -57,7 +57,7 @@ test('parameters: config', async () => {
   expect(await fs.readFile(configFile, 'utf-8')).toMatchInlineSnapshot(`
         "// @ts-check
 
-        /** @type {import('@wagmi/cli').Config} */
+        /** @type {import('@uxuyalpha/cli').Config} */
         export default {
           out: 'src/generated.js',
           contracts: [],
@@ -92,7 +92,7 @@ test('parameters: content', async () => {
 
   expect(fs.existsSync(configFile)).toBeTruthy()
   expect(await fs.readFile(configFile, 'utf-8')).toMatchInlineSnapshot(`
-      "import { defineConfig } from '@wagmi/cli'
+      "import { defineConfig } from '@uxuyalpha/cli'
 
       export default defineConfig({
         out: 'foo/bar/baz.ts',
@@ -124,7 +124,7 @@ test('parameters: root', async () => {
   expect(await fs.readFile(configFile, 'utf-8')).toMatchInlineSnapshot(`
         "// @ts-check
 
-        /** @type {import('@wagmi/cli').Config} */
+        /** @type {import('@uxuyalpha/cli').Config} */
         export default {
           out: 'src/generated.js',
           contracts: [],
@@ -154,7 +154,7 @@ test('behavior: creates config file in TypeScript format', async () => {
 
   expect(fs.existsSync(configFile)).toBeTruthy()
   expect(await fs.readFile(configFile, 'utf-8')).toMatchInlineSnapshot(`
-      "import { defineConfig } from '@wagmi/cli'
+      "import { defineConfig } from '@uxuyalpha/cli'
 
       export default defineConfig({
         out: 'src/generated.ts',

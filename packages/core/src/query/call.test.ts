@@ -1,4 +1,4 @@
-import { accounts, address, chain, config } from '@wagmi/test'
+import { accounts, address, chain, config } from '@uxuyalpha/test'
 import { expect, test } from 'vitest'
 
 import { parseEther, parseGwei } from 'viem'

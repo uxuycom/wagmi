@@ -1,5 +1,5 @@
 <script setup>
-const packageName = '@wagmi/core'
+const packageName = '@uxuyalpha/core'
 const actionName = 'call'
 const typeName = 'call'
 </script>
@@ -11,14 +11,14 @@ Action for executing a new message call immediately without submitting a transac
 ## Import
 
 ```ts
-import { call } from '@wagmi/core'
+import { call } from '@uxuyalpha/core'
 ```
 
 ## Usage
 
 ::: code-group
 ```ts [index.ts]
-import { call } from '@wagmi/core'
+import { call } from '@uxuyalpha/core'
 import { config } from './config'
 
 await call(config, {
@@ -33,7 +33,7 @@ await call(config, {
 ## Parameters
 
 ```ts twoslash
-import { type CallParameters } from '@wagmi/core'
+import { type CallParameters } from '@uxuyalpha/core'
 ```
 
 ### account
@@ -44,7 +44,7 @@ The Account to call from.
 
 ::: code-group
 ```ts [index.ts]
-import { call } from '@wagmi/core'
+import { call } from '@uxuyalpha/core'
 import { config } from './config'
 
 await call(config, {
@@ -64,7 +64,7 @@ A contract hashed method call with encoded args.
 
 ::: code-group
 ```ts [index.ts]
-import { call } from '@wagmi/core'
+import { call } from '@uxuyalpha/core'
 import { config } from './config'
 
 await call(config, {
@@ -84,7 +84,7 @@ The contract address or recipient.
 
 ::: code-group
 ```ts [index.ts]
-import { call } from '@wagmi/core'
+import { call } from '@uxuyalpha/core'
 import { config } from './config'
 
 await call(config, {
@@ -104,7 +104,7 @@ The access list.
 
 ::: code-group
 ```ts [index.ts]
-import { call } from '@wagmi/core'
+import { call } from '@uxuyalpha/core'
 import { config } from './config'
 
 await call(config, {
@@ -130,7 +130,7 @@ The gas provided for transaction execution.
 
 ::: code-group
 ```ts [index.ts]
-import { call } from '@wagmi/core'
+import { call } from '@uxuyalpha/core'
 import { config } from './config'
 
 await call(config, {
@@ -151,7 +151,7 @@ The price (in wei) to pay per gas. Only applies to [Legacy Transactions](https:/
 
 ::: code-group
 ```ts [index.ts]
-import { call } from '@wagmi/core'
+import { call } from '@uxuyalpha/core'
 import { parseGwei } from 'viem'
 import { config } from './config'
 
@@ -173,7 +173,7 @@ Total fee per gas (in wei), inclusive of `maxPriorityFeePerGas`. Only applies to
 
 ::: code-group
 ```ts [index.ts]
-import { call } from '@wagmi/core'
+import { call } from '@uxuyalpha/core'
 import { parseGwei } from 'viem'
 import { config } from './config'
 
@@ -195,7 +195,7 @@ Max priority fee per gas (in wei). Only applies to [EIP-1559 Transactions](https
 
 ::: code-group
 ```ts [index.ts]
-import { call } from '@wagmi/core'
+import { call } from '@uxuyalpha/core'
 import { parseGwei } from 'viem'
 import { config } from './config'
 
@@ -218,7 +218,7 @@ Unique number identifying this transaction.
 
 ::: code-group
 ```ts [index.ts]
-import { call } from '@wagmi/core'
+import { call } from '@uxuyalpha/core'
 import { config } from './config'
 
 await call(config, {
@@ -239,7 +239,7 @@ Value (in wei) sent with this transaction.
 
 ::: code-group
 ```ts [index.ts]
-import { call } from '@wagmi/core'
+import { call } from '@uxuyalpha/core'
 import { parseEther } from 'viem'
 import { config } from './config'
 
@@ -261,7 +261,7 @@ The block number to perform the call against.
 
 ::: code-group
 ```ts [index.ts]
-import { call } from '@wagmi/core'
+import { call } from '@uxuyalpha/core'
 import { config } from './config'
 
 await call(config, {
@@ -282,7 +282,7 @@ The block tag to perform the call against.
 
 ::: code-group
 ```ts [index.ts]
-import { call } from '@wagmi/core'
+import { call } from '@uxuyalpha/core'
 import { config } from './config'
 
 await call(config, {
@@ -303,9 +303,9 @@ The block tag to perform the call against.
 
 ::: code-group
 ```ts [index.ts]
-import { call } from '@wagmi/core'
+import { call } from '@uxuyalpha/core'
 import { config } from './config'
-import { mainnet } from '@wagmi/core/chains'
+import { mainnet } from '@uxuyalpha/core/chains'
 
 await call(config, {
   chainId: mainnet.id, // [!code focus]
@@ -320,7 +320,7 @@ await call(config, {
 ## Return Type
 
 ```ts twoslash
-import { type CallReturnType } from '@wagmi/core'
+import { type CallReturnType } from '@uxuyalpha/core'
 ```
 
 `{ data: 0x${string} }`
@@ -330,7 +330,7 @@ The call data.
 ## Error
 
 ```ts twoslash
-import { type CallErrorType } from '@wagmi/core'
+import { type CallErrorType } from '@uxuyalpha/core'
 ```
 
 <!--@include: @shared/query-imports.md-->

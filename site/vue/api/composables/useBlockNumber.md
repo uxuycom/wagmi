@@ -4,7 +4,7 @@ description: Composable for fetching the number of the most recent block seen.
 ---
 
 <script setup>
-const packageName = '@wagmi/vue'
+const packageName = '@uxuyalpha/vue'
 const actionName = 'getBlockNumber'
 const typeName = 'GetBlockNumber'
 const TData = 'bigint'
@@ -18,7 +18,7 @@ Composable for fetching the number of the most recent block seen.
 ## Import
 
 ```ts
-import { useBlockNumber } from '@wagmi/vue'
+import { useBlockNumber } from '@uxuyalpha/vue'
 ```
 
 ## Usage
@@ -26,7 +26,7 @@ import { useBlockNumber } from '@wagmi/vue'
 ::: code-group
 ```vue [index.vue]
 <script setup lang="ts">
-import { useBlockNumber } from '@wagmi/vue'
+import { useBlockNumber } from '@uxuyalpha/vue'
 
 const { data: blockNumber } = useBlockNumber()
 </script>
@@ -41,7 +41,7 @@ const { data: blockNumber } = useBlockNumber()
 ## Parameters
 
 ```ts
-import { type UseBlockNumberParameters } from '@wagmi/vue'
+import { type UseBlockNumberParameters } from '@uxuyalpha/vue'
 ```
 
 ### cacheTime
@@ -53,7 +53,7 @@ Time in milliseconds that cached block number will remain in memory.
 ::: code-group
 ```vue [index.vue]
 <script setup lang="ts">
-import { useBlockNumber } from '@wagmi/vue'
+import { useBlockNumber } from '@uxuyalpha/vue'
 
 const { data: blockNumber } = useBlockNumber({
   cacheTime: 4_000 // [!code focus]
@@ -72,8 +72,8 @@ ID of chain to use when fetching data.
 ::: code-group
 ```vue [index.vue]
 <script setup lang="ts">
-import { useBlockNumber } from '@wagmi/vue'
-import { mainnet } from '@wagmi/vue/chains' // [!code focus]
+import { useBlockNumber } from '@uxuyalpha/vue'
+import { mainnet } from '@uxuyalpha/vue/chains' // [!code focus]
 
 const { data: blockNumber } = useBlockNumber({
   chainId: mainnet.id, // [!code focus]
@@ -92,7 +92,7 @@ const { data: blockNumber } = useBlockNumber({
 ::: code-group
 ```vue [index.vue]
 <script setup lang="ts">
-import { useBlockNumber } from '@wagmi/vue'
+import { useBlockNumber } from '@uxuyalpha/vue'
 import { config } from './config' // [!code focus]
 
 const { data: blockNumber } = useBlockNumber({
@@ -112,7 +112,7 @@ Scopes the cache to a given context. Composables that have identical context wil
 ::: code-group
 ```vue [index.vue]
 <script setup lang="ts">
-import { useBlockNumber } from '@wagmi/vue'
+import { useBlockNumber } from '@uxuyalpha/vue'
 
 const { data: blockNumber } = useBlockNumber({
   scopeKey: 'foo', // [!code focus]
@@ -132,7 +132,7 @@ const { data: blockNumber } = useBlockNumber({
 ::: code-group
 ```vue [index.vue]
 <script setup lang="ts">
-import { useBlockNumber } from '@wagmi/vue'
+import { useBlockNumber } from '@uxuyalpha/vue'
 
 const { data: blockNumber } = useBlockNumber({
   watch: true, // [!code focus]
@@ -142,7 +142,7 @@ const { data: blockNumber } = useBlockNumber({
 
 ```vue [index-2.vue]
 <script setup lang="ts">
-import { useBlockNumber } from '@wagmi/vue'
+import { useBlockNumber } from '@uxuyalpha/vue'
 
 const { data: blockNumber } = useBlockNumber({
   watch: { // [!code focus]
@@ -159,7 +159,7 @@ const { data: blockNumber } = useBlockNumber({
 ## Return Type
 
 ```ts
-import { type UseBlockNumberReturnType } from '@wagmi/vue'
+import { type UseBlockNumberReturnType } from '@uxuyalpha/vue'
 ```
 
 <!--@include: @shared/query-result.md-->

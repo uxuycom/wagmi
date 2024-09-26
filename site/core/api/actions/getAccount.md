@@ -5,14 +5,14 @@ Action for getting current account.
 ## Import
 
 ```ts
-import { getAccount } from '@wagmi/core'
+import { getAccount } from '@uxuyalpha/core'
 ```
 
 ## Usage
 
 ::: code-group
 ```ts [index.ts]
-import { getAccount } from '@wagmi/core'
+import { getAccount } from '@uxuyalpha/core'
 import { config } from './config'
 
 const account = getAccount(config)
@@ -23,7 +23,7 @@ const account = getAccount(config)
 ## Return Type
 
 ```ts
-import { type GetAccountReturnType } from '@wagmi/core'
+import { type GetAccountReturnType } from '@uxuyalpha/core'
 ```
 
 <!--@include: @shared/getAccount-return-type.md-->

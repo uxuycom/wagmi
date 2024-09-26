@@ -1,5 +1,5 @@
-import { abi } from '@wagmi/test'
-import { renderHook } from '@wagmi/test/react'
+import { abi } from '@uxuyalpha/test'
+import { renderHook } from '@uxuyalpha/test/react'
 import { test } from 'vitest'
 
 import { createUseWriteContract } from './createUseWriteContract.js'

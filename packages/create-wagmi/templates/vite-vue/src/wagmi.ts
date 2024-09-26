@@ -1,6 +1,6 @@
-import { http, createConfig, createStorage } from '@wagmi/vue'
-import { mainnet, optimism, sepolia } from '@wagmi/vue/chains'
-import { coinbaseWallet, walletConnect } from '@wagmi/vue/connectors'
+import { http, createConfig, createStorage } from '@uxuyalpha/vue'
+import { mainnet, optimism, sepolia } from '@uxuyalpha/vue/chains'
+import { coinbaseWallet, walletConnect } from '@uxuyalpha/vue/connectors'
 
 export const config = createConfig({
   chains: [mainnet, sepolia, optimism],
@@ -18,7 +18,7 @@ export const config = createConfig({
   },
 })
 
-declare module '@wagmi/vue' {
+declare module '@uxuyalpha/vue' {
   interface Register {
     config: typeof config
   }

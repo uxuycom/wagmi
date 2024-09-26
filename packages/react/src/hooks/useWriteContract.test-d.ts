@@ -1,6 +1,10 @@
-import { http, type WriteContractErrorType, createConfig } from '@wagmi/core'
-import { base } from '@wagmi/core/chains'
-import { abi } from '@wagmi/test'
+import {
+  http,
+  type WriteContractErrorType,
+  createConfig,
+} from '@uxuyalpha/core'
+import { base } from '@uxuyalpha/core/chains'
+import { abi } from '@uxuyalpha/test'
 import type { Abi, Address, Hash } from 'viem'
 import { expectTypeOf, test } from 'vitest'
 

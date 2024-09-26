@@ -1,4 +1,4 @@
-import { abi, config, mainnet, optimism } from '@wagmi/test'
+import { abi, config, mainnet, optimism } from '@uxuyalpha/test'
 import { test } from 'vitest'
 
 import { simulateContract } from '../simulateContract.js'

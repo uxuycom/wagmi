@@ -8,19 +8,19 @@ Install the required package.
 
 ::: code-group
 ```bash [pnpm]
-pnpm add @wagmi/cli
+pnpm add @uxuyalpha/cli
 ```
 
 ```bash [npm]
-npm install @wagmi/cli
+npm install @uxuyalpha/cli
 ```
 
 ```bash [yarn]
-yarn add @wagmi/cli
+yarn add @uxuyalpha/cli
 ```
 
 ```bash [bun]
-bun add @wagmi/cli
+bun add @uxuyalpha/cli
 ```
 :::
 
@@ -30,19 +30,19 @@ If you can't wait for a new release to test the latest features, you can either 
 
 ::: code-group
 ```bash [pnpm]
-pnpm add @wagmi/cli@canary
+pnpm add @uxuyalpha/cli@canary
 ```
 
 ```bash [npm]
-npm install @wagmi/cli@canary
+npm install @uxuyalpha/cli@canary
 ```
 
 ```bash [yarn]
-yarn add @wagmi/cli@canary
+yarn add @uxuyalpha/cli@canary
 ```
 
 ```bash [bun]
-bun add @wagmi/cli@canary
+bun add @uxuyalpha/cli@canary
 ```
 :::
 
@@ -57,4 +57,4 @@ cd packages/cli
 pnpm link --global
 ```
 
-Then go to the project where you are using the Wagmi CLI and run `pnpm link --global @wagmi/cli` (or the package manager that you used to link Wagmi CLI globally).
+Then go to the project where you are using the Wagmi CLI and run `pnpm link --global @uxuyalpha/cli` (or the package manager that you used to link Wagmi CLI globally).

@@ -1,6 +1,6 @@
-import { config } from '@wagmi/test'
-import { useWaitForTransactionReceipt } from '@wagmi/vue'
-import { zkSync } from '@wagmi/vue/chains'
+import { config } from '@uxuyalpha/test'
+import { useWaitForTransactionReceipt } from '@uxuyalpha/vue'
+import { zkSync } from '@uxuyalpha/vue/chains'
 import type { ZkSyncL2ToL1Log, ZkSyncLog } from 'viem/zksync'
 import { expectTypeOf, test } from 'vitest'
 

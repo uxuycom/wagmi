@@ -10,7 +10,7 @@ Composable for getting current chain ID.
 ## Import
 
 ```ts
-import { useChainId } from '@wagmi/vue'
+import { useChainId } from '@uxuyalpha/vue'
 ```
 
 ## Usage
@@ -18,7 +18,7 @@ import { useChainId } from '@wagmi/vue'
 ::: code-group
 ```vue [index.vue]
 <script setup lang="ts">
-import { useChainId } from '@wagmi/vue'
+import { useChainId } from '@uxuyalpha/vue'
 
 const chainId = useChainId()
 </script>
@@ -29,7 +29,7 @@ const chainId = useChainId()
 ## Parameters
 
 ```ts
-import { type UseChainIdParameters } from '@wagmi/vue'
+import { type UseChainIdParameters } from '@uxuyalpha/vue'
 ```
 
 ### config
@@ -41,7 +41,7 @@ import { type UseChainIdParameters } from '@wagmi/vue'
 ::: code-group
 ```vue [index.vue]
 <script setup lang="ts">
-import { useChainId } from '@wagmi/vue'
+import { useChainId } from '@uxuyalpha/vue'
 import { config } from './config' // [!code focus]
 
 const chainId = useChainId({
@@ -55,7 +55,7 @@ const chainId = useChainId({
 ## Return Type
 
 ```ts
-import { type UseChainIdReturnType } from '@wagmi/vue'
+import { type UseChainIdReturnType } from '@uxuyalpha/vue'
 ```
 
 `number`

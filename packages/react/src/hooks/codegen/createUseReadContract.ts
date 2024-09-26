@@ -3,18 +3,18 @@ import type {
   ReadContractErrorType,
   ReadContractParameters,
   ResolvedRegister,
-} from '@wagmi/core'
+} from '@uxuyalpha/core'
 import type {
   ScopeKeyParameter,
   UnionCompute,
   UnionExactPartial,
   UnionStrictOmit,
-} from '@wagmi/core/internal'
+} from '@uxuyalpha/core/internal'
 import type {
   ReadContractData,
   ReadContractQueryFnData,
   ReadContractQueryKey,
-} from '@wagmi/core/query'
+} from '@uxuyalpha/core/query'
 import type {
   Abi,
   Address,

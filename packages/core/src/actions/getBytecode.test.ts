@@ -1,4 +1,4 @@
-import { address, chain, config } from '@wagmi/test'
+import { address, chain, config } from '@uxuyalpha/test'
 import { expect, test } from 'vitest'
 
 import { getBytecode } from './getBytecode.js'

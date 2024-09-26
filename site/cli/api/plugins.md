@@ -4,10 +4,10 @@ Plugins for managing ABIs, generating code, and more.
 
 ## Import
 
-Import via the `'@wagmi/cli/plugins'` entrypoint.
+Import via the `'@uxuyalpha/cli/plugins'` entrypoint.
 
 ```ts
-import { etherscan } from '@wagmi/cli/plugins'
+import { etherscan } from '@uxuyalpha/cli/plugins'
 ```
 
 ## Available Plugins
@@ -26,7 +26,7 @@ import { etherscan } from '@wagmi/cli/plugins'
 Creating plugins to hook into the CLI is quite simple. Plugins most commonly inject contracts into `contracts` config, e.g. [`etherscan`](/cli/api/plugins/etherscan), and/or generate code using the `run` option, e.g. [`react`](/cli/api/plugins/react). All you need to do is write a function that returns the `Plugin` type.
 
 ```ts{3-8}
-import { type Plugin, defineConfig } from '@wagmi/cli'
+import { type Plugin, defineConfig } from '@uxuyalpha/cli'
 
 function myPlugin(): Plugin {
   // `name` is the only required property.

@@ -1,5 +1,5 @@
 <script setup>
-const packageName = '@wagmi/core'
+const packageName = '@uxuyalpha/core'
 const actionName = 'simulateContract'
 const typeName = 'SimulateContract'
 </script>
@@ -11,14 +11,14 @@ Action for simulating/validating a contract interaction.
 ## Import
 
 ```ts
-import { simulateContract } from '@wagmi/core'
+import { simulateContract } from '@uxuyalpha/core'
 ```
 
 ## Usage
 
 ::: code-group
 ```ts [index.ts]
-import { simulateContract } from '@wagmi/core'
+import { simulateContract } from '@uxuyalpha/core'
 import { abi } from './abi'
 import { config } from './config'
 
@@ -40,7 +40,7 @@ const result = await simulateContract(config, {
 ## Parameters
 
 ```ts
-import { type SimulateContractParameters } from '@wagmi/core'
+import { type SimulateContractParameters } from '@uxuyalpha/core'
 ```
 
 ### abi
@@ -51,7 +51,7 @@ The contract's ABI. Check out the [TypeScript docs](/react/typescript#const-asse
 
 ::: code-group
 ```ts [index.ts]
-import { simulateContract } from '@wagmi/core'
+import { simulateContract } from '@uxuyalpha/core'
 import { abi } from './abi' // [!code focus]
 import { config } from './config'
 
@@ -78,7 +78,7 @@ The access list.
 
 ::: code-group
 ```ts [index.ts]
-import { simulateContract } from '@wagmi/core'
+import { simulateContract } from '@uxuyalpha/core'
 import { abi } from './abi'
 import { config } from './config'
 
@@ -109,7 +109,7 @@ Account to use when signing data. Throws if account is not found on [`connector`
 
 ::: code-group
 ```ts [index.ts]
-import { simulateContract } from '@wagmi/core'
+import { simulateContract } from '@uxuyalpha/core'
 import { abi } from './abi'
 import { config } from './config'
 
@@ -137,7 +137,7 @@ The contract's address.
 
 ::: code-group
 ```ts [index.ts]
-import { simulateContract } from '@wagmi/core'
+import { simulateContract } from '@uxuyalpha/core'
 import { abi } from './abi'
 import { config } from './config'
 
@@ -166,7 +166,7 @@ const result = await simulateContract(config, {
 
 ::: code-group
 ```ts [index.ts]
-import { simulateContract } from '@wagmi/core'
+import { simulateContract } from '@uxuyalpha/core'
 import { abi } from './abi'
 import { config } from './config'
 
@@ -195,7 +195,7 @@ Block number to simulate against.
 
 ::: code-group
 ```ts [index.ts]
-import { simulateContract } from '@wagmi/core'
+import { simulateContract } from '@uxuyalpha/core'
 import { abi } from './abi'
 import { config } from './config'
 
@@ -223,7 +223,7 @@ Block tag to simulate against.
 
 ::: code-group
 ```ts [index.ts]
-import { simulateContract } from '@wagmi/core'
+import { simulateContract } from '@uxuyalpha/core'
 import { abi } from './abi'
 import { config } from './config'
 
@@ -253,7 +253,7 @@ Chain ID to validate against before sending transaction.
 
 ::: code-group
 ```ts [index.ts]
-import { simulateContract } from '@wagmi/core'
+import { simulateContract } from '@uxuyalpha/core'
 import { mainnet } from 'wagmi/chains' // [!code focus]
 import { abi } from './abi'
 import { config } from './config'
@@ -282,7 +282,7 @@ const result = await simulateContract(config, {
 
 ::: code-group
 ```ts [index.ts]
-import { getAccount, simulateContract } from '@wagmi/core'
+import { getAccount, simulateContract } from '@uxuyalpha/core'
 import { abi } from './abi'
 import { config } from './config'
 
@@ -311,7 +311,7 @@ Data to append to the end of the calldata. Useful for adding a ["domain" tag](ht
 
 ::: code-group
 ```ts [index.ts]
-import { simulateContract } from '@wagmi/core'
+import { simulateContract } from '@uxuyalpha/core'
 import { parseGwei } from 'viem'
 import { abi } from './abi'
 import { config } from './config'
@@ -341,7 +341,7 @@ const result = await simulateContract(config, {
 
 ::: code-group
 ```ts [index.ts]
-import { simulateContract } from '@wagmi/core'
+import { simulateContract } from '@uxuyalpha/core'
 import { abi } from './abi'
 import { config } from './config'
 
@@ -364,7 +364,7 @@ Gas provided for transaction execution.
 
 ::: code-group
 ```ts [index.ts]
-import { simulateContract } from '@wagmi/core'
+import { simulateContract } from '@uxuyalpha/core'
 import { parseGwei } from 'viem'
 import { abi } from './abi'
 import { config } from './config'
@@ -395,7 +395,7 @@ The price in wei to pay per gas. Only applies to [Legacy Transactions](https://v
 
 ::: code-group
 ```ts [index.ts]
-import { simulateContract } from '@wagmi/core'
+import { simulateContract } from '@uxuyalpha/core'
 import { parseGwei } from 'viem'
 import { abi } from './abi'
 import { config } from './config'
@@ -424,7 +424,7 @@ Total fee per gas in wei, inclusive of [`maxPriorityFeePerGas`](#maxPriorityFeeP
 
 ::: code-group
 ```ts [index.ts]
-import { simulateContract } from '@wagmi/core'
+import { simulateContract } from '@uxuyalpha/core'
 import { parseGwei } from 'viem'
 import { abi } from './abi'
 import { config } from './config'
@@ -453,7 +453,7 @@ Max priority fee per gas in wei. Only applies to [EIP-1559 Transactions](https:/
 
 ::: code-group
 ```ts [index.ts]
-import { simulateContract } from '@wagmi/core'
+import { simulateContract } from '@uxuyalpha/core'
 import { parseGwei } from 'viem'
 import { abi } from './abi'
 import { config } from './config'
@@ -485,7 +485,7 @@ Unique number identifying this transaction.
 
 ::: code-group
 ```ts [index.ts]
-import { simulateContract } from '@wagmi/core'
+import { simulateContract } from '@uxuyalpha/core'
 import { abi } from './abi'
 import { config } from './config'
 
@@ -513,7 +513,7 @@ Optional transaction request type to narrow parameters.
 
 ::: code-group
 ```ts [index.ts]
-import { simulateContract } from '@wagmi/core'
+import { simulateContract } from '@uxuyalpha/core'
 import { abi } from './abi'
 import { config } from './config'
 
@@ -541,7 +541,7 @@ Value in wei sent with this transaction.
 
 ::: code-group
 ```ts [index.ts]
-import { simulateContract } from '@wagmi/core'
+import { simulateContract } from '@uxuyalpha/core'
 import { parseEther } from 'viem'
 import { abi } from './abi'
 import { config } from './config'
@@ -565,7 +565,7 @@ const result = await simulateContract(config, {
 ## Return Type
 
 ```ts
-import { type SimulateContractReturnType } from '@wagmi/core'
+import { type SimulateContractReturnType } from '@uxuyalpha/core'
 ```
 
 The simulation result and write request.
@@ -588,7 +588,7 @@ With [`abi`](#abi) setup correctly, TypeScript will infer the correct types for 
 ## Error
 
 ```ts
-import { type SimulateContractErrorType } from '@wagmi/core'
+import { type SimulateContractErrorType } from '@uxuyalpha/core'
 ```
 
 <!--@include: @shared/query-imports.md-->

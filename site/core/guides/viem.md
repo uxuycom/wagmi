@@ -25,8 +25,8 @@ It is highly recommended to use the **tree-shakable** method to ensure that you 
 
 ```tsx [Tree-shakable Actions]
 // 1. Import modules. 
-import { http, createConfig, getClient, getConnectorClient } from '@wagmi/core' 
-import { base, mainnet, optimism, zora } from '@wagmi/core/chains' 
+import { http, createConfig, getClient, getConnectorClient } from '@uxuyalpha/core' 
+import { base, mainnet, optimism, zora } from '@uxuyalpha/core/chains' 
 import { getLogs, watchAsset } from 'viem/actions' // [!code hl]
 
 // 2. Set up a Wagmi Config 
@@ -51,8 +51,8 @@ const success = await watchAsset(walletClient, /* ... */) // [!code hl]
 
 ```tsx [Client Actions]
 // 1. Import modules. 
-import { http, createConfig, getPublicClient, getWalletClient } from '@wagmi/core' 
-import { base, mainnet, optimism, zora } from '@wagmi/core/chains' 
+import { http, createConfig, getPublicClient, getWalletClient } from '@uxuyalpha/core' 
+import { base, mainnet, optimism, zora } from '@uxuyalpha/core/chains' 
 
 // 2. Set up a Wagmi Config 
 export const config = createConfig({ 
@@ -86,8 +86,8 @@ The good news is that you can create a **"multi-chain Viem Client"** with **Wagm
 
 ```tsx [Wagmi Usage]
 // 1. Import modules. 
-import { http, createConfig, getClient, getConnectorClient } from '@wagmi/core' 
-import { base, mainnet, optimism, zora } from '@wagmi/core/chains' 
+import { http, createConfig, getClient, getConnectorClient } from '@uxuyalpha/core' 
+import { base, mainnet, optimism, zora } from '@uxuyalpha/core/chains' 
 import { getBlockNumber, sendTransaction } from 'viem/actions' // [!code hl]
 
 // 2. Set up a Wagmi Config 
@@ -166,8 +166,8 @@ const hash = await walletClient.mainnet.sendTransaction(/* ... */)
 It is possible to utilize Viem's [Private Key & Mnemonic Accounts](https://viem.sh/docs/accounts/local.html) with Wagmi by explicitly passing through the account via the `account` argument on Wagmi Actions.
 
 ```tsx
-import { http, createConfig, sendTransaction } from '@wagmi/core' 
-import { base, mainnet, optimism, zora } from '@wagmi/core/chains' 
+import { http, createConfig, sendTransaction } from '@uxuyalpha/core' 
+import { base, mainnet, optimism, zora } from '@uxuyalpha/core/chains' 
 import { parseEther } from 'viem'
 import { privateKeyToAccount } from 'viem/accounts'
 

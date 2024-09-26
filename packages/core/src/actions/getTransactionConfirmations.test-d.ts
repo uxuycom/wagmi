@@ -1,4 +1,4 @@
-import { config } from '@wagmi/test'
+import { config } from '@uxuyalpha/test'
 import { mainnet, zkSync } from 'viem/chains'
 import { test } from 'vitest'
 

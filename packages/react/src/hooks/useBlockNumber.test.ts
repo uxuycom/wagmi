@@ -1,5 +1,5 @@
-import { testClient } from '@wagmi/test'
-import { renderHook, waitFor } from '@wagmi/test/react'
+import { testClient } from '@uxuyalpha/test'
+import { renderHook, waitFor } from '@uxuyalpha/test/react'
 import { expect, test } from 'vitest'
 
 import { useBlockNumber } from './useBlockNumber.js'

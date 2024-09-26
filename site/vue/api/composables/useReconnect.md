@@ -4,7 +4,7 @@ description: Composable for reconnecting connectors.
 ---
 
 <script setup>
-const packageName = '@wagmi/vue'
+const packageName = '@uxuyalpha/vue'
 const actionName = 'reconnect'
 const typeName = 'Reconnect'
 const mutate = 'reconnect'
@@ -20,7 +20,7 @@ Composable for reconnecting [connectors](/core/api/connectors).
 ## Import
 
 ```ts
-import { useReconnect } from '@wagmi/vue'
+import { useReconnect } from '@uxuyalpha/vue'
 ```
 
 ## Usage
@@ -28,7 +28,7 @@ import { useReconnect } from '@wagmi/vue'
 ::: code-group
 ```vue [index.vue]
 <script setup lang="ts">
-import { useReconnect } from '@wagmi/vue'
+import { useReconnect } from '@uxuyalpha/vue'
 import { useEffect } from 'react'
 
 const { reconnect } = useReconnect()
@@ -46,7 +46,7 @@ When [`WagmiPlugin['reconnectOnMount']`](/vue/api/WagmiPlugin#reconnectonmount) 
 ## Parameters
 
 ```ts
-import { type UseReconnectParameters } from '@wagmi/vue'
+import { type UseReconnectParameters } from '@uxuyalpha/vue'
 ```
 
 ### config
@@ -58,7 +58,7 @@ import { type UseReconnectParameters } from '@wagmi/vue'
 ::: code-group
 ```vue [index.vue]
 <script setup lang="ts">
-import { useReconnect } from '@wagmi/vue'
+import { useReconnect } from '@uxuyalpha/vue'
 import { config } from './config' // [!code focus]
 
 const result = useReconnect({
@@ -74,7 +74,7 @@ const result = useReconnect({
 ## Return Type
 
 ```ts
-import { type UseReconnectReturnType } from '@wagmi/vue'
+import { type UseReconnectReturnType } from '@uxuyalpha/vue'
 ```
 
 ### connectors
@@ -86,8 +86,8 @@ Globally configured connectors via [`createConfig`](/vue/api/createConfig#connec
 ::: code-group
 ```vue [index.vue]
 <script setup lang="ts">
-import { useReconnect } from '@wagmi/vue'
-import { mainnet } from '@wagmi/vue/chains'
+import { useReconnect } from '@uxuyalpha/vue'
+import { mainnet } from '@uxuyalpha/vue/chains'
 
 const { reconnect, connectors } = useReconnect()
 

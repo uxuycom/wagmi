@@ -1,6 +1,6 @@
 <script setup>
 const docsPath = "vue"
-const packageName = '@wagmi/vue'
+const packageName = '@uxuyalpha/vue'
 </script>
 
 <!--@include: @shared/createStorage.md-->

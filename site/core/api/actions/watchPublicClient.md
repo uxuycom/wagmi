@@ -5,14 +5,14 @@ Subscribe to Public Client changes.
 ## Import
 
 ```ts
-import { watchPublicClient } from '@wagmi/core'
+import { watchPublicClient } from '@uxuyalpha/core'
 ```
 
 ## Usage
 
 ::: code-group
 ```ts [index.ts]
-import { watchPublicClient } from '@wagmi/core'
+import { watchPublicClient } from '@uxuyalpha/core'
 import { config } from './config'
 
 const unwatch = watchPublicClient(config, {
@@ -28,7 +28,7 @@ unwatch()
 ## Parameters
 
 ```ts
-import { type WatchPublicClientParameters } from '@wagmi/core'
+import { type WatchPublicClientParameters } from '@uxuyalpha/core'
 ```
 
 ### onChange
@@ -39,7 +39,7 @@ Callback function called when Public Client changes.
 
 ::: code-group
 ```ts [index.ts]
-import { watchPublicClient } from '@wagmi/core'
+import { watchPublicClient } from '@uxuyalpha/core'
 import { config } from './config'
 
 const unwatch = watchPublicClient(config, {
@@ -55,7 +55,7 @@ unwatch()
 ## Return Type
 
 ```ts
-import { type WatchPublicClientReturnType } from '@wagmi/core'
+import { type WatchPublicClientReturnType } from '@uxuyalpha/core'
 ```
 
 Function for cleaning up watcher.

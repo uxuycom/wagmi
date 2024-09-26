@@ -23,15 +23,15 @@ importers:
       '@types/bun':
         specifier: ^1.1.1
         version: 1.1.1
+      '@uxuyalpha/test':
+        specifier: workspace:*
+        version: link:packages/test
       '@vitest/coverage-v8':
         specifier: ^1.6.0
         version: 1.6.0(vitest@1.6.0(@types/node@20.12.10)(@vitest/ui@1.6.0)(happy-dom@12.2.1)(terser@5.31.0))
       '@vitest/ui':
         specifier: ^1.6.0
         version: 1.6.0(vitest@1.6.0)
-      '@wagmi/test':
-        specifier: workspace:*
-        version: link:packages/test
       bun:
         specifier: ^1.1.7
         version: 1.1.7
@@ -181,7 +181,7 @@ importers:
         specifier: 5.0.1
         version: 5.0.1
     devDependencies:
-      '@wagmi/core':
+      '@uxuyalpha/core':
         specifier: workspace:*
         version: link:../core
       msw:
@@ -240,10 +240,10 @@ importers:
 
   packages/react:
     dependencies:
-      '@wagmi/connectors':
+      '@uxuyalpha/connectors':
         specifier: workspace:*
         version: link:../connectors
-      '@wagmi/core':
+      '@uxuyalpha/core':
         specifier: workspace:*
         version: link:../core
       use-sync-external-store:
@@ -293,7 +293,7 @@ importers:
       '@tanstack/vue-query':
         specifier: '>=5.45.0'
         version: 5.49.1(vue@3.4.27(typescript@5.5.2))
-      '@wagmi/vue':
+      '@uxuyalpha/vue':
         specifier: workspace:*
         version: link:../../vue
       vue:
@@ -317,10 +317,10 @@ importers:
       '@types/react-dom':
         specifier: '>=18.3.0'
         version: 18.3.0
-      '@wagmi/core':
+      '@uxuyalpha/core':
         specifier: workspace:*
         version: link:../core
-      '@wagmi/vue':
+      '@uxuyalpha/vue':
         specifier: workspace:*
         version: link:../vue
       react:
@@ -338,10 +338,10 @@ importers:
 
   packages/vue:
     dependencies:
-      '@wagmi/connectors':
+      '@uxuyalpha/connectors':
         specifier: workspace:*
         version: link:../connectors
-      '@wagmi/core':
+      '@uxuyalpha/core':
         specifier: workspace:*
         version: link:../core
     devDependencies:
@@ -421,7 +421,7 @@ importers:
       '@tanstack/vue-query':
         specifier: '>=5.45.0'
         version: 5.49.1(vue@3.4.27(typescript@5.5.2))
-      '@wagmi/vue':
+      '@uxuyalpha/vue':
         specifier: workspace:*
         version: link:../../packages/vue
       nuxt:
@@ -439,10 +439,10 @@ importers:
 
   playgrounds/vite-core:
     dependencies:
-      '@wagmi/connectors':
+      '@uxuyalpha/connectors':
         specifier: workspace:*
         version: link:../../packages/connectors
-      '@wagmi/core':
+      '@uxuyalpha/core':
         specifier: workspace:*
         version: link:../../packages/core
       react:
@@ -522,7 +522,7 @@ importers:
       '@tanstack/vue-query':
         specifier: '>=5.45.0'
         version: 5.49.1(vue@3.4.27(typescript@5.5.2))
-      '@wagmi/vue':
+      '@uxuyalpha/vue':
         specifier: workspace:*
         version: link:../../packages/vue
       viem:
@@ -562,13 +562,13 @@ importers:
       '@types/react':
         specifier: '>=18.3.1'
         version: 18.3.1
-      '@wagmi/connectors':
+      '@uxuyalpha/connectors':
         specifier: workspace:*
         version: link:../packages/connectors
-      '@wagmi/core':
+      '@uxuyalpha/core':
         specifier: workspace:*
         version: link:../packages/core
-      '@wagmi/vue':
+      '@uxuyalpha/vue':
         specifier: workspace:*
         version: link:../packages/vue
       abitype:

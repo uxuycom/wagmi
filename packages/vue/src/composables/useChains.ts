@@ -3,8 +3,8 @@ import {
   type GetChainsReturnType,
   type ResolvedRegister,
   getChains,
-} from '@wagmi/core'
-import { watchChains } from '@wagmi/core/internal'
+} from '@uxuyalpha/core'
+import { watchChains } from '@uxuyalpha/core/internal'
 
 import { type Ref, onScopeDispose, readonly, ref } from 'vue'
 import type { ConfigParameter } from '../types/properties.js'

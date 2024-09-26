@@ -1,5 +1,5 @@
 <script setup>
-const packageName = '@wagmi/core'
+const packageName = '@uxuyalpha/core'
 const actionName = 'waitForTransactionReceipt'
 const typeName = 'WaitForTransactionReceipt'
 </script>
@@ -11,14 +11,14 @@ Action that waits for the transaction to be included on a block, and then return
 ## Import
 
 ```ts
-import { waitForTransactionReceipt } from '@wagmi/core'
+import { waitForTransactionReceipt } from '@uxuyalpha/core'
 ```
 
 ## Usage
 
 ::: code-group
 ```ts [index.ts]
-import { waitForTransactionReceipt } from '@wagmi/core'
+import { waitForTransactionReceipt } from '@uxuyalpha/core'
 import { config } from './config'
 
 const transactionReceipt = waitForTransactionReceipt(config, {
@@ -31,7 +31,7 @@ const transactionReceipt = waitForTransactionReceipt(config, {
 ## Parameters
 
 ```ts
-import { type WaitForTransactionReceiptParameters } from '@wagmi/core'
+import { type WaitForTransactionReceiptParameters } from '@uxuyalpha/core'
 ```
 
 ### chainId
@@ -42,8 +42,8 @@ ID of chain to use when fetching data.
 
 ::: code-group
 ```ts [index.ts]
-import { waitForTransactionReceipt } from '@wagmi/core'
-import { mainnet } from '@wagmi/core/chains'
+import { waitForTransactionReceipt } from '@uxuyalpha/core'
+import { mainnet } from '@uxuyalpha/core/chains'
 import { config } from './config'
 
 const transactionReceipt = await waitForTransactionReceipt(config, {
@@ -62,7 +62,7 @@ The number of confirmations (blocks that have passed) to wait before resolving.
 
 ::: code-group
 ```ts [index.ts]
-import { waitForTransactionReceipt } from '@wagmi/core'
+import { waitForTransactionReceipt } from '@uxuyalpha/core'
 import { config } from './config'
 
 const transactionReceipt = await waitForTransactionReceipt(config, {
@@ -83,7 +83,7 @@ Optional callback to emit if the transaction has been replaced.
 
 ::: code-group
 ```ts [index.ts]
-import { waitForTransactionReceipt } from '@wagmi/core'
+import { waitForTransactionReceipt } from '@uxuyalpha/core'
 import { config } from './config'
 
 const transactionReceipt = await waitForTransactionReceipt(config, {
@@ -102,7 +102,7 @@ The transaction hash to wait for.
 
 ::: code-group
 ```ts [index.ts]
-import { waitForTransactionReceipt } from '@wagmi/core'
+import { waitForTransactionReceipt } from '@uxuyalpha/core'
 import { config } from './config'
 
 const transactionReceipt = await waitForTransactionReceipt(config, {
@@ -121,7 +121,7 @@ const transactionReceipt = await waitForTransactionReceipt(config, {
 
 ::: code-group
 ```ts [index.ts]
-import { waitForTransactionReceipt } from '@wagmi/core'
+import { waitForTransactionReceipt } from '@uxuyalpha/core'
 import { config } from './config'
 
 const transactionReceipt = await waitForTransactionReceipt(config, {
@@ -135,7 +135,7 @@ const transactionReceipt = await waitForTransactionReceipt(config, {
 ## Return Type
 
 ```ts
-import { type WaitForTransactionReceiptReturnType } from '@wagmi/core'
+import { type WaitForTransactionReceiptReturnType } from '@uxuyalpha/core'
 ```
 
 [`TransactionReceipt`](https://viem.sh/docs/glossary/types.html#transactionreceipt)
@@ -145,7 +145,7 @@ The transaction receipt.
 ## Error
 
 ```ts
-import { type WaitForTransactionReceiptErrorType } from '@wagmi/core'
+import { type WaitForTransactionReceiptErrorType } from '@uxuyalpha/core'
 ```
 
 <!--@include: @shared/query-imports.md-->

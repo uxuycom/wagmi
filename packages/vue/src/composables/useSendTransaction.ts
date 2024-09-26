@@ -3,15 +3,15 @@ import type {
   Config,
   ResolvedRegister,
   SendTransactionErrorType,
-} from '@wagmi/core'
-import type { Compute } from '@wagmi/core/internal'
+} from '@uxuyalpha/core'
+import type { Compute } from '@uxuyalpha/core/internal'
 import {
   type SendTransactionData,
   type SendTransactionMutate,
   type SendTransactionMutateAsync,
   type SendTransactionVariables,
   sendTransactionMutationOptions,
-} from '@wagmi/core/query'
+} from '@uxuyalpha/core/query'
 
 import type { ConfigParameter } from '../types/properties.js'
 import type {

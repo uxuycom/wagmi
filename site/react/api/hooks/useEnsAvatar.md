@@ -57,7 +57,7 @@ Gateway urls to resolve IPFS and/or Arweave assets.
 
 ::: code-group
 ```ts [index.ts]
-import { getEnsAvatar } from '@wagmi/core'
+import { getEnsAvatar } from '@uxuyalpha/core'
 import { normalize } from 'viem/ens'
 import { config } from './config'
 

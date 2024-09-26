@@ -4,8 +4,8 @@ import {
   ProviderNotFoundError,
   createConnector,
   extractRpcUrls,
-} from '@wagmi/core'
-import type { Compute, ExactPartial, Omit } from '@wagmi/core/internal'
+} from '@uxuyalpha/core'
+import type { Compute, ExactPartial, Omit } from '@uxuyalpha/core/internal'
 import type { EthereumProvider } from '@walletconnect/ethereum-provider'
 import {
   type AddEthereumChainParameter,

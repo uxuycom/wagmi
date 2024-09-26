@@ -1,4 +1,4 @@
-import { accounts, config } from '@wagmi/test'
+import { accounts, config } from '@uxuyalpha/test'
 import { http, parseEther } from 'viem'
 import { celo, mainnet } from 'viem/chains'
 import { expectTypeOf, test } from 'vitest'

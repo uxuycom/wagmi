@@ -1,4 +1,4 @@
-import { abi, bytecode, config } from '@wagmi/test'
+import { abi, bytecode, config } from '@uxuyalpha/test'
 import { http } from 'viem'
 import { celo, mainnet } from 'viem/chains'
 import { expectTypeOf, test } from 'vitest'

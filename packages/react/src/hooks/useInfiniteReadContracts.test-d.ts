@@ -1,4 +1,4 @@
-import { abi } from '@wagmi/test'
+import { abi } from '@uxuyalpha/test'
 import { expectTypeOf, test } from 'vitest'
 
 import { useInfiniteReadContracts } from './useInfiniteReadContracts.js'

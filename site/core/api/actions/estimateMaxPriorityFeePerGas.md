@@ -1,5 +1,5 @@
 <script setup>
-const packageName = '@wagmi/core'
+const packageName = '@uxuyalpha/core'
 const actionName = 'estimateMaxPriorityFeePerGas'
 const typeName = 'EstimateFeesPerGas'
 </script>
@@ -11,14 +11,14 @@ Returns an estimate for the max priority fee per gas (in wei) for a transaction 
 ## Import
 
 ```ts
-import { estimateMaxPriorityFeePerGas } from '@wagmi/core'
+import { estimateMaxPriorityFeePerGas } from '@uxuyalpha/core'
 ```
 
 ## Usage
 
 ::: code-group
 ```ts [index.ts]
-import { estimateMaxPriorityFeePerGas } from '@wagmi/core'
+import { estimateMaxPriorityFeePerGas } from '@uxuyalpha/core'
 import { config } from './config'
 
 const result = await estimateMaxPriorityFeePerGas(config)
@@ -29,7 +29,7 @@ const result = await estimateMaxPriorityFeePerGas(config)
 ## Parameters
 
 ```ts
-import { type EstimateFeesPerGasParameters } from '@wagmi/core'
+import { type EstimateFeesPerGasParameters } from '@uxuyalpha/core'
 ```
 
 ### chainId
@@ -40,8 +40,8 @@ ID of chain to use when fetching data.
 
 ::: code-group
 ```ts [index.ts]
-import { estimateMaxPriorityFeePerGas } from '@wagmi/core'
-import { mainnet } from '@wagmi/core/chains'
+import { estimateMaxPriorityFeePerGas } from '@uxuyalpha/core'
+import { mainnet } from '@uxuyalpha/core/chains'
 import { config } from './config'
 
 const result = await estimateMaxPriorityFeePerGas(config, {
@@ -54,7 +54,7 @@ const result = await estimateMaxPriorityFeePerGas(config, {
 ## Return Type
 
 ```ts
-import { type EstimateFeesPerGasReturnType } from '@wagmi/core'
+import { type EstimateFeesPerGasReturnType } from '@uxuyalpha/core'
 ```
 
 `bigint`
@@ -64,7 +64,7 @@ An estimate (in wei) for the max priority fee per gas.
 ## Error
 
 ```ts
-import { type EstimateFeesPerGasErrorType } from '@wagmi/core'
+import { type EstimateFeesPerGasErrorType } from '@uxuyalpha/core'
 ```
 
 <!--@include: @shared/query-imports.md-->

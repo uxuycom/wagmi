@@ -17,7 +17,7 @@ Once your Config is registered with TypeScript, you are ready to access chain-sp
 ::: code-group
 ```ts [index.tsx]
 import { parseEther } from 'viem'
-import { useSimulateContract } from '@wagmi/vue'
+import { useSimulateContract } from '@uxuyalpha/vue'
 
 const result = useSimulateContract({
   to: '0xd2135CfB216b74109775236E36d4b433F1DF507B',
@@ -33,8 +33,8 @@ This is great, but if you have multiple chains that support additional propertie
 ::: code-group
 ```ts [index.tsx]
 import { parseEther } from 'viem'
-import { useSimulateContract } from '@wagmi/vue'
-import { celo } from '@wagmi/vue/chains'
+import { useSimulateContract } from '@uxuyalpha/vue'
+import { celo } from '@uxuyalpha/vue/chains'
 
 const result = useSimulateContract({
   to: '0xd2135CfB216b74109775236E36d4b433F1DF507B',
@@ -57,8 +57,8 @@ Not only can you use the `chainId` parameter to [narrow parameters](#narrowing-p
 
 ::: code-group
 ```ts [index.tsx]
-import { useWaitForTransactionReceipt } from '@wagmi/vue'
-import { zkSync } from '@wagmi/vue/chains'
+import { useWaitForTransactionReceipt } from '@uxuyalpha/vue'
+import { zkSync } from '@uxuyalpha/vue/chains'
 
 const { data } = useWaitForTransactionReceipt({
   chainId: zkSync.id,
@@ -77,8 +77,8 @@ Wagmi internally will set a `chainId` property on return types that you can use 
 
 ::: code-group
 ```ts [index.tsx]
-import { useWaitForTransactionReceipt } from '@wagmi/vue'
-import { zkSync } from '@wagmi/vue/chains'
+import { useWaitForTransactionReceipt } from '@uxuyalpha/vue'
+import { zkSync } from '@uxuyalpha/vue/chains'
 
 const { data } = useWaitForTransactionReceipt({
   hash: '0x16854fcdd0219cacf5aec5e4eb2154dac9e406578a1510a6fc48bd0b67e69ea9',

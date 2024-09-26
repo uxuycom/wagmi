@@ -9,10 +9,10 @@ const viemVersion = packageJson.devDependencies.viem
 
 ## Import
 
-Import via the `'@wagmi/core/chains'` entrypoint (proxies all chains from `'viem/chains'`).
+Import via the `'@uxuyalpha/core/chains'` entrypoint (proxies all chains from `'viem/chains'`).
 
 ```ts
-import { mainnet } from '@wagmi/core/chains'
+import { mainnet } from '@uxuyalpha/core/chains'
 ```
 
 ## Available Chains

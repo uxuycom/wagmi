@@ -1,13 +1,13 @@
 import { useMutation } from '@tanstack/vue-query'
-import type { Connector, ReconnectErrorType } from '@wagmi/core'
-import type { Compute } from '@wagmi/core/internal'
+import type { Connector, ReconnectErrorType } from '@uxuyalpha/core'
+import type { Compute } from '@uxuyalpha/core/internal'
 import {
   type ReconnectData,
   type ReconnectMutate,
   type ReconnectMutateAsync,
   type ReconnectVariables,
   reconnectMutationOptions,
-} from '@wagmi/core/query'
+} from '@uxuyalpha/core/query'
 
 import type { ConfigParameter } from '../types/properties.js'
 import type {

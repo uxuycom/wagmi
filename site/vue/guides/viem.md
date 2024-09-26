@@ -24,8 +24,8 @@ The example below demonstrates how to utilize Viem's `getLogs` Action with a `us
 ```vue
 <script setup lang="ts">
 // 1. Import modules. 
-import { useClient, useConnectorClient } from '@wagmi/vue' 
-import { useMutation, useQuery } from '@wagmi/vue/query'
+import { useClient, useConnectorClient } from '@uxuyalpha/vue' 
+import { useMutation, useQuery } from '@uxuyalpha/vue/query'
 import { getLogs, watchAsset } from 'viem/actions'
 
 // 2. Extract a Viem Client for the current active chain. 
@@ -48,8 +48,8 @@ The example below demonstrates how to utilize Viem's `watchAsset` Action with a 
 ```vue
 <script setup lang="ts">
 // 1. Import modules. 
-import { useConnectorClient } from '@wagmi/vue' 
-import { useMutation } from '@wagmi/vue/query'
+import { useConnectorClient } from '@uxuyalpha/vue' 
+import { useMutation } from '@uxuyalpha/vue/query'
 import { watchAsset } from 'viem/actions'
 
 // 2. Extract a Viem Client for the current active chain. 
@@ -69,8 +69,8 @@ It is possible to utilize Viem's [Private Key & Mnemonic Accounts](https://viem.
 ```vue
 <script setup lang="ts">
 import { privateKeyToAccount } from 'viem/accounts'
-import { useConfig } from '@wagmi/vue'
-import { sendTransactionMutationOptions, useMutation } from '@wagmi/vue/query'
+import { useConfig } from '@uxuyalpha/vue'
+import { sendTransactionMutationOptions, useMutation } from '@uxuyalpha/vue/query'
 
 const config = useConfig()
 const { mutate: sendTransaction } = useMutation(

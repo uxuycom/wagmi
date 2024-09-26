@@ -1,5 +1,5 @@
-import { chain, testClient } from '@wagmi/test'
-import { renderHook, waitFor } from '@wagmi/test/react'
+import { chain, testClient } from '@uxuyalpha/test'
+import { renderHook, waitFor } from '@uxuyalpha/test/react'
 import { expect, test } from 'vitest'
 
 import { useEstimateMaxPriorityFeePerGas } from './useEstimateMaxPriorityFeePerGas.js'

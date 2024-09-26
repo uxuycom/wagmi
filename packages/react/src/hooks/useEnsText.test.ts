@@ -1,5 +1,5 @@
-import { wait } from '@wagmi/test'
-import { renderHook, waitFor } from '@wagmi/test/react'
+import { wait } from '@uxuyalpha/test'
+import { renderHook, waitFor } from '@uxuyalpha/test/react'
 import { expect, test } from 'vitest'
 
 import { useEnsText } from './useEnsText.js'

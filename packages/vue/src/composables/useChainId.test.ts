@@ -1,5 +1,5 @@
-import { config } from '@wagmi/test'
-import { renderComposable } from '@wagmi/test/vue'
+import { config } from '@uxuyalpha/test'
+import { renderComposable } from '@uxuyalpha/test/vue'
 import { expect, test } from 'vitest'
 
 import { useChainId } from './useChainId.js'

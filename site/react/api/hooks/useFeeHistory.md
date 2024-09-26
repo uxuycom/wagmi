@@ -136,7 +136,7 @@ ID of chain to use when fetching data.
 ::: code-group
 ```tsx [index.tsx]
 import { useFeeHistory } from 'wagmi'
-import { mainnet } from '@wagmi/core/chains'
+import { mainnet } from '@uxuyalpha/core/chains'
 
 function App() {
   const result = useFeeHistory({

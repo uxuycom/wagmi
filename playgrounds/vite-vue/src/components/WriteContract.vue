@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { BaseError, useWriteContract } from '@wagmi/vue'
+import { BaseError, useWriteContract } from '@uxuyalpha/vue'
 import { parseAbi } from 'viem'
 
 const { data: hash, error, isPending, writeContract } = useWriteContract()

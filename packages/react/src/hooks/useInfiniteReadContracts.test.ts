@@ -1,5 +1,5 @@
-import { abi, address } from '@wagmi/test'
-import { renderHook, waitFor } from '@wagmi/test/react'
+import { abi, address } from '@uxuyalpha/test'
+import { renderHook, waitFor } from '@uxuyalpha/test/react'
 import { expect, test } from 'vitest'
 
 import { useInfiniteReadContracts } from './useInfiniteReadContracts.js'

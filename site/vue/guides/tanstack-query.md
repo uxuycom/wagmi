@@ -39,7 +39,7 @@ Each Composable returns a `queryKey` value. You would use this approach when you
 
 ```vue [index.vue]
 <script setup lang="ts">
-import { useBalance } from '@wagmi/vue' // [!code hl]
+import { useBalance } from '@uxuyalpha/vue' // [!code hl]
 
 const { data: balance } = useBalance() // [!code hl]
 </script>
@@ -54,7 +54,7 @@ const { data: balance } = useBalance() // [!code hl]
 Each Hook has a corresponding `get<X>QueryOptions` function that returns a query key. You would use this method when you want to utilize the query key outside of a Vue component in a Vanilla JS context, like in a utility function. 
 
 ```ts 
-import { getBalanceQueryOptions } from '@wagmi/vue/query' // [!code hl]
+import { getBalanceQueryOptions } from '@uxuyalpha/vue/query' // [!code hl]
 import { config } from './config'
 
 function perform() {
@@ -83,7 +83,7 @@ You may want to "watch" a users' balance, and invalidate the balance after each 
 ```vue
 <script setup lang="ts">
 import { useQueryClient } from '@tanstack/vue-query' 
-import { useBlockNumber, useBalance } from '@wagmi/vue' 
+import { useBlockNumber, useBalance } from '@uxuyalpha/vue' 
 import { watchEffect } from 'vue' 
 
 const queryClient = useQueryClient()
@@ -107,7 +107,7 @@ Maybe you want to invalidate a users' balance after some interaction. This would
 
 ```vue
 <script setup lang="ts">
-import { useBalance } from '@wagmi/vue'
+import { useBalance } from '@uxuyalpha/vue'
 
 // 1. Extract `queryKey` from the useBalance Hook. // [!code hl]
 const { queryKey } = useBalance() // [!code hl]
@@ -138,7 +138,7 @@ Fetching a query is the process of invoking the query function to retrieve data.
 
 ::: code-group
 ```tsx [example.tsx]
-import { getBlockQueryOptions } from '@wagmi/vue/query'
+import { getBlockQueryOptions } from '@uxuyalpha/vue/query'
 import { queryClient } from './main'
 import { config } from './config'
 
@@ -162,8 +162,8 @@ Note that these functions do not invalidate or refetch queries.
 
 ::: code-group
 ```tsx [example.tsx]
-import type { GetBalanceReturnType } from '@wagmi/vue/actions'
-import { getBalanceQueryOptions } from '@wagmi/vue/query'
+import type { GetBalanceReturnType } from '@uxuyalpha/vue/actions'
+import { getBalanceQueryOptions } from '@uxuyalpha/vue/query'
 import { queryClient } from './app'
 import { config } from './config'
 
@@ -198,8 +198,8 @@ Read more about **Prefetching Queries** on the [TanStack Query docs.](https://ta
 
 ```vue
 <script setup lang="ts">
-import { useConfig, useChainId, useQueryClient } from '@wagmi/vue'
-import { getBlockQueryOptions } from '@wagmi/vue/query'
+import { useConfig, useChainId, useQueryClient } from '@uxuyalpha/vue'
+import { getBlockQueryOptions } from '@uxuyalpha/vue/query'
 
 const config = useConfig()
 const chainId = useChainId()
@@ -226,7 +226,7 @@ It is possible to utilize TanStack Query's SSR strategies with Wagmi Composables
 
 ## Devtools
 
-TanStack Query includes dedicated [Devtools](https://tanstack.com/query/latest/docs/framework/vue/devtools) that assist in visualizing and debugging your queries, their cache states, and much more. You will have to pass a custom `queryKeyFn` to your `QueryClient` for Devtools to correctly serialize BigInt values for display. Alternatively, You can use the `hashFn` from `@wagmi/core/query`, which already handles this serialization.
+TanStack Query includes dedicated [Devtools](https://tanstack.com/query/latest/docs/framework/vue/devtools) that assist in visualizing and debugging your queries, their cache states, and much more. You will have to pass a custom `queryKeyFn` to your `QueryClient` for Devtools to correctly serialize BigInt values for display. Alternatively, You can use the `hashFn` from `@uxuyalpha/core/query`, which already handles this serialization.
 
 #### Install
 
@@ -264,7 +264,7 @@ import { VueQueryDevtools } from '@tanstack/vue-query-devtools'
 ```vue [main.vue]
 <script setup lang="ts">
 import { createApp } from 'vue'
-import { WagmiPlugin } from '@wagmi/vue'
+import { WagmiPlugin } from '@uxuyalpha/vue'
 import { QueryClient, VueQueryPlugin } from '@tanstack/vue-query'
 
 import App from './App.vue'

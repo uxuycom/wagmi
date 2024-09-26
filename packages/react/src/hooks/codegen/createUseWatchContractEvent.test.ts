@@ -1,5 +1,5 @@
-import { abi, address, chain } from '@wagmi/test'
-import { renderHook } from '@wagmi/test/react'
+import { abi, address, chain } from '@uxuyalpha/test'
+import { renderHook } from '@uxuyalpha/test/react'
 import type { WatchEventOnLogsParameter } from 'viem'
 import { test } from 'vitest'
 

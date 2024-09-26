@@ -1,12 +1,16 @@
-import type { Config, GetBalanceErrorType, ResolvedRegister } from '@wagmi/core'
-import type { Compute } from '@wagmi/core/internal'
+import type {
+  Config,
+  GetBalanceErrorType,
+  ResolvedRegister,
+} from '@uxuyalpha/core'
+import type { Compute } from '@uxuyalpha/core/internal'
 import {
   type GetBalanceData,
   type GetBalanceOptions,
   type GetBalanceQueryKey,
   getBalanceQueryOptions,
-} from '@wagmi/core/query'
-import type { GetBalanceQueryFnData } from '@wagmi/core/query'
+} from '@uxuyalpha/core/query'
+import type { GetBalanceQueryFnData } from '@uxuyalpha/core/query'
 
 import { computed } from 'vue'
 import type { ConfigParameter, QueryParameter } from '../types/properties.js'

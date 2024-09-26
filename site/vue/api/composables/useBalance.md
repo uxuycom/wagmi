@@ -4,7 +4,7 @@ description: Composable for fetching native currency or token balance.
 ---
 
 <script setup>
-const packageName = '@wagmi/vue'
+const packageName = '@uxuyalpha/vue'
 const actionName = 'getBalance'
 const typeName = 'GetBalance'
 const TData = '{ decimals: number; formatted: string; symbol: string; value: bigint; }'
@@ -18,7 +18,7 @@ Composable for fetching native currency or token balance.
 ## Import
 
 ```ts
-import { useBalance } from '@wagmi/vue'
+import { useBalance } from '@uxuyalpha/vue'
 ```
 
 ## Usage
@@ -26,7 +26,7 @@ import { useBalance } from '@wagmi/vue'
 ::: code-group
 ```vue [index.vue]
 <script setup lang="ts">
-import { useBalance } from '@wagmi/vue'
+import { useBalance } from '@uxuyalpha/vue'
 
 const result = useBalance({
   address: '0x4557B18E779944BFE9d78A672452331C186a9f48',
@@ -39,7 +39,7 @@ const result = useBalance({
 ## Parameters
 
 ```ts
-import { type UseBalanceParameters } from '@wagmi/vue'
+import { type UseBalanceParameters } from '@uxuyalpha/vue'
 ```
 
 ### address
@@ -51,8 +51,8 @@ Address to get balance for. [`enabled`](#enabled) set to `false` if `address` is
 ::: code-group
 ```vue [index.vue]
 <script setup lang="ts">
-import { useBalance } from '@wagmi/vue'
-import { mainnet } from '@wagmi/vue/chains'
+import { useBalance } from '@uxuyalpha/vue'
+import { mainnet } from '@uxuyalpha/vue/chains'
 
 const result = useBalance({
   address: '0x4557B18E779944BFE9d78A672452331C186a9f48', // [!code focus]
@@ -73,7 +73,7 @@ Block number to get balance at.
 ::: code-group
 ```vue [index.vue]
 <script setup lang="ts">
-import { useBalance } from '@wagmi/vue'
+import { useBalance } from '@uxuyalpha/vue'
 
 const result = useBalance({
   address: '0x4557B18E779944BFE9d78A672452331C186a9f48',
@@ -93,7 +93,7 @@ Block tag to get balance at.
 ::: code-group
 ```vue [index.vue]
 <script setup lang="ts">
-import { useBalance } from '@wagmi/vue'
+import { useBalance } from '@uxuyalpha/vue'
 
 const result = useBalance({
   address: '0x4557B18E779944BFE9d78A672452331C186a9f48',
@@ -115,8 +115,8 @@ ID of chain to use when fetching data.
 ::: code-group
 ```vue [index.vue]
 <script setup lang="ts">
-import { useBalance } from '@wagmi/vue'
-import { mainnet } from '@wagmi/vue/chains' // [!code focus]
+import { useBalance } from '@uxuyalpha/vue'
+import { mainnet } from '@uxuyalpha/vue/chains' // [!code focus]
 
 const result = useBalance({
   address: '0x4557B18E779944BFE9d78A672452331C186a9f48',
@@ -136,7 +136,7 @@ const result = useBalance({
 ::: code-group
 ```vue [index.vue]
 <script setup lang="ts">
-import { useBalance } from '@wagmi/vue'
+import { useBalance } from '@uxuyalpha/vue'
 import { config } from './config' // [!code focus]
 
 const result = useBalance({
@@ -157,7 +157,7 @@ Scopes the cache to a given context. Hooks that have identical context will shar
 ::: code-group
 ```vue [index.vue]
 <script setup lang="ts">
-import { useBalance } from '@wagmi/vue'
+import { useBalance } from '@uxuyalpha/vue'
 
 const result = useBalance({
   address: '0x4557B18E779944BFE9d78A672452331C186a9f48',
@@ -177,7 +177,7 @@ ERC-20 token address to get balance for.
 ::: code-group
 ```vue [index.vue]
 <script setup lang="ts">
-import { useBalance } from '@wagmi/vue'
+import { useBalance } from '@uxuyalpha/vue'
 
 const result = useBalance({
   address: '0x4557B18E779944BFE9d78A672452331C186a9f48',
@@ -198,7 +198,7 @@ const result = useBalance({
 ::: code-group
 ```vue [index.vue]
 <script setup lang="ts">
-import { useBalance } from '@wagmi/vue'
+import { useBalance } from '@uxuyalpha/vue'
 
 const result = useBalance({
   address: '0x4557B18E779944BFE9d78A672452331C186a9f48',
@@ -214,7 +214,7 @@ const result = useBalance({
 ## Return Type
 
 ```ts
-import { type UseBalanceReturnType } from '@wagmi/vue'
+import { type UseBalanceReturnType } from '@uxuyalpha/vue'
 ```
 
 <!--@include: @shared/query-result.md-->

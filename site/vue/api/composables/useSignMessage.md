@@ -4,7 +4,7 @@ description: Composable for signing messages.
 ---
 
 <script setup>
-const packageName = '@wagmi/vue'
+const packageName = '@uxuyalpha/vue'
 const actionName = 'signMessage'
 const typeName = 'SignMessage'
 const mutate = 'signMessage'
@@ -20,7 +20,7 @@ Composable for signing messages.
 ## Import
 
 ```ts
-import { useSignMessage } from '@wagmi/vue'
+import { useSignMessage } from '@uxuyalpha/vue'
 ```
 
 ## Usage
@@ -28,7 +28,7 @@ import { useSignMessage } from '@wagmi/vue'
 ::: code-group
 ```vue [index.vue]
 <script setup lang="ts">
-import { useSignMessage } from '@wagmi/vue'
+import { useSignMessage } from '@uxuyalpha/vue'
 
 const { signMessage } = useSignMessage()
 </script>
@@ -45,7 +45,7 @@ const { signMessage } = useSignMessage()
 ## Parameters
 
 ```ts
-import { type UseSignMessageParameters } from '@wagmi/vue'
+import { type UseSignMessageParameters } from '@uxuyalpha/vue'
 ```
 
 ### config
@@ -57,7 +57,7 @@ import { type UseSignMessageParameters } from '@wagmi/vue'
 ::: code-group
 ```vue [index.vue]
 <script setup lang="ts">
-import { useSignMessage } from '@wagmi/vue'
+import { useSignMessage } from '@uxuyalpha/vue'
 import { config } from './config' // [!code focus]
 
 const { signMessage } = useSignMessage({
@@ -73,7 +73,7 @@ const { signMessage } = useSignMessage({
 ## Return Type
 
 ```ts
-import { type UseSignMessageReturnType } from '@wagmi/vue'
+import { type UseSignMessageReturnType } from '@uxuyalpha/vue'
 ```
 
 <!--@include: @shared/mutation-result.md-->

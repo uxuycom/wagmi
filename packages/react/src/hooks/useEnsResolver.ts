@@ -4,15 +4,15 @@ import type {
   Config,
   GetEnsResolverErrorType,
   ResolvedRegister,
-} from '@wagmi/core'
-import type { Compute } from '@wagmi/core/internal'
+} from '@uxuyalpha/core'
+import type { Compute } from '@uxuyalpha/core/internal'
 import {
   type GetEnsResolverData,
   type GetEnsResolverOptions,
   type GetEnsResolverQueryFnData,
   type GetEnsResolverQueryKey,
   getEnsResolverQueryOptions,
-} from '@wagmi/core/query'
+} from '@uxuyalpha/core/query'
 
 import type { ConfigParameter, QueryParameter } from '../types/properties.js'
 import { type UseQueryReturnType, useQuery } from '../utils/query.js'

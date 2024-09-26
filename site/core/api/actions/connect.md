@@ -1,5 +1,5 @@
 <script setup>
-const packageName = '@wagmi/core'
+const packageName = '@uxuyalpha/core'
 const actionName = 'connect'
 const typeName = 'Connect'
 </script>
@@ -11,15 +11,15 @@ Action for connecting accounts with [connectors](/core/api/connectors).
 ## Import
 
 ```ts
-import { connect } from '@wagmi/core'
+import { connect } from '@uxuyalpha/core'
 ```
 
 ## Usage
 
 ::: code-group
 ```ts [index.ts]
-import { connect } from '@wagmi/core'
-import { injected } from '@wagmi/connectors'
+import { connect } from '@uxuyalpha/core'
+import { injected } from '@uxuyalpha/connectors'
 import { config } from './config'
 
 const result = await connect(config, { connector: injected() })
@@ -30,7 +30,7 @@ const result = await connect(config, { connector: injected() })
 ## Parameters
 
 ```ts
-import { type ConnectParameters } from '@wagmi/core'
+import { type ConnectParameters } from '@uxuyalpha/core'
 ```
 
 ### chainId
@@ -43,9 +43,9 @@ Not all connectors support connecting directly to a `chainId` (e.g. they don't s
 
 ::: code-group
 ```ts [index.ts]
-import { connect } from '@wagmi/core'
-import { mainnet } from '@wagmi/core/chains'
-import { injected } from '@wagmi/connectors'
+import { connect } from '@uxuyalpha/core'
+import { mainnet } from '@uxuyalpha/core/chains'
+import { injected } from '@uxuyalpha/connectors'
 import { config } from './config'
 
 const result = await connect(config, {
@@ -64,8 +64,8 @@ const result = await connect(config, {
 
 ::: code-group
 ```ts [index.ts]
-import { connect } from '@wagmi/core'
-import { injected } from '@wagmi/connectors' // [!code focus]
+import { connect } from '@uxuyalpha/core'
+import { injected } from '@uxuyalpha/connectors' // [!code focus]
 import { config } from './config'
 
 const result = await connect(config, {
@@ -78,7 +78,7 @@ const result = await connect(config, {
 ## Return Type
 
 ```ts
-import { type ConnectReturnType } from '@wagmi/core'
+import { type ConnectReturnType } from '@uxuyalpha/core'
 ```
 
 ### accounts
@@ -96,7 +96,7 @@ Connected chain ID from connector.
 ## Error
 
 ```ts
-import { type ConnectErrorType } from '@wagmi/core'
+import { type ConnectErrorType } from '@uxuyalpha/core'
 ```
 
 <!--@include: @shared/mutation-imports.md-->

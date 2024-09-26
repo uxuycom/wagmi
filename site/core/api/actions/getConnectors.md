@@ -5,14 +5,14 @@ Action for getting configured connectors.
 ## Import
 
 ```ts
-import { getConnectors } from '@wagmi/core'
+import { getConnectors } from '@uxuyalpha/core'
 ```
 
 ## Usage
 
 ::: code-group
 ```ts [index.ts]
-import { getConnectors } from '@wagmi/core'
+import { getConnectors } from '@uxuyalpha/core'
 import { config } from './config'
 
 const connectors = getConnectors(config)
@@ -23,7 +23,7 @@ const connectors = getConnectors(config)
 ## Return Type
 
 ```ts
-import { type GetConnectorsReturnType } from '@wagmi/core'
+import { type GetConnectorsReturnType } from '@uxuyalpha/core'
 ```
 
 `readonly Connector[]`

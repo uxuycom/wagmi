@@ -1,4 +1,4 @@
-import { accounts, config, privateKey, typedData } from '@wagmi/test'
+import { accounts, config, privateKey, typedData } from '@uxuyalpha/test'
 import { recoverTypedDataAddress } from 'viem'
 import { expect, test } from 'vitest'
 
@@ -62,7 +62,7 @@ test('behavior: not connected', async () => {
   ).rejects.toMatchInlineSnapshot(`
     [ConnectorNotConnectedError: Connector not connected.
 
-    Version: @wagmi/core@x.y.z]
+    Version: @uxuyalpha/core@x.y.z]
   `)
 })
 

@@ -1,4 +1,4 @@
-import { accounts, chain, config } from '@wagmi/test'
+import { accounts, chain, config } from '@uxuyalpha/test'
 import { beforeEach, expect, test } from 'vitest'
 
 import { mock } from '../connectors/mock.js'
@@ -66,6 +66,6 @@ test('behavior: already connected', async () => {
   await expect(connect(config, { connector })).rejects.toMatchInlineSnapshot(`
     [ConnectorAlreadyConnectedError: Connector already connected.
 
-    Version: @wagmi/core@x.y.z]
+    Version: @uxuyalpha/core@x.y.z]
   `)
 })

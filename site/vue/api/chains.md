@@ -11,10 +11,10 @@ Viem `Chain` objects. More info at the [Viem docs](https://viem.sh/docs/chains/i
 
 ## Import
 
-Import via the `'@wagmi/vue/chains'` entrypoint (proxies all chains from `'viem/chains'`).
+Import via the `'@uxuyalpha/vue/chains'` entrypoint (proxies all chains from `'viem/chains'`).
 
 ```ts
-import { mainnet } from '@wagmi/vue/chains'
+import { mainnet } from '@uxuyalpha/vue/chains'
 ```
 
 ## Available Chains

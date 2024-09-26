@@ -1,4 +1,4 @@
-import { accounts, config, mainnet } from '@wagmi/test'
+import { accounts, config, mainnet } from '@uxuyalpha/test'
 import { http } from 'viem'
 import { afterEach, expect, test, vi } from 'vitest'
 

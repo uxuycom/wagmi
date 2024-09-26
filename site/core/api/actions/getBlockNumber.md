@@ -1,5 +1,5 @@
 <script setup>
-const packageName = '@wagmi/core'
+const packageName = '@uxuyalpha/core'
 const actionName = 'getBlockNumber'
 const typeName = 'GetBlockNumber'
 </script>
@@ -11,14 +11,14 @@ Action for fetching the number of the most recent block seen.
 ## Import
 
 ```ts
-import { getBlockNumber } from '@wagmi/core'
+import { getBlockNumber } from '@uxuyalpha/core'
 ```
 
 ## Usage
 
 ::: code-group
 ```ts [index.ts]
-import { getBlockNumber } from '@wagmi/core'
+import { getBlockNumber } from '@uxuyalpha/core'
 import { config } from './config'
 
 const blockNumber = await getBlockNumber(config)
@@ -29,7 +29,7 @@ const blockNumber = await getBlockNumber(config)
 ## Parameters
 
 ```ts
-import { type GetBlockNumberParameters } from '@wagmi/core'
+import { type GetBlockNumberParameters } from '@uxuyalpha/core'
 ```
 
 ### cacheTime
@@ -40,7 +40,7 @@ Time in milliseconds that cached block number will remain in memory.
 
 ::: code-group
 ```ts [index.ts]
-import { getBlockNumber } from '@wagmi/core'
+import { getBlockNumber } from '@uxuyalpha/core'
 import { config } from './config'
 
 const blockNumber = await getBlockNumber(config, {
@@ -58,8 +58,8 @@ ID of chain to use when fetching data.
 
 ::: code-group
 ```ts [index.ts]
-import { getBlockNumber } from '@wagmi/core'
-import { mainnet } from '@wagmi/core/chains'
+import { getBlockNumber } from '@uxuyalpha/core'
+import { mainnet } from '@uxuyalpha/core/chains'
 import { config } from './config'
 
 const blockNumber = await getBlockNumber(config, {
@@ -72,7 +72,7 @@ const blockNumber = await getBlockNumber(config, {
 ## Return Type
 
 ```ts
-import { type GetBlockNumberReturnType } from '@wagmi/core'
+import { type GetBlockNumberReturnType } from '@uxuyalpha/core'
 ```
 
 `bigint`
@@ -82,7 +82,7 @@ Most recent block number seen.
 ## Error
 
 ```ts
-import { type GetBlockNumberErrorType } from '@wagmi/core'
+import { type GetBlockNumberErrorType } from '@uxuyalpha/core'
 ```
 
 <!--@include: @shared/query-imports.md-->

@@ -64,7 +64,7 @@ export async function init(options: Init = {}) {
   if (isUsingTypeScript) {
     const config = options.content ?? defaultConfig
     content = dedent(`
-      import { defineConfig } from '@wagmi/cli'
+      import { defineConfig } from '@uxuyalpha/cli'
       
       export default defineConfig(${JSON.stringify(config)})
     `)
@@ -76,7 +76,7 @@ export async function init(options: Init = {}) {
     content = dedent(`
       // @ts-check
 
-      /** @type {import('@wagmi/cli').Config} */
+      /** @type {import('@uxuyalpha/cli').Config} */
       export default ${JSON.stringify(config, null, 2).replace(
         /"(\d*)":/gm,
         '$1:',

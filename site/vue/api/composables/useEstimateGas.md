@@ -4,7 +4,7 @@ description: Composable for estimating the gas necessary to complete a transacti
 ---
 
 <script setup>
-const packageName = '@wagmi/vue'
+const packageName = '@uxuyalpha/vue'
 const actionName = 'estimateGas'
 const typeName = 'EstimateGas'
 const TData = 'bigint'
@@ -18,7 +18,7 @@ Composable for estimating the gas necessary to complete a transaction without su
 ## Import
 
 ```ts
-import { useEstimateGas } from '@wagmi/vue'
+import { useEstimateGas } from '@uxuyalpha/vue'
 ```
 
 ## Usage
@@ -26,7 +26,7 @@ import { useEstimateGas } from '@wagmi/vue'
 ::: code-group
 ```vue [index.vue]
 <script setup lang="ts">
-import { useEstimateGas } from '@wagmi/vue'
+import { useEstimateGas } from '@uxuyalpha/vue'
 
 const result = useEstimateGas()
 </script>
@@ -37,7 +37,7 @@ const result = useEstimateGas()
 ## Parameters
 
 ```ts
-import { type UseEstimateGasParameters } from '@wagmi/vue'
+import { type UseEstimateGasParameters } from '@uxuyalpha/vue'
 ```
 
 ### accessList
@@ -49,7 +49,7 @@ The access list.
 ::: code-group
 ```vue [index.vue]
 <script setup lang="ts">
-import { useEstimateGas } from '@wagmi/vue'
+import { useEstimateGas } from '@uxuyalpha/vue'
 import { parseEther } from 'viem'
 import { config } from './config'
 
@@ -75,7 +75,7 @@ Account to use when estimating gas.
 ::: code-group
 ```vue [index.vue]
 <script setup lang="ts">
-import { useEstimateGas } from '@wagmi/vue'
+import { useEstimateGas } from '@uxuyalpha/vue'
 import { parseEther } from 'viem'
 import { config } from './config'
 
@@ -98,8 +98,8 @@ Chain ID to target when estimating gas.
 ::: code-group
 ```vue [index.vue]
 <script setup lang="ts">
-import { useEstimateGas } from '@wagmi/vue'
-import { mainnet } from '@wagmi/vue/chains'
+import { useEstimateGas } from '@uxuyalpha/vue'
+import { mainnet } from '@uxuyalpha/vue/chains'
 import { parseEther } from 'viem'
 import { config } from './config'
 
@@ -122,7 +122,7 @@ Connector to estimate with. If no [`account`](#account) is provided, will use de
 ::: code-group
 ```vue [index.vue]
 <script setup lang="ts">
-import { useConnections, useEstimateGas } from '@wagmi/vue'
+import { useConnections, useEstimateGas } from '@uxuyalpha/vue'
 import { parseEther } from 'viem'
 import { config } from './config'
 
@@ -146,7 +146,7 @@ A contract hashed method call with encoded function data.
 ::: code-group
 ```vue [index.vue]
 <script setup lang="ts">
-import { useEstimateGas } from '@wagmi/vue'
+import { useEstimateGas } from '@uxuyalpha/vue'
 import { parseEther } from 'viem'
 import { config } from './config'
 
@@ -169,7 +169,7 @@ Gas provided for transaction execution.
 ::: code-group
 ```vue [index.vue]
 <script setup lang="ts">
-import { useEstimateGas } from '@wagmi/vue'
+import { useEstimateGas } from '@uxuyalpha/vue'
 import { parseEther, parseGwei } from 'viem'
 import { config } from './config'
 
@@ -194,7 +194,7 @@ The price in wei to pay per gas. Only applies to [Legacy Transactions](https://v
 ::: code-group
 ```vue [index.vue]
 <script setup lang="ts">
-import { useEstimateGas } from '@wagmi/vue'
+import { useEstimateGas } from '@uxuyalpha/vue'
 import { parseEther, parseGwei } from 'viem'
 import { config } from './config'
 
@@ -217,7 +217,7 @@ Total fee per gas in wei, inclusive of [`maxPriorityFeePerGas`](#maxPriorityFeeP
 ::: code-group
 ```vue [index.vue]
 <script setup lang="ts">
-import { useEstimateGas } from '@wagmi/vue'
+import { useEstimateGas } from '@uxuyalpha/vue'
 import { parseEther, parseGwei } from 'viem'
 import { config } from './config'
 
@@ -240,7 +240,7 @@ Max priority fee per gas in wei. Only applies to [EIP-1559 Transactions](https:/
 ::: code-group
 ```vue [index.vue]
 <script setup lang="ts">
-import { useEstimateGas } from '@wagmi/vue'
+import { useEstimateGas } from '@uxuyalpha/vue'
 import { parseEther, parseGwei } from 'viem'
 import { config } from './config'
 
@@ -266,7 +266,7 @@ Unique number identifying this transaction.
 ::: code-group
 ```vue [index.vue]
 <script setup lang="ts">
-import { useEstimateGas } from '@wagmi/vue'
+import { useEstimateGas } from '@uxuyalpha/vue'
 import { parseEther } from 'viem'
 import { config } from './config'
 
@@ -289,7 +289,7 @@ Scopes the cache to a given context. Composables that have identical context wil
 ::: code-group
 ```vue [index.vue]
 <script setup lang="ts">
-import { useEstimateGas } from '@wagmi/vue'
+import { useEstimateGas } from '@uxuyalpha/vue'
 import { parseEther } from 'viem'
 import { config } from './config'
 
@@ -312,7 +312,7 @@ The transaction recipient or contract address.
 ::: code-group
 ```vue [index.vue]
 <script setup lang="ts">
-import { useEstimateGas } from '@wagmi/vue'
+import { useEstimateGas } from '@uxuyalpha/vue'
 import { parseEther } from 'viem'
 import { config } from './config'
 
@@ -334,7 +334,7 @@ Optional transaction request type to narrow parameters.
 ::: code-group
 ```vue [index.vue]
 <script setup lang="ts">
-import { useEstimateGas } from '@wagmi/vue'
+import { useEstimateGas } from '@uxuyalpha/vue'
 import { parseEther } from 'viem'
 import { config } from './config'
 
@@ -357,7 +357,7 @@ Value in wei sent with this transaction.
 ::: code-group
 ```vue [index.vue]
 <script setup lang="ts">
-import { useEstimateGas } from '@wagmi/vue'
+import { useEstimateGas } from '@uxuyalpha/vue'
 import { parseEther } from 'viem'
 import { config } from './config'
 
@@ -375,7 +375,7 @@ const result = useEstimateGas({
 ## Return Type
 
 ```ts
-import { type UseEstimateGasReturnType } from '@wagmi/vue'
+import { type UseEstimateGasReturnType } from '@uxuyalpha/vue'
 ```
 
 <!--@include: @shared/query-result.md-->

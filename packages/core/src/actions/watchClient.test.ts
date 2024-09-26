@@ -1,4 +1,4 @@
-import { config } from '@wagmi/test'
+import { config } from '@uxuyalpha/test'
 import type { Client } from 'viem'
 import { expect, test } from 'vitest'
 

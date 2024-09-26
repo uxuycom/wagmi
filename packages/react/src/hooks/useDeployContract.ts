@@ -5,15 +5,15 @@ import type {
   Config,
   DeployContractErrorType,
   ResolvedRegister,
-} from '@wagmi/core'
-import type { Compute } from '@wagmi/core/internal'
+} from '@uxuyalpha/core'
+import type { Compute } from '@uxuyalpha/core/internal'
 import {
   type DeployContractData,
   type DeployContractMutate,
   type DeployContractMutateAsync,
   type DeployContractVariables,
   deployContractMutationOptions,
-} from '@wagmi/core/query'
+} from '@uxuyalpha/core/query'
 import type { Abi } from 'viem'
 
 import type { ConfigParameter } from '../types/properties.js'

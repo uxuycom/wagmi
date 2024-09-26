@@ -4,7 +4,7 @@ description: Composable for connecting accounts with connectors.
 ---
 
 <script setup>
-const packageName = '@wagmi/vue'
+const packageName = '@uxuyalpha/vue'
 const actionName = 'connect'
 const typeName = 'Connect'
 const mutate = 'connect'
@@ -20,7 +20,7 @@ Composable for connecting accounts with [connectors](/vue/api/connectors).
 ## Import
 
 ```ts
-import { useConnect } from '@wagmi/vue'
+import { useConnect } from '@uxuyalpha/vue'
 ```
 
 ## Usage
@@ -28,8 +28,8 @@ import { useConnect } from '@wagmi/vue'
 ::: code-group
 ```vue [index.vue]
 <script setup lang="ts">
-import { useConnect } from '@wagmi/vue'
-import { injected } from '@wagmi/connectors'
+import { useConnect } from '@uxuyalpha/vue'
+import { injected } from '@uxuyalpha/connectors'
 
 const { connect } = useConnect()
 </script>
@@ -46,7 +46,7 @@ const { connect } = useConnect()
 ## Parameters
 
 ```ts
-import { type UseConnectParameters } from '@wagmi/vue'
+import { type UseConnectParameters } from '@uxuyalpha/vue'
 ```
 
 ### config
@@ -58,7 +58,7 @@ import { type UseConnectParameters } from '@wagmi/vue'
 ::: code-group
 ```vue [index.vue]
 <script setup lang="ts">
-import { useConnect } from '@wagmi/vue'
+import { useConnect } from '@uxuyalpha/vue'
 import { config } from './config' // [!code focus]
 
 const result = useConnect({
@@ -74,7 +74,7 @@ const result = useConnect({
 ## Return Type
 
 ```ts
-import { type UseConnectReturnType } from '@wagmi/vue'
+import { type UseConnectReturnType } from '@uxuyalpha/vue'
 ```
 
 ### connectors
@@ -86,7 +86,7 @@ Globally configured connectors via [`createConfig`](/vue/api/createConfig#connec
 ::: code-group
 ```vue [index.vue]
 <script setup lang="ts">
-import { useConnect } from '@wagmi/vue'
+import { useConnect } from '@uxuyalpha/vue'
 
 const { connect, connectors } = useConnect()
 </script>

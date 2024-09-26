@@ -54,7 +54,7 @@ Boolean variables derived from [`status`](#status).
 For example, when `status` is `'connected'` properties like `address` are guaranteed to be defined.
 
 ```ts twoslash
-import { type GetAccountReturnType } from '@wagmi/core'
+import { type GetAccountReturnType } from '@uxuyalpha/core'
 const account = {} as GetAccountReturnType
 // ---cut---
 if (account.status === 'connected') {
@@ -81,7 +81,7 @@ if (account.status === 'connected') {
 Or when status is `'disconnected'` properties like `address` are guaranteed to be `undefined`:
 
 ```ts twoslash
-import { type GetAccountReturnType } from '@wagmi/core'
+import { type GetAccountReturnType } from '@uxuyalpha/core'
 const account = {} as GetAccountReturnType
 // ---cut---
 if (account.status === 'disconnected') {

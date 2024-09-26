@@ -1,5 +1,5 @@
-import { http, createConfig } from '@wagmi/core'
-import { base, celo, mainnet } from '@wagmi/core/chains'
+import { http, createConfig } from '@uxuyalpha/core'
+import { base, celo, mainnet } from '@uxuyalpha/core/chains'
 
 export const config = createConfig({
   chains: [base, celo, mainnet],

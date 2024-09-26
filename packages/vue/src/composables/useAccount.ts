@@ -4,7 +4,7 @@ import {
   type ResolvedRegister,
   getAccount,
   watchAccount,
-} from '@wagmi/core'
+} from '@uxuyalpha/core'
 import { type ToRefs, onScopeDispose, reactive, readonly, toRefs } from 'vue'
 
 import type { ConfigParameter } from '../types/properties.js'

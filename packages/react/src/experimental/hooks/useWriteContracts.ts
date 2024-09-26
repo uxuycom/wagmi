@@ -1,7 +1,7 @@
 'use client'
 
 import { useMutation } from '@tanstack/react-query'
-import type { Config, ResolvedRegister } from '@wagmi/core'
+import type { Config, ResolvedRegister } from '@uxuyalpha/core'
 import {
   type WriteContractsData,
   type WriteContractsErrorType,
@@ -9,8 +9,8 @@ import {
   type WriteContractsMutateAsync,
   type WriteContractsVariables,
   writeContractsMutationOptions,
-} from '@wagmi/core/experimental'
-import type { Compute } from '@wagmi/core/internal'
+} from '@uxuyalpha/core/experimental'
+import type { Compute } from '@uxuyalpha/core/internal'
 import type { ContractFunctionParameters } from 'viem'
 
 import { useConfig } from '../../hooks/useConfig.js'

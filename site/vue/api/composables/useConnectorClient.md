@@ -4,7 +4,7 @@ description: Composable for getting a Viem `Client` object for the current or pr
 ---
 
 <script setup>
-const packageName = '@wagmi/vue'
+const packageName = '@uxuyalpha/vue'
 const actionName = 'getConnectorClient'
 const typeName = 'GetConnectorClient'
 const TData = 'Client'
@@ -19,7 +19,7 @@ Composable for getting a Viem [`Client`](https://viem.sh/docs/clients/custom.htm
 ## Import
 
 ```ts
-import { useConnectorClient } from '@wagmi/vue'
+import { useConnectorClient } from '@uxuyalpha/vue'
 ```
 
 ## Usage
@@ -27,7 +27,7 @@ import { useConnectorClient } from '@wagmi/vue'
 ::: code-group
 ```vue [index.vue]
 <script setup lang="ts">
-import { useConnectorClient } from '@wagmi/vue'
+import { useConnectorClient } from '@uxuyalpha/vue'
 
 const result = useConnectorClient()
 </script>
@@ -38,7 +38,7 @@ const result = useConnectorClient()
 ## Parameters
 
 ```ts
-import { type UseConnectorClientParameters } from '@wagmi/vue'
+import { type UseConnectorClientParameters } from '@uxuyalpha/vue'
 ```
 
 ### account
@@ -49,7 +49,7 @@ Account to use with client. Throws if account is not found on [`connector`](#con
 
 ```vue
 <script setup lang="ts">
-import { useConnectorClient } from '@wagmi/vue'
+import { useConnectorClient } from '@uxuyalpha/vue'
 
 const result = useConnectorClient({
   account: '0xd2135CfB216b74109775236E36d4b433F1DF507B', // [!code focus]
@@ -65,7 +65,7 @@ ID of chain to use with client.
 
 ```vue
 <script setup lang="ts">
-import { useConnectorClient } from '@wagmi/vue'
+import { useConnectorClient } from '@uxuyalpha/vue'
 
 const result = useConnectorClient({
   chainId: mainnet.id, // [!code focus]
@@ -82,7 +82,7 @@ const result = useConnectorClient({
 ::: code-group
 ```vue [index.vue]
 <script setup lang="ts">
-import { useConnectorClient } from '@wagmi/vue'
+import { useConnectorClient } from '@uxuyalpha/vue'
 import { config } from './config' // [!code focus]
 
 const result = useConnectorClient({
@@ -102,7 +102,7 @@ const result = useConnectorClient({
 
 ```vue
 <script setup lang="ts">
-import { useConnections, useConnectorClient } from '@wagmi/vue'
+import { useConnections, useConnectorClient } from '@uxuyalpha/vue'
 
 const connections = useConnections(config)
 const result = useConnectorClient({
@@ -116,7 +116,7 @@ const result = useConnectorClient({
 ## Return Type
 
 ```ts
-import { type UseConnectorClientReturnType } from '@wagmi/vue'
+import { type UseConnectorClientReturnType } from '@uxuyalpha/vue'
 ```
 
 <!--@include: @shared/query-result.md-->

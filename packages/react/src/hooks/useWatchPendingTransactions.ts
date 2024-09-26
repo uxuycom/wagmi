@@ -5,8 +5,8 @@ import {
   type ResolvedRegister,
   type WatchPendingTransactionsParameters,
   watchPendingTransactions,
-} from '@wagmi/core'
-import type { UnionCompute, UnionExactPartial } from '@wagmi/core/internal'
+} from '@uxuyalpha/core'
+import type { UnionCompute, UnionExactPartial } from '@uxuyalpha/core/internal'
 import { useEffect } from 'react'
 
 import type { ConfigParameter, EnabledParameter } from '../types/properties.js'

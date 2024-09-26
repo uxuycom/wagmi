@@ -1,4 +1,4 @@
-import { act, cleanup, renderHook } from '@wagmi/test/react'
+import { act, cleanup, renderHook } from '@uxuyalpha/test/react'
 import * as ReactDOM from 'react-dom'
 import { afterEach, describe, expect, it } from 'vitest'
 

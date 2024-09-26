@@ -1,4 +1,4 @@
-import { renderHook, waitFor } from '@wagmi/test/react'
+import { renderHook, waitFor } from '@uxuyalpha/test/react'
 import { expect, test } from 'vitest'
 
 import { useEnsResolver } from './useEnsResolver.js'

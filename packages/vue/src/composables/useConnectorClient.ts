@@ -4,15 +4,15 @@ import type {
   Connector,
   GetConnectorClientErrorType,
   ResolvedRegister,
-} from '@wagmi/core'
-import type { Compute, Omit } from '@wagmi/core/internal'
+} from '@uxuyalpha/core'
+import type { Compute, Omit } from '@uxuyalpha/core/internal'
 import {
   type GetConnectorClientData,
   type GetConnectorClientOptions,
   type GetConnectorClientQueryFnData,
   type GetConnectorClientQueryKey,
   getConnectorClientQueryOptions,
-} from '@wagmi/core/query'
+} from '@uxuyalpha/core/query'
 import { computed, ref, watchEffect } from 'vue'
 
 import type { ConfigParameter } from '../types/properties.js'

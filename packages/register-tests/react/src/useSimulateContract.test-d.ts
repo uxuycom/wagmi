@@ -1,4 +1,4 @@
-import { type abi, config as testConfig } from '@wagmi/test'
+import { type abi, config as testConfig } from '@uxuyalpha/test'
 import type { Address } from 'viem'
 import { expectTypeOf, test } from 'vitest'
 import { type UseSimulateContractParameters, useSimulateContract } from 'wagmi'

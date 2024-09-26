@@ -1,6 +1,6 @@
 <script setup>
-const packageName = '@wagmi/core'
-const connectorsPackageName = '@wagmi/connectors'
+const packageName = '@uxuyalpha/core'
+const connectorsPackageName = '@uxuyalpha/connectors'
 </script>
 
 <!-- @include: @shared/connectors/walletConnect.md -->

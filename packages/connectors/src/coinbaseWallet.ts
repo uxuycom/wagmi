@@ -7,8 +7,8 @@ import {
   ChainNotConfiguredError,
   type Connector,
   createConnector,
-} from '@wagmi/core'
-import type { Compute, Mutable, Omit } from '@wagmi/core/internal'
+} from '@uxuyalpha/core'
+import type { Compute, Mutable, Omit } from '@uxuyalpha/core/internal'
 import type {
   CoinbaseWalletProvider as CBW_Provider,
   CoinbaseWalletSDK as CBW_SDK,

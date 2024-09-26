@@ -5,14 +5,14 @@ Plugin for type-safe VanillaJS actions.
 ## Import
 
 ```ts
-import { actions } from '@wagmi/cli/plugins'
+import { actions } from '@uxuyalpha/cli/plugins'
 ```
 
 ## Usage
 
 ```ts{2,6}
-import { defineConfig } from '@wagmi/cli'
-import { actions } from '@wagmi/cli/plugins'
+import { defineConfig } from '@uxuyalpha/cli'
+import { actions } from '@uxuyalpha/cli/plugins'
 
 export default defineConfig({
   plugins: [
@@ -24,7 +24,7 @@ export default defineConfig({
 ## Configuration
 
 ```ts
-import { type ActionsConfig } from '@wagmi/cli/plugins'
+import { type ActionsConfig } from '@uxuyalpha/cli/plugins'
 ```
 
 ### getActionName
@@ -33,11 +33,11 @@ import { type ActionsConfig } from '@wagmi/cli/plugins'
 
 - Function for setting custom hook names.
 - Defaults to `` `${type}${contractName}` ``. For example, `readErc20`, `simulateErc20`, `watchErc20Event`, `writeErc20`.
-- When `'legacy'` (deprecated), hook names are set to `@wagmi/cli@1` format.
+- When `'legacy'` (deprecated), hook names are set to `@uxuyalpha/cli@1` format.
 
 ```ts
-import { defineConfig } from '@wagmi/cli'
-import { actions } from '@wagmi/cli/plugins'
+import { defineConfig } from '@uxuyalpha/cli'
+import { actions } from '@uxuyalpha/cli/plugins'
 
 export default defineConfig({
   plugins: [
@@ -52,14 +52,14 @@ export default defineConfig({
 
 ### overridePackageName
 
-`'@wagmi/core' | 'wagmi'`
+`'@uxuyalpha/core' | 'wagmi'`
 
 - Override detected import source.
-- Defaults to `'wagmi'` or `'@wagmi/core'` depending on which package is installed.
+- Defaults to `'wagmi'` or `'@uxuyalpha/core'` depending on which package is installed.
 
 ```ts
-import { defineConfig } from '@wagmi/cli'
-import { actions } from '@wagmi/cli/plugins'
+import { defineConfig } from '@uxuyalpha/cli'
+import { actions } from '@uxuyalpha/cli/plugins'
 
 export default defineConfig({
   plugins: [

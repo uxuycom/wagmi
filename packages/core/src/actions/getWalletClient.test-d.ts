@@ -1,4 +1,4 @@
-import { chain, config } from '@wagmi/test'
+import { chain, config } from '@uxuyalpha/test'
 import { expectTypeOf, test } from 'vitest'
 
 import type { Account } from 'viem'

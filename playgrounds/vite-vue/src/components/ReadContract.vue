@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { useReadContract } from '@wagmi/vue'
+import { useReadContract } from '@uxuyalpha/vue'
 import { wagmiContractConfig } from '../contracts'
 
 const { data: balance } = useReadContract({

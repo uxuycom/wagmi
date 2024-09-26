@@ -4,7 +4,7 @@ description: Composable for switching the target chain for a connector or the Wa
 ---
 
 <script setup>
-const packageName = '@wagmi/vue'
+const packageName = '@uxuyalpha/vue'
 const actionName = 'switchChain'
 const typeName = 'SwitchChain'
 const mutate = 'switchChain'
@@ -20,7 +20,7 @@ Composable for switching the target chain for a connector or the Wagmi [`Config`
 ## Import
 
 ```ts
-import { useSwitchChain } from '@wagmi/vue'
+import { useSwitchChain } from '@uxuyalpha/vue'
 ```
 
 ## Usage
@@ -28,7 +28,7 @@ import { useSwitchChain } from '@wagmi/vue'
 ::: code-group
 ```vue [index.vue]
 <script setup lang="ts">
-import { useSwitchChain } from '@wagmi/vue'
+import { useSwitchChain } from '@uxuyalpha/vue'
 
 const { chains, switchChain } = useSwitchChain()
 </script>
@@ -55,7 +55,7 @@ When connected, `switchChain` will switch the target chain for the connector. Wh
 ## Parameters
 
 ```ts
-import { type UseSwitchChainParameters } from '@wagmi/vue'
+import { type UseSwitchChainParameters } from '@uxuyalpha/vue'
 ```
 
 ### config
@@ -67,7 +67,7 @@ import { type UseSwitchChainParameters } from '@wagmi/vue'
 ::: code-group
 ```vue [index.vue]
 <script setup lang="ts">
-import { useSwitchChain } from '@wagmi/vue'
+import { useSwitchChain } from '@uxuyalpha/vue'
 import { config } from './config' // [!code focus]
 
 const result = useSwitchChain({
@@ -83,7 +83,7 @@ const result = useSwitchChain({
 ## Return Type
 
 ```ts
-import { type UseSwitchChainReturnType } from '@wagmi/vue'
+import { type UseSwitchChainReturnType } from '@uxuyalpha/vue'
 ```
 
 ### chains
@@ -95,7 +95,7 @@ Globally configured chains. Useful for rendering a list of available chains to s
 ::: code-group
 ```vue [index.vue]
 <script setup lang="ts">
-import { useSwitchChain } from '@wagmi/vue'
+import { useSwitchChain } from '@uxuyalpha/vue'
 
 const { chains, switchChain } = useSwitchChain()
 </script>

@@ -42,10 +42,10 @@ By default Vue Plugins does not work well with type inference. To support strong
 To set this up, add the following declaration to your project. Below, we co-locate the declaration merging and the `config` set up.
 
 ```ts
-import { createConfig, http } from '@wagmi/vue'
+import { createConfig, http } from '@uxuyalpha/vue'
 import { mainnet, sepolia } from 'wagmi/chains'
 
-declare module '@wagmi/vue' { // [!code focus]
+declare module '@uxuyalpha/vue' { // [!code focus]
   interface Register { // [!code focus]
     config: typeof config // [!code focus]
   } // [!code focus]
@@ -64,16 +64,16 @@ Since the `Register` type is global, you only need to add it once in your projec
 
 ```ts twoslash
 // @errors: 2322
-import { type Config } from '@wagmi/vue'
+import { type Config } from '@uxuyalpha/vue'
 import { mainnet, sepolia } from 'wagmi/chains'
 
-declare module '@wagmi/vue' {
+declare module '@uxuyalpha/vue' {
   interface Register {
     config: Config<readonly [typeof mainnet, typeof sepolia]>
   }
 }
 // ---cut---
-import { useBlockNumber } from '@wagmi/vue'
+import { useBlockNumber } from '@uxuyalpha/vue'
 
 useBlockNumber({ chainId: 123 })
 ```
@@ -85,8 +85,8 @@ You just saved yourself a runtime error and you didn't even need to pass your `c
 For cases where you have more than one Wagmi `config` or don't want to use the declaration merging approach, you can pass a specific `config` directly to composables via the `config` property.
 
 ```ts
-import { createConfig, http } from '@wagmi/vue'
-import { mainnet, optimism } from '@wagmi/vue/chains'
+import { createConfig, http } from '@uxuyalpha/vue'
+import { mainnet, optimism } from '@uxuyalpha/vue/chains'
 
 export const configA = createConfig({ // [!code focus]
   chains: [mainnet], // [!code focus]
@@ -107,13 +107,13 @@ As you expect, `chainId` is inferred correctly for each `config`.
 
 ```ts twoslash
 // @errors: 2322
-import { type Config } from '@wagmi/vue'
-import { mainnet, optimism } from '@wagmi/vue/chains'
+import { type Config } from '@uxuyalpha/vue'
+import { mainnet, optimism } from '@uxuyalpha/vue/chains'
 
 declare const configA: Config<readonly [typeof mainnet]>
 declare const configB: Config<readonly [typeof optimism]>
 // ---cut---
-import { useBlockNumber } from '@wagmi/vue'
+import { useBlockNumber } from '@uxuyalpha/vue'
 
 useBlockNumber({ chainId: 123, config: configA })
 useBlockNumber({ chainId: 123, config: configB })
@@ -191,7 +191,7 @@ const erc721Abi = [
   },
 ] as const
 // ---cut---
-import { useReadContract } from '@wagmi/vue'
+import { useReadContract } from '@uxuyalpha/vue'
 
 const { data } = useReadContract({
   address: '0xFBA3912Ca04dd458c843e2EE08967fC04f3579c2',
@@ -222,7 +222,7 @@ declare const erc721Abi: {
   }[];
 }[]
 // ---cut---
-import { useReadContract } from '@wagmi/vue'
+import { useReadContract } from '@uxuyalpha/vue'
 
 const { data } = useReadContract({
   address: '0xFBA3912Ca04dd458c843e2EE08967fC04f3579c2',
@@ -289,7 +289,7 @@ const erc721Abi = [
   },
 ] as const
 // ---cut---
-import { useReadContract } from '@wagmi/vue'
+import { useReadContract } from '@uxuyalpha/vue'
 
 useReadContract({
   abi: erc721Abi,

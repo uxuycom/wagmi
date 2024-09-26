@@ -1,5 +1,5 @@
-import { accounts, address, chain } from '@wagmi/test'
-import { renderHook, waitFor } from '@wagmi/test/react'
+import { accounts, address, chain } from '@uxuyalpha/test'
+import { renderHook, waitFor } from '@uxuyalpha/test/react'
 import { expect, test } from 'vitest'
 
 import { useCall } from './useCall.js'

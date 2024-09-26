@@ -9,7 +9,7 @@
   },
   "dependencies": {
     "@tanstack/vue-query": ">=5.45.0",
-    "@wagmi/vue": "workspace:*",
+    "@uxuyalpha/vue": "workspace:*",
     "viem": "2.*",
     "vue": ">=3.4.21"
   },

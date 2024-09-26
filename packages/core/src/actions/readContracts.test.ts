@@ -1,4 +1,4 @@
-import { abi, address, chain } from '@wagmi/test'
+import { abi, address, chain } from '@uxuyalpha/test'
 import { http, type MulticallResponse } from 'viem'
 import { expect, expectTypeOf, test, vi } from 'vitest'
 

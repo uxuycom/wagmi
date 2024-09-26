@@ -10,7 +10,7 @@ Composable for getting current account.
 ## Import
 
 ```ts
-import { useAccount } from '@wagmi/vue'
+import { useAccount } from '@uxuyalpha/vue'
 ```
 
 ## Usage
@@ -20,16 +20,16 @@ import { useAccount } from '@wagmi/vue'
 <script setup lang="ts">
 // ---cut-start---
 // @errors: 2322
-import { type Config } from '@wagmi/vue'
-import { mainnet, sepolia } from '@wagmi/vue/chains'
+import { type Config } from '@uxuyalpha/vue'
+import { mainnet, sepolia } from '@uxuyalpha/vue/chains'
 
-declare module '@wagmi/vue' {
+declare module '@uxuyalpha/vue' {
   interface Register {
     config: Config<readonly [typeof mainnet, typeof sepolia]>
   }
 }
 // ---cut-end---
-import { useAccount } from '@wagmi/vue'
+import { useAccount } from '@uxuyalpha/vue'
 
 const account = useAccount()
 </script>
@@ -44,7 +44,7 @@ const account = useAccount()
 ## Parameters
 
 ```ts twoslash
-import { type UseAccountParameters } from '@wagmi/vue'
+import { type UseAccountParameters } from '@uxuyalpha/vue'
 ```
 
 ### config
@@ -56,7 +56,7 @@ import { type UseAccountParameters } from '@wagmi/vue'
 ::: code-group
 ```vue [index.vue]
 <script setup lang="ts">
-import { useAccount } from '@wagmi/vue'
+import { useAccount } from '@uxuyalpha/vue'
 import { config } from './config' // [!code focus]
 
 const account = useAccount({
@@ -70,7 +70,7 @@ const account = useAccount({
 ## Return Type
 
 ```ts twoslash
-import { type UseAccountReturnType } from '@wagmi/vue'
+import { type UseAccountReturnType } from '@uxuyalpha/vue'
 ```
 
 <!--@include: @shared/getAccount-return-type.md-->

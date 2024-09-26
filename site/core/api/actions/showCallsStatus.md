@@ -1,5 +1,5 @@
 <script setup>
-const packageName = '@wagmi/core/experimental'
+const packageName = '@uxuyalpha/core/experimental'
 const actionName = 'showCallsStatus'
 const typeName = 'ShowCallsStatus'
 </script>
@@ -17,14 +17,14 @@ This is an experimental action that is not supported in most wallets. It is reco
 ## Import
 
 ```ts
-import { showCallsStatus } from '@wagmi/core/experimental'
+import { showCallsStatus } from '@uxuyalpha/core/experimental'
 ```
 
 ## Usage
 
 ::: code-group
 ```ts [index.ts]
-import { showCallsStatus } from '@wagmi/core/experimental'
+import { showCallsStatus } from '@uxuyalpha/core/experimental'
 import { config } from './config'
 
 await showCallsStatus(config, {
@@ -37,7 +37,7 @@ await showCallsStatus(config, {
 ## Parameters
 
 ```ts
-import { type ShowCallsStatusParameters } from '@wagmi/core/experimental'
+import { type ShowCallsStatusParameters } from '@uxuyalpha/core/experimental'
 ```
 
 ### connector
@@ -48,7 +48,7 @@ Connector to show call statuses with.
 
 ::: code-group
 ```ts [index.ts]
-import { getConnections, showCallsStatus } from '@wagmi/core/experimental'
+import { getConnections, showCallsStatus } from '@uxuyalpha/core/experimental'
 import { config } from './config'
 
 const connections = getConnections(config)
@@ -68,7 +68,7 @@ Identifier of the call batch.
 
 ::: code-group
 ```ts [index.ts]
-import { showCallsStatus } from '@wagmi/core/experimental'
+import { showCallsStatus } from '@uxuyalpha/core/experimental'
 import { config } from './config'
 
 await showCallsStatus(config, {
@@ -81,7 +81,7 @@ await showCallsStatus(config, {
 ## Return Type
 
 ```ts
-import { type ShowCallsStatusReturnType } from '@wagmi/core/experimental'
+import { type ShowCallsStatusReturnType } from '@uxuyalpha/core/experimental'
 ```
 
 `bigint`
@@ -91,7 +91,7 @@ Most recent block number seen.
 ## Error
 
 ```ts
-import { type ShowCallsStatusErrorType } from '@wagmi/core/experimental'
+import { type ShowCallsStatusErrorType } from '@uxuyalpha/core/experimental'
 ```
 
 <!--@include: @shared/query-imports.md-->

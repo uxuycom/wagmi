@@ -5,14 +5,14 @@ Plugin for resolving ABIs from [Foundry](https://github.com/foundry-rs/foundry) 
 ## Import
 
 ```ts
-import { foundry } from '@wagmi/cli/plugins'
+import { foundry } from '@uxuyalpha/cli/plugins'
 ```
 
 ## Usage
 
 ```ts{2,6-8}
-import { defineConfig } from '@wagmi/cli'
-import { foundry } from '@wagmi/cli/plugins'
+import { defineConfig } from '@uxuyalpha/cli'
+import { foundry } from '@uxuyalpha/cli/plugins'
 
 export default defineConfig({
   plugins: [
@@ -26,7 +26,7 @@ export default defineConfig({
 ## Configuration
 
 ```ts
-import { type FoundryConfig } from '@wagmi/cli/plugins'
+import { type FoundryConfig } from '@uxuyalpha/cli/plugins'
 ```
 
 ### artifacts
@@ -37,8 +37,8 @@ import { type FoundryConfig } from '@wagmi/cli/plugins'
 - Defaults to `'out/'`.
 
 ```ts
-import { defineConfig } from '@wagmi/cli'
-import { foundry } from '@wagmi/cli/plugins'
+import { defineConfig } from '@uxuyalpha/cli'
+import { foundry } from '@uxuyalpha/cli/plugins'
 
 export default defineConfig({
   plugins: [
@@ -56,8 +56,8 @@ export default defineConfig({
 Mapping of addresses to attach to artifacts.
 
 ```ts
-import { defineConfig } from '@wagmi/cli'
-import { foundry } from '@wagmi/cli/plugins'
+import { defineConfig } from '@uxuyalpha/cli'
+import { foundry } from '@uxuyalpha/cli/plugins'
 
 export default defineConfig({
   plugins: [
@@ -80,8 +80,8 @@ export default defineConfig({
 Artifact files to exclude relative to `artifacts`. Supports glob patterns.
 
 ```ts
-import { defineConfig } from '@wagmi/cli'
-import { foundry } from '@wagmi/cli/plugins'
+import { defineConfig } from '@uxuyalpha/cli'
+import { foundry } from '@uxuyalpha/cli/plugins'
 
 export default defineConfig({
   plugins: [
@@ -118,8 +118,8 @@ export default defineConfig({
 Options for `forge`.
 
 ```ts
-import { defineConfig } from '@wagmi/cli'
-import { foundry } from '@wagmi/cli/plugins'
+import { defineConfig } from '@uxuyalpha/cli'
+import { foundry } from '@uxuyalpha/cli/plugins'
 
 export default defineConfig({
   plugins: [
@@ -162,8 +162,8 @@ export default defineConfig({
 Artifact files to include relative to `artifacts`. Supports glob patterns.
 
 ```ts
-import { defineConfig } from '@wagmi/cli'
-import { foundry } from '@wagmi/cli/plugins'
+import { defineConfig } from '@uxuyalpha/cli'
+import { foundry } from '@uxuyalpha/cli/plugins'
 
 export default defineConfig({
   plugins: [
@@ -184,8 +184,8 @@ export default defineConfig({
 Prefix to prepend to artifact names. Useful for preventing name collisions between contracts from other sources.
 
 ```ts
-import { defineConfig } from '@wagmi/cli'
-import { foundry } from '@wagmi/cli/plugins'
+import { defineConfig } from '@uxuyalpha/cli'
+import { foundry } from '@uxuyalpha/cli/plugins'
 
 export default defineConfig({
   plugins: [
@@ -204,8 +204,8 @@ export default defineConfig({
 - Defaults to Foundry configuration using `forge config --json` command.
 
 ```ts
-import { defineConfig } from '@wagmi/cli'
-import { foundry } from '@wagmi/cli/plugins'
+import { defineConfig } from '@uxuyalpha/cli'
+import { foundry } from '@uxuyalpha/cli/plugins'
 
 export default defineConfig({
   plugins: [

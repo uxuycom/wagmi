@@ -1,4 +1,4 @@
-import { abi, accounts, address, config } from '@wagmi/test'
+import { abi, accounts, address, config } from '@uxuyalpha/test'
 import { expect, test } from 'vitest'
 
 import { connect } from './connect.js'

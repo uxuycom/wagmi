@@ -8,7 +8,7 @@ Unfortunately, [TypeScript doesn't have an abstraction for typed exceptions](htt
 
 ::: code-group
 ```tsx [index.tsx]
-import { type GetBlockNumberErrorType, getBlockNumber } from '@wagmi/core'
+import { type GetBlockNumberErrorType, getBlockNumber } from '@uxuyalpha/core'
 import { config } from './config'
 
 try {

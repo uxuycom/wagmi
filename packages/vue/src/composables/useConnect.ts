@@ -4,15 +4,15 @@ import type {
   ConnectErrorType,
   GetConnectorsReturnType,
   ResolvedRegister,
-} from '@wagmi/core'
-import type { Compute } from '@wagmi/core/internal'
+} from '@uxuyalpha/core'
+import type { Compute } from '@uxuyalpha/core/internal'
 import {
   type ConnectData,
   type ConnectMutate,
   type ConnectMutateAsync,
   type ConnectVariables,
   connectMutationOptions,
-} from '@wagmi/core/query'
+} from '@uxuyalpha/core/query'
 import { onScopeDispose } from 'vue'
 
 import type { ConfigParameter } from '../types/properties.js'

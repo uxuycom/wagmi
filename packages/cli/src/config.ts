@@ -93,7 +93,7 @@ export type Plugin = {
       }>)
     | undefined
   /**
-   * Validate plugin configuration or other @wagmi/cli settings require for plugin.
+   * Validate plugin configuration or other @uxuyalpha/cli settings require for plugin.
    */
   validate?: (() => MaybePromise<void>) | undefined
   /** File system watch config */

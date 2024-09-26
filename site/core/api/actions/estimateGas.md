@@ -1,5 +1,5 @@
 <script setup>
-const packageName = '@wagmi/core'
+const packageName = '@uxuyalpha/core'
 const actionName = 'estimateGas'
 const typeName = 'EstimateGas'
 </script>
@@ -11,14 +11,14 @@ Action for estimating the gas necessary to complete a transaction without submit
 ## Import
 
 ```ts
-import { estimateGas } from '@wagmi/core'
+import { estimateGas } from '@uxuyalpha/core'
 ```
 
 ## Usage
 
 ::: code-group
 ```ts [index.ts]
-import { estimateGas } from '@wagmi/core'
+import { estimateGas } from '@uxuyalpha/core'
 import { parseEther } from 'viem'
 import { config } from './config'
 
@@ -33,7 +33,7 @@ const result = await estimateGas(config, {
 ## Parameters
 
 ```ts
-import { type EstimateGasParameters } from '@wagmi/core'
+import { type EstimateGasParameters } from '@uxuyalpha/core'
 ```
 
 ### accessList
@@ -44,7 +44,7 @@ The access list.
 
 ::: code-group
 ```ts [index.ts]
-import { estimateGas } from '@wagmi/core'
+import { estimateGas } from '@uxuyalpha/core'
 import { parseEther } from 'viem'
 import { config } from './config'
 
@@ -68,7 +68,7 @@ Account to use when estimating gas.
 
 ::: code-group
 ```ts [index.ts]
-import { estimateGas } from '@wagmi/core'
+import { estimateGas } from '@uxuyalpha/core'
 import { parseEther } from 'viem'
 import { config } from './config'
 
@@ -89,8 +89,8 @@ Chain ID to target when estimating gas.
 
 ::: code-group
 ```ts [index.ts]
-import { estimateGas } from '@wagmi/core'
-import { mainnet } from '@wagmi/core/chains'
+import { estimateGas } from '@uxuyalpha/core'
+import { mainnet } from '@uxuyalpha/core/chains'
 import { parseEther } from 'viem'
 import { config } from './config'
 
@@ -111,7 +111,7 @@ Connector to estimate with. If no [`account`](#account) is provided, will use de
 
 ::: code-group
 ```ts [index.ts]
-import { getConnections, estimateGas } from '@wagmi/core'
+import { getConnections, estimateGas } from '@uxuyalpha/core'
 import { parseEther } from 'viem'
 import { config } from './config'
 
@@ -133,7 +133,7 @@ A contract hashed method call with encoded args.
 
 ::: code-group
 ```ts [index.ts]
-import { estimateGas } from '@wagmi/core'
+import { estimateGas } from '@uxuyalpha/core'
 import { parseEther } from 'viem'
 import { config } from './config'
 
@@ -154,7 +154,7 @@ Gas provided for transaction execution.
 
 ::: code-group
 ```ts [index.ts]
-import { estimateGas } from '@wagmi/core'
+import { estimateGas } from '@uxuyalpha/core'
 import { parseEther, parseGwei } from 'viem'
 import { config } from './config'
 
@@ -177,7 +177,7 @@ The price in wei to pay per gas. Only applies to [Legacy Transactions](https://v
 
 ::: code-group
 ```ts [index.ts]
-import { estimateGas } from '@wagmi/core'
+import { estimateGas } from '@uxuyalpha/core'
 import { parseEther, parseGwei } from 'viem'
 import { config } from './config'
 
@@ -198,7 +198,7 @@ Total fee per gas in wei, inclusive of [`maxPriorityFeePerGas`](#maxPriorityFeeP
 
 ::: code-group
 ```ts [index.ts]
-import { estimateGas } from '@wagmi/core'
+import { estimateGas } from '@uxuyalpha/core'
 import { parseEther, parseGwei } from 'viem'
 import { config } from './config'
 
@@ -219,7 +219,7 @@ Max priority fee per gas in wei. Only applies to [EIP-1559 Transactions](https:/
 
 ::: code-group
 ```ts [index.ts]
-import { estimateGas } from '@wagmi/core'
+import { estimateGas } from '@uxuyalpha/core'
 import { parseEther, parseGwei } from 'viem'
 import { config } from './config'
 
@@ -243,7 +243,7 @@ Unique number identifying this transaction.
 
 ::: code-group
 ```ts [index.ts]
-import { estimateGas } from '@wagmi/core'
+import { estimateGas } from '@uxuyalpha/core'
 import { parseEther } from 'viem'
 import { config } from './config'
 
@@ -264,7 +264,7 @@ The transaction recipient or contract address.
 
 ::: code-group
 ```ts [index.ts]
-import { estimateGas } from '@wagmi/core'
+import { estimateGas } from '@uxuyalpha/core'
 import { parseEther } from 'viem'
 import { config } from './config'
 
@@ -284,7 +284,7 @@ Optional transaction request type to narrow parameters.
 
 ::: code-group
 ```ts [index.ts]
-import { estimateGas } from '@wagmi/core'
+import { estimateGas } from '@uxuyalpha/core'
 import { parseEther } from 'viem'
 import { config } from './config'
 
@@ -305,7 +305,7 @@ Value in wei sent with this transaction.
 
 ::: code-group
 ```ts [index.ts]
-import { estimateGas } from '@wagmi/core'
+import { estimateGas } from '@uxuyalpha/core'
 import { parseEther } from 'viem'
 import { config } from './config'
 
@@ -320,7 +320,7 @@ const result = await estimateGas(config, {
 ## Return Type
 
 ```ts
-import { type EstimateGasReturnType } from '@wagmi/core'
+import { type EstimateGasReturnType } from '@uxuyalpha/core'
 ```
 
 `bigint`
@@ -330,7 +330,7 @@ The gas estimate in wei.
 ## Error
 
 ```ts
-import { type EstimateGasErrorType } from '@wagmi/core'
+import { type EstimateGasErrorType } from '@uxuyalpha/core'
 ```
 
 <!--@include: @shared/query-imports.md-->

@@ -1,4 +1,4 @@
-import { connect, disconnect, getBalance, writeContract } from '@wagmi/core'
+import { connect, disconnect, getBalance, writeContract } from '@uxuyalpha/core'
 import {
   abi,
   accounts,
@@ -7,8 +7,8 @@ import {
   testClient,
   transactionHashRegex,
   wait,
-} from '@wagmi/test'
-import { renderComposable } from '@wagmi/test/vue'
+} from '@uxuyalpha/test'
+import { renderComposable } from '@uxuyalpha/test/vue'
 import { http, createWalletClient, parseEther } from 'viem'
 import type { WatchEventOnLogsParameter } from 'viem/actions'
 import { expect, test } from 'vitest'

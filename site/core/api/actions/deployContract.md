@@ -1,5 +1,5 @@
 <script setup>
-const packageName = '@wagmi/core'
+const packageName = '@uxuyalpha/core'
 const actionName = 'deployContract'
 const typeName = 'DeployContract'
 </script>
@@ -11,14 +11,14 @@ Action for deploying a contract to the network, given bytecode, and constructor 
 ## Import
 
 ```ts
-import { deployContract } from '@wagmi/core'
+import { deployContract } from '@uxuyalpha/core'
 ```
 
 ## Usage
 
 ::: code-group
 ```ts [index.ts]
-import { deployContract } from '@wagmi/core'
+import { deployContract } from '@uxuyalpha/core'
 import { wagmiAbi } from './abi'
 import { config } from './config'
 
@@ -45,7 +45,7 @@ export const wagmiAbi = [
 
 ::: code-group
 ```ts [index.ts]
-import { deployContract } from '@wagmi/core'
+import { deployContract } from '@uxuyalpha/core'
 import { wagmiAbi } from './abi'
 import { config } from './config'
 
@@ -73,7 +73,7 @@ export const wagmiAbi = [
 ## Parameters
 
 ```ts
-import { type DeployContractParameters } from '@wagmi/core'
+import { type DeployContractParameters } from '@uxuyalpha/core'
 ```
 
 ### abi
@@ -84,7 +84,7 @@ The contract's ABI.
 
 ::: code-group
 ```ts [index.ts]
-import { deployContract } from '@wagmi/core'
+import { deployContract } from '@uxuyalpha/core'
 import { wagmiAbi } from './abi'
 import { config } from './config'
 
@@ -116,7 +116,7 @@ Account to use when deploying a contract. Throws if account is not found on [`co
 
 ::: code-group
 ```ts [index.ts]
-import { deployContract } from '@wagmi/core'
+import { deployContract } from '@uxuyalpha/core'
 import { wagmiAbi } from './abi'
 import { config } from './config'
 
@@ -150,7 +150,7 @@ export const wagmiAbi = [
 
 ::: code-group
 ```ts [index.ts]
-import { deployContract } from '@wagmi/core'
+import { deployContract } from '@uxuyalpha/core'
 import { wagmiAbi } from './abi'
 import { config } from './config'
 
@@ -182,7 +182,7 @@ The contract's bytecode.
 
 ::: code-group
 ```ts [index.ts]
-import { deployContract } from '@wagmi/core'
+import { deployContract } from '@uxuyalpha/core'
 import { wagmiAbi } from './abi'
 import { config } from './config'
 
@@ -215,7 +215,7 @@ export const wagmiAbi = [
 
 ::: code-group
 ```ts [index.ts]
-import { getAccount, deployContract } from '@wagmi/core'
+import { getAccount, deployContract } from '@uxuyalpha/core'
 import { wagmiAbi } from './abi'
 import { config } from './config'
 
@@ -244,7 +244,7 @@ export const wagmiAbi = [
 ## Return Type
 
 ```ts
-import { type DeployContractReturnType } from '@wagmi/core'
+import { type DeployContractReturnType } from '@uxuyalpha/core'
 ```
 
 [`Hash`](https://viem.sh/docs/glossary/types.html#hash)
@@ -254,7 +254,7 @@ Transaction hash.
 ## Error
 
 ```ts
-import { type DeployContractErrorType } from '@wagmi/core'
+import { type DeployContractErrorType } from '@uxuyalpha/core'
 ```
 
 <!--@include: @shared/mutation-imports.md-->

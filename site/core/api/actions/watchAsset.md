@@ -1,5 +1,5 @@
 <script setup>
-const packageName = '@wagmi/core'
+const packageName = '@uxuyalpha/core'
 const actionName = 'watchAsset'
 const typeName = 'WatchAsset'
 </script>
@@ -11,14 +11,14 @@ Action for requesting user tracks the token in their wallet. Returns a boolean i
 ## Import
 
 ```ts
-import { watchAsset } from '@wagmi/core'
+import { watchAsset } from '@uxuyalpha/core'
 ```
 
 ## Usage
 
 ::: code-group
 ```ts [index.ts]
-import { watchAsset } from '@wagmi/core'
+import { watchAsset } from '@uxuyalpha/core'
 import { config } from './config'
 
 await watchAsset(config, {
@@ -36,7 +36,7 @@ await watchAsset(config, {
 ## Parameters
 
 ```ts
-import { type WatchAssetParameters } from '@wagmi/core'
+import { type WatchAssetParameters } from '@uxuyalpha/core'
 ```
 
 ### connector
@@ -47,7 +47,7 @@ import { type WatchAssetParameters } from '@wagmi/core'
 
 ::: code-group
 ```ts [index.ts]
-import { getAccount, watchAsset } from '@wagmi/core'
+import { getAccount, watchAsset } from '@uxuyalpha/core'
 import { config } from './config'
 
 const { connector } = getAccount(config)
@@ -72,7 +72,7 @@ Asset options.
 
 ::: code-group
 ```ts [index.ts]
-import { watchAsset } from '@wagmi/core'
+import { watchAsset } from '@uxuyalpha/core'
 import { config } from './config'
 
 const result = await watchAsset(config, {
@@ -95,7 +95,7 @@ Type of asset.
 
 ::: code-group
 ```ts [index.ts]
-import { watchAsset } from '@wagmi/core'
+import { watchAsset } from '@uxuyalpha/core'
 import { config } from './config'
 
 const result = await watchAsset(config, {
@@ -113,7 +113,7 @@ const result = await watchAsset(config, {
 ## Return Type
 
 ```ts
-import { type WatchAssetReturnType } from '@wagmi/core'
+import { type WatchAssetReturnType } from '@uxuyalpha/core'
 ```
 
 `boolean`
@@ -123,7 +123,7 @@ Returns a boolean indicating if the token was successfully added.
 ## Error
 
 ```ts
-import { type WatchAssetErrorType } from '@wagmi/core'
+import { type WatchAssetErrorType } from '@uxuyalpha/core'
 ```
 
 <!--@include: @shared/mutation-imports.md-->

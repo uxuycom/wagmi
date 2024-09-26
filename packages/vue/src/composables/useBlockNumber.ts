@@ -3,19 +3,19 @@ import type {
   Config,
   GetBlockNumberErrorType,
   ResolvedRegister,
-} from '@wagmi/core'
+} from '@uxuyalpha/core'
 import type {
   Compute,
   UnionCompute,
   UnionStrictOmit,
-} from '@wagmi/core/internal'
+} from '@uxuyalpha/core/internal'
 import {
   type GetBlockNumberData,
   type GetBlockNumberOptions,
   type GetBlockNumberQueryFnData,
   type GetBlockNumberQueryKey,
   getBlockNumberQueryOptions,
-} from '@wagmi/core/query'
+} from '@uxuyalpha/core/query'
 import { computed } from 'vue'
 
 import type { ConfigParameter, QueryParameter } from '../types/properties.js'

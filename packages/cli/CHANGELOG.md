@@ -1,4 +1,10 @@
-# @wagmi/cli
+# @uxuyalpha/cli
+
+## 3.0.0
+
+### Major Changes
+
+- uxuy
 
 ## 2.1.15
 
@@ -144,7 +150,7 @@
 
 ### Minor Changes
 
-- [#2956](https://github.com/wevm/wagmi/pull/2956) [`2abeb285`](https://github.com/wevm/wagmi/commit/2abeb285674af3e539cc2550b1f5027b1eb0c895) Thanks [@tmm](https://github.com/tmm)! - Replaced `@wagmi/chains` with `viem/chains`.
+- [#2956](https://github.com/wevm/wagmi/pull/2956) [`2abeb285`](https://github.com/wevm/wagmi/commit/2abeb285674af3e539cc2550b1f5027b1eb0c895) Thanks [@tmm](https://github.com/tmm)! - Replaced `@uxuyalpha/chains` with `viem/chains`.
 
 ## 1.4.1
 
@@ -260,7 +266,7 @@
 ### Patch Changes
 
 - Updated dependencies []:
-  - @wagmi/chains@1.0.0-next.0
+  - @uxuyalpha/chains@1.0.0-next.0
 
 ## 1.0.0-next.1
 
@@ -277,7 +283,7 @@
 ### Patch Changes
 
 - Updated dependencies [[`a7dda00c`](https://github.com/wevm/wagmi/commit/a7dda00c5b546f8b2c42b527e4d9ac1b9e9ab1fb)]:
-  - @wagmi/core@1.0.0-next.0
+  - @uxuyalpha/core@1.0.0-next.0
   - wagmi@1.0.0-next.0
 
 ## 0.1.15
@@ -328,7 +334,7 @@
 
 ### Patch Changes
 
-- [#1884](https://github.com/wevm/wagmi/pull/1884) [`cc03bb44`](https://github.com/wevm/wagmi/commit/cc03bb44268874f95203de67f6d32586e34c0857) Thanks [@roninjin10](https://github.com/roninjin10)! - Added better compatibility for yarn@^3 in `@wagmi/cli`.
+- [#1884](https://github.com/wevm/wagmi/pull/1884) [`cc03bb44`](https://github.com/wevm/wagmi/commit/cc03bb44268874f95203de67f6d32586e34c0857) Thanks [@roninjin10](https://github.com/roninjin10)! - Added better compatibility for yarn@^3 in `@uxuyalpha/cli`.
 
 ## 0.1.7
 

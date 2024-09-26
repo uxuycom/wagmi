@@ -1,6 +1,6 @@
-import { coinbaseWallet, metaMask, walletConnect } from '@wagmi/connectors'
-import { http, createConfig, createStorage } from '@wagmi/core'
-import { mainnet, optimism, sepolia } from '@wagmi/core/chains'
+import { coinbaseWallet, metaMask, walletConnect } from '@uxuyalpha/connectors'
+import { http, createConfig, createStorage } from '@uxuyalpha/core'
+import { mainnet, optimism, sepolia } from '@uxuyalpha/core/chains'
 
 export const config = createConfig({
   chains: [mainnet, sepolia, optimism],

@@ -1,5 +1,5 @@
 <script setup>
-const packageName = '@wagmi/core'
+const packageName = '@uxuyalpha/core'
 const actionName = 'watchContractEvent'
 const typeName = 'WatchContractEvent'
 </script>
@@ -11,14 +11,14 @@ Action that watches and returns emitted contract event logs.
 ## Import
 
 ```ts
-import { watchContractEvent } from '@wagmi/core'
+import { watchContractEvent } from '@uxuyalpha/core'
 ```
 
 ## Usage
 
 ::: code-group
 ```ts [index.ts]
-import { watchContractEvent } from '@wagmi/core'
+import { watchContractEvent } from '@uxuyalpha/core'
 import { abi } from './abi'
 import { config } from './config'
 
@@ -39,7 +39,7 @@ unwatch()
 ## Parameters
 
 ```ts
-import { type WatchContractEventParameters } from '@wagmi/core'
+import { type WatchContractEventParameters } from '@uxuyalpha/core'
 ```
 
 ### abi
@@ -50,7 +50,7 @@ The contract's ABI. Check out the [TypeScript docs](/react/typescript#const-asse
 
 ::: code-group
 ```ts [index.ts]
-import { watchContractEvent } from '@wagmi/core'
+import { watchContractEvent } from '@uxuyalpha/core'
 import { abi } from './abi' // [!code focus]
 import { config } from './config'
 
@@ -74,7 +74,7 @@ The contract's address.
 
 ::: code-group
 ```ts [index.ts]
-import { watchContractEvent } from '@wagmi/core'
+import { watchContractEvent } from '@uxuyalpha/core'
 import { abi } from './abi'
 import { config } from './config'
 
@@ -100,7 +100,7 @@ unwatch()
 
 ::: code-group
 ```ts [index.ts]
-import { watchContractEvent } from '@wagmi/core'
+import { watchContractEvent } from '@uxuyalpha/core'
 import { abi } from './abi'
 import { config } from './config'
 
@@ -128,7 +128,7 @@ unwatch()
 
 ::: code-group
 ```ts [index.ts]
-import { watchContractEvent } from '@wagmi/core'
+import { watchContractEvent } from '@uxuyalpha/core'
 import { abi } from './abi'
 import { config } from './config'
 
@@ -153,8 +153,8 @@ ID of chain to use when fetching data.
 
 ::: code-group
 ```ts [index.ts]
-import { watchContractEvent } from '@wagmi/core'
-import { mainnet } from '@wagmi/core/chains'
+import { watchContractEvent } from '@uxuyalpha/core'
+import { mainnet } from '@uxuyalpha/core/chains'
 import { abi } from './abi'
 import { config } from './config'
 
@@ -180,7 +180,7 @@ unwatch()
 
 ::: code-group
 ```ts [index.ts]
-import { watchContractEvent } from '@wagmi/core'
+import { watchContractEvent } from '@uxuyalpha/core'
 import { abi } from './abi'
 import { config } from './config'
 
@@ -205,7 +205,7 @@ Error thrown from getting the block number.
 
 ::: code-group
 ```ts [index.ts]
-import { watchContractEvent } from '@wagmi/core'
+import { watchContractEvent } from '@uxuyalpha/core'
 import { abi } from './abi'
 import { config } from './config'
 
@@ -232,7 +232,7 @@ Callback for when logs changes.
 
 ::: code-group
 ```ts [index.ts]
-import { watchContractEvent } from '@wagmi/core'
+import { watchContractEvent } from '@uxuyalpha/core'
 import { abi } from './abi'
 import { config } from './config'
 
@@ -257,7 +257,7 @@ unwatch()
 
 ::: code-group
 ```ts [index.ts]
-import { watchContractEvent } from '@wagmi/core'
+import { watchContractEvent } from '@uxuyalpha/core'
 import { abi } from './abi'
 import { config } from './config'
 
@@ -283,7 +283,7 @@ unwatch()
 
 ::: code-group
 ```ts [index.ts]
-import { watchContractEvent } from '@wagmi/core'
+import { watchContractEvent } from '@uxuyalpha/core'
 import { abi } from './abi'
 import { config } from './config'
 
@@ -308,7 +308,7 @@ unwatch()
 
 ::: code-group
 ```ts [index.ts]
-import { watchContractEvent } from '@wagmi/core'
+import { watchContractEvent } from '@uxuyalpha/core'
 import { abi } from './abi'
 import { config } from './config'
 
@@ -334,7 +334,7 @@ unwatch()
 
 ::: code-group
 ```ts [index.ts]
-import { watchContractEvent } from '@wagmi/core'
+import { watchContractEvent } from '@uxuyalpha/core'
 import { abi } from './abi'
 import { config } from './config'
 
@@ -354,7 +354,7 @@ unwatch()
 ## Return Type
 
 ```ts
-import { type WatchContractEventReturnType } from '@wagmi/core'
+import { type WatchContractEventReturnType } from '@uxuyalpha/core'
 ```
 
 Function for cleaning up watcher.
@@ -366,7 +366,7 @@ With [`abi`](#abi) setup correctly, TypeScript will infer the correct types for 
 ## Error
 
 ```ts
-import { type WatchContractEventError } from '@wagmi/core'
+import { type WatchContractEventError } from '@uxuyalpha/core'
 ```
 
 <!--@include: @shared/query-imports.md-->

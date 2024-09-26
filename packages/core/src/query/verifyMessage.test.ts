@@ -1,4 +1,4 @@
-import { accounts, chain, config } from '@wagmi/test'
+import { accounts, chain, config } from '@uxuyalpha/test'
 import { expect, test } from 'vitest'
 
 import { verifyMessageQueryOptions } from './verifyMessage.js'

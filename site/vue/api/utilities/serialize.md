@@ -1,5 +1,5 @@
 <script setup>
-const packageName = '@wagmi/vue'
+const packageName = '@uxuyalpha/vue'
 </script>
 
 <!--@include: @shared/utilities/serialize.md-->

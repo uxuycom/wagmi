@@ -1,4 +1,4 @@
-import { abi } from '@wagmi/test'
+import { abi } from '@uxuyalpha/test'
 import { expect, test } from 'vitest'
 
 import { createWriteContract } from './createWriteContract.js'

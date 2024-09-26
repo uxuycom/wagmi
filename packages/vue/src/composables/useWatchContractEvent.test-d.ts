@@ -1,6 +1,6 @@
-import { http, createConfig, webSocket } from '@wagmi/core'
-import { mainnet, optimism } from '@wagmi/core/chains'
-import { abi } from '@wagmi/test'
+import { http, createConfig, webSocket } from '@uxuyalpha/core'
+import { mainnet, optimism } from '@uxuyalpha/core/chains'
+import { abi } from '@uxuyalpha/test'
 import { expectTypeOf, test } from 'vitest'
 
 import { useWatchContractEvent } from './useWatchContractEvent.js'

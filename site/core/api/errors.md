@@ -1,6 +1,6 @@
 <script setup>
 const docsPath = "core"
-const packageName = '@wagmi/core'
+const packageName = '@uxuyalpha/core'
 </script>
 
 # Errors

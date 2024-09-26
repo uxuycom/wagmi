@@ -1,4 +1,4 @@
-import { abi, config } from '@wagmi/test'
+import { abi, config } from '@uxuyalpha/test'
 import { expect, test } from 'vitest'
 
 import { simulateContractQueryOptions } from './simulateContract.js'

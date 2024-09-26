@@ -1,5 +1,5 @@
-import { chain, wait } from '@wagmi/test'
-import { renderComposable, waitFor } from '@wagmi/test/vue'
+import { chain, wait } from '@uxuyalpha/test'
+import { renderComposable, waitFor } from '@uxuyalpha/test/vue'
 import { expect, test } from 'vitest'
 import { ref } from 'vue'
 import { deepUnref } from '../utils/cloneDeep.js'

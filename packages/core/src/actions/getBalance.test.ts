@@ -1,4 +1,4 @@
-import { accounts, chain, config, testClient } from '@wagmi/test'
+import { accounts, chain, config, testClient } from '@uxuyalpha/test'
 import { parseEther } from 'viem'
 import { beforeEach, describe, expect, test } from 'vitest'
 

@@ -1,4 +1,4 @@
-import type { SendTransactionErrorType } from '@wagmi/core'
+import type { SendTransactionErrorType } from '@uxuyalpha/core'
 import type { Hash } from 'viem'
 import { expectTypeOf, test } from 'vitest'
 

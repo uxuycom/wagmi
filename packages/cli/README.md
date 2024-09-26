@@ -1,11 +1,11 @@
-# @wagmi/cli
+# @uxuyalpha/cli
 
 Manage and generate code from Ethereum ABIs
 
 ## Installation
 
 ```bash
-pnpm add @wagmi/cli
+pnpm add @uxuyalpha/cli
 ```
 
 ## Documentation

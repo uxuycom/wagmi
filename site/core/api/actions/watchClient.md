@@ -5,14 +5,14 @@ Subscribe to Client changes.
 ## Import
 
 ```ts
-import { watchClient } from '@wagmi/core'
+import { watchClient } from '@uxuyalpha/core'
 ```
 
 ## Usage
 
 ::: code-group
 ```ts [index.ts]
-import { watchClient } from '@wagmi/core'
+import { watchClient } from '@uxuyalpha/core'
 import { config } from './config'
 
 const unwatch = watchClient(config, {
@@ -28,7 +28,7 @@ unwatch()
 ## Parameters
 
 ```ts
-import { type WatchClientParameters } from '@wagmi/core'
+import { type WatchClientParameters } from '@uxuyalpha/core'
 ```
 
 ### onChange
@@ -39,7 +39,7 @@ Callback function called when Client changes.
 
 ::: code-group
 ```ts [index.ts]
-import { watchClient } from '@wagmi/core'
+import { watchClient } from '@uxuyalpha/core'
 import { config } from './config'
 
 const unwatch = watchClient(config, {
@@ -55,7 +55,7 @@ unwatch()
 ## Return Type
 
 ```ts
-import { type WatchClientReturnType } from '@wagmi/core'
+import { type WatchClientReturnType } from '@uxuyalpha/core'
 ```
 
 Function for cleaning up watcher.

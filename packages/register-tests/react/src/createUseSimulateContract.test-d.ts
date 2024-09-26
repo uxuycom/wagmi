@@ -1,4 +1,4 @@
-import { abi, config as testConfig } from '@wagmi/test'
+import { abi, config as testConfig } from '@uxuyalpha/test'
 import { test } from 'vitest'
 import { celo, mainnet, optimism } from 'wagmi/chains'
 import { createUseSimulateContract } from 'wagmi/codegen'

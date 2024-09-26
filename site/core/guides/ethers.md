@@ -17,7 +17,7 @@ Copy the following reference implementation into a file of your choice:
 ::: code-group
 
 ```ts [Ethers v5]
-import { type Config, getClient } from '@wagmi/core'
+import { type Config, getClient } from '@uxuyalpha/core'
 import { providers } from 'ethers'
 import type { Client, Chain, Transport } from 'viem'
 
@@ -49,7 +49,7 @@ export function getEthersProvider(
 ```
 
 ```ts [Ethers v6]
-import { type Config, getClient } from '@wagmi/core'
+import { type Config, getClient } from '@uxuyalpha/core'
 import { FallbackProvider, JsonRpcProvider } from 'ethers'
 import type { Client, Chain, Transport } from 'viem'
 
@@ -100,7 +100,7 @@ function example() {
 ```
 
 ```ts [ethers.ts (Ethers v5)]
-import { type Config, getClient } from '@wagmi/core'
+import { type Config, getClient } from '@uxuyalpha/core'
 import { providers } from 'ethers'
 import type { Client, Chain, Transport } from 'viem'
 
@@ -133,7 +133,7 @@ export function getEthersProvider(
 ```
 
 ```ts [ethers.ts (Ethers v6)]
-import { type Config, getClient } from '@wagmi/core'
+import { type Config, getClient } from '@uxuyalpha/core'
 import { FallbackProvider, JsonRpcProvider } from 'ethers'
 import type { Client, Chain, Transport } from 'viem'
 
@@ -176,7 +176,7 @@ Copy the following reference implementation into a file of your choice:
 ::: code-group
 
 ```ts [Ethers v5]
-import { Config, getConnectorClient } from '@wagmi/core'
+import { Config, getConnectorClient } from '@uxuyalpha/core'
 import { providers } from 'ethers'
 import type { Account, Chain, Client, Transport } from 'viem'
 
@@ -203,7 +203,7 @@ export async function getEthersSigner(
 ```
 
 ```ts [Ethers v6]
-import { Config, getConnectorClient } from '@wagmi/core'
+import { Config, getConnectorClient } from '@uxuyalpha/core'
 import { BrowserProvider, JsonRpcSigner } from 'ethers'
 import type { Account, Chain, Client, Transport } from 'viem'
 
@@ -249,7 +249,7 @@ function example() {
 ```
 
 ```ts [ethers.ts (Ethers v5)]
-import { Config, getConnectorClient } from '@wagmi/core'
+import { Config, getConnectorClient } from '@uxuyalpha/core'
 import { providers } from 'ethers'
 import type { Account, Chain, Client, Transport } from 'viem'
 
@@ -276,7 +276,7 @@ export async function getEthersSigner(
 ```
 
 ```ts [ethers.ts (Ethers v6)]
-import { Config, getConnectorClient } from '@wagmi/core'
+import { Config, getConnectorClient } from '@uxuyalpha/core'
 import { BrowserProvider, JsonRpcSigner } from 'ethers'
 import type { Account, Chain, Client, Transport } from 'viem'
 

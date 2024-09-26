@@ -1,5 +1,5 @@
-import { createConfig } from '@wagmi/vue'
-import { celo, mainnet, optimism, zkSync } from '@wagmi/vue/chains'
+import { createConfig } from '@uxuyalpha/vue'
+import { celo, mainnet, optimism, zkSync } from '@uxuyalpha/vue/chains'
 import { http } from 'viem'
 
 export const config = createConfig({
@@ -18,7 +18,7 @@ export type ChainId =
   | typeof optimism.id
   | typeof zkSync.id
 
-declare module '@wagmi/vue' {
+declare module '@uxuyalpha/vue' {
   interface Register {
     config: typeof config
   }

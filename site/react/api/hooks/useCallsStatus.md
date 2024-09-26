@@ -97,7 +97,7 @@ Identifier of the call batch.
 
 ::: code-group
 ```ts [index.ts]
-import { useCallsStatus } from '@wagmi/core'
+import { useCallsStatus } from '@uxuyalpha/core'
 import { config } from './config'
 
 const status = await useCallsStatus({

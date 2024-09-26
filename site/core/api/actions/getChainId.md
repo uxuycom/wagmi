@@ -6,14 +6,14 @@ Action for getting current chain ID.
 ## Import
 
 ```ts
-import { getChainId } from '@wagmi/core'
+import { getChainId } from '@uxuyalpha/core'
 ```
 
 ## Usage
 
 ::: code-group
 ```ts [index.ts]
-import { getChainId } from '@wagmi/core'
+import { getChainId } from '@uxuyalpha/core'
 import { config } from './config'
 
 const chainId = getChainId(config)
@@ -24,7 +24,7 @@ const chainId = getChainId(config)
 ## Return Type
 
 ```ts
-import { type GetChainIdReturnType } from '@wagmi/core'
+import { type GetChainIdReturnType } from '@uxuyalpha/core'
 ```
 
 `number`

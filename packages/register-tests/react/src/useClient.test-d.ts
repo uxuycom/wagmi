@@ -1,4 +1,4 @@
-import { type chain, config } from '@wagmi/test'
+import { type chain, config } from '@uxuyalpha/test'
 import { expectTypeOf, test } from 'vitest'
 import { useClient } from 'wagmi'
 import { mainnet } from 'wagmi/chains'
