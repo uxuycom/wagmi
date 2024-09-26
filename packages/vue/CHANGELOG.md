@@ -1,5 +1,16 @@
 # @wagmi/vue
 
+## 1.0.0
+
+### Major Changes
+
+- uxuy
+
+### Patch Changes
+
+- Updated dependencies []:
+  - @wagmi/connectors@6.0.0
+
 ## 0.0.41
 
 ### Patch Changes

@@ -1,5 +1,11 @@
 # @wagmi/connectors
 
+## 6.0.0
+
+### Major Changes
+
+- uxuy
+
 ## 5.1.9
 
 ### Patch Changes

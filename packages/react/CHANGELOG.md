@@ -1,5 +1,16 @@
 # wagmi
 
+## 3.0.0
+
+### Major Changes
+
+- uxuy
+
+### Patch Changes
+
+- Updated dependencies []:
+  - @wagmi/connectors@6.0.0
+
 ## 2.12.9
 
 ### Patch Changes
